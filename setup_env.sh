@@ -1,7 +1,9 @@
 sudo apt-get -y update
 sudo apt-get -y install cmake git python3-pip
 
-root=$(pwd)
+root=~/deneva
+
+cd $root
 
 # setup nanomsg
 mkdir utils/
