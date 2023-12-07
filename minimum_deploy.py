@@ -7,8 +7,8 @@ import datetime
 import os, re, sys
 import csv
 
-nnodes = os.getenv("NODE_CNT", 4)
-nclnodes = os.getenv("CLIENT_NODE_CNT", 4)
+nnodes = int(os.getenv("NODE_CNT", 4))
+nclnodes = int(os.getenv("CLIENT_NODE_CNT", 4))
 
 ntotal = nnodes + nclnodes
 result_dir = "./results/"

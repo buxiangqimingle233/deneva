@@ -5,8 +5,10 @@ root=$(pwd)
 
 # setup nanomsg
 mkdir utils/
+cd utils/
+
 git clone https://github.com/nanomsg/nanomsg.git
-cd utils/nanomsg
+cd nanomsg
 mkdir build
 cd build
 cmake ..
@@ -18,8 +20,10 @@ cd $root/utils
 git clone https://github.com/jemalloc/jemalloc.git
 cd jemalloc
 ./autogen.sh
-make 
+make -j
 sudo make install
 
 cd $root
+make deps
+make -j
 touch ifconfig.txt
