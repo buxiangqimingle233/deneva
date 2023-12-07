@@ -43,3 +43,13 @@ The DBMS can be run with
     ./runcl -nid[M]
 
 where N and M are the ID of a server and client, respectively
+
+
+## Build up issues
+
+* remove "-static" in the Makefile (bugs in .a files at nanomsg)
+* in nanomsg, change build/cmake_install.cmake::CMAKE_INSTALL_PREFIX to ./
+* run install to generate .so link libs
+* change je_malloc/je_free to malloc/free (some bugs with the jemalloc prefix)
+* change je_malloc & nanomsg include path
+* change je_malloc/autogen.sh with adding --with-jemalloc-prefix=je

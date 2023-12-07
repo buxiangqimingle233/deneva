@@ -1041,7 +1041,7 @@ def get_outfile_name(cfgs,fmt,network_hosts=[]):
     if "NETWORK_TEST" in cfgs and cfgs["NETWORK_TEST"] == "true":
         nettest = True
 #    assert "NETWORK_TEST" in cfgs
-    print(network_hosts)
+    # print(network_hosts)
     if cfgs["NETWORK_TEST"] == "true":
 #assert len(network_hosts) == 2
         for host in sorted(network_hosts):

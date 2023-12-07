@@ -1,0 +1,888 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/licong/packages/cmake-3.27.8-linux-x86_64/share/cmake-3.27/Modules/CMakeDetermineSystem.cmake:211 (message)"
+      - "CMakeLists.txt:29 (project)"
+    message: |
+      The system is: Linux - 4.15.0-169-generic - x86_64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/licong/packages/cmake-3.27.8-linux-x86_64/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/home/licong/packages/cmake-3.27.8-linux-x86_64/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/home/licong/packages/cmake-3.27.8-linux-x86_64/share/cmake-3.27/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:29 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: /usr/bin/gcc 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+      
+      The C compiler identification is GNU, found in:
+        /home/wangzhao/experiments/deneva/build/CMakeFiles/3.27.8/CompilerIdC/a.out
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/licong/packages/cmake-3.27.8-linux-x86_64/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "/home/licong/packages/cmake-3.27.8-linux-x86_64/share/cmake-3.27/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:29 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "/home/wangzhao/experiments/deneva/build/CMakeFiles/CMakeScratch/TryCompile-cz2W7X"
+      binary: "/home/wangzhao/experiments/deneva/build/CMakeFiles/CMakeScratch/TryCompile-cz2W7X"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/home/wangzhao/experiments/deneva/build/CMakeFiles/CMakeScratch/TryCompile-cz2W7X'
+        
+        Run Build Command(s): /usr/local/bin/ninja -v cmTC_8001a
+        [1/2] /usr/bin/gcc   -v -o CMakeFiles/cmTC_8001a.dir/CMakeCCompilerABI.c.o -c /home/licong/packages/cmake-3.27.8-linux-x86_64/share/cmake-3.27/Modules/CMakeCCompilerABI.c
+        Using built-in specs.
+        COLLECT_GCC=/usr/bin/gcc
+        OFFLOAD_TARGET_NAMES=nvptx-none
+        OFFLOAD_TARGET_DEFAULT=1
+        Target: x86_64-linux-gnu
+        Configured with: ../src/configure -v --with-pkgversion='Ubuntu 7.5.0-3ubuntu1~18.04' --with-bugurl=file:///usr/share/doc/gcc-7/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++ --prefix=/usr --with-gcc-major-version-only --program-suffix=-7 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+        Thread model: posix
+        gcc version 7.5.0 (Ubuntu 7.5.0-3ubuntu1~18.04) 
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_8001a.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64'
+         /usr/lib/gcc/x86_64-linux-gnu/7/cc1 -quiet -v -imultiarch x86_64-linux-gnu /home/licong/packages/cmake-3.27.8-linux-x86_64/share/cmake-3.27/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_8001a.dir/CMakeCCompilerABI.c.o -version -fstack-protector-strong -Wformat -Wformat-security -o /tmp/ccL6lUJt.s
+        GNU C11 (Ubuntu 7.5.0-3ubuntu1~18.04) version 7.5.0 (x86_64-linux-gnu)
+        	compiled by GNU C version 7.5.0, GMP version 6.1.2, MPFR version 4.0.1, MPC version 1.1.0, isl version isl-0.19-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"
+        ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/7/../../../../x86_64-linux-gnu/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /usr/lib/gcc/x86_64-linux-gnu/7/include
+         /usr/local/include
+         /usr/lib/gcc/x86_64-linux-gnu/7/include-fixed
+         /usr/include/x86_64-linux-gnu
+         /usr/include
+        End of search list.
+        GNU C11 (Ubuntu 7.5.0-3ubuntu1~18.04) version 7.5.0 (x86_64-linux-gnu)
+        	compiled by GNU C version 7.5.0, GMP version 6.1.2, MPFR version 4.0.1, MPC version 1.1.0, isl version isl-0.19-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        Compiler executable checksum: b62ed4a2880cd4159476ea8293b72fa8
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_8001a.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64'
+         as -v --64 -o CMakeFiles/cmTC_8001a.dir/CMakeCCompilerABI.c.o /tmp/ccL6lUJt.s
+        GNU assembler version 2.30 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.30
+        COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/
+        LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_8001a.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64'
+        [2/2] : && /usr/bin/gcc  -v  -rdynamic CMakeFiles/cmTC_8001a.dir/CMakeCCompilerABI.c.o -o cmTC_8001a   && :
+        Using built-in specs.
+        COLLECT_GCC=/usr/bin/gcc
+        COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper
+        OFFLOAD_TARGET_NAMES=nvptx-none
+        OFFLOAD_TARGET_DEFAULT=1
+        Target: x86_64-linux-gnu
+        Configured with: ../src/configure -v --with-pkgversion='Ubuntu 7.5.0-3ubuntu1~18.04' --with-bugurl=file:///usr/share/doc/gcc-7/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++ --prefix=/usr --with-gcc-major-version-only --program-suffix=-7 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+        Thread model: posix
+        gcc version 7.5.0 (Ubuntu 7.5.0-3ubuntu1~18.04) 
+        COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/
+        LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/
+        COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_8001a' '-mtune=generic' '-march=x86-64'
+         /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/cctg9lrk.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_8001a /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_8001a.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o
+        COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_8001a' '-mtune=generic' '-march=x86-64'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/licong/packages/cmake-3.27.8-linux-x86_64/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake:127 (message)"
+      - "/home/licong/packages/cmake-3.27.8-linux-x86_64/share/cmake-3.27/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:29 (project)"
+    message: |
+      Parsed C implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/usr/lib/gcc/x86_64-linux-gnu/7/include]
+          add: [/usr/local/include]
+          add: [/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed]
+          add: [/usr/include/x86_64-linux-gnu]
+          add: [/usr/include]
+        end of search list found
+        collapse include dir [/usr/lib/gcc/x86_64-linux-gnu/7/include] ==> [/usr/lib/gcc/x86_64-linux-gnu/7/include]
+        collapse include dir [/usr/local/include] ==> [/usr/local/include]
+        collapse include dir [/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed] ==> [/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed]
+        collapse include dir [/usr/include/x86_64-linux-gnu] ==> [/usr/include/x86_64-linux-gnu]
+        collapse include dir [/usr/include] ==> [/usr/include]
+        implicit include dirs: [/usr/lib/gcc/x86_64-linux-gnu/7/include;/usr/local/include;/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed;/usr/include/x86_64-linux-gnu;/usr/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/licong/packages/cmake-3.27.8-linux-x86_64/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake:152 (message)"
+      - "/home/licong/packages/cmake-3.27.8-linux-x86_64/share/cmake-3.27/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:29 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        ignore line: [Change Dir: '/home/wangzhao/experiments/deneva/build/CMakeFiles/CMakeScratch/TryCompile-cz2W7X']
+        ignore line: []
+        ignore line: [Run Build Command(s): /usr/local/bin/ninja -v cmTC_8001a]
+        ignore line: [[1/2] /usr/bin/gcc   -v -o CMakeFiles/cmTC_8001a.dir/CMakeCCompilerABI.c.o -c /home/licong/packages/cmake-3.27.8-linux-x86_64/share/cmake-3.27/Modules/CMakeCCompilerABI.c]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/usr/bin/gcc]
+        ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none]
+        ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+        ignore line: [Target: x86_64-linux-gnu]
+        ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 7.5.0-3ubuntu1~18.04' --with-bugurl=file:///usr/share/doc/gcc-7/README.Bugs --enable-languages=c ada c++ go brig d fortran objc obj-c++ --prefix=/usr --with-gcc-major-version-only --program-suffix=-7 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+        ignore line: [Thread model: posix]
+        ignore line: [gcc version 7.5.0 (Ubuntu 7.5.0-3ubuntu1~18.04) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_8001a.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64']
+        ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/7/cc1 -quiet -v -imultiarch x86_64-linux-gnu /home/licong/packages/cmake-3.27.8-linux-x86_64/share/cmake-3.27/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_8001a.dir/CMakeCCompilerABI.c.o -version -fstack-protector-strong -Wformat -Wformat-security -o /tmp/ccL6lUJt.s]
+        ignore line: [GNU C11 (Ubuntu 7.5.0-3ubuntu1~18.04) version 7.5.0 (x86_64-linux-gnu)]
+        ignore line: [	compiled by GNU C version 7.5.0  GMP version 6.1.2  MPFR version 4.0.1  MPC version 1.1.0  isl version isl-0.19-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"]
+        ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/7/../../../../x86_64-linux-gnu/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/7/include]
+        ignore line: [ /usr/local/include]
+        ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/7/include-fixed]
+        ignore line: [ /usr/include/x86_64-linux-gnu]
+        ignore line: [ /usr/include]
+        ignore line: [End of search list.]
+        ignore line: [GNU C11 (Ubuntu 7.5.0-3ubuntu1~18.04) version 7.5.0 (x86_64-linux-gnu)]
+        ignore line: [	compiled by GNU C version 7.5.0  GMP version 6.1.2  MPFR version 4.0.1  MPC version 1.1.0  isl version isl-0.19-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [Compiler executable checksum: b62ed4a2880cd4159476ea8293b72fa8]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_8001a.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64']
+        ignore line: [ as -v --64 -o CMakeFiles/cmTC_8001a.dir/CMakeCCompilerABI.c.o /tmp/ccL6lUJt.s]
+        ignore line: [GNU assembler version 2.30 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.30]
+        ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/]
+        ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_8001a.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64']
+        ignore line: [[2/2] : && /usr/bin/gcc  -v  -rdynamic CMakeFiles/cmTC_8001a.dir/CMakeCCompilerABI.c.o -o cmTC_8001a   && :]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/usr/bin/gcc]
+        ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper]
+        ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none]
+        ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+        ignore line: [Target: x86_64-linux-gnu]
+        ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 7.5.0-3ubuntu1~18.04' --with-bugurl=file:///usr/share/doc/gcc-7/README.Bugs --enable-languages=c ada c++ go brig d fortran objc obj-c++ --prefix=/usr --with-gcc-major-version-only --program-suffix=-7 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+        ignore line: [Thread model: posix]
+        ignore line: [gcc version 7.5.0 (Ubuntu 7.5.0-3ubuntu1~18.04) ]
+        ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/]
+        ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_8001a' '-mtune=generic' '-march=x86-64']
+        link line: [ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/cctg9lrk.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_8001a /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_8001a.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o]
+          arg [/usr/lib/gcc/x86_64-linux-gnu/7/collect2] ==> ignore
+          arg [-plugin] ==> ignore
+          arg [/usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so] ==> ignore
+          arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/cctg9lrk.res] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [--build-id] ==> ignore
+          arg [--eh-frame-hdr] ==> ignore
+          arg [-m] ==> ignore
+          arg [elf_x86_64] ==> ignore
+          arg [--hash-style=gnu] ==> ignore
+          arg [--as-needed] ==> ignore
+          arg [-export-dynamic] ==> ignore
+          arg [-dynamic-linker] ==> ignore
+          arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+          arg [-pie] ==> ignore
+          arg [-znow] ==> ignore
+          arg [-zrelro] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_8001a] ==> ignore
+          arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o]
+          arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o]
+          arg [/usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o]
+          arg [-L/usr/lib/gcc/x86_64-linux-gnu/7] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/7]
+          arg [-L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu]
+          arg [-L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib]
+          arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+          arg [-L/lib/../lib] ==> dir [/lib/../lib]
+          arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+          arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+          arg [-L/usr/lib/gcc/x86_64-linux-gnu/7/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../..]
+          arg [CMakeFiles/cmTC_8001a.dir/CMakeCCompilerABI.c.o] ==> ignore
+          arg [-lgcc] ==> lib [gcc]
+          arg [--push-state] ==> ignore
+          arg [--as-needed] ==> ignore
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [--pop-state] ==> ignore
+          arg [-lc] ==> lib [c]
+          arg [-lgcc] ==> lib [gcc]
+          arg [--push-state] ==> ignore
+          arg [--as-needed] ==> ignore
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [--pop-state] ==> ignore
+          arg [/usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o]
+          arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o]
+        collapse obj [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o] ==> [/usr/lib/x86_64-linux-gnu/Scrt1.o]
+        collapse obj [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o] ==> [/usr/lib/x86_64-linux-gnu/crti.o]
+        collapse obj [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o] ==> [/usr/lib/x86_64-linux-gnu/crtn.o]
+        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/7] ==> [/usr/lib/gcc/x86_64-linux-gnu/7]
+        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib] ==> [/usr/lib]
+        collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+        collapse library dir [/lib/../lib] ==> [/lib]
+        collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+        collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../..] ==> [/usr/lib]
+        implicit libs: [gcc;gcc_s;c;gcc;gcc_s]
+        implicit objs: [/usr/lib/x86_64-linux-gnu/Scrt1.o;/usr/lib/x86_64-linux-gnu/crti.o;/usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o;/usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o;/usr/lib/x86_64-linux-gnu/crtn.o]
+        implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/7;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/licong/packages/cmake-3.27.8-linux-x86_64/share/cmake-3.27/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/home/licong/packages/cmake-3.27.8-linux-x86_64/share/cmake-3.27/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "/home/licong/packages/cmake-3.27.8-linux-x86_64/share/cmake-3.27/Modules/FindThreads.cmake:97 (CHECK_C_SOURCE_COMPILES)"
+      - "/home/licong/packages/cmake-3.27.8-linux-x86_64/share/cmake-3.27/Modules/FindThreads.cmake:163 (_threads_check_libc)"
+      - "CMakeLists.txt:136 (find_package)"
+    checks:
+      - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
+    directories:
+      source: "/home/wangzhao/experiments/deneva/build/CMakeFiles/CMakeScratch/TryCompile-jjSkU7"
+      binary: "/home/wangzhao/experiments/deneva/build/CMakeFiles/CMakeScratch/TryCompile-jjSkU7"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -Wall -Wextra "
+    buildResult:
+      variable: "CMAKE_HAVE_LIBC_PTHREAD"
+      cached: true
+      stdout: |
+        Change Dir: '/home/wangzhao/experiments/deneva/build/CMakeFiles/CMakeScratch/TryCompile-jjSkU7'
+        
+        Run Build Command(s): /usr/local/bin/ninja -v cmTC_06c37
+        [1/2] /usr/bin/gcc -DCMAKE_HAVE_LIBC_PTHREAD  -Wall -Wextra -o CMakeFiles/cmTC_06c37.dir/src.c.o -c /home/wangzhao/experiments/deneva/build/CMakeFiles/CMakeScratch/TryCompile-jjSkU7/src.c
+        [2/2] : && /usr/bin/gcc -Wall -Wextra -rdynamic CMakeFiles/cmTC_06c37.dir/src.c.o -o cmTC_06c37   && :
+        FAILED: cmTC_06c37 
+        : && /usr/bin/gcc -Wall -Wextra -rdynamic CMakeFiles/cmTC_06c37.dir/src.c.o -o cmTC_06c37   && :
+        CMakeFiles/cmTC_06c37.dir/src.c.o: In function `main':
+        src.c:(.text+0x3e): undefined reference to `pthread_create'
+        src.c:(.text+0x4a): undefined reference to `pthread_detach'
+        src.c:(.text+0x56): undefined reference to `pthread_cancel'
+        src.c:(.text+0x67): undefined reference to `pthread_join'
+        src.c:(.text+0x7b): undefined reference to `pthread_atfork'
+        collect2: error: ld returned 1 exit status
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/licong/packages/cmake-3.27.8-linux-x86_64/share/cmake-3.27/Modules/CheckLibraryExists.cmake:69 (try_compile)"
+      - "/home/licong/packages/cmake-3.27.8-linux-x86_64/share/cmake-3.27/Modules/FindThreads.cmake:112 (CHECK_LIBRARY_EXISTS)"
+      - "/home/licong/packages/cmake-3.27.8-linux-x86_64/share/cmake-3.27/Modules/FindThreads.cmake:175 (_threads_check_lib)"
+      - "CMakeLists.txt:136 (find_package)"
+    checks:
+      - "Looking for pthread_create in pthreads"
+    directories:
+      source: "/home/wangzhao/experiments/deneva/build/CMakeFiles/CMakeScratch/TryCompile-wkIHzi"
+      binary: "/home/wangzhao/experiments/deneva/build/CMakeFiles/CMakeScratch/TryCompile-wkIHzi"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -Wall -Wextra "
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREADS_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: '/home/wangzhao/experiments/deneva/build/CMakeFiles/CMakeScratch/TryCompile-wkIHzi'
+        
+        Run Build Command(s): /usr/local/bin/ninja -v cmTC_3fd9a
+        [1/2] /usr/bin/gcc   -Wall -Wextra  -DCHECK_FUNCTION_EXISTS=pthread_create -o CMakeFiles/cmTC_3fd9a.dir/CheckFunctionExists.c.o -c /home/wangzhao/experiments/deneva/build/CMakeFiles/CMakeScratch/TryCompile-wkIHzi/CheckFunctionExists.c
+        [2/2] : && /usr/bin/gcc -Wall -Wextra  -DCHECK_FUNCTION_EXISTS=pthread_create -rdynamic CMakeFiles/cmTC_3fd9a.dir/CheckFunctionExists.c.o -o cmTC_3fd9a  -lpthreads && :
+        FAILED: cmTC_3fd9a 
+        : && /usr/bin/gcc -Wall -Wextra  -DCHECK_FUNCTION_EXISTS=pthread_create -rdynamic CMakeFiles/cmTC_3fd9a.dir/CheckFunctionExists.c.o -o cmTC_3fd9a  -lpthreads && :
+        /usr/bin/ld: cannot find -lpthreads
+        collect2: error: ld returned 1 exit status
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/licong/packages/cmake-3.27.8-linux-x86_64/share/cmake-3.27/Modules/CheckLibraryExists.cmake:69 (try_compile)"
+      - "/home/licong/packages/cmake-3.27.8-linux-x86_64/share/cmake-3.27/Modules/FindThreads.cmake:112 (CHECK_LIBRARY_EXISTS)"
+      - "/home/licong/packages/cmake-3.27.8-linux-x86_64/share/cmake-3.27/Modules/FindThreads.cmake:176 (_threads_check_lib)"
+      - "CMakeLists.txt:136 (find_package)"
+    checks:
+      - "Looking for pthread_create in pthread"
+    directories:
+      source: "/home/wangzhao/experiments/deneva/build/CMakeFiles/CMakeScratch/TryCompile-3noj2t"
+      binary: "/home/wangzhao/experiments/deneva/build/CMakeFiles/CMakeScratch/TryCompile-3noj2t"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -Wall -Wextra "
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREAD_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: '/home/wangzhao/experiments/deneva/build/CMakeFiles/CMakeScratch/TryCompile-3noj2t'
+        
+        Run Build Command(s): /usr/local/bin/ninja -v cmTC_5558d
+        [1/2] /usr/bin/gcc   -Wall -Wextra  -DCHECK_FUNCTION_EXISTS=pthread_create -o CMakeFiles/cmTC_5558d.dir/CheckFunctionExists.c.o -c /home/wangzhao/experiments/deneva/build/CMakeFiles/CMakeScratch/TryCompile-3noj2t/CheckFunctionExists.c
+        [2/2] : && /usr/bin/gcc -Wall -Wextra  -DCHECK_FUNCTION_EXISTS=pthread_create -rdynamic CMakeFiles/cmTC_5558d.dir/CheckFunctionExists.c.o -o cmTC_5558d  -lpthread && :
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/licong/packages/cmake-3.27.8-linux-x86_64/share/cmake-3.27/Modules/CheckFunctionExists.cmake:86 (try_compile)"
+      - "CMakeLists.txt:180 (check_function_exists)"
+      - "CMakeLists.txt:231 (nn_check_func)"
+    checks:
+      - "Looking for gethrtime"
+    directories:
+      source: "/home/wangzhao/experiments/deneva/build/CMakeFiles/CMakeScratch/TryCompile-Q8n4oG"
+      binary: "/home/wangzhao/experiments/deneva/build/CMakeFiles/CMakeScratch/TryCompile-Q8n4oG"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -Wall -Wextra "
+    buildResult:
+      variable: "NN_HAVE_GETHRTIME"
+      cached: true
+      stdout: |
+        Change Dir: '/home/wangzhao/experiments/deneva/build/CMakeFiles/CMakeScratch/TryCompile-Q8n4oG'
+        
+        Run Build Command(s): /usr/local/bin/ninja -v cmTC_e411d
+        [1/2] /usr/bin/gcc   -Wall -Wextra  -DCHECK_FUNCTION_EXISTS=gethrtime -o CMakeFiles/cmTC_e411d.dir/CheckFunctionExists.c.o -c /home/wangzhao/experiments/deneva/build/CMakeFiles/CMakeScratch/TryCompile-Q8n4oG/CheckFunctionExists.c
+        [2/2] : && /usr/bin/gcc -Wall -Wextra  -DCHECK_FUNCTION_EXISTS=gethrtime -rdynamic CMakeFiles/cmTC_e411d.dir/CheckFunctionExists.c.o -o cmTC_e411d   && :
+        FAILED: cmTC_e411d 
+        : && /usr/bin/gcc -Wall -Wextra  -DCHECK_FUNCTION_EXISTS=gethrtime -rdynamic CMakeFiles/cmTC_e411d.dir/CheckFunctionExists.c.o -o cmTC_e411d   && :
+        CMakeFiles/cmTC_e411d.dir/CheckFunctionExists.c.o: In function `main':
+        CheckFunctionExists.c:(.text+0x10): undefined reference to `gethrtime'
+        collect2: error: ld returned 1 exit status
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/licong/packages/cmake-3.27.8-linux-x86_64/share/cmake-3.27/Modules/CheckFunctionExists.cmake:86 (try_compile)"
+      - "CMakeLists.txt:180 (check_function_exists)"
+      - "CMakeLists.txt:232 (nn_check_func)"
+    checks:
+      - "Looking for socketpair"
+    directories:
+      source: "/home/wangzhao/experiments/deneva/build/CMakeFiles/CMakeScratch/TryCompile-XNuxGT"
+      binary: "/home/wangzhao/experiments/deneva/build/CMakeFiles/CMakeScratch/TryCompile-XNuxGT"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -Wall -Wextra "
+    buildResult:
+      variable: "NN_HAVE_SOCKETPAIR"
+      cached: true
+      stdout: |
+        Change Dir: '/home/wangzhao/experiments/deneva/build/CMakeFiles/CMakeScratch/TryCompile-XNuxGT'
+        
+        Run Build Command(s): /usr/local/bin/ninja -v cmTC_ce181
+        [1/2] /usr/bin/gcc   -Wall -Wextra  -DCHECK_FUNCTION_EXISTS=socketpair -o CMakeFiles/cmTC_ce181.dir/CheckFunctionExists.c.o -c /home/wangzhao/experiments/deneva/build/CMakeFiles/CMakeScratch/TryCompile-XNuxGT/CheckFunctionExists.c
+        [2/2] : && /usr/bin/gcc -Wall -Wextra  -DCHECK_FUNCTION_EXISTS=socketpair -rdynamic CMakeFiles/cmTC_ce181.dir/CheckFunctionExists.c.o -o cmTC_ce181   && :
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/licong/packages/cmake-3.27.8-linux-x86_64/share/cmake-3.27/Modules/CheckFunctionExists.cmake:86 (try_compile)"
+      - "CMakeLists.txt:180 (check_function_exists)"
+      - "CMakeLists.txt:233 (nn_check_func)"
+    checks:
+      - "Looking for eventfd"
+    directories:
+      source: "/home/wangzhao/experiments/deneva/build/CMakeFiles/CMakeScratch/TryCompile-81WSR7"
+      binary: "/home/wangzhao/experiments/deneva/build/CMakeFiles/CMakeScratch/TryCompile-81WSR7"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -Wall -Wextra "
+    buildResult:
+      variable: "NN_HAVE_EVENTFD"
+      cached: true
+      stdout: |
+        Change Dir: '/home/wangzhao/experiments/deneva/build/CMakeFiles/CMakeScratch/TryCompile-81WSR7'
+        
+        Run Build Command(s): /usr/local/bin/ninja -v cmTC_1b859
+        [1/2] /usr/bin/gcc   -Wall -Wextra  -DCHECK_FUNCTION_EXISTS=eventfd -o CMakeFiles/cmTC_1b859.dir/CheckFunctionExists.c.o -c /home/wangzhao/experiments/deneva/build/CMakeFiles/CMakeScratch/TryCompile-81WSR7/CheckFunctionExists.c
+        [2/2] : && /usr/bin/gcc -Wall -Wextra  -DCHECK_FUNCTION_EXISTS=eventfd -rdynamic CMakeFiles/cmTC_1b859.dir/CheckFunctionExists.c.o -o cmTC_1b859   && :
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/licong/packages/cmake-3.27.8-linux-x86_64/share/cmake-3.27/Modules/CheckFunctionExists.cmake:86 (try_compile)"
+      - "CMakeLists.txt:180 (check_function_exists)"
+      - "CMakeLists.txt:234 (nn_check_func)"
+    checks:
+      - "Looking for pipe"
+    directories:
+      source: "/home/wangzhao/experiments/deneva/build/CMakeFiles/CMakeScratch/TryCompile-dlwwWm"
+      binary: "/home/wangzhao/experiments/deneva/build/CMakeFiles/CMakeScratch/TryCompile-dlwwWm"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -Wall -Wextra "
+    buildResult:
+      variable: "NN_HAVE_PIPE"
+      cached: true
+      stdout: |
+        Change Dir: '/home/wangzhao/experiments/deneva/build/CMakeFiles/CMakeScratch/TryCompile-dlwwWm'
+        
+        Run Build Command(s): /usr/local/bin/ninja -v cmTC_0a234
+        [1/2] /usr/bin/gcc   -Wall -Wextra  -DCHECK_FUNCTION_EXISTS=pipe -o CMakeFiles/cmTC_0a234.dir/CheckFunctionExists.c.o -c /home/wangzhao/experiments/deneva/build/CMakeFiles/CMakeScratch/TryCompile-dlwwWm/CheckFunctionExists.c
+        [2/2] : && /usr/bin/gcc -Wall -Wextra  -DCHECK_FUNCTION_EXISTS=pipe -rdynamic CMakeFiles/cmTC_0a234.dir/CheckFunctionExists.c.o -o cmTC_0a234   && :
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/licong/packages/cmake-3.27.8-linux-x86_64/share/cmake-3.27/Modules/CheckFunctionExists.cmake:86 (try_compile)"
+      - "CMakeLists.txt:180 (check_function_exists)"
+      - "CMakeLists.txt:235 (nn_check_func)"
+    checks:
+      - "Looking for pipe2"
+    directories:
+      source: "/home/wangzhao/experiments/deneva/build/CMakeFiles/CMakeScratch/TryCompile-6pFLWC"
+      binary: "/home/wangzhao/experiments/deneva/build/CMakeFiles/CMakeScratch/TryCompile-6pFLWC"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -Wall -Wextra "
+    buildResult:
+      variable: "NN_HAVE_PIPE2"
+      cached: true
+      stdout: |
+        Change Dir: '/home/wangzhao/experiments/deneva/build/CMakeFiles/CMakeScratch/TryCompile-6pFLWC'
+        
+        Run Build Command(s): /usr/local/bin/ninja -v cmTC_7c856
+        [1/2] /usr/bin/gcc   -Wall -Wextra  -DCHECK_FUNCTION_EXISTS=pipe2 -o CMakeFiles/cmTC_7c856.dir/CheckFunctionExists.c.o -c /home/wangzhao/experiments/deneva/build/CMakeFiles/CMakeScratch/TryCompile-6pFLWC/CheckFunctionExists.c
+        [2/2] : && /usr/bin/gcc -Wall -Wextra  -DCHECK_FUNCTION_EXISTS=pipe2 -rdynamic CMakeFiles/cmTC_7c856.dir/CheckFunctionExists.c.o -o cmTC_7c856   && :
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/licong/packages/cmake-3.27.8-linux-x86_64/share/cmake-3.27/Modules/CheckFunctionExists.cmake:86 (try_compile)"
+      - "CMakeLists.txt:180 (check_function_exists)"
+      - "CMakeLists.txt:236 (nn_check_func)"
+    checks:
+      - "Looking for accept4"
+    directories:
+      source: "/home/wangzhao/experiments/deneva/build/CMakeFiles/CMakeScratch/TryCompile-Vhp0RT"
+      binary: "/home/wangzhao/experiments/deneva/build/CMakeFiles/CMakeScratch/TryCompile-Vhp0RT"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -Wall -Wextra "
+    buildResult:
+      variable: "NN_HAVE_ACCEPT4"
+      cached: true
+      stdout: |
+        Change Dir: '/home/wangzhao/experiments/deneva/build/CMakeFiles/CMakeScratch/TryCompile-Vhp0RT'
+        
+        Run Build Command(s): /usr/local/bin/ninja -v cmTC_31ec7
+        [1/2] /usr/bin/gcc   -Wall -Wextra  -DCHECK_FUNCTION_EXISTS=accept4 -o CMakeFiles/cmTC_31ec7.dir/CheckFunctionExists.c.o -c /home/wangzhao/experiments/deneva/build/CMakeFiles/CMakeScratch/TryCompile-Vhp0RT/CheckFunctionExists.c
+        [2/2] : && /usr/bin/gcc -Wall -Wextra  -DCHECK_FUNCTION_EXISTS=accept4 -rdynamic CMakeFiles/cmTC_31ec7.dir/CheckFunctionExists.c.o -o cmTC_31ec7   && :
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/licong/packages/cmake-3.27.8-linux-x86_64/share/cmake-3.27/Modules/CheckFunctionExists.cmake:86 (try_compile)"
+      - "CMakeLists.txt:180 (check_function_exists)"
+      - "CMakeLists.txt:237 (nn_check_func)"
+    checks:
+      - "Looking for epoll_create"
+    directories:
+      source: "/home/wangzhao/experiments/deneva/build/CMakeFiles/CMakeScratch/TryCompile-a9mGHb"
+      binary: "/home/wangzhao/experiments/deneva/build/CMakeFiles/CMakeScratch/TryCompile-a9mGHb"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -Wall -Wextra "
+    buildResult:
+      variable: "NN_HAVE_EPOLL"
+      cached: true
+      stdout: |
+        Change Dir: '/home/wangzhao/experiments/deneva/build/CMakeFiles/CMakeScratch/TryCompile-a9mGHb'
+        
+        Run Build Command(s): /usr/local/bin/ninja -v cmTC_10cfe
+        [1/2] /usr/bin/gcc   -Wall -Wextra  -DCHECK_FUNCTION_EXISTS=epoll_create -o CMakeFiles/cmTC_10cfe.dir/CheckFunctionExists.c.o -c /home/wangzhao/experiments/deneva/build/CMakeFiles/CMakeScratch/TryCompile-a9mGHb/CheckFunctionExists.c
+        [2/2] : && /usr/bin/gcc -Wall -Wextra  -DCHECK_FUNCTION_EXISTS=epoll_create -rdynamic CMakeFiles/cmTC_10cfe.dir/CheckFunctionExists.c.o -o cmTC_10cfe   && :
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/licong/packages/cmake-3.27.8-linux-x86_64/share/cmake-3.27/Modules/CheckFunctionExists.cmake:86 (try_compile)"
+      - "CMakeLists.txt:180 (check_function_exists)"
+      - "CMakeLists.txt:238 (nn_check_func)"
+    checks:
+      - "Looking for kqueue"
+    directories:
+      source: "/home/wangzhao/experiments/deneva/build/CMakeFiles/CMakeScratch/TryCompile-XBM3qu"
+      binary: "/home/wangzhao/experiments/deneva/build/CMakeFiles/CMakeScratch/TryCompile-XBM3qu"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -Wall -Wextra "
+    buildResult:
+      variable: "NN_HAVE_KQUEUE"
+      cached: true
+      stdout: |
+        Change Dir: '/home/wangzhao/experiments/deneva/build/CMakeFiles/CMakeScratch/TryCompile-XBM3qu'
+        
+        Run Build Command(s): /usr/local/bin/ninja -v cmTC_30e8c
+        [1/2] /usr/bin/gcc   -Wall -Wextra  -DCHECK_FUNCTION_EXISTS=kqueue -o CMakeFiles/cmTC_30e8c.dir/CheckFunctionExists.c.o -c /home/wangzhao/experiments/deneva/build/CMakeFiles/CMakeScratch/TryCompile-XBM3qu/CheckFunctionExists.c
+        [2/2] : && /usr/bin/gcc -Wall -Wextra  -DCHECK_FUNCTION_EXISTS=kqueue -rdynamic CMakeFiles/cmTC_30e8c.dir/CheckFunctionExists.c.o -o cmTC_30e8c   && :
+        FAILED: cmTC_30e8c 
+        : && /usr/bin/gcc -Wall -Wextra  -DCHECK_FUNCTION_EXISTS=kqueue -rdynamic CMakeFiles/cmTC_30e8c.dir/CheckFunctionExists.c.o -o cmTC_30e8c   && :
+        CMakeFiles/cmTC_30e8c.dir/CheckFunctionExists.c.o: In function `main':
+        CheckFunctionExists.c:(.text+0x10): undefined reference to `kqueue'
+        collect2: error: ld returned 1 exit status
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/licong/packages/cmake-3.27.8-linux-x86_64/share/cmake-3.27/Modules/CheckFunctionExists.cmake:86 (try_compile)"
+      - "CMakeLists.txt:180 (check_function_exists)"
+      - "CMakeLists.txt:239 (nn_check_func)"
+    checks:
+      - "Looking for poll"
+    directories:
+      source: "/home/wangzhao/experiments/deneva/build/CMakeFiles/CMakeScratch/TryCompile-I8U03N"
+      binary: "/home/wangzhao/experiments/deneva/build/CMakeFiles/CMakeScratch/TryCompile-I8U03N"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -Wall -Wextra "
+    buildResult:
+      variable: "NN_HAVE_POLL"
+      cached: true
+      stdout: |
+        Change Dir: '/home/wangzhao/experiments/deneva/build/CMakeFiles/CMakeScratch/TryCompile-I8U03N'
+        
+        Run Build Command(s): /usr/local/bin/ninja -v cmTC_8b89a
+        [1/2] /usr/bin/gcc   -Wall -Wextra  -DCHECK_FUNCTION_EXISTS=poll -o CMakeFiles/cmTC_8b89a.dir/CheckFunctionExists.c.o -c /home/wangzhao/experiments/deneva/build/CMakeFiles/CMakeScratch/TryCompile-I8U03N/CheckFunctionExists.c
+        [2/2] : && /usr/bin/gcc -Wall -Wextra  -DCHECK_FUNCTION_EXISTS=poll -rdynamic CMakeFiles/cmTC_8b89a.dir/CheckFunctionExists.c.o -o cmTC_8b89a   && :
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/licong/packages/cmake-3.27.8-linux-x86_64/share/cmake-3.27/Modules/CheckLibraryExists.cmake:69 (try_compile)"
+      - "CMakeLists.txt:194 (check_library_exists)"
+      - "CMakeLists.txt:241 (nn_check_lib)"
+    checks:
+      - "Looking for getaddrinfo_a in anl"
+    directories:
+      source: "/home/wangzhao/experiments/deneva/build/CMakeFiles/CMakeScratch/TryCompile-Bc5jA8"
+      binary: "/home/wangzhao/experiments/deneva/build/CMakeFiles/CMakeScratch/TryCompile-Bc5jA8"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -Wall -Wextra "
+    buildResult:
+      variable: "NN_HAVE_GETADDRINFO_A"
+      cached: true
+      stdout: |
+        Change Dir: '/home/wangzhao/experiments/deneva/build/CMakeFiles/CMakeScratch/TryCompile-Bc5jA8'
+        
+        Run Build Command(s): /usr/local/bin/ninja -v cmTC_505be
+        [1/2] /usr/bin/gcc   -Wall -Wextra  -DCHECK_FUNCTION_EXISTS=getaddrinfo_a -o CMakeFiles/cmTC_505be.dir/CheckFunctionExists.c.o -c /home/wangzhao/experiments/deneva/build/CMakeFiles/CMakeScratch/TryCompile-Bc5jA8/CheckFunctionExists.c
+        [2/2] : && /usr/bin/gcc -Wall -Wextra  -DCHECK_FUNCTION_EXISTS=getaddrinfo_a -rdynamic CMakeFiles/cmTC_505be.dir/CheckFunctionExists.c.o -o cmTC_505be  -lanl && :
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/licong/packages/cmake-3.27.8-linux-x86_64/share/cmake-3.27/Modules/CheckLibraryExists.cmake:69 (try_compile)"
+      - "CMakeLists.txt:194 (check_library_exists)"
+      - "CMakeLists.txt:242 (nn_check_lib)"
+    checks:
+      - "Looking for clock_gettime in rt"
+    directories:
+      source: "/home/wangzhao/experiments/deneva/build/CMakeFiles/CMakeScratch/TryCompile-WE7L0t"
+      binary: "/home/wangzhao/experiments/deneva/build/CMakeFiles/CMakeScratch/TryCompile-WE7L0t"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -Wall -Wextra "
+    buildResult:
+      variable: "NN_HAVE_CLOCK_GETTIME"
+      cached: true
+      stdout: |
+        Change Dir: '/home/wangzhao/experiments/deneva/build/CMakeFiles/CMakeScratch/TryCompile-WE7L0t'
+        
+        Run Build Command(s): /usr/local/bin/ninja -v cmTC_cddcd
+        [1/2] /usr/bin/gcc   -Wall -Wextra  -DCHECK_FUNCTION_EXISTS=clock_gettime -o CMakeFiles/cmTC_cddcd.dir/CheckFunctionExists.c.o -c /home/wangzhao/experiments/deneva/build/CMakeFiles/CMakeScratch/TryCompile-WE7L0t/CheckFunctionExists.c
+        [2/2] : && /usr/bin/gcc -Wall -Wextra  -DCHECK_FUNCTION_EXISTS=clock_gettime -rdynamic CMakeFiles/cmTC_cddcd.dir/CheckFunctionExists.c.o -o cmTC_cddcd  -lrt && :
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/licong/packages/cmake-3.27.8-linux-x86_64/share/cmake-3.27/Modules/CheckLibraryExists.cmake:69 (try_compile)"
+      - "CMakeLists.txt:194 (check_library_exists)"
+      - "CMakeLists.txt:243 (nn_check_lib)"
+    checks:
+      - "Looking for sem_wait in rt"
+    directories:
+      source: "/home/wangzhao/experiments/deneva/build/CMakeFiles/CMakeScratch/TryCompile-tpNJmQ"
+      binary: "/home/wangzhao/experiments/deneva/build/CMakeFiles/CMakeScratch/TryCompile-tpNJmQ"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -Wall -Wextra "
+    buildResult:
+      variable: "NN_HAVE_SEMAPHORE_RT"
+      cached: true
+      stdout: |
+        Change Dir: '/home/wangzhao/experiments/deneva/build/CMakeFiles/CMakeScratch/TryCompile-tpNJmQ'
+        
+        Run Build Command(s): /usr/local/bin/ninja -v cmTC_c1107
+        [1/2] /usr/bin/gcc   -Wall -Wextra  -DCHECK_FUNCTION_EXISTS=sem_wait -o CMakeFiles/cmTC_c1107.dir/CheckFunctionExists.c.o -c /home/wangzhao/experiments/deneva/build/CMakeFiles/CMakeScratch/TryCompile-tpNJmQ/CheckFunctionExists.c
+        [2/2] : && /usr/bin/gcc -Wall -Wextra  -DCHECK_FUNCTION_EXISTS=sem_wait -rdynamic CMakeFiles/cmTC_c1107.dir/CheckFunctionExists.c.o -o cmTC_c1107  -lrt && :
+        FAILED: cmTC_c1107 
+        : && /usr/bin/gcc -Wall -Wextra  -DCHECK_FUNCTION_EXISTS=sem_wait -rdynamic CMakeFiles/cmTC_c1107.dir/CheckFunctionExists.c.o -o cmTC_c1107  -lrt && :
+        CMakeFiles/cmTC_c1107.dir/CheckFunctionExists.c.o: In function `main':
+        CheckFunctionExists.c:(.text+0x10): undefined reference to `sem_wait'
+        collect2: error: ld returned 1 exit status
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/licong/packages/cmake-3.27.8-linux-x86_64/share/cmake-3.27/Modules/CheckLibraryExists.cmake:69 (try_compile)"
+      - "CMakeLists.txt:194 (check_library_exists)"
+      - "CMakeLists.txt:244 (nn_check_lib)"
+    checks:
+      - "Looking for sem_wait in pthread"
+    directories:
+      source: "/home/wangzhao/experiments/deneva/build/CMakeFiles/CMakeScratch/TryCompile-611qDd"
+      binary: "/home/wangzhao/experiments/deneva/build/CMakeFiles/CMakeScratch/TryCompile-611qDd"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -Wall -Wextra "
+    buildResult:
+      variable: "NN_HAVE_SEMAPHORE_PTHREAD"
+      cached: true
+      stdout: |
+        Change Dir: '/home/wangzhao/experiments/deneva/build/CMakeFiles/CMakeScratch/TryCompile-611qDd'
+        
+        Run Build Command(s): /usr/local/bin/ninja -v cmTC_6d544
+        [1/2] /usr/bin/gcc   -Wall -Wextra  -DCHECK_FUNCTION_EXISTS=sem_wait -o CMakeFiles/cmTC_6d544.dir/CheckFunctionExists.c.o -c /home/wangzhao/experiments/deneva/build/CMakeFiles/CMakeScratch/TryCompile-611qDd/CheckFunctionExists.c
+        [2/2] : && /usr/bin/gcc -Wall -Wextra  -DCHECK_FUNCTION_EXISTS=sem_wait -rdynamic CMakeFiles/cmTC_6d544.dir/CheckFunctionExists.c.o -o cmTC_6d544  -lpthread && :
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/licong/packages/cmake-3.27.8-linux-x86_64/share/cmake-3.27/Modules/CheckLibraryExists.cmake:69 (try_compile)"
+      - "CMakeLists.txt:194 (check_library_exists)"
+      - "CMakeLists.txt:245 (nn_check_lib)"
+    checks:
+      - "Looking for gethostbyname in nsl"
+    directories:
+      source: "/home/wangzhao/experiments/deneva/build/CMakeFiles/CMakeScratch/TryCompile-vLW9KB"
+      binary: "/home/wangzhao/experiments/deneva/build/CMakeFiles/CMakeScratch/TryCompile-vLW9KB"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -Wall -Wextra "
+    buildResult:
+      variable: "NN_HAVE_LIBNSL"
+      cached: true
+      stdout: |
+        Change Dir: '/home/wangzhao/experiments/deneva/build/CMakeFiles/CMakeScratch/TryCompile-vLW9KB'
+        
+        Run Build Command(s): /usr/local/bin/ninja -v cmTC_e3c41
+        [1/2] /usr/bin/gcc   -Wall -Wextra  -DCHECK_FUNCTION_EXISTS=gethostbyname -o CMakeFiles/cmTC_e3c41.dir/CheckFunctionExists.c.o -c /home/wangzhao/experiments/deneva/build/CMakeFiles/CMakeScratch/TryCompile-vLW9KB/CheckFunctionExists.c
+        [2/2] : && /usr/bin/gcc -Wall -Wextra  -DCHECK_FUNCTION_EXISTS=gethostbyname -rdynamic CMakeFiles/cmTC_e3c41.dir/CheckFunctionExists.c.o -o cmTC_e3c41  -lnsl && :
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/licong/packages/cmake-3.27.8-linux-x86_64/share/cmake-3.27/Modules/CheckLibraryExists.cmake:69 (try_compile)"
+      - "CMakeLists.txt:194 (check_library_exists)"
+      - "CMakeLists.txt:246 (nn_check_lib)"
+    checks:
+      - "Looking for socket in socket"
+    directories:
+      source: "/home/wangzhao/experiments/deneva/build/CMakeFiles/CMakeScratch/TryCompile-GrO7K0"
+      binary: "/home/wangzhao/experiments/deneva/build/CMakeFiles/CMakeScratch/TryCompile-GrO7K0"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -Wall -Wextra "
+    buildResult:
+      variable: "NN_HAVE_LIBSOCKET"
+      cached: true
+      stdout: |
+        Change Dir: '/home/wangzhao/experiments/deneva/build/CMakeFiles/CMakeScratch/TryCompile-GrO7K0'
+        
+        Run Build Command(s): /usr/local/bin/ninja -v cmTC_8a5df
+        [1/2] /usr/bin/gcc   -Wall -Wextra  -DCHECK_FUNCTION_EXISTS=socket -o CMakeFiles/cmTC_8a5df.dir/CheckFunctionExists.c.o -c /home/wangzhao/experiments/deneva/build/CMakeFiles/CMakeScratch/TryCompile-GrO7K0/CheckFunctionExists.c
+        [2/2] : && /usr/bin/gcc -Wall -Wextra  -DCHECK_FUNCTION_EXISTS=socket -rdynamic CMakeFiles/cmTC_8a5df.dir/CheckFunctionExists.c.o -o cmTC_8a5df  -lsocket && :
+        FAILED: cmTC_8a5df 
+        : && /usr/bin/gcc -Wall -Wextra  -DCHECK_FUNCTION_EXISTS=socket -rdynamic CMakeFiles/cmTC_8a5df.dir/CheckFunctionExists.c.o -o cmTC_8a5df  -lsocket && :
+        /usr/bin/ld: cannot find -lsocket
+        collect2: error: ld returned 1 exit status
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/licong/packages/cmake-3.27.8-linux-x86_64/share/cmake-3.27/Modules/CheckSymbolExists.cmake:140 (try_compile)"
+      - "/home/licong/packages/cmake-3.27.8-linux-x86_64/share/cmake-3.27/Modules/CheckSymbolExists.cmake:66 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "CMakeLists.txt:187 (check_symbol_exists)"
+      - "CMakeLists.txt:248 (nn_check_sym)"
+    checks:
+      - "Looking for CLOCK_MONOTONIC"
+    directories:
+      source: "/home/wangzhao/experiments/deneva/build/CMakeFiles/CMakeScratch/TryCompile-LaygEq"
+      binary: "/home/wangzhao/experiments/deneva/build/CMakeFiles/CMakeScratch/TryCompile-LaygEq"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -Wall -Wextra "
+    buildResult:
+      variable: "NN_HAVE_CLOCK_MONOTONIC"
+      cached: true
+      stdout: |
+        Change Dir: '/home/wangzhao/experiments/deneva/build/CMakeFiles/CMakeScratch/TryCompile-LaygEq'
+        
+        Run Build Command(s): /usr/local/bin/ninja -v cmTC_2ed1c
+        [1/2] /usr/bin/gcc   -Wall -Wextra -o CMakeFiles/cmTC_2ed1c.dir/CheckSymbolExists.c.o -c /home/wangzhao/experiments/deneva/build/CMakeFiles/CMakeScratch/TryCompile-LaygEq/CheckSymbolExists.c
+        [2/2] : && /usr/bin/gcc -Wall -Wextra -rdynamic CMakeFiles/cmTC_2ed1c.dir/CheckSymbolExists.c.o -o cmTC_2ed1c   && :
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/licong/packages/cmake-3.27.8-linux-x86_64/share/cmake-3.27/Modules/CheckSymbolExists.cmake:140 (try_compile)"
+      - "/home/licong/packages/cmake-3.27.8-linux-x86_64/share/cmake-3.27/Modules/CheckSymbolExists.cmake:66 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "CMakeLists.txt:187 (check_symbol_exists)"
+      - "CMakeLists.txt:249 (nn_check_sym)"
+    checks:
+      - "Looking for atomic_cas_32"
+    directories:
+      source: "/home/wangzhao/experiments/deneva/build/CMakeFiles/CMakeScratch/TryCompile-KcrIrR"
+      binary: "/home/wangzhao/experiments/deneva/build/CMakeFiles/CMakeScratch/TryCompile-KcrIrR"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -Wall -Wextra "
+    buildResult:
+      variable: "NN_HAVE_ATOMIC_SOLARIS"
+      cached: true
+      stdout: |
+        Change Dir: '/home/wangzhao/experiments/deneva/build/CMakeFiles/CMakeScratch/TryCompile-KcrIrR'
+        
+        Run Build Command(s): /usr/local/bin/ninja -v cmTC_5e59f
+        [1/2] /usr/bin/gcc   -Wall -Wextra -o CMakeFiles/cmTC_5e59f.dir/CheckSymbolExists.c.o -c /home/wangzhao/experiments/deneva/build/CMakeFiles/CMakeScratch/TryCompile-KcrIrR/CheckSymbolExists.c
+        FAILED: CMakeFiles/cmTC_5e59f.dir/CheckSymbolExists.c.o 
+        /usr/bin/gcc   -Wall -Wextra -o CMakeFiles/cmTC_5e59f.dir/CheckSymbolExists.c.o -c /home/wangzhao/experiments/deneva/build/CMakeFiles/CMakeScratch/TryCompile-KcrIrR/CheckSymbolExists.c
+        /home/wangzhao/experiments/deneva/build/CMakeFiles/CMakeScratch/TryCompile-KcrIrR/CheckSymbolExists.c:2:10: fatal error: atomic.h: No such file or directory
+         #include <atomic.h>
+                  ^~~~~~~~~~
+        compilation terminated.
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/licong/packages/cmake-3.27.8-linux-x86_64/share/cmake-3.27/Modules/CheckSymbolExists.cmake:140 (try_compile)"
+      - "/home/licong/packages/cmake-3.27.8-linux-x86_64/share/cmake-3.27/Modules/CheckSymbolExists.cmake:66 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "CMakeLists.txt:187 (check_symbol_exists)"
+      - "CMakeLists.txt:250 (nn_check_sym)"
+    checks:
+      - "Looking for AF_UNIX"
+    directories:
+      source: "/home/wangzhao/experiments/deneva/build/CMakeFiles/CMakeScratch/TryCompile-XV2n2i"
+      binary: "/home/wangzhao/experiments/deneva/build/CMakeFiles/CMakeScratch/TryCompile-XV2n2i"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -Wall -Wextra "
+    buildResult:
+      variable: "NN_HAVE_UNIX_SOCKETS"
+      cached: true
+      stdout: |
+        Change Dir: '/home/wangzhao/experiments/deneva/build/CMakeFiles/CMakeScratch/TryCompile-XV2n2i'
+        
+        Run Build Command(s): /usr/local/bin/ninja -v cmTC_aef56
+        [1/2] /usr/bin/gcc   -Wall -Wextra -o CMakeFiles/cmTC_aef56.dir/CheckSymbolExists.c.o -c /home/wangzhao/experiments/deneva/build/CMakeFiles/CMakeScratch/TryCompile-XV2n2i/CheckSymbolExists.c
+        [2/2] : && /usr/bin/gcc -Wall -Wextra -rdynamic CMakeFiles/cmTC_aef56.dir/CheckSymbolExists.c.o -o cmTC_aef56   && :
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/licong/packages/cmake-3.27.8-linux-x86_64/share/cmake-3.27/Modules/CheckSymbolExists.cmake:140 (try_compile)"
+      - "/home/licong/packages/cmake-3.27.8-linux-x86_64/share/cmake-3.27/Modules/CheckSymbolExists.cmake:66 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "CMakeLists.txt:187 (check_symbol_exists)"
+      - "CMakeLists.txt:251 (nn_check_sym)"
+    checks:
+      - "Looking for backtrace_symbols_fd"
+    directories:
+      source: "/home/wangzhao/experiments/deneva/build/CMakeFiles/CMakeScratch/TryCompile-oIMiyL"
+      binary: "/home/wangzhao/experiments/deneva/build/CMakeFiles/CMakeScratch/TryCompile-oIMiyL"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -Wall -Wextra "
+    buildResult:
+      variable: "NN_HAVE_BACKTRACE"
+      cached: true
+      stdout: |
+        Change Dir: '/home/wangzhao/experiments/deneva/build/CMakeFiles/CMakeScratch/TryCompile-oIMiyL'
+        
+        Run Build Command(s): /usr/local/bin/ninja -v cmTC_bf4f5
+        [1/2] /usr/bin/gcc   -Wall -Wextra -o CMakeFiles/cmTC_bf4f5.dir/CheckSymbolExists.c.o -c /home/wangzhao/experiments/deneva/build/CMakeFiles/CMakeScratch/TryCompile-oIMiyL/CheckSymbolExists.c
+        [2/2] : && /usr/bin/gcc -Wall -Wextra -rdynamic CMakeFiles/cmTC_bf4f5.dir/CheckSymbolExists.c.o -o cmTC_bf4f5   && :
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/licong/packages/cmake-3.27.8-linux-x86_64/share/cmake-3.27/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/home/licong/packages/cmake-3.27.8-linux-x86_64/share/cmake-3.27/Modules/CheckSourceCompiles.cmake:77 (cmake_check_source_compiles)"
+      - "/home/licong/packages/cmake-3.27.8-linux-x86_64/share/cmake-3.27/Modules/CheckStructHasMember.cmake:77 (CHECK_SOURCE_COMPILES)"
+      - "CMakeLists.txt:202 (check_struct_has_member)"
+      - "CMakeLists.txt:252 (nn_check_struct_member)"
+    checks:
+      - "Performing Test NN_HAVE_MSG_CONTROL"
+    directories:
+      source: "/home/wangzhao/experiments/deneva/build/CMakeFiles/CMakeScratch/TryCompile-f36gYe"
+      binary: "/home/wangzhao/experiments/deneva/build/CMakeFiles/CMakeScratch/TryCompile-f36gYe"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -Wall -Wextra "
+    buildResult:
+      variable: "NN_HAVE_MSG_CONTROL"
+      cached: true
+      stdout: |
+        Change Dir: '/home/wangzhao/experiments/deneva/build/CMakeFiles/CMakeScratch/TryCompile-f36gYe'
+        
+        Run Build Command(s): /usr/local/bin/ninja -v cmTC_6be2b
+        [1/2] /usr/bin/gcc -DNN_HAVE_MSG_CONTROL  -Wall -Wextra -o CMakeFiles/cmTC_6be2b.dir/src.c.o -c /home/wangzhao/experiments/deneva/build/CMakeFiles/CMakeScratch/TryCompile-f36gYe/src.c
+        [2/2] : && /usr/bin/gcc -Wall -Wextra -rdynamic CMakeFiles/cmTC_6be2b.dir/src.c.o -o cmTC_6be2b   && :
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/licong/packages/cmake-3.27.8-linux-x86_64/share/cmake-3.27/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/home/licong/packages/cmake-3.27.8-linux-x86_64/share/cmake-3.27/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "CMakeLists.txt:266 (check_c_source_compiles)"
+    checks:
+      - "Performing Test NN_HAVE_GCC_ATOMIC_BUILTINS"
+    directories:
+      source: "/home/wangzhao/experiments/deneva/build/CMakeFiles/CMakeScratch/TryCompile-Al1uiJ"
+      binary: "/home/wangzhao/experiments/deneva/build/CMakeFiles/CMakeScratch/TryCompile-Al1uiJ"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -Wall -Wextra "
+    buildResult:
+      variable: "NN_HAVE_GCC_ATOMIC_BUILTINS"
+      cached: true
+      stdout: |
+        Change Dir: '/home/wangzhao/experiments/deneva/build/CMakeFiles/CMakeScratch/TryCompile-Al1uiJ'
+        
+        Run Build Command(s): /usr/local/bin/ninja -v cmTC_b8316
+        [1/2] /usr/bin/gcc -DNN_HAVE_GCC_ATOMIC_BUILTINS  -Wall -Wextra -o CMakeFiles/cmTC_b8316.dir/src.c.o -c /home/wangzhao/experiments/deneva/build/CMakeFiles/CMakeScratch/TryCompile-Al1uiJ/src.c
+        [2/2] : && /usr/bin/gcc -Wall -Wextra -rdynamic CMakeFiles/cmTC_b8316.dir/src.c.o -o cmTC_b8316   && :
+        
+      exitCode: 0
+...

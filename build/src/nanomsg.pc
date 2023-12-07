@@ -1,0 +1,13 @@
+prefix=/usr/local
+exec_prefix=${prefix}
+includedir=/usr/local/include
+libdir=/usr/local/lib
+
+Name: nanomsg
+Description: High-Performance Scalability Protocols
+URL: http://nanomsg.org/
+Version: 1.2-4-ga54ccc7c
+Requires:
+Libs: -L${libdir} -lnanomsg
+Libs.private: -lanl -lrt -lpthread -lnsl
+Cflags: -I${includedir}

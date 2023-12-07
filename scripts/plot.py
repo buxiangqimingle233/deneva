@@ -24,7 +24,7 @@ exp_cnt = 1
 last_arg = None
 plot = True;
 clear = False;
-_timedate = [];
+_timedate = []
 exps = []
 res_dir = False
 for arg in sys.argv[1:]:

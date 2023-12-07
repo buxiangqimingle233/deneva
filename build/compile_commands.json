@@ -1,0 +1,884 @@
+[
+{
+  "directory": "/home/wangzhao/experiments/deneva/build",
+  "command": "/usr/bin/gcc -DNN_HAVE_ACCEPT4=1 -DNN_HAVE_BACKTRACE=1 -DNN_HAVE_CLOCK_GETTIME=1 -DNN_HAVE_CLOCK_MONOTONIC=1 -DNN_HAVE_EPOLL=1 -DNN_HAVE_EVENTFD=1 -DNN_HAVE_GCC_ATOMIC_BUILTINS -DNN_HAVE_GETADDRINFO_A=1 -DNN_HAVE_LIBNSL=1 -DNN_HAVE_LINUX -DNN_HAVE_MSG_CONTROL=1 -DNN_HAVE_PIPE2=1 -DNN_HAVE_PIPE=1 -DNN_HAVE_POLL=1 -DNN_HAVE_SEMAPHORE -DNN_HAVE_SEMAPHORE_PTHREAD=1 -DNN_HAVE_SOCKETPAIR=1 -DNN_HAVE_UNIX_SOCKETS=1 -DNN_MAX_SOCKETS=512 -D_GNU_SOURCE -D_POSIX_PTHREAD_SEMANTICS -D_REENTRANT -D_THREAD_SAFE  -Wall -Wextra  -g -o CMakeFiles/nanocat.dir/tools/nanocat.c.o -c /home/wangzhao/experiments/deneva/utils/nanomsg/tools/nanocat.c",
+  "file": "/home/wangzhao/experiments/deneva/utils/nanomsg/tools/nanocat.c",
+  "output": "CMakeFiles/nanocat.dir/tools/nanocat.c.o"
+},
+{
+  "directory": "/home/wangzhao/experiments/deneva/build",
+  "command": "/usr/bin/gcc -DNN_HAVE_ACCEPT4=1 -DNN_HAVE_BACKTRACE=1 -DNN_HAVE_CLOCK_GETTIME=1 -DNN_HAVE_CLOCK_MONOTONIC=1 -DNN_HAVE_EPOLL=1 -DNN_HAVE_EVENTFD=1 -DNN_HAVE_GCC_ATOMIC_BUILTINS -DNN_HAVE_GETADDRINFO_A=1 -DNN_HAVE_LIBNSL=1 -DNN_HAVE_LINUX -DNN_HAVE_MSG_CONTROL=1 -DNN_HAVE_PIPE2=1 -DNN_HAVE_PIPE=1 -DNN_HAVE_POLL=1 -DNN_HAVE_SEMAPHORE -DNN_HAVE_SEMAPHORE_PTHREAD=1 -DNN_HAVE_SOCKETPAIR=1 -DNN_HAVE_UNIX_SOCKETS=1 -DNN_MAX_SOCKETS=512 -D_GNU_SOURCE -D_POSIX_PTHREAD_SEMANTICS -D_REENTRANT -D_THREAD_SAFE  -Wall -Wextra  -g -o CMakeFiles/nanocat.dir/tools/options.c.o -c /home/wangzhao/experiments/deneva/utils/nanomsg/tools/options.c",
+  "file": "/home/wangzhao/experiments/deneva/utils/nanomsg/tools/options.c",
+  "output": "CMakeFiles/nanocat.dir/tools/options.c.o"
+},
+{
+  "directory": "/home/wangzhao/experiments/deneva/build",
+  "command": "/usr/bin/gcc -DNN_HAVE_ACCEPT4=1 -DNN_HAVE_BACKTRACE=1 -DNN_HAVE_CLOCK_GETTIME=1 -DNN_HAVE_CLOCK_MONOTONIC=1 -DNN_HAVE_EPOLL=1 -DNN_HAVE_EVENTFD=1 -DNN_HAVE_GCC_ATOMIC_BUILTINS -DNN_HAVE_GETADDRINFO_A=1 -DNN_HAVE_LIBNSL=1 -DNN_HAVE_LINUX -DNN_HAVE_MSG_CONTROL=1 -DNN_HAVE_PIPE2=1 -DNN_HAVE_PIPE=1 -DNN_HAVE_POLL=1 -DNN_HAVE_SEMAPHORE -DNN_HAVE_SEMAPHORE_PTHREAD=1 -DNN_HAVE_SOCKETPAIR=1 -DNN_HAVE_UNIX_SOCKETS=1 -DNN_MAX_SOCKETS=512 -D_GNU_SOURCE -D_POSIX_PTHREAD_SEMANTICS -D_REENTRANT -D_THREAD_SAFE  -Wall -Wextra  -g -o CMakeFiles/inproc.dir/tests/inproc.c.o -c /home/wangzhao/experiments/deneva/utils/nanomsg/tests/inproc.c",
+  "file": "/home/wangzhao/experiments/deneva/utils/nanomsg/tests/inproc.c",
+  "output": "CMakeFiles/inproc.dir/tests/inproc.c.o"
+},
+{
+  "directory": "/home/wangzhao/experiments/deneva/build",
+  "command": "/usr/bin/gcc -DNN_HAVE_ACCEPT4=1 -DNN_HAVE_BACKTRACE=1 -DNN_HAVE_CLOCK_GETTIME=1 -DNN_HAVE_CLOCK_MONOTONIC=1 -DNN_HAVE_EPOLL=1 -DNN_HAVE_EVENTFD=1 -DNN_HAVE_GCC_ATOMIC_BUILTINS -DNN_HAVE_GETADDRINFO_A=1 -DNN_HAVE_LIBNSL=1 -DNN_HAVE_LINUX -DNN_HAVE_MSG_CONTROL=1 -DNN_HAVE_PIPE2=1 -DNN_HAVE_PIPE=1 -DNN_HAVE_POLL=1 -DNN_HAVE_SEMAPHORE -DNN_HAVE_SEMAPHORE_PTHREAD=1 -DNN_HAVE_SOCKETPAIR=1 -DNN_HAVE_UNIX_SOCKETS=1 -DNN_MAX_SOCKETS=512 -D_GNU_SOURCE -D_POSIX_PTHREAD_SEMANTICS -D_REENTRANT -D_THREAD_SAFE  -Wall -Wextra  -g -o CMakeFiles/inproc_shutdown.dir/tests/inproc_shutdown.c.o -c /home/wangzhao/experiments/deneva/utils/nanomsg/tests/inproc_shutdown.c",
+  "file": "/home/wangzhao/experiments/deneva/utils/nanomsg/tests/inproc_shutdown.c",
+  "output": "CMakeFiles/inproc_shutdown.dir/tests/inproc_shutdown.c.o"
+},
+{
+  "directory": "/home/wangzhao/experiments/deneva/build",
+  "command": "/usr/bin/gcc -DNN_HAVE_ACCEPT4=1 -DNN_HAVE_BACKTRACE=1 -DNN_HAVE_CLOCK_GETTIME=1 -DNN_HAVE_CLOCK_MONOTONIC=1 -DNN_HAVE_EPOLL=1 -DNN_HAVE_EVENTFD=1 -DNN_HAVE_GCC_ATOMIC_BUILTINS -DNN_HAVE_GETADDRINFO_A=1 -DNN_HAVE_LIBNSL=1 -DNN_HAVE_LINUX -DNN_HAVE_MSG_CONTROL=1 -DNN_HAVE_PIPE2=1 -DNN_HAVE_PIPE=1 -DNN_HAVE_POLL=1 -DNN_HAVE_SEMAPHORE -DNN_HAVE_SEMAPHORE_PTHREAD=1 -DNN_HAVE_SOCKETPAIR=1 -DNN_HAVE_UNIX_SOCKETS=1 -DNN_MAX_SOCKETS=512 -D_GNU_SOURCE -D_POSIX_PTHREAD_SEMANTICS -D_REENTRANT -D_THREAD_SAFE  -Wall -Wextra  -g -o CMakeFiles/ipc.dir/tests/ipc.c.o -c /home/wangzhao/experiments/deneva/utils/nanomsg/tests/ipc.c",
+  "file": "/home/wangzhao/experiments/deneva/utils/nanomsg/tests/ipc.c",
+  "output": "CMakeFiles/ipc.dir/tests/ipc.c.o"
+},
+{
+  "directory": "/home/wangzhao/experiments/deneva/build",
+  "command": "/usr/bin/gcc -DNN_HAVE_ACCEPT4=1 -DNN_HAVE_BACKTRACE=1 -DNN_HAVE_CLOCK_GETTIME=1 -DNN_HAVE_CLOCK_MONOTONIC=1 -DNN_HAVE_EPOLL=1 -DNN_HAVE_EVENTFD=1 -DNN_HAVE_GCC_ATOMIC_BUILTINS -DNN_HAVE_GETADDRINFO_A=1 -DNN_HAVE_LIBNSL=1 -DNN_HAVE_LINUX -DNN_HAVE_MSG_CONTROL=1 -DNN_HAVE_PIPE2=1 -DNN_HAVE_PIPE=1 -DNN_HAVE_POLL=1 -DNN_HAVE_SEMAPHORE -DNN_HAVE_SEMAPHORE_PTHREAD=1 -DNN_HAVE_SOCKETPAIR=1 -DNN_HAVE_UNIX_SOCKETS=1 -DNN_MAX_SOCKETS=512 -D_GNU_SOURCE -D_POSIX_PTHREAD_SEMANTICS -D_REENTRANT -D_THREAD_SAFE  -Wall -Wextra  -g -o CMakeFiles/ipc_shutdown.dir/tests/ipc_shutdown.c.o -c /home/wangzhao/experiments/deneva/utils/nanomsg/tests/ipc_shutdown.c",
+  "file": "/home/wangzhao/experiments/deneva/utils/nanomsg/tests/ipc_shutdown.c",
+  "output": "CMakeFiles/ipc_shutdown.dir/tests/ipc_shutdown.c.o"
+},
+{
+  "directory": "/home/wangzhao/experiments/deneva/build",
+  "command": "/usr/bin/gcc -DNN_HAVE_ACCEPT4=1 -DNN_HAVE_BACKTRACE=1 -DNN_HAVE_CLOCK_GETTIME=1 -DNN_HAVE_CLOCK_MONOTONIC=1 -DNN_HAVE_EPOLL=1 -DNN_HAVE_EVENTFD=1 -DNN_HAVE_GCC_ATOMIC_BUILTINS -DNN_HAVE_GETADDRINFO_A=1 -DNN_HAVE_LIBNSL=1 -DNN_HAVE_LINUX -DNN_HAVE_MSG_CONTROL=1 -DNN_HAVE_PIPE2=1 -DNN_HAVE_PIPE=1 -DNN_HAVE_POLL=1 -DNN_HAVE_SEMAPHORE -DNN_HAVE_SEMAPHORE_PTHREAD=1 -DNN_HAVE_SOCKETPAIR=1 -DNN_HAVE_UNIX_SOCKETS=1 -DNN_MAX_SOCKETS=512 -D_GNU_SOURCE -D_POSIX_PTHREAD_SEMANTICS -D_REENTRANT -D_THREAD_SAFE  -Wall -Wextra  -g -o CMakeFiles/ipc_stress.dir/tests/ipc_stress.c.o -c /home/wangzhao/experiments/deneva/utils/nanomsg/tests/ipc_stress.c",
+  "file": "/home/wangzhao/experiments/deneva/utils/nanomsg/tests/ipc_stress.c",
+  "output": "CMakeFiles/ipc_stress.dir/tests/ipc_stress.c.o"
+},
+{
+  "directory": "/home/wangzhao/experiments/deneva/build",
+  "command": "/usr/bin/gcc -DNN_HAVE_ACCEPT4=1 -DNN_HAVE_BACKTRACE=1 -DNN_HAVE_CLOCK_GETTIME=1 -DNN_HAVE_CLOCK_MONOTONIC=1 -DNN_HAVE_EPOLL=1 -DNN_HAVE_EVENTFD=1 -DNN_HAVE_GCC_ATOMIC_BUILTINS -DNN_HAVE_GETADDRINFO_A=1 -DNN_HAVE_LIBNSL=1 -DNN_HAVE_LINUX -DNN_HAVE_MSG_CONTROL=1 -DNN_HAVE_PIPE2=1 -DNN_HAVE_PIPE=1 -DNN_HAVE_POLL=1 -DNN_HAVE_SEMAPHORE -DNN_HAVE_SEMAPHORE_PTHREAD=1 -DNN_HAVE_SOCKETPAIR=1 -DNN_HAVE_UNIX_SOCKETS=1 -DNN_MAX_SOCKETS=512 -D_GNU_SOURCE -D_POSIX_PTHREAD_SEMANTICS -D_REENTRANT -D_THREAD_SAFE  -Wall -Wextra  -g -o CMakeFiles/tcp.dir/tests/tcp.c.o -c /home/wangzhao/experiments/deneva/utils/nanomsg/tests/tcp.c",
+  "file": "/home/wangzhao/experiments/deneva/utils/nanomsg/tests/tcp.c",
+  "output": "CMakeFiles/tcp.dir/tests/tcp.c.o"
+},
+{
+  "directory": "/home/wangzhao/experiments/deneva/build",
+  "command": "/usr/bin/gcc -DNN_HAVE_ACCEPT4=1 -DNN_HAVE_BACKTRACE=1 -DNN_HAVE_CLOCK_GETTIME=1 -DNN_HAVE_CLOCK_MONOTONIC=1 -DNN_HAVE_EPOLL=1 -DNN_HAVE_EVENTFD=1 -DNN_HAVE_GCC_ATOMIC_BUILTINS -DNN_HAVE_GETADDRINFO_A=1 -DNN_HAVE_LIBNSL=1 -DNN_HAVE_LINUX -DNN_HAVE_MSG_CONTROL=1 -DNN_HAVE_PIPE2=1 -DNN_HAVE_PIPE=1 -DNN_HAVE_POLL=1 -DNN_HAVE_SEMAPHORE -DNN_HAVE_SEMAPHORE_PTHREAD=1 -DNN_HAVE_SOCKETPAIR=1 -DNN_HAVE_UNIX_SOCKETS=1 -DNN_MAX_SOCKETS=512 -D_GNU_SOURCE -D_POSIX_PTHREAD_SEMANTICS -D_REENTRANT -D_THREAD_SAFE  -Wall -Wextra  -g -o CMakeFiles/tcp_shutdown.dir/tests/tcp_shutdown.c.o -c /home/wangzhao/experiments/deneva/utils/nanomsg/tests/tcp_shutdown.c",
+  "file": "/home/wangzhao/experiments/deneva/utils/nanomsg/tests/tcp_shutdown.c",
+  "output": "CMakeFiles/tcp_shutdown.dir/tests/tcp_shutdown.c.o"
+},
+{
+  "directory": "/home/wangzhao/experiments/deneva/build",
+  "command": "/usr/bin/gcc -DNN_HAVE_ACCEPT4=1 -DNN_HAVE_BACKTRACE=1 -DNN_HAVE_CLOCK_GETTIME=1 -DNN_HAVE_CLOCK_MONOTONIC=1 -DNN_HAVE_EPOLL=1 -DNN_HAVE_EVENTFD=1 -DNN_HAVE_GCC_ATOMIC_BUILTINS -DNN_HAVE_GETADDRINFO_A=1 -DNN_HAVE_LIBNSL=1 -DNN_HAVE_LINUX -DNN_HAVE_MSG_CONTROL=1 -DNN_HAVE_PIPE2=1 -DNN_HAVE_PIPE=1 -DNN_HAVE_POLL=1 -DNN_HAVE_SEMAPHORE -DNN_HAVE_SEMAPHORE_PTHREAD=1 -DNN_HAVE_SOCKETPAIR=1 -DNN_HAVE_UNIX_SOCKETS=1 -DNN_MAX_SOCKETS=512 -D_GNU_SOURCE -D_POSIX_PTHREAD_SEMANTICS -D_REENTRANT -D_THREAD_SAFE  -Wall -Wextra  -g -o CMakeFiles/ws.dir/tests/ws.c.o -c /home/wangzhao/experiments/deneva/utils/nanomsg/tests/ws.c",
+  "file": "/home/wangzhao/experiments/deneva/utils/nanomsg/tests/ws.c",
+  "output": "CMakeFiles/ws.dir/tests/ws.c.o"
+},
+{
+  "directory": "/home/wangzhao/experiments/deneva/build",
+  "command": "/usr/bin/gcc -DNN_HAVE_ACCEPT4=1 -DNN_HAVE_BACKTRACE=1 -DNN_HAVE_CLOCK_GETTIME=1 -DNN_HAVE_CLOCK_MONOTONIC=1 -DNN_HAVE_EPOLL=1 -DNN_HAVE_EVENTFD=1 -DNN_HAVE_GCC_ATOMIC_BUILTINS -DNN_HAVE_GETADDRINFO_A=1 -DNN_HAVE_LIBNSL=1 -DNN_HAVE_LINUX -DNN_HAVE_MSG_CONTROL=1 -DNN_HAVE_PIPE2=1 -DNN_HAVE_PIPE=1 -DNN_HAVE_POLL=1 -DNN_HAVE_SEMAPHORE -DNN_HAVE_SEMAPHORE_PTHREAD=1 -DNN_HAVE_SOCKETPAIR=1 -DNN_HAVE_UNIX_SOCKETS=1 -DNN_MAX_SOCKETS=512 -D_GNU_SOURCE -D_POSIX_PTHREAD_SEMANTICS -D_REENTRANT -D_THREAD_SAFE  -Wall -Wextra  -g -o CMakeFiles/pair.dir/tests/pair.c.o -c /home/wangzhao/experiments/deneva/utils/nanomsg/tests/pair.c",
+  "file": "/home/wangzhao/experiments/deneva/utils/nanomsg/tests/pair.c",
+  "output": "CMakeFiles/pair.dir/tests/pair.c.o"
+},
+{
+  "directory": "/home/wangzhao/experiments/deneva/build",
+  "command": "/usr/bin/gcc -DNN_HAVE_ACCEPT4=1 -DNN_HAVE_BACKTRACE=1 -DNN_HAVE_CLOCK_GETTIME=1 -DNN_HAVE_CLOCK_MONOTONIC=1 -DNN_HAVE_EPOLL=1 -DNN_HAVE_EVENTFD=1 -DNN_HAVE_GCC_ATOMIC_BUILTINS -DNN_HAVE_GETADDRINFO_A=1 -DNN_HAVE_LIBNSL=1 -DNN_HAVE_LINUX -DNN_HAVE_MSG_CONTROL=1 -DNN_HAVE_PIPE2=1 -DNN_HAVE_PIPE=1 -DNN_HAVE_POLL=1 -DNN_HAVE_SEMAPHORE -DNN_HAVE_SEMAPHORE_PTHREAD=1 -DNN_HAVE_SOCKETPAIR=1 -DNN_HAVE_UNIX_SOCKETS=1 -DNN_MAX_SOCKETS=512 -D_GNU_SOURCE -D_POSIX_PTHREAD_SEMANTICS -D_REENTRANT -D_THREAD_SAFE  -Wall -Wextra  -g -o CMakeFiles/pubsub.dir/tests/pubsub.c.o -c /home/wangzhao/experiments/deneva/utils/nanomsg/tests/pubsub.c",
+  "file": "/home/wangzhao/experiments/deneva/utils/nanomsg/tests/pubsub.c",
+  "output": "CMakeFiles/pubsub.dir/tests/pubsub.c.o"
+},
+{
+  "directory": "/home/wangzhao/experiments/deneva/build",
+  "command": "/usr/bin/gcc -DNN_HAVE_ACCEPT4=1 -DNN_HAVE_BACKTRACE=1 -DNN_HAVE_CLOCK_GETTIME=1 -DNN_HAVE_CLOCK_MONOTONIC=1 -DNN_HAVE_EPOLL=1 -DNN_HAVE_EVENTFD=1 -DNN_HAVE_GCC_ATOMIC_BUILTINS -DNN_HAVE_GETADDRINFO_A=1 -DNN_HAVE_LIBNSL=1 -DNN_HAVE_LINUX -DNN_HAVE_MSG_CONTROL=1 -DNN_HAVE_PIPE2=1 -DNN_HAVE_PIPE=1 -DNN_HAVE_POLL=1 -DNN_HAVE_SEMAPHORE -DNN_HAVE_SEMAPHORE_PTHREAD=1 -DNN_HAVE_SOCKETPAIR=1 -DNN_HAVE_UNIX_SOCKETS=1 -DNN_MAX_SOCKETS=512 -D_GNU_SOURCE -D_POSIX_PTHREAD_SEMANTICS -D_REENTRANT -D_THREAD_SAFE  -Wall -Wextra  -g -o CMakeFiles/reqrep.dir/tests/reqrep.c.o -c /home/wangzhao/experiments/deneva/utils/nanomsg/tests/reqrep.c",
+  "file": "/home/wangzhao/experiments/deneva/utils/nanomsg/tests/reqrep.c",
+  "output": "CMakeFiles/reqrep.dir/tests/reqrep.c.o"
+},
+{
+  "directory": "/home/wangzhao/experiments/deneva/build",
+  "command": "/usr/bin/gcc -DNN_HAVE_ACCEPT4=1 -DNN_HAVE_BACKTRACE=1 -DNN_HAVE_CLOCK_GETTIME=1 -DNN_HAVE_CLOCK_MONOTONIC=1 -DNN_HAVE_EPOLL=1 -DNN_HAVE_EVENTFD=1 -DNN_HAVE_GCC_ATOMIC_BUILTINS -DNN_HAVE_GETADDRINFO_A=1 -DNN_HAVE_LIBNSL=1 -DNN_HAVE_LINUX -DNN_HAVE_MSG_CONTROL=1 -DNN_HAVE_PIPE2=1 -DNN_HAVE_PIPE=1 -DNN_HAVE_POLL=1 -DNN_HAVE_SEMAPHORE -DNN_HAVE_SEMAPHORE_PTHREAD=1 -DNN_HAVE_SOCKETPAIR=1 -DNN_HAVE_UNIX_SOCKETS=1 -DNN_MAX_SOCKETS=512 -D_GNU_SOURCE -D_POSIX_PTHREAD_SEMANTICS -D_REENTRANT -D_THREAD_SAFE  -Wall -Wextra  -g -o CMakeFiles/pipeline.dir/tests/pipeline.c.o -c /home/wangzhao/experiments/deneva/utils/nanomsg/tests/pipeline.c",
+  "file": "/home/wangzhao/experiments/deneva/utils/nanomsg/tests/pipeline.c",
+  "output": "CMakeFiles/pipeline.dir/tests/pipeline.c.o"
+},
+{
+  "directory": "/home/wangzhao/experiments/deneva/build",
+  "command": "/usr/bin/gcc -DNN_HAVE_ACCEPT4=1 -DNN_HAVE_BACKTRACE=1 -DNN_HAVE_CLOCK_GETTIME=1 -DNN_HAVE_CLOCK_MONOTONIC=1 -DNN_HAVE_EPOLL=1 -DNN_HAVE_EVENTFD=1 -DNN_HAVE_GCC_ATOMIC_BUILTINS -DNN_HAVE_GETADDRINFO_A=1 -DNN_HAVE_LIBNSL=1 -DNN_HAVE_LINUX -DNN_HAVE_MSG_CONTROL=1 -DNN_HAVE_PIPE2=1 -DNN_HAVE_PIPE=1 -DNN_HAVE_POLL=1 -DNN_HAVE_SEMAPHORE -DNN_HAVE_SEMAPHORE_PTHREAD=1 -DNN_HAVE_SOCKETPAIR=1 -DNN_HAVE_UNIX_SOCKETS=1 -DNN_MAX_SOCKETS=512 -D_GNU_SOURCE -D_POSIX_PTHREAD_SEMANTICS -D_REENTRANT -D_THREAD_SAFE  -Wall -Wextra  -g -o CMakeFiles/survey.dir/tests/survey.c.o -c /home/wangzhao/experiments/deneva/utils/nanomsg/tests/survey.c",
+  "file": "/home/wangzhao/experiments/deneva/utils/nanomsg/tests/survey.c",
+  "output": "CMakeFiles/survey.dir/tests/survey.c.o"
+},
+{
+  "directory": "/home/wangzhao/experiments/deneva/build",
+  "command": "/usr/bin/gcc -DNN_HAVE_ACCEPT4=1 -DNN_HAVE_BACKTRACE=1 -DNN_HAVE_CLOCK_GETTIME=1 -DNN_HAVE_CLOCK_MONOTONIC=1 -DNN_HAVE_EPOLL=1 -DNN_HAVE_EVENTFD=1 -DNN_HAVE_GCC_ATOMIC_BUILTINS -DNN_HAVE_GETADDRINFO_A=1 -DNN_HAVE_LIBNSL=1 -DNN_HAVE_LINUX -DNN_HAVE_MSG_CONTROL=1 -DNN_HAVE_PIPE2=1 -DNN_HAVE_PIPE=1 -DNN_HAVE_POLL=1 -DNN_HAVE_SEMAPHORE -DNN_HAVE_SEMAPHORE_PTHREAD=1 -DNN_HAVE_SOCKETPAIR=1 -DNN_HAVE_UNIX_SOCKETS=1 -DNN_MAX_SOCKETS=512 -D_GNU_SOURCE -D_POSIX_PTHREAD_SEMANTICS -D_REENTRANT -D_THREAD_SAFE  -Wall -Wextra  -g -o CMakeFiles/bus.dir/tests/bus.c.o -c /home/wangzhao/experiments/deneva/utils/nanomsg/tests/bus.c",
+  "file": "/home/wangzhao/experiments/deneva/utils/nanomsg/tests/bus.c",
+  "output": "CMakeFiles/bus.dir/tests/bus.c.o"
+},
+{
+  "directory": "/home/wangzhao/experiments/deneva/build",
+  "command": "/usr/bin/gcc -DNN_HAVE_ACCEPT4=1 -DNN_HAVE_BACKTRACE=1 -DNN_HAVE_CLOCK_GETTIME=1 -DNN_HAVE_CLOCK_MONOTONIC=1 -DNN_HAVE_EPOLL=1 -DNN_HAVE_EVENTFD=1 -DNN_HAVE_GCC_ATOMIC_BUILTINS -DNN_HAVE_GETADDRINFO_A=1 -DNN_HAVE_LIBNSL=1 -DNN_HAVE_LINUX -DNN_HAVE_MSG_CONTROL=1 -DNN_HAVE_PIPE2=1 -DNN_HAVE_PIPE=1 -DNN_HAVE_POLL=1 -DNN_HAVE_SEMAPHORE -DNN_HAVE_SEMAPHORE_PTHREAD=1 -DNN_HAVE_SOCKETPAIR=1 -DNN_HAVE_UNIX_SOCKETS=1 -DNN_MAX_SOCKETS=512 -D_GNU_SOURCE -D_POSIX_PTHREAD_SEMANTICS -D_REENTRANT -D_THREAD_SAFE  -Wall -Wextra  -g -o CMakeFiles/async_shutdown.dir/tests/async_shutdown.c.o -c /home/wangzhao/experiments/deneva/utils/nanomsg/tests/async_shutdown.c",
+  "file": "/home/wangzhao/experiments/deneva/utils/nanomsg/tests/async_shutdown.c",
+  "output": "CMakeFiles/async_shutdown.dir/tests/async_shutdown.c.o"
+},
+{
+  "directory": "/home/wangzhao/experiments/deneva/build",
+  "command": "/usr/bin/gcc -DNN_HAVE_ACCEPT4=1 -DNN_HAVE_BACKTRACE=1 -DNN_HAVE_CLOCK_GETTIME=1 -DNN_HAVE_CLOCK_MONOTONIC=1 -DNN_HAVE_EPOLL=1 -DNN_HAVE_EVENTFD=1 -DNN_HAVE_GCC_ATOMIC_BUILTINS -DNN_HAVE_GETADDRINFO_A=1 -DNN_HAVE_LIBNSL=1 -DNN_HAVE_LINUX -DNN_HAVE_MSG_CONTROL=1 -DNN_HAVE_PIPE2=1 -DNN_HAVE_PIPE=1 -DNN_HAVE_POLL=1 -DNN_HAVE_SEMAPHORE -DNN_HAVE_SEMAPHORE_PTHREAD=1 -DNN_HAVE_SOCKETPAIR=1 -DNN_HAVE_UNIX_SOCKETS=1 -DNN_MAX_SOCKETS=512 -D_GNU_SOURCE -D_POSIX_PTHREAD_SEMANTICS -D_REENTRANT -D_THREAD_SAFE  -Wall -Wextra  -g -o CMakeFiles/block.dir/tests/block.c.o -c /home/wangzhao/experiments/deneva/utils/nanomsg/tests/block.c",
+  "file": "/home/wangzhao/experiments/deneva/utils/nanomsg/tests/block.c",
+  "output": "CMakeFiles/block.dir/tests/block.c.o"
+},
+{
+  "directory": "/home/wangzhao/experiments/deneva/build",
+  "command": "/usr/bin/gcc -DNN_HAVE_ACCEPT4=1 -DNN_HAVE_BACKTRACE=1 -DNN_HAVE_CLOCK_GETTIME=1 -DNN_HAVE_CLOCK_MONOTONIC=1 -DNN_HAVE_EPOLL=1 -DNN_HAVE_EVENTFD=1 -DNN_HAVE_GCC_ATOMIC_BUILTINS -DNN_HAVE_GETADDRINFO_A=1 -DNN_HAVE_LIBNSL=1 -DNN_HAVE_LINUX -DNN_HAVE_MSG_CONTROL=1 -DNN_HAVE_PIPE2=1 -DNN_HAVE_PIPE=1 -DNN_HAVE_POLL=1 -DNN_HAVE_SEMAPHORE -DNN_HAVE_SEMAPHORE_PTHREAD=1 -DNN_HAVE_SOCKETPAIR=1 -DNN_HAVE_UNIX_SOCKETS=1 -DNN_MAX_SOCKETS=512 -D_GNU_SOURCE -D_POSIX_PTHREAD_SEMANTICS -D_REENTRANT -D_THREAD_SAFE  -Wall -Wextra  -g -o CMakeFiles/term.dir/tests/term.c.o -c /home/wangzhao/experiments/deneva/utils/nanomsg/tests/term.c",
+  "file": "/home/wangzhao/experiments/deneva/utils/nanomsg/tests/term.c",
+  "output": "CMakeFiles/term.dir/tests/term.c.o"
+},
+{
+  "directory": "/home/wangzhao/experiments/deneva/build",
+  "command": "/usr/bin/gcc -DNN_HAVE_ACCEPT4=1 -DNN_HAVE_BACKTRACE=1 -DNN_HAVE_CLOCK_GETTIME=1 -DNN_HAVE_CLOCK_MONOTONIC=1 -DNN_HAVE_EPOLL=1 -DNN_HAVE_EVENTFD=1 -DNN_HAVE_GCC_ATOMIC_BUILTINS -DNN_HAVE_GETADDRINFO_A=1 -DNN_HAVE_LIBNSL=1 -DNN_HAVE_LINUX -DNN_HAVE_MSG_CONTROL=1 -DNN_HAVE_PIPE2=1 -DNN_HAVE_PIPE=1 -DNN_HAVE_POLL=1 -DNN_HAVE_SEMAPHORE -DNN_HAVE_SEMAPHORE_PTHREAD=1 -DNN_HAVE_SOCKETPAIR=1 -DNN_HAVE_UNIX_SOCKETS=1 -DNN_MAX_SOCKETS=512 -D_GNU_SOURCE -D_POSIX_PTHREAD_SEMANTICS -D_REENTRANT -D_THREAD_SAFE  -Wall -Wextra  -g -o CMakeFiles/timeo.dir/tests/timeo.c.o -c /home/wangzhao/experiments/deneva/utils/nanomsg/tests/timeo.c",
+  "file": "/home/wangzhao/experiments/deneva/utils/nanomsg/tests/timeo.c",
+  "output": "CMakeFiles/timeo.dir/tests/timeo.c.o"
+},
+{
+  "directory": "/home/wangzhao/experiments/deneva/build",
+  "command": "/usr/bin/gcc -DNN_HAVE_ACCEPT4=1 -DNN_HAVE_BACKTRACE=1 -DNN_HAVE_CLOCK_GETTIME=1 -DNN_HAVE_CLOCK_MONOTONIC=1 -DNN_HAVE_EPOLL=1 -DNN_HAVE_EVENTFD=1 -DNN_HAVE_GCC_ATOMIC_BUILTINS -DNN_HAVE_GETADDRINFO_A=1 -DNN_HAVE_LIBNSL=1 -DNN_HAVE_LINUX -DNN_HAVE_MSG_CONTROL=1 -DNN_HAVE_PIPE2=1 -DNN_HAVE_PIPE=1 -DNN_HAVE_POLL=1 -DNN_HAVE_SEMAPHORE -DNN_HAVE_SEMAPHORE_PTHREAD=1 -DNN_HAVE_SOCKETPAIR=1 -DNN_HAVE_UNIX_SOCKETS=1 -DNN_MAX_SOCKETS=512 -D_GNU_SOURCE -D_POSIX_PTHREAD_SEMANTICS -D_REENTRANT -D_THREAD_SAFE  -Wall -Wextra  -g -o CMakeFiles/iovec.dir/tests/iovec.c.o -c /home/wangzhao/experiments/deneva/utils/nanomsg/tests/iovec.c",
+  "file": "/home/wangzhao/experiments/deneva/utils/nanomsg/tests/iovec.c",
+  "output": "CMakeFiles/iovec.dir/tests/iovec.c.o"
+},
+{
+  "directory": "/home/wangzhao/experiments/deneva/build",
+  "command": "/usr/bin/gcc -DNN_HAVE_ACCEPT4=1 -DNN_HAVE_BACKTRACE=1 -DNN_HAVE_CLOCK_GETTIME=1 -DNN_HAVE_CLOCK_MONOTONIC=1 -DNN_HAVE_EPOLL=1 -DNN_HAVE_EVENTFD=1 -DNN_HAVE_GCC_ATOMIC_BUILTINS -DNN_HAVE_GETADDRINFO_A=1 -DNN_HAVE_LIBNSL=1 -DNN_HAVE_LINUX -DNN_HAVE_MSG_CONTROL=1 -DNN_HAVE_PIPE2=1 -DNN_HAVE_PIPE=1 -DNN_HAVE_POLL=1 -DNN_HAVE_SEMAPHORE -DNN_HAVE_SEMAPHORE_PTHREAD=1 -DNN_HAVE_SOCKETPAIR=1 -DNN_HAVE_UNIX_SOCKETS=1 -DNN_MAX_SOCKETS=512 -D_GNU_SOURCE -D_POSIX_PTHREAD_SEMANTICS -D_REENTRANT -D_THREAD_SAFE  -Wall -Wextra  -g -o CMakeFiles/msg.dir/tests/msg.c.o -c /home/wangzhao/experiments/deneva/utils/nanomsg/tests/msg.c",
+  "file": "/home/wangzhao/experiments/deneva/utils/nanomsg/tests/msg.c",
+  "output": "CMakeFiles/msg.dir/tests/msg.c.o"
+},
+{
+  "directory": "/home/wangzhao/experiments/deneva/build",
+  "command": "/usr/bin/gcc -DNN_HAVE_ACCEPT4=1 -DNN_HAVE_BACKTRACE=1 -DNN_HAVE_CLOCK_GETTIME=1 -DNN_HAVE_CLOCK_MONOTONIC=1 -DNN_HAVE_EPOLL=1 -DNN_HAVE_EVENTFD=1 -DNN_HAVE_GCC_ATOMIC_BUILTINS -DNN_HAVE_GETADDRINFO_A=1 -DNN_HAVE_LIBNSL=1 -DNN_HAVE_LINUX -DNN_HAVE_MSG_CONTROL=1 -DNN_HAVE_PIPE2=1 -DNN_HAVE_PIPE=1 -DNN_HAVE_POLL=1 -DNN_HAVE_SEMAPHORE -DNN_HAVE_SEMAPHORE_PTHREAD=1 -DNN_HAVE_SOCKETPAIR=1 -DNN_HAVE_UNIX_SOCKETS=1 -DNN_MAX_SOCKETS=512 -D_GNU_SOURCE -D_POSIX_PTHREAD_SEMANTICS -D_REENTRANT -D_THREAD_SAFE  -Wall -Wextra  -g -o CMakeFiles/prio.dir/tests/prio.c.o -c /home/wangzhao/experiments/deneva/utils/nanomsg/tests/prio.c",
+  "file": "/home/wangzhao/experiments/deneva/utils/nanomsg/tests/prio.c",
+  "output": "CMakeFiles/prio.dir/tests/prio.c.o"
+},
+{
+  "directory": "/home/wangzhao/experiments/deneva/build",
+  "command": "/usr/bin/gcc -DNN_HAVE_ACCEPT4=1 -DNN_HAVE_BACKTRACE=1 -DNN_HAVE_CLOCK_GETTIME=1 -DNN_HAVE_CLOCK_MONOTONIC=1 -DNN_HAVE_EPOLL=1 -DNN_HAVE_EVENTFD=1 -DNN_HAVE_GCC_ATOMIC_BUILTINS -DNN_HAVE_GETADDRINFO_A=1 -DNN_HAVE_LIBNSL=1 -DNN_HAVE_LINUX -DNN_HAVE_MSG_CONTROL=1 -DNN_HAVE_PIPE2=1 -DNN_HAVE_PIPE=1 -DNN_HAVE_POLL=1 -DNN_HAVE_SEMAPHORE -DNN_HAVE_SEMAPHORE_PTHREAD=1 -DNN_HAVE_SOCKETPAIR=1 -DNN_HAVE_UNIX_SOCKETS=1 -DNN_MAX_SOCKETS=512 -D_GNU_SOURCE -D_POSIX_PTHREAD_SEMANTICS -D_REENTRANT -D_THREAD_SAFE  -Wall -Wextra  -g -o CMakeFiles/poll.dir/tests/poll.c.o -c /home/wangzhao/experiments/deneva/utils/nanomsg/tests/poll.c",
+  "file": "/home/wangzhao/experiments/deneva/utils/nanomsg/tests/poll.c",
+  "output": "CMakeFiles/poll.dir/tests/poll.c.o"
+},
+{
+  "directory": "/home/wangzhao/experiments/deneva/build",
+  "command": "/usr/bin/gcc -DNN_HAVE_ACCEPT4=1 -DNN_HAVE_BACKTRACE=1 -DNN_HAVE_CLOCK_GETTIME=1 -DNN_HAVE_CLOCK_MONOTONIC=1 -DNN_HAVE_EPOLL=1 -DNN_HAVE_EVENTFD=1 -DNN_HAVE_GCC_ATOMIC_BUILTINS -DNN_HAVE_GETADDRINFO_A=1 -DNN_HAVE_LIBNSL=1 -DNN_HAVE_LINUX -DNN_HAVE_MSG_CONTROL=1 -DNN_HAVE_PIPE2=1 -DNN_HAVE_PIPE=1 -DNN_HAVE_POLL=1 -DNN_HAVE_SEMAPHORE -DNN_HAVE_SEMAPHORE_PTHREAD=1 -DNN_HAVE_SOCKETPAIR=1 -DNN_HAVE_UNIX_SOCKETS=1 -DNN_MAX_SOCKETS=512 -D_GNU_SOURCE -D_POSIX_PTHREAD_SEMANTICS -D_REENTRANT -D_THREAD_SAFE  -Wall -Wextra  -g -o CMakeFiles/device.dir/tests/device.c.o -c /home/wangzhao/experiments/deneva/utils/nanomsg/tests/device.c",
+  "file": "/home/wangzhao/experiments/deneva/utils/nanomsg/tests/device.c",
+  "output": "CMakeFiles/device.dir/tests/device.c.o"
+},
+{
+  "directory": "/home/wangzhao/experiments/deneva/build",
+  "command": "/usr/bin/gcc -DNN_HAVE_ACCEPT4=1 -DNN_HAVE_BACKTRACE=1 -DNN_HAVE_CLOCK_GETTIME=1 -DNN_HAVE_CLOCK_MONOTONIC=1 -DNN_HAVE_EPOLL=1 -DNN_HAVE_EVENTFD=1 -DNN_HAVE_GCC_ATOMIC_BUILTINS -DNN_HAVE_GETADDRINFO_A=1 -DNN_HAVE_LIBNSL=1 -DNN_HAVE_LINUX -DNN_HAVE_MSG_CONTROL=1 -DNN_HAVE_PIPE2=1 -DNN_HAVE_PIPE=1 -DNN_HAVE_POLL=1 -DNN_HAVE_SEMAPHORE -DNN_HAVE_SEMAPHORE_PTHREAD=1 -DNN_HAVE_SOCKETPAIR=1 -DNN_HAVE_UNIX_SOCKETS=1 -DNN_MAX_SOCKETS=512 -D_GNU_SOURCE -D_POSIX_PTHREAD_SEMANTICS -D_REENTRANT -D_THREAD_SAFE  -Wall -Wextra  -g -o CMakeFiles/device4.dir/tests/device4.c.o -c /home/wangzhao/experiments/deneva/utils/nanomsg/tests/device4.c",
+  "file": "/home/wangzhao/experiments/deneva/utils/nanomsg/tests/device4.c",
+  "output": "CMakeFiles/device4.dir/tests/device4.c.o"
+},
+{
+  "directory": "/home/wangzhao/experiments/deneva/build",
+  "command": "/usr/bin/gcc -DNN_HAVE_ACCEPT4=1 -DNN_HAVE_BACKTRACE=1 -DNN_HAVE_CLOCK_GETTIME=1 -DNN_HAVE_CLOCK_MONOTONIC=1 -DNN_HAVE_EPOLL=1 -DNN_HAVE_EVENTFD=1 -DNN_HAVE_GCC_ATOMIC_BUILTINS -DNN_HAVE_GETADDRINFO_A=1 -DNN_HAVE_LIBNSL=1 -DNN_HAVE_LINUX -DNN_HAVE_MSG_CONTROL=1 -DNN_HAVE_PIPE2=1 -DNN_HAVE_PIPE=1 -DNN_HAVE_POLL=1 -DNN_HAVE_SEMAPHORE -DNN_HAVE_SEMAPHORE_PTHREAD=1 -DNN_HAVE_SOCKETPAIR=1 -DNN_HAVE_UNIX_SOCKETS=1 -DNN_MAX_SOCKETS=512 -D_GNU_SOURCE -D_POSIX_PTHREAD_SEMANTICS -D_REENTRANT -D_THREAD_SAFE  -Wall -Wextra  -g -o CMakeFiles/device5.dir/tests/device5.c.o -c /home/wangzhao/experiments/deneva/utils/nanomsg/tests/device5.c",
+  "file": "/home/wangzhao/experiments/deneva/utils/nanomsg/tests/device5.c",
+  "output": "CMakeFiles/device5.dir/tests/device5.c.o"
+},
+{
+  "directory": "/home/wangzhao/experiments/deneva/build",
+  "command": "/usr/bin/gcc -DNN_HAVE_ACCEPT4=1 -DNN_HAVE_BACKTRACE=1 -DNN_HAVE_CLOCK_GETTIME=1 -DNN_HAVE_CLOCK_MONOTONIC=1 -DNN_HAVE_EPOLL=1 -DNN_HAVE_EVENTFD=1 -DNN_HAVE_GCC_ATOMIC_BUILTINS -DNN_HAVE_GETADDRINFO_A=1 -DNN_HAVE_LIBNSL=1 -DNN_HAVE_LINUX -DNN_HAVE_MSG_CONTROL=1 -DNN_HAVE_PIPE2=1 -DNN_HAVE_PIPE=1 -DNN_HAVE_POLL=1 -DNN_HAVE_SEMAPHORE -DNN_HAVE_SEMAPHORE_PTHREAD=1 -DNN_HAVE_SOCKETPAIR=1 -DNN_HAVE_UNIX_SOCKETS=1 -DNN_MAX_SOCKETS=512 -D_GNU_SOURCE -D_POSIX_PTHREAD_SEMANTICS -D_REENTRANT -D_THREAD_SAFE  -Wall -Wextra  -g -o CMakeFiles/device6.dir/tests/device6.c.o -c /home/wangzhao/experiments/deneva/utils/nanomsg/tests/device6.c",
+  "file": "/home/wangzhao/experiments/deneva/utils/nanomsg/tests/device6.c",
+  "output": "CMakeFiles/device6.dir/tests/device6.c.o"
+},
+{
+  "directory": "/home/wangzhao/experiments/deneva/build",
+  "command": "/usr/bin/gcc -DNN_HAVE_ACCEPT4=1 -DNN_HAVE_BACKTRACE=1 -DNN_HAVE_CLOCK_GETTIME=1 -DNN_HAVE_CLOCK_MONOTONIC=1 -DNN_HAVE_EPOLL=1 -DNN_HAVE_EVENTFD=1 -DNN_HAVE_GCC_ATOMIC_BUILTINS -DNN_HAVE_GETADDRINFO_A=1 -DNN_HAVE_LIBNSL=1 -DNN_HAVE_LINUX -DNN_HAVE_MSG_CONTROL=1 -DNN_HAVE_PIPE2=1 -DNN_HAVE_PIPE=1 -DNN_HAVE_POLL=1 -DNN_HAVE_SEMAPHORE -DNN_HAVE_SEMAPHORE_PTHREAD=1 -DNN_HAVE_SOCKETPAIR=1 -DNN_HAVE_UNIX_SOCKETS=1 -DNN_MAX_SOCKETS=512 -D_GNU_SOURCE -D_POSIX_PTHREAD_SEMANTICS -D_REENTRANT -D_THREAD_SAFE  -Wall -Wextra  -g -o CMakeFiles/device7.dir/tests/device7.c.o -c /home/wangzhao/experiments/deneva/utils/nanomsg/tests/device7.c",
+  "file": "/home/wangzhao/experiments/deneva/utils/nanomsg/tests/device7.c",
+  "output": "CMakeFiles/device7.dir/tests/device7.c.o"
+},
+{
+  "directory": "/home/wangzhao/experiments/deneva/build",
+  "command": "/usr/bin/gcc -DNN_HAVE_ACCEPT4=1 -DNN_HAVE_BACKTRACE=1 -DNN_HAVE_CLOCK_GETTIME=1 -DNN_HAVE_CLOCK_MONOTONIC=1 -DNN_HAVE_EPOLL=1 -DNN_HAVE_EVENTFD=1 -DNN_HAVE_GCC_ATOMIC_BUILTINS -DNN_HAVE_GETADDRINFO_A=1 -DNN_HAVE_LIBNSL=1 -DNN_HAVE_LINUX -DNN_HAVE_MSG_CONTROL=1 -DNN_HAVE_PIPE2=1 -DNN_HAVE_PIPE=1 -DNN_HAVE_POLL=1 -DNN_HAVE_SEMAPHORE -DNN_HAVE_SEMAPHORE_PTHREAD=1 -DNN_HAVE_SOCKETPAIR=1 -DNN_HAVE_UNIX_SOCKETS=1 -DNN_MAX_SOCKETS=512 -D_GNU_SOURCE -D_POSIX_PTHREAD_SEMANTICS -D_REENTRANT -D_THREAD_SAFE  -Wall -Wextra  -g -o CMakeFiles/emfile.dir/tests/emfile.c.o -c /home/wangzhao/experiments/deneva/utils/nanomsg/tests/emfile.c",
+  "file": "/home/wangzhao/experiments/deneva/utils/nanomsg/tests/emfile.c",
+  "output": "CMakeFiles/emfile.dir/tests/emfile.c.o"
+},
+{
+  "directory": "/home/wangzhao/experiments/deneva/build",
+  "command": "/usr/bin/gcc -DNN_HAVE_ACCEPT4=1 -DNN_HAVE_BACKTRACE=1 -DNN_HAVE_CLOCK_GETTIME=1 -DNN_HAVE_CLOCK_MONOTONIC=1 -DNN_HAVE_EPOLL=1 -DNN_HAVE_EVENTFD=1 -DNN_HAVE_GCC_ATOMIC_BUILTINS -DNN_HAVE_GETADDRINFO_A=1 -DNN_HAVE_LIBNSL=1 -DNN_HAVE_LINUX -DNN_HAVE_MSG_CONTROL=1 -DNN_HAVE_PIPE2=1 -DNN_HAVE_PIPE=1 -DNN_HAVE_POLL=1 -DNN_HAVE_SEMAPHORE -DNN_HAVE_SEMAPHORE_PTHREAD=1 -DNN_HAVE_SOCKETPAIR=1 -DNN_HAVE_UNIX_SOCKETS=1 -DNN_MAX_SOCKETS=512 -D_GNU_SOURCE -D_POSIX_PTHREAD_SEMANTICS -D_REENTRANT -D_THREAD_SAFE  -Wall -Wextra  -g -o CMakeFiles/domain.dir/tests/domain.c.o -c /home/wangzhao/experiments/deneva/utils/nanomsg/tests/domain.c",
+  "file": "/home/wangzhao/experiments/deneva/utils/nanomsg/tests/domain.c",
+  "output": "CMakeFiles/domain.dir/tests/domain.c.o"
+},
+{
+  "directory": "/home/wangzhao/experiments/deneva/build",
+  "command": "/usr/bin/gcc -DNN_HAVE_ACCEPT4=1 -DNN_HAVE_BACKTRACE=1 -DNN_HAVE_CLOCK_GETTIME=1 -DNN_HAVE_CLOCK_MONOTONIC=1 -DNN_HAVE_EPOLL=1 -DNN_HAVE_EVENTFD=1 -DNN_HAVE_GCC_ATOMIC_BUILTINS -DNN_HAVE_GETADDRINFO_A=1 -DNN_HAVE_LIBNSL=1 -DNN_HAVE_LINUX -DNN_HAVE_MSG_CONTROL=1 -DNN_HAVE_PIPE2=1 -DNN_HAVE_PIPE=1 -DNN_HAVE_POLL=1 -DNN_HAVE_SEMAPHORE -DNN_HAVE_SEMAPHORE_PTHREAD=1 -DNN_HAVE_SOCKETPAIR=1 -DNN_HAVE_UNIX_SOCKETS=1 -DNN_MAX_SOCKETS=512 -D_GNU_SOURCE -D_POSIX_PTHREAD_SEMANTICS -D_REENTRANT -D_THREAD_SAFE  -Wall -Wextra  -g -o CMakeFiles/trie.dir/tests/trie.c.o -c /home/wangzhao/experiments/deneva/utils/nanomsg/tests/trie.c",
+  "file": "/home/wangzhao/experiments/deneva/utils/nanomsg/tests/trie.c",
+  "output": "CMakeFiles/trie.dir/tests/trie.c.o"
+},
+{
+  "directory": "/home/wangzhao/experiments/deneva/build",
+  "command": "/usr/bin/gcc -DNN_HAVE_ACCEPT4=1 -DNN_HAVE_BACKTRACE=1 -DNN_HAVE_CLOCK_GETTIME=1 -DNN_HAVE_CLOCK_MONOTONIC=1 -DNN_HAVE_EPOLL=1 -DNN_HAVE_EVENTFD=1 -DNN_HAVE_GCC_ATOMIC_BUILTINS -DNN_HAVE_GETADDRINFO_A=1 -DNN_HAVE_LIBNSL=1 -DNN_HAVE_LINUX -DNN_HAVE_MSG_CONTROL=1 -DNN_HAVE_PIPE2=1 -DNN_HAVE_PIPE=1 -DNN_HAVE_POLL=1 -DNN_HAVE_SEMAPHORE -DNN_HAVE_SEMAPHORE_PTHREAD=1 -DNN_HAVE_SOCKETPAIR=1 -DNN_HAVE_UNIX_SOCKETS=1 -DNN_MAX_SOCKETS=512 -D_GNU_SOURCE -D_POSIX_PTHREAD_SEMANTICS -D_REENTRANT -D_THREAD_SAFE  -Wall -Wextra  -g -o CMakeFiles/list.dir/tests/list.c.o -c /home/wangzhao/experiments/deneva/utils/nanomsg/tests/list.c",
+  "file": "/home/wangzhao/experiments/deneva/utils/nanomsg/tests/list.c",
+  "output": "CMakeFiles/list.dir/tests/list.c.o"
+},
+{
+  "directory": "/home/wangzhao/experiments/deneva/build",
+  "command": "/usr/bin/gcc -DNN_HAVE_ACCEPT4=1 -DNN_HAVE_BACKTRACE=1 -DNN_HAVE_CLOCK_GETTIME=1 -DNN_HAVE_CLOCK_MONOTONIC=1 -DNN_HAVE_EPOLL=1 -DNN_HAVE_EVENTFD=1 -DNN_HAVE_GCC_ATOMIC_BUILTINS -DNN_HAVE_GETADDRINFO_A=1 -DNN_HAVE_LIBNSL=1 -DNN_HAVE_LINUX -DNN_HAVE_MSG_CONTROL=1 -DNN_HAVE_PIPE2=1 -DNN_HAVE_PIPE=1 -DNN_HAVE_POLL=1 -DNN_HAVE_SEMAPHORE -DNN_HAVE_SEMAPHORE_PTHREAD=1 -DNN_HAVE_SOCKETPAIR=1 -DNN_HAVE_UNIX_SOCKETS=1 -DNN_MAX_SOCKETS=512 -D_GNU_SOURCE -D_POSIX_PTHREAD_SEMANTICS -D_REENTRANT -D_THREAD_SAFE  -Wall -Wextra  -g -o CMakeFiles/hash.dir/tests/hash.c.o -c /home/wangzhao/experiments/deneva/utils/nanomsg/tests/hash.c",
+  "file": "/home/wangzhao/experiments/deneva/utils/nanomsg/tests/hash.c",
+  "output": "CMakeFiles/hash.dir/tests/hash.c.o"
+},
+{
+  "directory": "/home/wangzhao/experiments/deneva/build",
+  "command": "/usr/bin/gcc -DNN_HAVE_ACCEPT4=1 -DNN_HAVE_BACKTRACE=1 -DNN_HAVE_CLOCK_GETTIME=1 -DNN_HAVE_CLOCK_MONOTONIC=1 -DNN_HAVE_EPOLL=1 -DNN_HAVE_EVENTFD=1 -DNN_HAVE_GCC_ATOMIC_BUILTINS -DNN_HAVE_GETADDRINFO_A=1 -DNN_HAVE_LIBNSL=1 -DNN_HAVE_LINUX -DNN_HAVE_MSG_CONTROL=1 -DNN_HAVE_PIPE2=1 -DNN_HAVE_PIPE=1 -DNN_HAVE_POLL=1 -DNN_HAVE_SEMAPHORE -DNN_HAVE_SEMAPHORE_PTHREAD=1 -DNN_HAVE_SOCKETPAIR=1 -DNN_HAVE_UNIX_SOCKETS=1 -DNN_MAX_SOCKETS=512 -D_GNU_SOURCE -D_POSIX_PTHREAD_SEMANTICS -D_REENTRANT -D_THREAD_SAFE  -Wall -Wextra  -g -o CMakeFiles/stats.dir/tests/stats.c.o -c /home/wangzhao/experiments/deneva/utils/nanomsg/tests/stats.c",
+  "file": "/home/wangzhao/experiments/deneva/utils/nanomsg/tests/stats.c",
+  "output": "CMakeFiles/stats.dir/tests/stats.c.o"
+},
+{
+  "directory": "/home/wangzhao/experiments/deneva/build",
+  "command": "/usr/bin/gcc -DNN_HAVE_ACCEPT4=1 -DNN_HAVE_BACKTRACE=1 -DNN_HAVE_CLOCK_GETTIME=1 -DNN_HAVE_CLOCK_MONOTONIC=1 -DNN_HAVE_EPOLL=1 -DNN_HAVE_EVENTFD=1 -DNN_HAVE_GCC_ATOMIC_BUILTINS -DNN_HAVE_GETADDRINFO_A=1 -DNN_HAVE_LIBNSL=1 -DNN_HAVE_LINUX -DNN_HAVE_MSG_CONTROL=1 -DNN_HAVE_PIPE2=1 -DNN_HAVE_PIPE=1 -DNN_HAVE_POLL=1 -DNN_HAVE_SEMAPHORE -DNN_HAVE_SEMAPHORE_PTHREAD=1 -DNN_HAVE_SOCKETPAIR=1 -DNN_HAVE_UNIX_SOCKETS=1 -DNN_MAX_SOCKETS=512 -D_GNU_SOURCE -D_POSIX_PTHREAD_SEMANTICS -D_REENTRANT -D_THREAD_SAFE  -Wall -Wextra  -g -o CMakeFiles/symbol.dir/tests/symbol.c.o -c /home/wangzhao/experiments/deneva/utils/nanomsg/tests/symbol.c",
+  "file": "/home/wangzhao/experiments/deneva/utils/nanomsg/tests/symbol.c",
+  "output": "CMakeFiles/symbol.dir/tests/symbol.c.o"
+},
+{
+  "directory": "/home/wangzhao/experiments/deneva/build",
+  "command": "/usr/bin/gcc -DNN_HAVE_ACCEPT4=1 -DNN_HAVE_BACKTRACE=1 -DNN_HAVE_CLOCK_GETTIME=1 -DNN_HAVE_CLOCK_MONOTONIC=1 -DNN_HAVE_EPOLL=1 -DNN_HAVE_EVENTFD=1 -DNN_HAVE_GCC_ATOMIC_BUILTINS -DNN_HAVE_GETADDRINFO_A=1 -DNN_HAVE_LIBNSL=1 -DNN_HAVE_LINUX -DNN_HAVE_MSG_CONTROL=1 -DNN_HAVE_PIPE2=1 -DNN_HAVE_PIPE=1 -DNN_HAVE_POLL=1 -DNN_HAVE_SEMAPHORE -DNN_HAVE_SEMAPHORE_PTHREAD=1 -DNN_HAVE_SOCKETPAIR=1 -DNN_HAVE_UNIX_SOCKETS=1 -DNN_MAX_SOCKETS=512 -D_GNU_SOURCE -D_POSIX_PTHREAD_SEMANTICS -D_REENTRANT -D_THREAD_SAFE  -Wall -Wextra  -g -o CMakeFiles/separation.dir/tests/separation.c.o -c /home/wangzhao/experiments/deneva/utils/nanomsg/tests/separation.c",
+  "file": "/home/wangzhao/experiments/deneva/utils/nanomsg/tests/separation.c",
+  "output": "CMakeFiles/separation.dir/tests/separation.c.o"
+},
+{
+  "directory": "/home/wangzhao/experiments/deneva/build",
+  "command": "/usr/bin/gcc -DNN_HAVE_ACCEPT4=1 -DNN_HAVE_BACKTRACE=1 -DNN_HAVE_CLOCK_GETTIME=1 -DNN_HAVE_CLOCK_MONOTONIC=1 -DNN_HAVE_EPOLL=1 -DNN_HAVE_EVENTFD=1 -DNN_HAVE_GCC_ATOMIC_BUILTINS -DNN_HAVE_GETADDRINFO_A=1 -DNN_HAVE_LIBNSL=1 -DNN_HAVE_LINUX -DNN_HAVE_MSG_CONTROL=1 -DNN_HAVE_PIPE2=1 -DNN_HAVE_PIPE=1 -DNN_HAVE_POLL=1 -DNN_HAVE_SEMAPHORE -DNN_HAVE_SEMAPHORE_PTHREAD=1 -DNN_HAVE_SOCKETPAIR=1 -DNN_HAVE_UNIX_SOCKETS=1 -DNN_MAX_SOCKETS=512 -D_GNU_SOURCE -D_POSIX_PTHREAD_SEMANTICS -D_REENTRANT -D_THREAD_SAFE  -Wall -Wextra  -g -o CMakeFiles/zerocopy.dir/tests/zerocopy.c.o -c /home/wangzhao/experiments/deneva/utils/nanomsg/tests/zerocopy.c",
+  "file": "/home/wangzhao/experiments/deneva/utils/nanomsg/tests/zerocopy.c",
+  "output": "CMakeFiles/zerocopy.dir/tests/zerocopy.c.o"
+},
+{
+  "directory": "/home/wangzhao/experiments/deneva/build",
+  "command": "/usr/bin/gcc -DNN_HAVE_ACCEPT4=1 -DNN_HAVE_BACKTRACE=1 -DNN_HAVE_CLOCK_GETTIME=1 -DNN_HAVE_CLOCK_MONOTONIC=1 -DNN_HAVE_EPOLL=1 -DNN_HAVE_EVENTFD=1 -DNN_HAVE_GCC_ATOMIC_BUILTINS -DNN_HAVE_GETADDRINFO_A=1 -DNN_HAVE_LIBNSL=1 -DNN_HAVE_LINUX -DNN_HAVE_MSG_CONTROL=1 -DNN_HAVE_PIPE2=1 -DNN_HAVE_PIPE=1 -DNN_HAVE_POLL=1 -DNN_HAVE_SEMAPHORE -DNN_HAVE_SEMAPHORE_PTHREAD=1 -DNN_HAVE_SOCKETPAIR=1 -DNN_HAVE_UNIX_SOCKETS=1 -DNN_MAX_SOCKETS=512 -D_GNU_SOURCE -D_POSIX_PTHREAD_SEMANTICS -D_REENTRANT -D_THREAD_SAFE  -Wall -Wextra  -g -o CMakeFiles/shutdown.dir/tests/shutdown.c.o -c /home/wangzhao/experiments/deneva/utils/nanomsg/tests/shutdown.c",
+  "file": "/home/wangzhao/experiments/deneva/utils/nanomsg/tests/shutdown.c",
+  "output": "CMakeFiles/shutdown.dir/tests/shutdown.c.o"
+},
+{
+  "directory": "/home/wangzhao/experiments/deneva/build",
+  "command": "/usr/bin/gcc -DNN_HAVE_ACCEPT4=1 -DNN_HAVE_BACKTRACE=1 -DNN_HAVE_CLOCK_GETTIME=1 -DNN_HAVE_CLOCK_MONOTONIC=1 -DNN_HAVE_EPOLL=1 -DNN_HAVE_EVENTFD=1 -DNN_HAVE_GCC_ATOMIC_BUILTINS -DNN_HAVE_GETADDRINFO_A=1 -DNN_HAVE_LIBNSL=1 -DNN_HAVE_LINUX -DNN_HAVE_MSG_CONTROL=1 -DNN_HAVE_PIPE2=1 -DNN_HAVE_PIPE=1 -DNN_HAVE_POLL=1 -DNN_HAVE_SEMAPHORE -DNN_HAVE_SEMAPHORE_PTHREAD=1 -DNN_HAVE_SOCKETPAIR=1 -DNN_HAVE_UNIX_SOCKETS=1 -DNN_MAX_SOCKETS=512 -D_GNU_SOURCE -D_POSIX_PTHREAD_SEMANTICS -D_REENTRANT -D_THREAD_SAFE  -Wall -Wextra  -g -o CMakeFiles/cmsg.dir/tests/cmsg.c.o -c /home/wangzhao/experiments/deneva/utils/nanomsg/tests/cmsg.c",
+  "file": "/home/wangzhao/experiments/deneva/utils/nanomsg/tests/cmsg.c",
+  "output": "CMakeFiles/cmsg.dir/tests/cmsg.c.o"
+},
+{
+  "directory": "/home/wangzhao/experiments/deneva/build",
+  "command": "/usr/bin/gcc -DNN_HAVE_ACCEPT4=1 -DNN_HAVE_BACKTRACE=1 -DNN_HAVE_CLOCK_GETTIME=1 -DNN_HAVE_CLOCK_MONOTONIC=1 -DNN_HAVE_EPOLL=1 -DNN_HAVE_EVENTFD=1 -DNN_HAVE_GCC_ATOMIC_BUILTINS -DNN_HAVE_GETADDRINFO_A=1 -DNN_HAVE_LIBNSL=1 -DNN_HAVE_LINUX -DNN_HAVE_MSG_CONTROL=1 -DNN_HAVE_PIPE2=1 -DNN_HAVE_PIPE=1 -DNN_HAVE_POLL=1 -DNN_HAVE_SEMAPHORE -DNN_HAVE_SEMAPHORE_PTHREAD=1 -DNN_HAVE_SOCKETPAIR=1 -DNN_HAVE_UNIX_SOCKETS=1 -DNN_MAX_SOCKETS=512 -D_GNU_SOURCE -D_POSIX_PTHREAD_SEMANTICS -D_REENTRANT -D_THREAD_SAFE  -Wall -Wextra  -g -o CMakeFiles/bug328.dir/tests/bug328.c.o -c /home/wangzhao/experiments/deneva/utils/nanomsg/tests/bug328.c",
+  "file": "/home/wangzhao/experiments/deneva/utils/nanomsg/tests/bug328.c",
+  "output": "CMakeFiles/bug328.dir/tests/bug328.c.o"
+},
+{
+  "directory": "/home/wangzhao/experiments/deneva/build",
+  "command": "/usr/bin/gcc -DNN_HAVE_ACCEPT4=1 -DNN_HAVE_BACKTRACE=1 -DNN_HAVE_CLOCK_GETTIME=1 -DNN_HAVE_CLOCK_MONOTONIC=1 -DNN_HAVE_EPOLL=1 -DNN_HAVE_EVENTFD=1 -DNN_HAVE_GCC_ATOMIC_BUILTINS -DNN_HAVE_GETADDRINFO_A=1 -DNN_HAVE_LIBNSL=1 -DNN_HAVE_LINUX -DNN_HAVE_MSG_CONTROL=1 -DNN_HAVE_PIPE2=1 -DNN_HAVE_PIPE=1 -DNN_HAVE_POLL=1 -DNN_HAVE_SEMAPHORE -DNN_HAVE_SEMAPHORE_PTHREAD=1 -DNN_HAVE_SOCKETPAIR=1 -DNN_HAVE_UNIX_SOCKETS=1 -DNN_MAX_SOCKETS=512 -D_GNU_SOURCE -D_POSIX_PTHREAD_SEMANTICS -D_REENTRANT -D_THREAD_SAFE  -Wall -Wextra  -g -o CMakeFiles/bug777.dir/tests/bug777.c.o -c /home/wangzhao/experiments/deneva/utils/nanomsg/tests/bug777.c",
+  "file": "/home/wangzhao/experiments/deneva/utils/nanomsg/tests/bug777.c",
+  "output": "CMakeFiles/bug777.dir/tests/bug777.c.o"
+},
+{
+  "directory": "/home/wangzhao/experiments/deneva/build",
+  "command": "/usr/bin/gcc -DNN_HAVE_ACCEPT4=1 -DNN_HAVE_BACKTRACE=1 -DNN_HAVE_CLOCK_GETTIME=1 -DNN_HAVE_CLOCK_MONOTONIC=1 -DNN_HAVE_EPOLL=1 -DNN_HAVE_EVENTFD=1 -DNN_HAVE_GCC_ATOMIC_BUILTINS -DNN_HAVE_GETADDRINFO_A=1 -DNN_HAVE_LIBNSL=1 -DNN_HAVE_LINUX -DNN_HAVE_MSG_CONTROL=1 -DNN_HAVE_PIPE2=1 -DNN_HAVE_PIPE=1 -DNN_HAVE_POLL=1 -DNN_HAVE_SEMAPHORE -DNN_HAVE_SEMAPHORE_PTHREAD=1 -DNN_HAVE_SOCKETPAIR=1 -DNN_HAVE_UNIX_SOCKETS=1 -DNN_MAX_SOCKETS=512 -D_GNU_SOURCE -D_POSIX_PTHREAD_SEMANTICS -D_REENTRANT -D_THREAD_SAFE  -Wall -Wextra  -g -o CMakeFiles/ws_async_shutdown.dir/tests/ws_async_shutdown.c.o -c /home/wangzhao/experiments/deneva/utils/nanomsg/tests/ws_async_shutdown.c",
+  "file": "/home/wangzhao/experiments/deneva/utils/nanomsg/tests/ws_async_shutdown.c",
+  "output": "CMakeFiles/ws_async_shutdown.dir/tests/ws_async_shutdown.c.o"
+},
+{
+  "directory": "/home/wangzhao/experiments/deneva/build",
+  "command": "/usr/bin/gcc -DNN_HAVE_ACCEPT4=1 -DNN_HAVE_BACKTRACE=1 -DNN_HAVE_CLOCK_GETTIME=1 -DNN_HAVE_CLOCK_MONOTONIC=1 -DNN_HAVE_EPOLL=1 -DNN_HAVE_EVENTFD=1 -DNN_HAVE_GCC_ATOMIC_BUILTINS -DNN_HAVE_GETADDRINFO_A=1 -DNN_HAVE_LIBNSL=1 -DNN_HAVE_LINUX -DNN_HAVE_MSG_CONTROL=1 -DNN_HAVE_PIPE2=1 -DNN_HAVE_PIPE=1 -DNN_HAVE_POLL=1 -DNN_HAVE_SEMAPHORE -DNN_HAVE_SEMAPHORE_PTHREAD=1 -DNN_HAVE_SOCKETPAIR=1 -DNN_HAVE_UNIX_SOCKETS=1 -DNN_MAX_SOCKETS=512 -D_GNU_SOURCE -D_POSIX_PTHREAD_SEMANTICS -D_REENTRANT -D_THREAD_SAFE  -Wall -Wextra  -g -o CMakeFiles/reqttl.dir/tests/reqttl.c.o -c /home/wangzhao/experiments/deneva/utils/nanomsg/tests/reqttl.c",
+  "file": "/home/wangzhao/experiments/deneva/utils/nanomsg/tests/reqttl.c",
+  "output": "CMakeFiles/reqttl.dir/tests/reqttl.c.o"
+},
+{
+  "directory": "/home/wangzhao/experiments/deneva/build",
+  "command": "/usr/bin/gcc -DNN_HAVE_ACCEPT4=1 -DNN_HAVE_BACKTRACE=1 -DNN_HAVE_CLOCK_GETTIME=1 -DNN_HAVE_CLOCK_MONOTONIC=1 -DNN_HAVE_EPOLL=1 -DNN_HAVE_EVENTFD=1 -DNN_HAVE_GCC_ATOMIC_BUILTINS -DNN_HAVE_GETADDRINFO_A=1 -DNN_HAVE_LIBNSL=1 -DNN_HAVE_LINUX -DNN_HAVE_MSG_CONTROL=1 -DNN_HAVE_PIPE2=1 -DNN_HAVE_PIPE=1 -DNN_HAVE_POLL=1 -DNN_HAVE_SEMAPHORE -DNN_HAVE_SEMAPHORE_PTHREAD=1 -DNN_HAVE_SOCKETPAIR=1 -DNN_HAVE_UNIX_SOCKETS=1 -DNN_MAX_SOCKETS=512 -D_GNU_SOURCE -D_POSIX_PTHREAD_SEMANTICS -D_REENTRANT -D_THREAD_SAFE  -Wall -Wextra  -g -o CMakeFiles/surveyttl.dir/tests/surveyttl.c.o -c /home/wangzhao/experiments/deneva/utils/nanomsg/tests/surveyttl.c",
+  "file": "/home/wangzhao/experiments/deneva/utils/nanomsg/tests/surveyttl.c",
+  "output": "CMakeFiles/surveyttl.dir/tests/surveyttl.c.o"
+},
+{
+  "directory": "/home/wangzhao/experiments/deneva/build",
+  "command": "/usr/bin/gcc -DNN_HAVE_ACCEPT4=1 -DNN_HAVE_BACKTRACE=1 -DNN_HAVE_CLOCK_GETTIME=1 -DNN_HAVE_CLOCK_MONOTONIC=1 -DNN_HAVE_EPOLL=1 -DNN_HAVE_EVENTFD=1 -DNN_HAVE_GCC_ATOMIC_BUILTINS -DNN_HAVE_GETADDRINFO_A=1 -DNN_HAVE_LIBNSL=1 -DNN_HAVE_LINUX -DNN_HAVE_MSG_CONTROL=1 -DNN_HAVE_PIPE2=1 -DNN_HAVE_PIPE=1 -DNN_HAVE_POLL=1 -DNN_HAVE_SEMAPHORE -DNN_HAVE_SEMAPHORE_PTHREAD=1 -DNN_HAVE_SOCKETPAIR=1 -DNN_HAVE_UNIX_SOCKETS=1 -DNN_MAX_SOCKETS=512 -D_GNU_SOURCE -D_POSIX_PTHREAD_SEMANTICS -D_REENTRANT -D_THREAD_SAFE  -Wall -Wextra  -g -o CMakeFiles/inproc_lat.dir/perf/inproc_lat.c.o -c /home/wangzhao/experiments/deneva/utils/nanomsg/perf/inproc_lat.c",
+  "file": "/home/wangzhao/experiments/deneva/utils/nanomsg/perf/inproc_lat.c",
+  "output": "CMakeFiles/inproc_lat.dir/perf/inproc_lat.c.o"
+},
+{
+  "directory": "/home/wangzhao/experiments/deneva/build",
+  "command": "/usr/bin/gcc -DNN_HAVE_ACCEPT4=1 -DNN_HAVE_BACKTRACE=1 -DNN_HAVE_CLOCK_GETTIME=1 -DNN_HAVE_CLOCK_MONOTONIC=1 -DNN_HAVE_EPOLL=1 -DNN_HAVE_EVENTFD=1 -DNN_HAVE_GCC_ATOMIC_BUILTINS -DNN_HAVE_GETADDRINFO_A=1 -DNN_HAVE_LIBNSL=1 -DNN_HAVE_LINUX -DNN_HAVE_MSG_CONTROL=1 -DNN_HAVE_PIPE2=1 -DNN_HAVE_PIPE=1 -DNN_HAVE_POLL=1 -DNN_HAVE_SEMAPHORE -DNN_HAVE_SEMAPHORE_PTHREAD=1 -DNN_HAVE_SOCKETPAIR=1 -DNN_HAVE_UNIX_SOCKETS=1 -DNN_MAX_SOCKETS=512 -D_GNU_SOURCE -D_POSIX_PTHREAD_SEMANTICS -D_REENTRANT -D_THREAD_SAFE  -Wall -Wextra  -g -o CMakeFiles/inproc_thr.dir/perf/inproc_thr.c.o -c /home/wangzhao/experiments/deneva/utils/nanomsg/perf/inproc_thr.c",
+  "file": "/home/wangzhao/experiments/deneva/utils/nanomsg/perf/inproc_thr.c",
+  "output": "CMakeFiles/inproc_thr.dir/perf/inproc_thr.c.o"
+},
+{
+  "directory": "/home/wangzhao/experiments/deneva/build",
+  "command": "/usr/bin/gcc -DNN_HAVE_ACCEPT4=1 -DNN_HAVE_BACKTRACE=1 -DNN_HAVE_CLOCK_GETTIME=1 -DNN_HAVE_CLOCK_MONOTONIC=1 -DNN_HAVE_EPOLL=1 -DNN_HAVE_EVENTFD=1 -DNN_HAVE_GCC_ATOMIC_BUILTINS -DNN_HAVE_GETADDRINFO_A=1 -DNN_HAVE_LIBNSL=1 -DNN_HAVE_LINUX -DNN_HAVE_MSG_CONTROL=1 -DNN_HAVE_PIPE2=1 -DNN_HAVE_PIPE=1 -DNN_HAVE_POLL=1 -DNN_HAVE_SEMAPHORE -DNN_HAVE_SEMAPHORE_PTHREAD=1 -DNN_HAVE_SOCKETPAIR=1 -DNN_HAVE_UNIX_SOCKETS=1 -DNN_MAX_SOCKETS=512 -D_GNU_SOURCE -D_POSIX_PTHREAD_SEMANTICS -D_REENTRANT -D_THREAD_SAFE  -Wall -Wextra  -g -o CMakeFiles/local_lat.dir/perf/local_lat.c.o -c /home/wangzhao/experiments/deneva/utils/nanomsg/perf/local_lat.c",
+  "file": "/home/wangzhao/experiments/deneva/utils/nanomsg/perf/local_lat.c",
+  "output": "CMakeFiles/local_lat.dir/perf/local_lat.c.o"
+},
+{
+  "directory": "/home/wangzhao/experiments/deneva/build",
+  "command": "/usr/bin/gcc -DNN_HAVE_ACCEPT4=1 -DNN_HAVE_BACKTRACE=1 -DNN_HAVE_CLOCK_GETTIME=1 -DNN_HAVE_CLOCK_MONOTONIC=1 -DNN_HAVE_EPOLL=1 -DNN_HAVE_EVENTFD=1 -DNN_HAVE_GCC_ATOMIC_BUILTINS -DNN_HAVE_GETADDRINFO_A=1 -DNN_HAVE_LIBNSL=1 -DNN_HAVE_LINUX -DNN_HAVE_MSG_CONTROL=1 -DNN_HAVE_PIPE2=1 -DNN_HAVE_PIPE=1 -DNN_HAVE_POLL=1 -DNN_HAVE_SEMAPHORE -DNN_HAVE_SEMAPHORE_PTHREAD=1 -DNN_HAVE_SOCKETPAIR=1 -DNN_HAVE_UNIX_SOCKETS=1 -DNN_MAX_SOCKETS=512 -D_GNU_SOURCE -D_POSIX_PTHREAD_SEMANTICS -D_REENTRANT -D_THREAD_SAFE  -Wall -Wextra  -g -o CMakeFiles/remote_lat.dir/perf/remote_lat.c.o -c /home/wangzhao/experiments/deneva/utils/nanomsg/perf/remote_lat.c",
+  "file": "/home/wangzhao/experiments/deneva/utils/nanomsg/perf/remote_lat.c",
+  "output": "CMakeFiles/remote_lat.dir/perf/remote_lat.c.o"
+},
+{
+  "directory": "/home/wangzhao/experiments/deneva/build",
+  "command": "/usr/bin/gcc -DNN_HAVE_ACCEPT4=1 -DNN_HAVE_BACKTRACE=1 -DNN_HAVE_CLOCK_GETTIME=1 -DNN_HAVE_CLOCK_MONOTONIC=1 -DNN_HAVE_EPOLL=1 -DNN_HAVE_EVENTFD=1 -DNN_HAVE_GCC_ATOMIC_BUILTINS -DNN_HAVE_GETADDRINFO_A=1 -DNN_HAVE_LIBNSL=1 -DNN_HAVE_LINUX -DNN_HAVE_MSG_CONTROL=1 -DNN_HAVE_PIPE2=1 -DNN_HAVE_PIPE=1 -DNN_HAVE_POLL=1 -DNN_HAVE_SEMAPHORE -DNN_HAVE_SEMAPHORE_PTHREAD=1 -DNN_HAVE_SOCKETPAIR=1 -DNN_HAVE_UNIX_SOCKETS=1 -DNN_MAX_SOCKETS=512 -D_GNU_SOURCE -D_POSIX_PTHREAD_SEMANTICS -D_REENTRANT -D_THREAD_SAFE  -Wall -Wextra  -g -o CMakeFiles/local_thr.dir/perf/local_thr.c.o -c /home/wangzhao/experiments/deneva/utils/nanomsg/perf/local_thr.c",
+  "file": "/home/wangzhao/experiments/deneva/utils/nanomsg/perf/local_thr.c",
+  "output": "CMakeFiles/local_thr.dir/perf/local_thr.c.o"
+},
+{
+  "directory": "/home/wangzhao/experiments/deneva/build",
+  "command": "/usr/bin/gcc -DNN_HAVE_ACCEPT4=1 -DNN_HAVE_BACKTRACE=1 -DNN_HAVE_CLOCK_GETTIME=1 -DNN_HAVE_CLOCK_MONOTONIC=1 -DNN_HAVE_EPOLL=1 -DNN_HAVE_EVENTFD=1 -DNN_HAVE_GCC_ATOMIC_BUILTINS -DNN_HAVE_GETADDRINFO_A=1 -DNN_HAVE_LIBNSL=1 -DNN_HAVE_LINUX -DNN_HAVE_MSG_CONTROL=1 -DNN_HAVE_PIPE2=1 -DNN_HAVE_PIPE=1 -DNN_HAVE_POLL=1 -DNN_HAVE_SEMAPHORE -DNN_HAVE_SEMAPHORE_PTHREAD=1 -DNN_HAVE_SOCKETPAIR=1 -DNN_HAVE_UNIX_SOCKETS=1 -DNN_MAX_SOCKETS=512 -D_GNU_SOURCE -D_POSIX_PTHREAD_SEMANTICS -D_REENTRANT -D_THREAD_SAFE  -Wall -Wextra  -g -o CMakeFiles/remote_thr.dir/perf/remote_thr.c.o -c /home/wangzhao/experiments/deneva/utils/nanomsg/perf/remote_thr.c",
+  "file": "/home/wangzhao/experiments/deneva/utils/nanomsg/perf/remote_thr.c",
+  "output": "CMakeFiles/remote_thr.dir/perf/remote_thr.c.o"
+},
+{
+  "directory": "/home/wangzhao/experiments/deneva/build",
+  "command": "/usr/bin/gcc -DNN_HAVE_ACCEPT4=1 -DNN_HAVE_BACKTRACE=1 -DNN_HAVE_CLOCK_GETTIME=1 -DNN_HAVE_CLOCK_MONOTONIC=1 -DNN_HAVE_EPOLL=1 -DNN_HAVE_EVENTFD=1 -DNN_HAVE_GCC_ATOMIC_BUILTINS -DNN_HAVE_GETADDRINFO_A=1 -DNN_HAVE_LIBNSL=1 -DNN_HAVE_LINUX -DNN_HAVE_MSG_CONTROL=1 -DNN_HAVE_PIPE2=1 -DNN_HAVE_PIPE=1 -DNN_HAVE_POLL=1 -DNN_HAVE_SEMAPHORE -DNN_HAVE_SEMAPHORE_PTHREAD=1 -DNN_HAVE_SOCKETPAIR=1 -DNN_HAVE_UNIX_SOCKETS=1 -DNN_MAX_SOCKETS=512 -DNN_SHARED_LIB -DNN_USE_EPOLL -DNN_USE_EVENTFD -D_GNU_SOURCE -D_POSIX_PTHREAD_SEMANTICS -D_REENTRANT -D_THREAD_SAFE -Dnanomsg_EXPORTS  -Wall -Wextra  -g -fPIC -o src/CMakeFiles/nanomsg.dir/core/ep.c.o -c /home/wangzhao/experiments/deneva/utils/nanomsg/src/core/ep.c",
+  "file": "/home/wangzhao/experiments/deneva/utils/nanomsg/src/core/ep.c",
+  "output": "src/CMakeFiles/nanomsg.dir/core/ep.c.o"
+},
+{
+  "directory": "/home/wangzhao/experiments/deneva/build",
+  "command": "/usr/bin/gcc -DNN_HAVE_ACCEPT4=1 -DNN_HAVE_BACKTRACE=1 -DNN_HAVE_CLOCK_GETTIME=1 -DNN_HAVE_CLOCK_MONOTONIC=1 -DNN_HAVE_EPOLL=1 -DNN_HAVE_EVENTFD=1 -DNN_HAVE_GCC_ATOMIC_BUILTINS -DNN_HAVE_GETADDRINFO_A=1 -DNN_HAVE_LIBNSL=1 -DNN_HAVE_LINUX -DNN_HAVE_MSG_CONTROL=1 -DNN_HAVE_PIPE2=1 -DNN_HAVE_PIPE=1 -DNN_HAVE_POLL=1 -DNN_HAVE_SEMAPHORE -DNN_HAVE_SEMAPHORE_PTHREAD=1 -DNN_HAVE_SOCKETPAIR=1 -DNN_HAVE_UNIX_SOCKETS=1 -DNN_MAX_SOCKETS=512 -DNN_SHARED_LIB -DNN_USE_EPOLL -DNN_USE_EVENTFD -D_GNU_SOURCE -D_POSIX_PTHREAD_SEMANTICS -D_REENTRANT -D_THREAD_SAFE -Dnanomsg_EXPORTS  -Wall -Wextra  -g -fPIC -o src/CMakeFiles/nanomsg.dir/core/global.c.o -c /home/wangzhao/experiments/deneva/utils/nanomsg/src/core/global.c",
+  "file": "/home/wangzhao/experiments/deneva/utils/nanomsg/src/core/global.c",
+  "output": "src/CMakeFiles/nanomsg.dir/core/global.c.o"
+},
+{
+  "directory": "/home/wangzhao/experiments/deneva/build",
+  "command": "/usr/bin/gcc -DNN_HAVE_ACCEPT4=1 -DNN_HAVE_BACKTRACE=1 -DNN_HAVE_CLOCK_GETTIME=1 -DNN_HAVE_CLOCK_MONOTONIC=1 -DNN_HAVE_EPOLL=1 -DNN_HAVE_EVENTFD=1 -DNN_HAVE_GCC_ATOMIC_BUILTINS -DNN_HAVE_GETADDRINFO_A=1 -DNN_HAVE_LIBNSL=1 -DNN_HAVE_LINUX -DNN_HAVE_MSG_CONTROL=1 -DNN_HAVE_PIPE2=1 -DNN_HAVE_PIPE=1 -DNN_HAVE_POLL=1 -DNN_HAVE_SEMAPHORE -DNN_HAVE_SEMAPHORE_PTHREAD=1 -DNN_HAVE_SOCKETPAIR=1 -DNN_HAVE_UNIX_SOCKETS=1 -DNN_MAX_SOCKETS=512 -DNN_SHARED_LIB -DNN_USE_EPOLL -DNN_USE_EVENTFD -D_GNU_SOURCE -D_POSIX_PTHREAD_SEMANTICS -D_REENTRANT -D_THREAD_SAFE -Dnanomsg_EXPORTS  -Wall -Wextra  -g -fPIC -o src/CMakeFiles/nanomsg.dir/core/pipe.c.o -c /home/wangzhao/experiments/deneva/utils/nanomsg/src/core/pipe.c",
+  "file": "/home/wangzhao/experiments/deneva/utils/nanomsg/src/core/pipe.c",
+  "output": "src/CMakeFiles/nanomsg.dir/core/pipe.c.o"
+},
+{
+  "directory": "/home/wangzhao/experiments/deneva/build",
+  "command": "/usr/bin/gcc -DNN_HAVE_ACCEPT4=1 -DNN_HAVE_BACKTRACE=1 -DNN_HAVE_CLOCK_GETTIME=1 -DNN_HAVE_CLOCK_MONOTONIC=1 -DNN_HAVE_EPOLL=1 -DNN_HAVE_EVENTFD=1 -DNN_HAVE_GCC_ATOMIC_BUILTINS -DNN_HAVE_GETADDRINFO_A=1 -DNN_HAVE_LIBNSL=1 -DNN_HAVE_LINUX -DNN_HAVE_MSG_CONTROL=1 -DNN_HAVE_PIPE2=1 -DNN_HAVE_PIPE=1 -DNN_HAVE_POLL=1 -DNN_HAVE_SEMAPHORE -DNN_HAVE_SEMAPHORE_PTHREAD=1 -DNN_HAVE_SOCKETPAIR=1 -DNN_HAVE_UNIX_SOCKETS=1 -DNN_MAX_SOCKETS=512 -DNN_SHARED_LIB -DNN_USE_EPOLL -DNN_USE_EVENTFD -D_GNU_SOURCE -D_POSIX_PTHREAD_SEMANTICS -D_REENTRANT -D_THREAD_SAFE -Dnanomsg_EXPORTS  -Wall -Wextra  -g -fPIC -o src/CMakeFiles/nanomsg.dir/core/poll.c.o -c /home/wangzhao/experiments/deneva/utils/nanomsg/src/core/poll.c",
+  "file": "/home/wangzhao/experiments/deneva/utils/nanomsg/src/core/poll.c",
+  "output": "src/CMakeFiles/nanomsg.dir/core/poll.c.o"
+},
+{
+  "directory": "/home/wangzhao/experiments/deneva/build",
+  "command": "/usr/bin/gcc -DNN_HAVE_ACCEPT4=1 -DNN_HAVE_BACKTRACE=1 -DNN_HAVE_CLOCK_GETTIME=1 -DNN_HAVE_CLOCK_MONOTONIC=1 -DNN_HAVE_EPOLL=1 -DNN_HAVE_EVENTFD=1 -DNN_HAVE_GCC_ATOMIC_BUILTINS -DNN_HAVE_GETADDRINFO_A=1 -DNN_HAVE_LIBNSL=1 -DNN_HAVE_LINUX -DNN_HAVE_MSG_CONTROL=1 -DNN_HAVE_PIPE2=1 -DNN_HAVE_PIPE=1 -DNN_HAVE_POLL=1 -DNN_HAVE_SEMAPHORE -DNN_HAVE_SEMAPHORE_PTHREAD=1 -DNN_HAVE_SOCKETPAIR=1 -DNN_HAVE_UNIX_SOCKETS=1 -DNN_MAX_SOCKETS=512 -DNN_SHARED_LIB -DNN_USE_EPOLL -DNN_USE_EVENTFD -D_GNU_SOURCE -D_POSIX_PTHREAD_SEMANTICS -D_REENTRANT -D_THREAD_SAFE -Dnanomsg_EXPORTS  -Wall -Wextra  -g -fPIC -o src/CMakeFiles/nanomsg.dir/core/sock.c.o -c /home/wangzhao/experiments/deneva/utils/nanomsg/src/core/sock.c",
+  "file": "/home/wangzhao/experiments/deneva/utils/nanomsg/src/core/sock.c",
+  "output": "src/CMakeFiles/nanomsg.dir/core/sock.c.o"
+},
+{
+  "directory": "/home/wangzhao/experiments/deneva/build",
+  "command": "/usr/bin/gcc -DNN_HAVE_ACCEPT4=1 -DNN_HAVE_BACKTRACE=1 -DNN_HAVE_CLOCK_GETTIME=1 -DNN_HAVE_CLOCK_MONOTONIC=1 -DNN_HAVE_EPOLL=1 -DNN_HAVE_EVENTFD=1 -DNN_HAVE_GCC_ATOMIC_BUILTINS -DNN_HAVE_GETADDRINFO_A=1 -DNN_HAVE_LIBNSL=1 -DNN_HAVE_LINUX -DNN_HAVE_MSG_CONTROL=1 -DNN_HAVE_PIPE2=1 -DNN_HAVE_PIPE=1 -DNN_HAVE_POLL=1 -DNN_HAVE_SEMAPHORE -DNN_HAVE_SEMAPHORE_PTHREAD=1 -DNN_HAVE_SOCKETPAIR=1 -DNN_HAVE_UNIX_SOCKETS=1 -DNN_MAX_SOCKETS=512 -DNN_SHARED_LIB -DNN_USE_EPOLL -DNN_USE_EVENTFD -D_GNU_SOURCE -D_POSIX_PTHREAD_SEMANTICS -D_REENTRANT -D_THREAD_SAFE -Dnanomsg_EXPORTS  -Wall -Wextra  -g -fPIC -o src/CMakeFiles/nanomsg.dir/core/sockbase.c.o -c /home/wangzhao/experiments/deneva/utils/nanomsg/src/core/sockbase.c",
+  "file": "/home/wangzhao/experiments/deneva/utils/nanomsg/src/core/sockbase.c",
+  "output": "src/CMakeFiles/nanomsg.dir/core/sockbase.c.o"
+},
+{
+  "directory": "/home/wangzhao/experiments/deneva/build",
+  "command": "/usr/bin/gcc -DNN_HAVE_ACCEPT4=1 -DNN_HAVE_BACKTRACE=1 -DNN_HAVE_CLOCK_GETTIME=1 -DNN_HAVE_CLOCK_MONOTONIC=1 -DNN_HAVE_EPOLL=1 -DNN_HAVE_EVENTFD=1 -DNN_HAVE_GCC_ATOMIC_BUILTINS -DNN_HAVE_GETADDRINFO_A=1 -DNN_HAVE_LIBNSL=1 -DNN_HAVE_LINUX -DNN_HAVE_MSG_CONTROL=1 -DNN_HAVE_PIPE2=1 -DNN_HAVE_PIPE=1 -DNN_HAVE_POLL=1 -DNN_HAVE_SEMAPHORE -DNN_HAVE_SEMAPHORE_PTHREAD=1 -DNN_HAVE_SOCKETPAIR=1 -DNN_HAVE_UNIX_SOCKETS=1 -DNN_MAX_SOCKETS=512 -DNN_SHARED_LIB -DNN_USE_EPOLL -DNN_USE_EVENTFD -D_GNU_SOURCE -D_POSIX_PTHREAD_SEMANTICS -D_REENTRANT -D_THREAD_SAFE -Dnanomsg_EXPORTS  -Wall -Wextra  -g -fPIC -o src/CMakeFiles/nanomsg.dir/core/symbol.c.o -c /home/wangzhao/experiments/deneva/utils/nanomsg/src/core/symbol.c",
+  "file": "/home/wangzhao/experiments/deneva/utils/nanomsg/src/core/symbol.c",
+  "output": "src/CMakeFiles/nanomsg.dir/core/symbol.c.o"
+},
+{
+  "directory": "/home/wangzhao/experiments/deneva/build",
+  "command": "/usr/bin/gcc -DNN_HAVE_ACCEPT4=1 -DNN_HAVE_BACKTRACE=1 -DNN_HAVE_CLOCK_GETTIME=1 -DNN_HAVE_CLOCK_MONOTONIC=1 -DNN_HAVE_EPOLL=1 -DNN_HAVE_EVENTFD=1 -DNN_HAVE_GCC_ATOMIC_BUILTINS -DNN_HAVE_GETADDRINFO_A=1 -DNN_HAVE_LIBNSL=1 -DNN_HAVE_LINUX -DNN_HAVE_MSG_CONTROL=1 -DNN_HAVE_PIPE2=1 -DNN_HAVE_PIPE=1 -DNN_HAVE_POLL=1 -DNN_HAVE_SEMAPHORE -DNN_HAVE_SEMAPHORE_PTHREAD=1 -DNN_HAVE_SOCKETPAIR=1 -DNN_HAVE_UNIX_SOCKETS=1 -DNN_MAX_SOCKETS=512 -DNN_SHARED_LIB -DNN_USE_EPOLL -DNN_USE_EVENTFD -D_GNU_SOURCE -D_POSIX_PTHREAD_SEMANTICS -D_REENTRANT -D_THREAD_SAFE -Dnanomsg_EXPORTS  -Wall -Wextra  -g -fPIC -o src/CMakeFiles/nanomsg.dir/aio/ctx.c.o -c /home/wangzhao/experiments/deneva/utils/nanomsg/src/aio/ctx.c",
+  "file": "/home/wangzhao/experiments/deneva/utils/nanomsg/src/aio/ctx.c",
+  "output": "src/CMakeFiles/nanomsg.dir/aio/ctx.c.o"
+},
+{
+  "directory": "/home/wangzhao/experiments/deneva/build",
+  "command": "/usr/bin/gcc -DNN_HAVE_ACCEPT4=1 -DNN_HAVE_BACKTRACE=1 -DNN_HAVE_CLOCK_GETTIME=1 -DNN_HAVE_CLOCK_MONOTONIC=1 -DNN_HAVE_EPOLL=1 -DNN_HAVE_EVENTFD=1 -DNN_HAVE_GCC_ATOMIC_BUILTINS -DNN_HAVE_GETADDRINFO_A=1 -DNN_HAVE_LIBNSL=1 -DNN_HAVE_LINUX -DNN_HAVE_MSG_CONTROL=1 -DNN_HAVE_PIPE2=1 -DNN_HAVE_PIPE=1 -DNN_HAVE_POLL=1 -DNN_HAVE_SEMAPHORE -DNN_HAVE_SEMAPHORE_PTHREAD=1 -DNN_HAVE_SOCKETPAIR=1 -DNN_HAVE_UNIX_SOCKETS=1 -DNN_MAX_SOCKETS=512 -DNN_SHARED_LIB -DNN_USE_EPOLL -DNN_USE_EVENTFD -D_GNU_SOURCE -D_POSIX_PTHREAD_SEMANTICS -D_REENTRANT -D_THREAD_SAFE -Dnanomsg_EXPORTS  -Wall -Wextra  -g -fPIC -o src/CMakeFiles/nanomsg.dir/aio/fsm.c.o -c /home/wangzhao/experiments/deneva/utils/nanomsg/src/aio/fsm.c",
+  "file": "/home/wangzhao/experiments/deneva/utils/nanomsg/src/aio/fsm.c",
+  "output": "src/CMakeFiles/nanomsg.dir/aio/fsm.c.o"
+},
+{
+  "directory": "/home/wangzhao/experiments/deneva/build",
+  "command": "/usr/bin/gcc -DNN_HAVE_ACCEPT4=1 -DNN_HAVE_BACKTRACE=1 -DNN_HAVE_CLOCK_GETTIME=1 -DNN_HAVE_CLOCK_MONOTONIC=1 -DNN_HAVE_EPOLL=1 -DNN_HAVE_EVENTFD=1 -DNN_HAVE_GCC_ATOMIC_BUILTINS -DNN_HAVE_GETADDRINFO_A=1 -DNN_HAVE_LIBNSL=1 -DNN_HAVE_LINUX -DNN_HAVE_MSG_CONTROL=1 -DNN_HAVE_PIPE2=1 -DNN_HAVE_PIPE=1 -DNN_HAVE_POLL=1 -DNN_HAVE_SEMAPHORE -DNN_HAVE_SEMAPHORE_PTHREAD=1 -DNN_HAVE_SOCKETPAIR=1 -DNN_HAVE_UNIX_SOCKETS=1 -DNN_MAX_SOCKETS=512 -DNN_SHARED_LIB -DNN_USE_EPOLL -DNN_USE_EVENTFD -D_GNU_SOURCE -D_POSIX_PTHREAD_SEMANTICS -D_REENTRANT -D_THREAD_SAFE -Dnanomsg_EXPORTS  -Wall -Wextra  -g -fPIC -o src/CMakeFiles/nanomsg.dir/aio/pool.c.o -c /home/wangzhao/experiments/deneva/utils/nanomsg/src/aio/pool.c",
+  "file": "/home/wangzhao/experiments/deneva/utils/nanomsg/src/aio/pool.c",
+  "output": "src/CMakeFiles/nanomsg.dir/aio/pool.c.o"
+},
+{
+  "directory": "/home/wangzhao/experiments/deneva/build",
+  "command": "/usr/bin/gcc -DNN_HAVE_ACCEPT4=1 -DNN_HAVE_BACKTRACE=1 -DNN_HAVE_CLOCK_GETTIME=1 -DNN_HAVE_CLOCK_MONOTONIC=1 -DNN_HAVE_EPOLL=1 -DNN_HAVE_EVENTFD=1 -DNN_HAVE_GCC_ATOMIC_BUILTINS -DNN_HAVE_GETADDRINFO_A=1 -DNN_HAVE_LIBNSL=1 -DNN_HAVE_LINUX -DNN_HAVE_MSG_CONTROL=1 -DNN_HAVE_PIPE2=1 -DNN_HAVE_PIPE=1 -DNN_HAVE_POLL=1 -DNN_HAVE_SEMAPHORE -DNN_HAVE_SEMAPHORE_PTHREAD=1 -DNN_HAVE_SOCKETPAIR=1 -DNN_HAVE_UNIX_SOCKETS=1 -DNN_MAX_SOCKETS=512 -DNN_SHARED_LIB -DNN_USE_EPOLL -DNN_USE_EVENTFD -D_GNU_SOURCE -D_POSIX_PTHREAD_SEMANTICS -D_REENTRANT -D_THREAD_SAFE -Dnanomsg_EXPORTS  -Wall -Wextra  -g -fPIC -o src/CMakeFiles/nanomsg.dir/aio/timer.c.o -c /home/wangzhao/experiments/deneva/utils/nanomsg/src/aio/timer.c",
+  "file": "/home/wangzhao/experiments/deneva/utils/nanomsg/src/aio/timer.c",
+  "output": "src/CMakeFiles/nanomsg.dir/aio/timer.c.o"
+},
+{
+  "directory": "/home/wangzhao/experiments/deneva/build",
+  "command": "/usr/bin/gcc -DNN_HAVE_ACCEPT4=1 -DNN_HAVE_BACKTRACE=1 -DNN_HAVE_CLOCK_GETTIME=1 -DNN_HAVE_CLOCK_MONOTONIC=1 -DNN_HAVE_EPOLL=1 -DNN_HAVE_EVENTFD=1 -DNN_HAVE_GCC_ATOMIC_BUILTINS -DNN_HAVE_GETADDRINFO_A=1 -DNN_HAVE_LIBNSL=1 -DNN_HAVE_LINUX -DNN_HAVE_MSG_CONTROL=1 -DNN_HAVE_PIPE2=1 -DNN_HAVE_PIPE=1 -DNN_HAVE_POLL=1 -DNN_HAVE_SEMAPHORE -DNN_HAVE_SEMAPHORE_PTHREAD=1 -DNN_HAVE_SOCKETPAIR=1 -DNN_HAVE_UNIX_SOCKETS=1 -DNN_MAX_SOCKETS=512 -DNN_SHARED_LIB -DNN_USE_EPOLL -DNN_USE_EVENTFD -D_GNU_SOURCE -D_POSIX_PTHREAD_SEMANTICS -D_REENTRANT -D_THREAD_SAFE -Dnanomsg_EXPORTS  -Wall -Wextra  -g -fPIC -o src/CMakeFiles/nanomsg.dir/aio/timerset.c.o -c /home/wangzhao/experiments/deneva/utils/nanomsg/src/aio/timerset.c",
+  "file": "/home/wangzhao/experiments/deneva/utils/nanomsg/src/aio/timerset.c",
+  "output": "src/CMakeFiles/nanomsg.dir/aio/timerset.c.o"
+},
+{
+  "directory": "/home/wangzhao/experiments/deneva/build",
+  "command": "/usr/bin/gcc -DNN_HAVE_ACCEPT4=1 -DNN_HAVE_BACKTRACE=1 -DNN_HAVE_CLOCK_GETTIME=1 -DNN_HAVE_CLOCK_MONOTONIC=1 -DNN_HAVE_EPOLL=1 -DNN_HAVE_EVENTFD=1 -DNN_HAVE_GCC_ATOMIC_BUILTINS -DNN_HAVE_GETADDRINFO_A=1 -DNN_HAVE_LIBNSL=1 -DNN_HAVE_LINUX -DNN_HAVE_MSG_CONTROL=1 -DNN_HAVE_PIPE2=1 -DNN_HAVE_PIPE=1 -DNN_HAVE_POLL=1 -DNN_HAVE_SEMAPHORE -DNN_HAVE_SEMAPHORE_PTHREAD=1 -DNN_HAVE_SOCKETPAIR=1 -DNN_HAVE_UNIX_SOCKETS=1 -DNN_MAX_SOCKETS=512 -DNN_SHARED_LIB -DNN_USE_EPOLL -DNN_USE_EVENTFD -D_GNU_SOURCE -D_POSIX_PTHREAD_SEMANTICS -D_REENTRANT -D_THREAD_SAFE -Dnanomsg_EXPORTS  -Wall -Wextra  -g -fPIC -o src/CMakeFiles/nanomsg.dir/aio/usock.c.o -c /home/wangzhao/experiments/deneva/utils/nanomsg/src/aio/usock.c",
+  "file": "/home/wangzhao/experiments/deneva/utils/nanomsg/src/aio/usock.c",
+  "output": "src/CMakeFiles/nanomsg.dir/aio/usock.c.o"
+},
+{
+  "directory": "/home/wangzhao/experiments/deneva/build",
+  "command": "/usr/bin/gcc -DNN_HAVE_ACCEPT4=1 -DNN_HAVE_BACKTRACE=1 -DNN_HAVE_CLOCK_GETTIME=1 -DNN_HAVE_CLOCK_MONOTONIC=1 -DNN_HAVE_EPOLL=1 -DNN_HAVE_EVENTFD=1 -DNN_HAVE_GCC_ATOMIC_BUILTINS -DNN_HAVE_GETADDRINFO_A=1 -DNN_HAVE_LIBNSL=1 -DNN_HAVE_LINUX -DNN_HAVE_MSG_CONTROL=1 -DNN_HAVE_PIPE2=1 -DNN_HAVE_PIPE=1 -DNN_HAVE_POLL=1 -DNN_HAVE_SEMAPHORE -DNN_HAVE_SEMAPHORE_PTHREAD=1 -DNN_HAVE_SOCKETPAIR=1 -DNN_HAVE_UNIX_SOCKETS=1 -DNN_MAX_SOCKETS=512 -DNN_SHARED_LIB -DNN_USE_EPOLL -DNN_USE_EVENTFD -D_GNU_SOURCE -D_POSIX_PTHREAD_SEMANTICS -D_REENTRANT -D_THREAD_SAFE -Dnanomsg_EXPORTS  -Wall -Wextra  -g -fPIC -o src/CMakeFiles/nanomsg.dir/aio/worker.c.o -c /home/wangzhao/experiments/deneva/utils/nanomsg/src/aio/worker.c",
+  "file": "/home/wangzhao/experiments/deneva/utils/nanomsg/src/aio/worker.c",
+  "output": "src/CMakeFiles/nanomsg.dir/aio/worker.c.o"
+},
+{
+  "directory": "/home/wangzhao/experiments/deneva/build",
+  "command": "/usr/bin/gcc -DNN_HAVE_ACCEPT4=1 -DNN_HAVE_BACKTRACE=1 -DNN_HAVE_CLOCK_GETTIME=1 -DNN_HAVE_CLOCK_MONOTONIC=1 -DNN_HAVE_EPOLL=1 -DNN_HAVE_EVENTFD=1 -DNN_HAVE_GCC_ATOMIC_BUILTINS -DNN_HAVE_GETADDRINFO_A=1 -DNN_HAVE_LIBNSL=1 -DNN_HAVE_LINUX -DNN_HAVE_MSG_CONTROL=1 -DNN_HAVE_PIPE2=1 -DNN_HAVE_PIPE=1 -DNN_HAVE_POLL=1 -DNN_HAVE_SEMAPHORE -DNN_HAVE_SEMAPHORE_PTHREAD=1 -DNN_HAVE_SOCKETPAIR=1 -DNN_HAVE_UNIX_SOCKETS=1 -DNN_MAX_SOCKETS=512 -DNN_SHARED_LIB -DNN_USE_EPOLL -DNN_USE_EVENTFD -D_GNU_SOURCE -D_POSIX_PTHREAD_SEMANTICS -D_REENTRANT -D_THREAD_SAFE -Dnanomsg_EXPORTS  -Wall -Wextra  -g -fPIC -o src/CMakeFiles/nanomsg.dir/utils/alloc.c.o -c /home/wangzhao/experiments/deneva/utils/nanomsg/src/utils/alloc.c",
+  "file": "/home/wangzhao/experiments/deneva/utils/nanomsg/src/utils/alloc.c",
+  "output": "src/CMakeFiles/nanomsg.dir/utils/alloc.c.o"
+},
+{
+  "directory": "/home/wangzhao/experiments/deneva/build",
+  "command": "/usr/bin/gcc -DNN_HAVE_ACCEPT4=1 -DNN_HAVE_BACKTRACE=1 -DNN_HAVE_CLOCK_GETTIME=1 -DNN_HAVE_CLOCK_MONOTONIC=1 -DNN_HAVE_EPOLL=1 -DNN_HAVE_EVENTFD=1 -DNN_HAVE_GCC_ATOMIC_BUILTINS -DNN_HAVE_GETADDRINFO_A=1 -DNN_HAVE_LIBNSL=1 -DNN_HAVE_LINUX -DNN_HAVE_MSG_CONTROL=1 -DNN_HAVE_PIPE2=1 -DNN_HAVE_PIPE=1 -DNN_HAVE_POLL=1 -DNN_HAVE_SEMAPHORE -DNN_HAVE_SEMAPHORE_PTHREAD=1 -DNN_HAVE_SOCKETPAIR=1 -DNN_HAVE_UNIX_SOCKETS=1 -DNN_MAX_SOCKETS=512 -DNN_SHARED_LIB -DNN_USE_EPOLL -DNN_USE_EVENTFD -D_GNU_SOURCE -D_POSIX_PTHREAD_SEMANTICS -D_REENTRANT -D_THREAD_SAFE -Dnanomsg_EXPORTS  -Wall -Wextra  -g -fPIC -o src/CMakeFiles/nanomsg.dir/utils/atomic.c.o -c /home/wangzhao/experiments/deneva/utils/nanomsg/src/utils/atomic.c",
+  "file": "/home/wangzhao/experiments/deneva/utils/nanomsg/src/utils/atomic.c",
+  "output": "src/CMakeFiles/nanomsg.dir/utils/atomic.c.o"
+},
+{
+  "directory": "/home/wangzhao/experiments/deneva/build",
+  "command": "/usr/bin/gcc -DNN_HAVE_ACCEPT4=1 -DNN_HAVE_BACKTRACE=1 -DNN_HAVE_CLOCK_GETTIME=1 -DNN_HAVE_CLOCK_MONOTONIC=1 -DNN_HAVE_EPOLL=1 -DNN_HAVE_EVENTFD=1 -DNN_HAVE_GCC_ATOMIC_BUILTINS -DNN_HAVE_GETADDRINFO_A=1 -DNN_HAVE_LIBNSL=1 -DNN_HAVE_LINUX -DNN_HAVE_MSG_CONTROL=1 -DNN_HAVE_PIPE2=1 -DNN_HAVE_PIPE=1 -DNN_HAVE_POLL=1 -DNN_HAVE_SEMAPHORE -DNN_HAVE_SEMAPHORE_PTHREAD=1 -DNN_HAVE_SOCKETPAIR=1 -DNN_HAVE_UNIX_SOCKETS=1 -DNN_MAX_SOCKETS=512 -DNN_SHARED_LIB -DNN_USE_EPOLL -DNN_USE_EVENTFD -D_GNU_SOURCE -D_POSIX_PTHREAD_SEMANTICS -D_REENTRANT -D_THREAD_SAFE -Dnanomsg_EXPORTS  -Wall -Wextra  -g -fPIC -o src/CMakeFiles/nanomsg.dir/utils/chunk.c.o -c /home/wangzhao/experiments/deneva/utils/nanomsg/src/utils/chunk.c",
+  "file": "/home/wangzhao/experiments/deneva/utils/nanomsg/src/utils/chunk.c",
+  "output": "src/CMakeFiles/nanomsg.dir/utils/chunk.c.o"
+},
+{
+  "directory": "/home/wangzhao/experiments/deneva/build",
+  "command": "/usr/bin/gcc -DNN_HAVE_ACCEPT4=1 -DNN_HAVE_BACKTRACE=1 -DNN_HAVE_CLOCK_GETTIME=1 -DNN_HAVE_CLOCK_MONOTONIC=1 -DNN_HAVE_EPOLL=1 -DNN_HAVE_EVENTFD=1 -DNN_HAVE_GCC_ATOMIC_BUILTINS -DNN_HAVE_GETADDRINFO_A=1 -DNN_HAVE_LIBNSL=1 -DNN_HAVE_LINUX -DNN_HAVE_MSG_CONTROL=1 -DNN_HAVE_PIPE2=1 -DNN_HAVE_PIPE=1 -DNN_HAVE_POLL=1 -DNN_HAVE_SEMAPHORE -DNN_HAVE_SEMAPHORE_PTHREAD=1 -DNN_HAVE_SOCKETPAIR=1 -DNN_HAVE_UNIX_SOCKETS=1 -DNN_MAX_SOCKETS=512 -DNN_SHARED_LIB -DNN_USE_EPOLL -DNN_USE_EVENTFD -D_GNU_SOURCE -D_POSIX_PTHREAD_SEMANTICS -D_REENTRANT -D_THREAD_SAFE -Dnanomsg_EXPORTS  -Wall -Wextra  -g -fPIC -o src/CMakeFiles/nanomsg.dir/utils/chunkref.c.o -c /home/wangzhao/experiments/deneva/utils/nanomsg/src/utils/chunkref.c",
+  "file": "/home/wangzhao/experiments/deneva/utils/nanomsg/src/utils/chunkref.c",
+  "output": "src/CMakeFiles/nanomsg.dir/utils/chunkref.c.o"
+},
+{
+  "directory": "/home/wangzhao/experiments/deneva/build",
+  "command": "/usr/bin/gcc -DNN_HAVE_ACCEPT4=1 -DNN_HAVE_BACKTRACE=1 -DNN_HAVE_CLOCK_GETTIME=1 -DNN_HAVE_CLOCK_MONOTONIC=1 -DNN_HAVE_EPOLL=1 -DNN_HAVE_EVENTFD=1 -DNN_HAVE_GCC_ATOMIC_BUILTINS -DNN_HAVE_GETADDRINFO_A=1 -DNN_HAVE_LIBNSL=1 -DNN_HAVE_LINUX -DNN_HAVE_MSG_CONTROL=1 -DNN_HAVE_PIPE2=1 -DNN_HAVE_PIPE=1 -DNN_HAVE_POLL=1 -DNN_HAVE_SEMAPHORE -DNN_HAVE_SEMAPHORE_PTHREAD=1 -DNN_HAVE_SOCKETPAIR=1 -DNN_HAVE_UNIX_SOCKETS=1 -DNN_MAX_SOCKETS=512 -DNN_SHARED_LIB -DNN_USE_EPOLL -DNN_USE_EVENTFD -D_GNU_SOURCE -D_POSIX_PTHREAD_SEMANTICS -D_REENTRANT -D_THREAD_SAFE -Dnanomsg_EXPORTS  -Wall -Wextra  -g -fPIC -o src/CMakeFiles/nanomsg.dir/utils/clock.c.o -c /home/wangzhao/experiments/deneva/utils/nanomsg/src/utils/clock.c",
+  "file": "/home/wangzhao/experiments/deneva/utils/nanomsg/src/utils/clock.c",
+  "output": "src/CMakeFiles/nanomsg.dir/utils/clock.c.o"
+},
+{
+  "directory": "/home/wangzhao/experiments/deneva/build",
+  "command": "/usr/bin/gcc -DNN_HAVE_ACCEPT4=1 -DNN_HAVE_BACKTRACE=1 -DNN_HAVE_CLOCK_GETTIME=1 -DNN_HAVE_CLOCK_MONOTONIC=1 -DNN_HAVE_EPOLL=1 -DNN_HAVE_EVENTFD=1 -DNN_HAVE_GCC_ATOMIC_BUILTINS -DNN_HAVE_GETADDRINFO_A=1 -DNN_HAVE_LIBNSL=1 -DNN_HAVE_LINUX -DNN_HAVE_MSG_CONTROL=1 -DNN_HAVE_PIPE2=1 -DNN_HAVE_PIPE=1 -DNN_HAVE_POLL=1 -DNN_HAVE_SEMAPHORE -DNN_HAVE_SEMAPHORE_PTHREAD=1 -DNN_HAVE_SOCKETPAIR=1 -DNN_HAVE_UNIX_SOCKETS=1 -DNN_MAX_SOCKETS=512 -DNN_SHARED_LIB -DNN_USE_EPOLL -DNN_USE_EVENTFD -D_GNU_SOURCE -D_POSIX_PTHREAD_SEMANTICS -D_REENTRANT -D_THREAD_SAFE -Dnanomsg_EXPORTS  -Wall -Wextra  -g -fPIC -o src/CMakeFiles/nanomsg.dir/utils/closefd.c.o -c /home/wangzhao/experiments/deneva/utils/nanomsg/src/utils/closefd.c",
+  "file": "/home/wangzhao/experiments/deneva/utils/nanomsg/src/utils/closefd.c",
+  "output": "src/CMakeFiles/nanomsg.dir/utils/closefd.c.o"
+},
+{
+  "directory": "/home/wangzhao/experiments/deneva/build",
+  "command": "/usr/bin/gcc -DNN_HAVE_ACCEPT4=1 -DNN_HAVE_BACKTRACE=1 -DNN_HAVE_CLOCK_GETTIME=1 -DNN_HAVE_CLOCK_MONOTONIC=1 -DNN_HAVE_EPOLL=1 -DNN_HAVE_EVENTFD=1 -DNN_HAVE_GCC_ATOMIC_BUILTINS -DNN_HAVE_GETADDRINFO_A=1 -DNN_HAVE_LIBNSL=1 -DNN_HAVE_LINUX -DNN_HAVE_MSG_CONTROL=1 -DNN_HAVE_PIPE2=1 -DNN_HAVE_PIPE=1 -DNN_HAVE_POLL=1 -DNN_HAVE_SEMAPHORE -DNN_HAVE_SEMAPHORE_PTHREAD=1 -DNN_HAVE_SOCKETPAIR=1 -DNN_HAVE_UNIX_SOCKETS=1 -DNN_MAX_SOCKETS=512 -DNN_SHARED_LIB -DNN_USE_EPOLL -DNN_USE_EVENTFD -D_GNU_SOURCE -D_POSIX_PTHREAD_SEMANTICS -D_REENTRANT -D_THREAD_SAFE -Dnanomsg_EXPORTS  -Wall -Wextra  -g -fPIC -o src/CMakeFiles/nanomsg.dir/utils/efd.c.o -c /home/wangzhao/experiments/deneva/utils/nanomsg/src/utils/efd.c",
+  "file": "/home/wangzhao/experiments/deneva/utils/nanomsg/src/utils/efd.c",
+  "output": "src/CMakeFiles/nanomsg.dir/utils/efd.c.o"
+},
+{
+  "directory": "/home/wangzhao/experiments/deneva/build",
+  "command": "/usr/bin/gcc -DNN_HAVE_ACCEPT4=1 -DNN_HAVE_BACKTRACE=1 -DNN_HAVE_CLOCK_GETTIME=1 -DNN_HAVE_CLOCK_MONOTONIC=1 -DNN_HAVE_EPOLL=1 -DNN_HAVE_EVENTFD=1 -DNN_HAVE_GCC_ATOMIC_BUILTINS -DNN_HAVE_GETADDRINFO_A=1 -DNN_HAVE_LIBNSL=1 -DNN_HAVE_LINUX -DNN_HAVE_MSG_CONTROL=1 -DNN_HAVE_PIPE2=1 -DNN_HAVE_PIPE=1 -DNN_HAVE_POLL=1 -DNN_HAVE_SEMAPHORE -DNN_HAVE_SEMAPHORE_PTHREAD=1 -DNN_HAVE_SOCKETPAIR=1 -DNN_HAVE_UNIX_SOCKETS=1 -DNN_MAX_SOCKETS=512 -DNN_SHARED_LIB -DNN_USE_EPOLL -DNN_USE_EVENTFD -D_GNU_SOURCE -D_POSIX_PTHREAD_SEMANTICS -D_REENTRANT -D_THREAD_SAFE -Dnanomsg_EXPORTS  -Wall -Wextra  -g -fPIC -o src/CMakeFiles/nanomsg.dir/utils/err.c.o -c /home/wangzhao/experiments/deneva/utils/nanomsg/src/utils/err.c",
+  "file": "/home/wangzhao/experiments/deneva/utils/nanomsg/src/utils/err.c",
+  "output": "src/CMakeFiles/nanomsg.dir/utils/err.c.o"
+},
+{
+  "directory": "/home/wangzhao/experiments/deneva/build",
+  "command": "/usr/bin/gcc -DNN_HAVE_ACCEPT4=1 -DNN_HAVE_BACKTRACE=1 -DNN_HAVE_CLOCK_GETTIME=1 -DNN_HAVE_CLOCK_MONOTONIC=1 -DNN_HAVE_EPOLL=1 -DNN_HAVE_EVENTFD=1 -DNN_HAVE_GCC_ATOMIC_BUILTINS -DNN_HAVE_GETADDRINFO_A=1 -DNN_HAVE_LIBNSL=1 -DNN_HAVE_LINUX -DNN_HAVE_MSG_CONTROL=1 -DNN_HAVE_PIPE2=1 -DNN_HAVE_PIPE=1 -DNN_HAVE_POLL=1 -DNN_HAVE_SEMAPHORE -DNN_HAVE_SEMAPHORE_PTHREAD=1 -DNN_HAVE_SOCKETPAIR=1 -DNN_HAVE_UNIX_SOCKETS=1 -DNN_MAX_SOCKETS=512 -DNN_SHARED_LIB -DNN_USE_EPOLL -DNN_USE_EVENTFD -D_GNU_SOURCE -D_POSIX_PTHREAD_SEMANTICS -D_REENTRANT -D_THREAD_SAFE -Dnanomsg_EXPORTS  -Wall -Wextra  -g -fPIC -o src/CMakeFiles/nanomsg.dir/utils/hash.c.o -c /home/wangzhao/experiments/deneva/utils/nanomsg/src/utils/hash.c",
+  "file": "/home/wangzhao/experiments/deneva/utils/nanomsg/src/utils/hash.c",
+  "output": "src/CMakeFiles/nanomsg.dir/utils/hash.c.o"
+},
+{
+  "directory": "/home/wangzhao/experiments/deneva/build",
+  "command": "/usr/bin/gcc -DNN_HAVE_ACCEPT4=1 -DNN_HAVE_BACKTRACE=1 -DNN_HAVE_CLOCK_GETTIME=1 -DNN_HAVE_CLOCK_MONOTONIC=1 -DNN_HAVE_EPOLL=1 -DNN_HAVE_EVENTFD=1 -DNN_HAVE_GCC_ATOMIC_BUILTINS -DNN_HAVE_GETADDRINFO_A=1 -DNN_HAVE_LIBNSL=1 -DNN_HAVE_LINUX -DNN_HAVE_MSG_CONTROL=1 -DNN_HAVE_PIPE2=1 -DNN_HAVE_PIPE=1 -DNN_HAVE_POLL=1 -DNN_HAVE_SEMAPHORE -DNN_HAVE_SEMAPHORE_PTHREAD=1 -DNN_HAVE_SOCKETPAIR=1 -DNN_HAVE_UNIX_SOCKETS=1 -DNN_MAX_SOCKETS=512 -DNN_SHARED_LIB -DNN_USE_EPOLL -DNN_USE_EVENTFD -D_GNU_SOURCE -D_POSIX_PTHREAD_SEMANTICS -D_REENTRANT -D_THREAD_SAFE -Dnanomsg_EXPORTS  -Wall -Wextra  -g -fPIC -o src/CMakeFiles/nanomsg.dir/utils/list.c.o -c /home/wangzhao/experiments/deneva/utils/nanomsg/src/utils/list.c",
+  "file": "/home/wangzhao/experiments/deneva/utils/nanomsg/src/utils/list.c",
+  "output": "src/CMakeFiles/nanomsg.dir/utils/list.c.o"
+},
+{
+  "directory": "/home/wangzhao/experiments/deneva/build",
+  "command": "/usr/bin/gcc -DNN_HAVE_ACCEPT4=1 -DNN_HAVE_BACKTRACE=1 -DNN_HAVE_CLOCK_GETTIME=1 -DNN_HAVE_CLOCK_MONOTONIC=1 -DNN_HAVE_EPOLL=1 -DNN_HAVE_EVENTFD=1 -DNN_HAVE_GCC_ATOMIC_BUILTINS -DNN_HAVE_GETADDRINFO_A=1 -DNN_HAVE_LIBNSL=1 -DNN_HAVE_LINUX -DNN_HAVE_MSG_CONTROL=1 -DNN_HAVE_PIPE2=1 -DNN_HAVE_PIPE=1 -DNN_HAVE_POLL=1 -DNN_HAVE_SEMAPHORE -DNN_HAVE_SEMAPHORE_PTHREAD=1 -DNN_HAVE_SOCKETPAIR=1 -DNN_HAVE_UNIX_SOCKETS=1 -DNN_MAX_SOCKETS=512 -DNN_SHARED_LIB -DNN_USE_EPOLL -DNN_USE_EVENTFD -D_GNU_SOURCE -D_POSIX_PTHREAD_SEMANTICS -D_REENTRANT -D_THREAD_SAFE -Dnanomsg_EXPORTS  -Wall -Wextra  -g -fPIC -o src/CMakeFiles/nanomsg.dir/utils/msg.c.o -c /home/wangzhao/experiments/deneva/utils/nanomsg/src/utils/msg.c",
+  "file": "/home/wangzhao/experiments/deneva/utils/nanomsg/src/utils/msg.c",
+  "output": "src/CMakeFiles/nanomsg.dir/utils/msg.c.o"
+},
+{
+  "directory": "/home/wangzhao/experiments/deneva/build",
+  "command": "/usr/bin/gcc -DNN_HAVE_ACCEPT4=1 -DNN_HAVE_BACKTRACE=1 -DNN_HAVE_CLOCK_GETTIME=1 -DNN_HAVE_CLOCK_MONOTONIC=1 -DNN_HAVE_EPOLL=1 -DNN_HAVE_EVENTFD=1 -DNN_HAVE_GCC_ATOMIC_BUILTINS -DNN_HAVE_GETADDRINFO_A=1 -DNN_HAVE_LIBNSL=1 -DNN_HAVE_LINUX -DNN_HAVE_MSG_CONTROL=1 -DNN_HAVE_PIPE2=1 -DNN_HAVE_PIPE=1 -DNN_HAVE_POLL=1 -DNN_HAVE_SEMAPHORE -DNN_HAVE_SEMAPHORE_PTHREAD=1 -DNN_HAVE_SOCKETPAIR=1 -DNN_HAVE_UNIX_SOCKETS=1 -DNN_MAX_SOCKETS=512 -DNN_SHARED_LIB -DNN_USE_EPOLL -DNN_USE_EVENTFD -D_GNU_SOURCE -D_POSIX_PTHREAD_SEMANTICS -D_REENTRANT -D_THREAD_SAFE -Dnanomsg_EXPORTS  -Wall -Wextra  -g -fPIC -o src/CMakeFiles/nanomsg.dir/utils/condvar.c.o -c /home/wangzhao/experiments/deneva/utils/nanomsg/src/utils/condvar.c",
+  "file": "/home/wangzhao/experiments/deneva/utils/nanomsg/src/utils/condvar.c",
+  "output": "src/CMakeFiles/nanomsg.dir/utils/condvar.c.o"
+},
+{
+  "directory": "/home/wangzhao/experiments/deneva/build",
+  "command": "/usr/bin/gcc -DNN_HAVE_ACCEPT4=1 -DNN_HAVE_BACKTRACE=1 -DNN_HAVE_CLOCK_GETTIME=1 -DNN_HAVE_CLOCK_MONOTONIC=1 -DNN_HAVE_EPOLL=1 -DNN_HAVE_EVENTFD=1 -DNN_HAVE_GCC_ATOMIC_BUILTINS -DNN_HAVE_GETADDRINFO_A=1 -DNN_HAVE_LIBNSL=1 -DNN_HAVE_LINUX -DNN_HAVE_MSG_CONTROL=1 -DNN_HAVE_PIPE2=1 -DNN_HAVE_PIPE=1 -DNN_HAVE_POLL=1 -DNN_HAVE_SEMAPHORE -DNN_HAVE_SEMAPHORE_PTHREAD=1 -DNN_HAVE_SOCKETPAIR=1 -DNN_HAVE_UNIX_SOCKETS=1 -DNN_MAX_SOCKETS=512 -DNN_SHARED_LIB -DNN_USE_EPOLL -DNN_USE_EVENTFD -D_GNU_SOURCE -D_POSIX_PTHREAD_SEMANTICS -D_REENTRANT -D_THREAD_SAFE -Dnanomsg_EXPORTS  -Wall -Wextra  -g -fPIC -o src/CMakeFiles/nanomsg.dir/utils/mutex.c.o -c /home/wangzhao/experiments/deneva/utils/nanomsg/src/utils/mutex.c",
+  "file": "/home/wangzhao/experiments/deneva/utils/nanomsg/src/utils/mutex.c",
+  "output": "src/CMakeFiles/nanomsg.dir/utils/mutex.c.o"
+},
+{
+  "directory": "/home/wangzhao/experiments/deneva/build",
+  "command": "/usr/bin/gcc -DNN_HAVE_ACCEPT4=1 -DNN_HAVE_BACKTRACE=1 -DNN_HAVE_CLOCK_GETTIME=1 -DNN_HAVE_CLOCK_MONOTONIC=1 -DNN_HAVE_EPOLL=1 -DNN_HAVE_EVENTFD=1 -DNN_HAVE_GCC_ATOMIC_BUILTINS -DNN_HAVE_GETADDRINFO_A=1 -DNN_HAVE_LIBNSL=1 -DNN_HAVE_LINUX -DNN_HAVE_MSG_CONTROL=1 -DNN_HAVE_PIPE2=1 -DNN_HAVE_PIPE=1 -DNN_HAVE_POLL=1 -DNN_HAVE_SEMAPHORE -DNN_HAVE_SEMAPHORE_PTHREAD=1 -DNN_HAVE_SOCKETPAIR=1 -DNN_HAVE_UNIX_SOCKETS=1 -DNN_MAX_SOCKETS=512 -DNN_SHARED_LIB -DNN_USE_EPOLL -DNN_USE_EVENTFD -D_GNU_SOURCE -D_POSIX_PTHREAD_SEMANTICS -D_REENTRANT -D_THREAD_SAFE -Dnanomsg_EXPORTS  -Wall -Wextra  -g -fPIC -o src/CMakeFiles/nanomsg.dir/utils/once.c.o -c /home/wangzhao/experiments/deneva/utils/nanomsg/src/utils/once.c",
+  "file": "/home/wangzhao/experiments/deneva/utils/nanomsg/src/utils/once.c",
+  "output": "src/CMakeFiles/nanomsg.dir/utils/once.c.o"
+},
+{
+  "directory": "/home/wangzhao/experiments/deneva/build",
+  "command": "/usr/bin/gcc -DNN_HAVE_ACCEPT4=1 -DNN_HAVE_BACKTRACE=1 -DNN_HAVE_CLOCK_GETTIME=1 -DNN_HAVE_CLOCK_MONOTONIC=1 -DNN_HAVE_EPOLL=1 -DNN_HAVE_EVENTFD=1 -DNN_HAVE_GCC_ATOMIC_BUILTINS -DNN_HAVE_GETADDRINFO_A=1 -DNN_HAVE_LIBNSL=1 -DNN_HAVE_LINUX -DNN_HAVE_MSG_CONTROL=1 -DNN_HAVE_PIPE2=1 -DNN_HAVE_PIPE=1 -DNN_HAVE_POLL=1 -DNN_HAVE_SEMAPHORE -DNN_HAVE_SEMAPHORE_PTHREAD=1 -DNN_HAVE_SOCKETPAIR=1 -DNN_HAVE_UNIX_SOCKETS=1 -DNN_MAX_SOCKETS=512 -DNN_SHARED_LIB -DNN_USE_EPOLL -DNN_USE_EVENTFD -D_GNU_SOURCE -D_POSIX_PTHREAD_SEMANTICS -D_REENTRANT -D_THREAD_SAFE -Dnanomsg_EXPORTS  -Wall -Wextra  -g -fPIC -o src/CMakeFiles/nanomsg.dir/utils/queue.c.o -c /home/wangzhao/experiments/deneva/utils/nanomsg/src/utils/queue.c",
+  "file": "/home/wangzhao/experiments/deneva/utils/nanomsg/src/utils/queue.c",
+  "output": "src/CMakeFiles/nanomsg.dir/utils/queue.c.o"
+},
+{
+  "directory": "/home/wangzhao/experiments/deneva/build",
+  "command": "/usr/bin/gcc -DNN_HAVE_ACCEPT4=1 -DNN_HAVE_BACKTRACE=1 -DNN_HAVE_CLOCK_GETTIME=1 -DNN_HAVE_CLOCK_MONOTONIC=1 -DNN_HAVE_EPOLL=1 -DNN_HAVE_EVENTFD=1 -DNN_HAVE_GCC_ATOMIC_BUILTINS -DNN_HAVE_GETADDRINFO_A=1 -DNN_HAVE_LIBNSL=1 -DNN_HAVE_LINUX -DNN_HAVE_MSG_CONTROL=1 -DNN_HAVE_PIPE2=1 -DNN_HAVE_PIPE=1 -DNN_HAVE_POLL=1 -DNN_HAVE_SEMAPHORE -DNN_HAVE_SEMAPHORE_PTHREAD=1 -DNN_HAVE_SOCKETPAIR=1 -DNN_HAVE_UNIX_SOCKETS=1 -DNN_MAX_SOCKETS=512 -DNN_SHARED_LIB -DNN_USE_EPOLL -DNN_USE_EVENTFD -D_GNU_SOURCE -D_POSIX_PTHREAD_SEMANTICS -D_REENTRANT -D_THREAD_SAFE -Dnanomsg_EXPORTS  -Wall -Wextra  -g -fPIC -o src/CMakeFiles/nanomsg.dir/utils/random.c.o -c /home/wangzhao/experiments/deneva/utils/nanomsg/src/utils/random.c",
+  "file": "/home/wangzhao/experiments/deneva/utils/nanomsg/src/utils/random.c",
+  "output": "src/CMakeFiles/nanomsg.dir/utils/random.c.o"
+},
+{
+  "directory": "/home/wangzhao/experiments/deneva/build",
+  "command": "/usr/bin/gcc -DNN_HAVE_ACCEPT4=1 -DNN_HAVE_BACKTRACE=1 -DNN_HAVE_CLOCK_GETTIME=1 -DNN_HAVE_CLOCK_MONOTONIC=1 -DNN_HAVE_EPOLL=1 -DNN_HAVE_EVENTFD=1 -DNN_HAVE_GCC_ATOMIC_BUILTINS -DNN_HAVE_GETADDRINFO_A=1 -DNN_HAVE_LIBNSL=1 -DNN_HAVE_LINUX -DNN_HAVE_MSG_CONTROL=1 -DNN_HAVE_PIPE2=1 -DNN_HAVE_PIPE=1 -DNN_HAVE_POLL=1 -DNN_HAVE_SEMAPHORE -DNN_HAVE_SEMAPHORE_PTHREAD=1 -DNN_HAVE_SOCKETPAIR=1 -DNN_HAVE_UNIX_SOCKETS=1 -DNN_MAX_SOCKETS=512 -DNN_SHARED_LIB -DNN_USE_EPOLL -DNN_USE_EVENTFD -D_GNU_SOURCE -D_POSIX_PTHREAD_SEMANTICS -D_REENTRANT -D_THREAD_SAFE -Dnanomsg_EXPORTS  -Wall -Wextra  -g -fPIC -o src/CMakeFiles/nanomsg.dir/utils/sem.c.o -c /home/wangzhao/experiments/deneva/utils/nanomsg/src/utils/sem.c",
+  "file": "/home/wangzhao/experiments/deneva/utils/nanomsg/src/utils/sem.c",
+  "output": "src/CMakeFiles/nanomsg.dir/utils/sem.c.o"
+},
+{
+  "directory": "/home/wangzhao/experiments/deneva/build",
+  "command": "/usr/bin/gcc -DNN_HAVE_ACCEPT4=1 -DNN_HAVE_BACKTRACE=1 -DNN_HAVE_CLOCK_GETTIME=1 -DNN_HAVE_CLOCK_MONOTONIC=1 -DNN_HAVE_EPOLL=1 -DNN_HAVE_EVENTFD=1 -DNN_HAVE_GCC_ATOMIC_BUILTINS -DNN_HAVE_GETADDRINFO_A=1 -DNN_HAVE_LIBNSL=1 -DNN_HAVE_LINUX -DNN_HAVE_MSG_CONTROL=1 -DNN_HAVE_PIPE2=1 -DNN_HAVE_PIPE=1 -DNN_HAVE_POLL=1 -DNN_HAVE_SEMAPHORE -DNN_HAVE_SEMAPHORE_PTHREAD=1 -DNN_HAVE_SOCKETPAIR=1 -DNN_HAVE_UNIX_SOCKETS=1 -DNN_MAX_SOCKETS=512 -DNN_SHARED_LIB -DNN_USE_EPOLL -DNN_USE_EVENTFD -D_GNU_SOURCE -D_POSIX_PTHREAD_SEMANTICS -D_REENTRANT -D_THREAD_SAFE -Dnanomsg_EXPORTS  -Wall -Wextra  -g -fPIC -o src/CMakeFiles/nanomsg.dir/utils/sleep.c.o -c /home/wangzhao/experiments/deneva/utils/nanomsg/src/utils/sleep.c",
+  "file": "/home/wangzhao/experiments/deneva/utils/nanomsg/src/utils/sleep.c",
+  "output": "src/CMakeFiles/nanomsg.dir/utils/sleep.c.o"
+},
+{
+  "directory": "/home/wangzhao/experiments/deneva/build",
+  "command": "/usr/bin/gcc -DNN_HAVE_ACCEPT4=1 -DNN_HAVE_BACKTRACE=1 -DNN_HAVE_CLOCK_GETTIME=1 -DNN_HAVE_CLOCK_MONOTONIC=1 -DNN_HAVE_EPOLL=1 -DNN_HAVE_EVENTFD=1 -DNN_HAVE_GCC_ATOMIC_BUILTINS -DNN_HAVE_GETADDRINFO_A=1 -DNN_HAVE_LIBNSL=1 -DNN_HAVE_LINUX -DNN_HAVE_MSG_CONTROL=1 -DNN_HAVE_PIPE2=1 -DNN_HAVE_PIPE=1 -DNN_HAVE_POLL=1 -DNN_HAVE_SEMAPHORE -DNN_HAVE_SEMAPHORE_PTHREAD=1 -DNN_HAVE_SOCKETPAIR=1 -DNN_HAVE_UNIX_SOCKETS=1 -DNN_MAX_SOCKETS=512 -DNN_SHARED_LIB -DNN_USE_EPOLL -DNN_USE_EVENTFD -D_GNU_SOURCE -D_POSIX_PTHREAD_SEMANTICS -D_REENTRANT -D_THREAD_SAFE -Dnanomsg_EXPORTS  -Wall -Wextra  -g -fPIC -o src/CMakeFiles/nanomsg.dir/utils/strcasecmp.c.o -c /home/wangzhao/experiments/deneva/utils/nanomsg/src/utils/strcasecmp.c",
+  "file": "/home/wangzhao/experiments/deneva/utils/nanomsg/src/utils/strcasecmp.c",
+  "output": "src/CMakeFiles/nanomsg.dir/utils/strcasecmp.c.o"
+},
+{
+  "directory": "/home/wangzhao/experiments/deneva/build",
+  "command": "/usr/bin/gcc -DNN_HAVE_ACCEPT4=1 -DNN_HAVE_BACKTRACE=1 -DNN_HAVE_CLOCK_GETTIME=1 -DNN_HAVE_CLOCK_MONOTONIC=1 -DNN_HAVE_EPOLL=1 -DNN_HAVE_EVENTFD=1 -DNN_HAVE_GCC_ATOMIC_BUILTINS -DNN_HAVE_GETADDRINFO_A=1 -DNN_HAVE_LIBNSL=1 -DNN_HAVE_LINUX -DNN_HAVE_MSG_CONTROL=1 -DNN_HAVE_PIPE2=1 -DNN_HAVE_PIPE=1 -DNN_HAVE_POLL=1 -DNN_HAVE_SEMAPHORE -DNN_HAVE_SEMAPHORE_PTHREAD=1 -DNN_HAVE_SOCKETPAIR=1 -DNN_HAVE_UNIX_SOCKETS=1 -DNN_MAX_SOCKETS=512 -DNN_SHARED_LIB -DNN_USE_EPOLL -DNN_USE_EVENTFD -D_GNU_SOURCE -D_POSIX_PTHREAD_SEMANTICS -D_REENTRANT -D_THREAD_SAFE -Dnanomsg_EXPORTS  -Wall -Wextra  -g -fPIC -o src/CMakeFiles/nanomsg.dir/utils/strcasestr.c.o -c /home/wangzhao/experiments/deneva/utils/nanomsg/src/utils/strcasestr.c",
+  "file": "/home/wangzhao/experiments/deneva/utils/nanomsg/src/utils/strcasestr.c",
+  "output": "src/CMakeFiles/nanomsg.dir/utils/strcasestr.c.o"
+},
+{
+  "directory": "/home/wangzhao/experiments/deneva/build",
+  "command": "/usr/bin/gcc -DNN_HAVE_ACCEPT4=1 -DNN_HAVE_BACKTRACE=1 -DNN_HAVE_CLOCK_GETTIME=1 -DNN_HAVE_CLOCK_MONOTONIC=1 -DNN_HAVE_EPOLL=1 -DNN_HAVE_EVENTFD=1 -DNN_HAVE_GCC_ATOMIC_BUILTINS -DNN_HAVE_GETADDRINFO_A=1 -DNN_HAVE_LIBNSL=1 -DNN_HAVE_LINUX -DNN_HAVE_MSG_CONTROL=1 -DNN_HAVE_PIPE2=1 -DNN_HAVE_PIPE=1 -DNN_HAVE_POLL=1 -DNN_HAVE_SEMAPHORE -DNN_HAVE_SEMAPHORE_PTHREAD=1 -DNN_HAVE_SOCKETPAIR=1 -DNN_HAVE_UNIX_SOCKETS=1 -DNN_MAX_SOCKETS=512 -DNN_SHARED_LIB -DNN_USE_EPOLL -DNN_USE_EVENTFD -D_GNU_SOURCE -D_POSIX_PTHREAD_SEMANTICS -D_REENTRANT -D_THREAD_SAFE -Dnanomsg_EXPORTS  -Wall -Wextra  -g -fPIC -o src/CMakeFiles/nanomsg.dir/utils/strncasecmp.c.o -c /home/wangzhao/experiments/deneva/utils/nanomsg/src/utils/strncasecmp.c",
+  "file": "/home/wangzhao/experiments/deneva/utils/nanomsg/src/utils/strncasecmp.c",
+  "output": "src/CMakeFiles/nanomsg.dir/utils/strncasecmp.c.o"
+},
+{
+  "directory": "/home/wangzhao/experiments/deneva/build",
+  "command": "/usr/bin/gcc -DNN_HAVE_ACCEPT4=1 -DNN_HAVE_BACKTRACE=1 -DNN_HAVE_CLOCK_GETTIME=1 -DNN_HAVE_CLOCK_MONOTONIC=1 -DNN_HAVE_EPOLL=1 -DNN_HAVE_EVENTFD=1 -DNN_HAVE_GCC_ATOMIC_BUILTINS -DNN_HAVE_GETADDRINFO_A=1 -DNN_HAVE_LIBNSL=1 -DNN_HAVE_LINUX -DNN_HAVE_MSG_CONTROL=1 -DNN_HAVE_PIPE2=1 -DNN_HAVE_PIPE=1 -DNN_HAVE_POLL=1 -DNN_HAVE_SEMAPHORE -DNN_HAVE_SEMAPHORE_PTHREAD=1 -DNN_HAVE_SOCKETPAIR=1 -DNN_HAVE_UNIX_SOCKETS=1 -DNN_MAX_SOCKETS=512 -DNN_SHARED_LIB -DNN_USE_EPOLL -DNN_USE_EVENTFD -D_GNU_SOURCE -D_POSIX_PTHREAD_SEMANTICS -D_REENTRANT -D_THREAD_SAFE -Dnanomsg_EXPORTS  -Wall -Wextra  -g -fPIC -o src/CMakeFiles/nanomsg.dir/utils/thread.c.o -c /home/wangzhao/experiments/deneva/utils/nanomsg/src/utils/thread.c",
+  "file": "/home/wangzhao/experiments/deneva/utils/nanomsg/src/utils/thread.c",
+  "output": "src/CMakeFiles/nanomsg.dir/utils/thread.c.o"
+},
+{
+  "directory": "/home/wangzhao/experiments/deneva/build",
+  "command": "/usr/bin/gcc -DNN_HAVE_ACCEPT4=1 -DNN_HAVE_BACKTRACE=1 -DNN_HAVE_CLOCK_GETTIME=1 -DNN_HAVE_CLOCK_MONOTONIC=1 -DNN_HAVE_EPOLL=1 -DNN_HAVE_EVENTFD=1 -DNN_HAVE_GCC_ATOMIC_BUILTINS -DNN_HAVE_GETADDRINFO_A=1 -DNN_HAVE_LIBNSL=1 -DNN_HAVE_LINUX -DNN_HAVE_MSG_CONTROL=1 -DNN_HAVE_PIPE2=1 -DNN_HAVE_PIPE=1 -DNN_HAVE_POLL=1 -DNN_HAVE_SEMAPHORE -DNN_HAVE_SEMAPHORE_PTHREAD=1 -DNN_HAVE_SOCKETPAIR=1 -DNN_HAVE_UNIX_SOCKETS=1 -DNN_MAX_SOCKETS=512 -DNN_SHARED_LIB -DNN_USE_EPOLL -DNN_USE_EVENTFD -D_GNU_SOURCE -D_POSIX_PTHREAD_SEMANTICS -D_REENTRANT -D_THREAD_SAFE -Dnanomsg_EXPORTS  -Wall -Wextra  -g -fPIC -o src/CMakeFiles/nanomsg.dir/utils/wire.c.o -c /home/wangzhao/experiments/deneva/utils/nanomsg/src/utils/wire.c",
+  "file": "/home/wangzhao/experiments/deneva/utils/nanomsg/src/utils/wire.c",
+  "output": "src/CMakeFiles/nanomsg.dir/utils/wire.c.o"
+},
+{
+  "directory": "/home/wangzhao/experiments/deneva/build",
+  "command": "/usr/bin/gcc -DNN_HAVE_ACCEPT4=1 -DNN_HAVE_BACKTRACE=1 -DNN_HAVE_CLOCK_GETTIME=1 -DNN_HAVE_CLOCK_MONOTONIC=1 -DNN_HAVE_EPOLL=1 -DNN_HAVE_EVENTFD=1 -DNN_HAVE_GCC_ATOMIC_BUILTINS -DNN_HAVE_GETADDRINFO_A=1 -DNN_HAVE_LIBNSL=1 -DNN_HAVE_LINUX -DNN_HAVE_MSG_CONTROL=1 -DNN_HAVE_PIPE2=1 -DNN_HAVE_PIPE=1 -DNN_HAVE_POLL=1 -DNN_HAVE_SEMAPHORE -DNN_HAVE_SEMAPHORE_PTHREAD=1 -DNN_HAVE_SOCKETPAIR=1 -DNN_HAVE_UNIX_SOCKETS=1 -DNN_MAX_SOCKETS=512 -DNN_SHARED_LIB -DNN_USE_EPOLL -DNN_USE_EVENTFD -D_GNU_SOURCE -D_POSIX_PTHREAD_SEMANTICS -D_REENTRANT -D_THREAD_SAFE -Dnanomsg_EXPORTS  -Wall -Wextra  -g -fPIC -o src/CMakeFiles/nanomsg.dir/devices/device.c.o -c /home/wangzhao/experiments/deneva/utils/nanomsg/src/devices/device.c",
+  "file": "/home/wangzhao/experiments/deneva/utils/nanomsg/src/devices/device.c",
+  "output": "src/CMakeFiles/nanomsg.dir/devices/device.c.o"
+},
+{
+  "directory": "/home/wangzhao/experiments/deneva/build",
+  "command": "/usr/bin/gcc -DNN_HAVE_ACCEPT4=1 -DNN_HAVE_BACKTRACE=1 -DNN_HAVE_CLOCK_GETTIME=1 -DNN_HAVE_CLOCK_MONOTONIC=1 -DNN_HAVE_EPOLL=1 -DNN_HAVE_EVENTFD=1 -DNN_HAVE_GCC_ATOMIC_BUILTINS -DNN_HAVE_GETADDRINFO_A=1 -DNN_HAVE_LIBNSL=1 -DNN_HAVE_LINUX -DNN_HAVE_MSG_CONTROL=1 -DNN_HAVE_PIPE2=1 -DNN_HAVE_PIPE=1 -DNN_HAVE_POLL=1 -DNN_HAVE_SEMAPHORE -DNN_HAVE_SEMAPHORE_PTHREAD=1 -DNN_HAVE_SOCKETPAIR=1 -DNN_HAVE_UNIX_SOCKETS=1 -DNN_MAX_SOCKETS=512 -DNN_SHARED_LIB -DNN_USE_EPOLL -DNN_USE_EVENTFD -D_GNU_SOURCE -D_POSIX_PTHREAD_SEMANTICS -D_REENTRANT -D_THREAD_SAFE -Dnanomsg_EXPORTS  -Wall -Wextra  -g -fPIC -o src/CMakeFiles/nanomsg.dir/protocols/utils/dist.c.o -c /home/wangzhao/experiments/deneva/utils/nanomsg/src/protocols/utils/dist.c",
+  "file": "/home/wangzhao/experiments/deneva/utils/nanomsg/src/protocols/utils/dist.c",
+  "output": "src/CMakeFiles/nanomsg.dir/protocols/utils/dist.c.o"
+},
+{
+  "directory": "/home/wangzhao/experiments/deneva/build",
+  "command": "/usr/bin/gcc -DNN_HAVE_ACCEPT4=1 -DNN_HAVE_BACKTRACE=1 -DNN_HAVE_CLOCK_GETTIME=1 -DNN_HAVE_CLOCK_MONOTONIC=1 -DNN_HAVE_EPOLL=1 -DNN_HAVE_EVENTFD=1 -DNN_HAVE_GCC_ATOMIC_BUILTINS -DNN_HAVE_GETADDRINFO_A=1 -DNN_HAVE_LIBNSL=1 -DNN_HAVE_LINUX -DNN_HAVE_MSG_CONTROL=1 -DNN_HAVE_PIPE2=1 -DNN_HAVE_PIPE=1 -DNN_HAVE_POLL=1 -DNN_HAVE_SEMAPHORE -DNN_HAVE_SEMAPHORE_PTHREAD=1 -DNN_HAVE_SOCKETPAIR=1 -DNN_HAVE_UNIX_SOCKETS=1 -DNN_MAX_SOCKETS=512 -DNN_SHARED_LIB -DNN_USE_EPOLL -DNN_USE_EVENTFD -D_GNU_SOURCE -D_POSIX_PTHREAD_SEMANTICS -D_REENTRANT -D_THREAD_SAFE -Dnanomsg_EXPORTS  -Wall -Wextra  -g -fPIC -o src/CMakeFiles/nanomsg.dir/protocols/utils/excl.c.o -c /home/wangzhao/experiments/deneva/utils/nanomsg/src/protocols/utils/excl.c",
+  "file": "/home/wangzhao/experiments/deneva/utils/nanomsg/src/protocols/utils/excl.c",
+  "output": "src/CMakeFiles/nanomsg.dir/protocols/utils/excl.c.o"
+},
+{
+  "directory": "/home/wangzhao/experiments/deneva/build",
+  "command": "/usr/bin/gcc -DNN_HAVE_ACCEPT4=1 -DNN_HAVE_BACKTRACE=1 -DNN_HAVE_CLOCK_GETTIME=1 -DNN_HAVE_CLOCK_MONOTONIC=1 -DNN_HAVE_EPOLL=1 -DNN_HAVE_EVENTFD=1 -DNN_HAVE_GCC_ATOMIC_BUILTINS -DNN_HAVE_GETADDRINFO_A=1 -DNN_HAVE_LIBNSL=1 -DNN_HAVE_LINUX -DNN_HAVE_MSG_CONTROL=1 -DNN_HAVE_PIPE2=1 -DNN_HAVE_PIPE=1 -DNN_HAVE_POLL=1 -DNN_HAVE_SEMAPHORE -DNN_HAVE_SEMAPHORE_PTHREAD=1 -DNN_HAVE_SOCKETPAIR=1 -DNN_HAVE_UNIX_SOCKETS=1 -DNN_MAX_SOCKETS=512 -DNN_SHARED_LIB -DNN_USE_EPOLL -DNN_USE_EVENTFD -D_GNU_SOURCE -D_POSIX_PTHREAD_SEMANTICS -D_REENTRANT -D_THREAD_SAFE -Dnanomsg_EXPORTS  -Wall -Wextra  -g -fPIC -o src/CMakeFiles/nanomsg.dir/protocols/utils/fq.c.o -c /home/wangzhao/experiments/deneva/utils/nanomsg/src/protocols/utils/fq.c",
+  "file": "/home/wangzhao/experiments/deneva/utils/nanomsg/src/protocols/utils/fq.c",
+  "output": "src/CMakeFiles/nanomsg.dir/protocols/utils/fq.c.o"
+},
+{
+  "directory": "/home/wangzhao/experiments/deneva/build",
+  "command": "/usr/bin/gcc -DNN_HAVE_ACCEPT4=1 -DNN_HAVE_BACKTRACE=1 -DNN_HAVE_CLOCK_GETTIME=1 -DNN_HAVE_CLOCK_MONOTONIC=1 -DNN_HAVE_EPOLL=1 -DNN_HAVE_EVENTFD=1 -DNN_HAVE_GCC_ATOMIC_BUILTINS -DNN_HAVE_GETADDRINFO_A=1 -DNN_HAVE_LIBNSL=1 -DNN_HAVE_LINUX -DNN_HAVE_MSG_CONTROL=1 -DNN_HAVE_PIPE2=1 -DNN_HAVE_PIPE=1 -DNN_HAVE_POLL=1 -DNN_HAVE_SEMAPHORE -DNN_HAVE_SEMAPHORE_PTHREAD=1 -DNN_HAVE_SOCKETPAIR=1 -DNN_HAVE_UNIX_SOCKETS=1 -DNN_MAX_SOCKETS=512 -DNN_SHARED_LIB -DNN_USE_EPOLL -DNN_USE_EVENTFD -D_GNU_SOURCE -D_POSIX_PTHREAD_SEMANTICS -D_REENTRANT -D_THREAD_SAFE -Dnanomsg_EXPORTS  -Wall -Wextra  -g -fPIC -o src/CMakeFiles/nanomsg.dir/protocols/utils/lb.c.o -c /home/wangzhao/experiments/deneva/utils/nanomsg/src/protocols/utils/lb.c",
+  "file": "/home/wangzhao/experiments/deneva/utils/nanomsg/src/protocols/utils/lb.c",
+  "output": "src/CMakeFiles/nanomsg.dir/protocols/utils/lb.c.o"
+},
+{
+  "directory": "/home/wangzhao/experiments/deneva/build",
+  "command": "/usr/bin/gcc -DNN_HAVE_ACCEPT4=1 -DNN_HAVE_BACKTRACE=1 -DNN_HAVE_CLOCK_GETTIME=1 -DNN_HAVE_CLOCK_MONOTONIC=1 -DNN_HAVE_EPOLL=1 -DNN_HAVE_EVENTFD=1 -DNN_HAVE_GCC_ATOMIC_BUILTINS -DNN_HAVE_GETADDRINFO_A=1 -DNN_HAVE_LIBNSL=1 -DNN_HAVE_LINUX -DNN_HAVE_MSG_CONTROL=1 -DNN_HAVE_PIPE2=1 -DNN_HAVE_PIPE=1 -DNN_HAVE_POLL=1 -DNN_HAVE_SEMAPHORE -DNN_HAVE_SEMAPHORE_PTHREAD=1 -DNN_HAVE_SOCKETPAIR=1 -DNN_HAVE_UNIX_SOCKETS=1 -DNN_MAX_SOCKETS=512 -DNN_SHARED_LIB -DNN_USE_EPOLL -DNN_USE_EVENTFD -D_GNU_SOURCE -D_POSIX_PTHREAD_SEMANTICS -D_REENTRANT -D_THREAD_SAFE -Dnanomsg_EXPORTS  -Wall -Wextra  -g -fPIC -o src/CMakeFiles/nanomsg.dir/protocols/utils/priolist.c.o -c /home/wangzhao/experiments/deneva/utils/nanomsg/src/protocols/utils/priolist.c",
+  "file": "/home/wangzhao/experiments/deneva/utils/nanomsg/src/protocols/utils/priolist.c",
+  "output": "src/CMakeFiles/nanomsg.dir/protocols/utils/priolist.c.o"
+},
+{
+  "directory": "/home/wangzhao/experiments/deneva/build",
+  "command": "/usr/bin/gcc -DNN_HAVE_ACCEPT4=1 -DNN_HAVE_BACKTRACE=1 -DNN_HAVE_CLOCK_GETTIME=1 -DNN_HAVE_CLOCK_MONOTONIC=1 -DNN_HAVE_EPOLL=1 -DNN_HAVE_EVENTFD=1 -DNN_HAVE_GCC_ATOMIC_BUILTINS -DNN_HAVE_GETADDRINFO_A=1 -DNN_HAVE_LIBNSL=1 -DNN_HAVE_LINUX -DNN_HAVE_MSG_CONTROL=1 -DNN_HAVE_PIPE2=1 -DNN_HAVE_PIPE=1 -DNN_HAVE_POLL=1 -DNN_HAVE_SEMAPHORE -DNN_HAVE_SEMAPHORE_PTHREAD=1 -DNN_HAVE_SOCKETPAIR=1 -DNN_HAVE_UNIX_SOCKETS=1 -DNN_MAX_SOCKETS=512 -DNN_SHARED_LIB -DNN_USE_EPOLL -DNN_USE_EVENTFD -D_GNU_SOURCE -D_POSIX_PTHREAD_SEMANTICS -D_REENTRANT -D_THREAD_SAFE -Dnanomsg_EXPORTS  -Wall -Wextra  -g -fPIC -o src/CMakeFiles/nanomsg.dir/protocols/bus/bus.c.o -c /home/wangzhao/experiments/deneva/utils/nanomsg/src/protocols/bus/bus.c",
+  "file": "/home/wangzhao/experiments/deneva/utils/nanomsg/src/protocols/bus/bus.c",
+  "output": "src/CMakeFiles/nanomsg.dir/protocols/bus/bus.c.o"
+},
+{
+  "directory": "/home/wangzhao/experiments/deneva/build",
+  "command": "/usr/bin/gcc -DNN_HAVE_ACCEPT4=1 -DNN_HAVE_BACKTRACE=1 -DNN_HAVE_CLOCK_GETTIME=1 -DNN_HAVE_CLOCK_MONOTONIC=1 -DNN_HAVE_EPOLL=1 -DNN_HAVE_EVENTFD=1 -DNN_HAVE_GCC_ATOMIC_BUILTINS -DNN_HAVE_GETADDRINFO_A=1 -DNN_HAVE_LIBNSL=1 -DNN_HAVE_LINUX -DNN_HAVE_MSG_CONTROL=1 -DNN_HAVE_PIPE2=1 -DNN_HAVE_PIPE=1 -DNN_HAVE_POLL=1 -DNN_HAVE_SEMAPHORE -DNN_HAVE_SEMAPHORE_PTHREAD=1 -DNN_HAVE_SOCKETPAIR=1 -DNN_HAVE_UNIX_SOCKETS=1 -DNN_MAX_SOCKETS=512 -DNN_SHARED_LIB -DNN_USE_EPOLL -DNN_USE_EVENTFD -D_GNU_SOURCE -D_POSIX_PTHREAD_SEMANTICS -D_REENTRANT -D_THREAD_SAFE -Dnanomsg_EXPORTS  -Wall -Wextra  -g -fPIC -o src/CMakeFiles/nanomsg.dir/protocols/bus/xbus.c.o -c /home/wangzhao/experiments/deneva/utils/nanomsg/src/protocols/bus/xbus.c",
+  "file": "/home/wangzhao/experiments/deneva/utils/nanomsg/src/protocols/bus/xbus.c",
+  "output": "src/CMakeFiles/nanomsg.dir/protocols/bus/xbus.c.o"
+},
+{
+  "directory": "/home/wangzhao/experiments/deneva/build",
+  "command": "/usr/bin/gcc -DNN_HAVE_ACCEPT4=1 -DNN_HAVE_BACKTRACE=1 -DNN_HAVE_CLOCK_GETTIME=1 -DNN_HAVE_CLOCK_MONOTONIC=1 -DNN_HAVE_EPOLL=1 -DNN_HAVE_EVENTFD=1 -DNN_HAVE_GCC_ATOMIC_BUILTINS -DNN_HAVE_GETADDRINFO_A=1 -DNN_HAVE_LIBNSL=1 -DNN_HAVE_LINUX -DNN_HAVE_MSG_CONTROL=1 -DNN_HAVE_PIPE2=1 -DNN_HAVE_PIPE=1 -DNN_HAVE_POLL=1 -DNN_HAVE_SEMAPHORE -DNN_HAVE_SEMAPHORE_PTHREAD=1 -DNN_HAVE_SOCKETPAIR=1 -DNN_HAVE_UNIX_SOCKETS=1 -DNN_MAX_SOCKETS=512 -DNN_SHARED_LIB -DNN_USE_EPOLL -DNN_USE_EVENTFD -D_GNU_SOURCE -D_POSIX_PTHREAD_SEMANTICS -D_REENTRANT -D_THREAD_SAFE -Dnanomsg_EXPORTS  -Wall -Wextra  -g -fPIC -o src/CMakeFiles/nanomsg.dir/protocols/pipeline/push.c.o -c /home/wangzhao/experiments/deneva/utils/nanomsg/src/protocols/pipeline/push.c",
+  "file": "/home/wangzhao/experiments/deneva/utils/nanomsg/src/protocols/pipeline/push.c",
+  "output": "src/CMakeFiles/nanomsg.dir/protocols/pipeline/push.c.o"
+},
+{
+  "directory": "/home/wangzhao/experiments/deneva/build",
+  "command": "/usr/bin/gcc -DNN_HAVE_ACCEPT4=1 -DNN_HAVE_BACKTRACE=1 -DNN_HAVE_CLOCK_GETTIME=1 -DNN_HAVE_CLOCK_MONOTONIC=1 -DNN_HAVE_EPOLL=1 -DNN_HAVE_EVENTFD=1 -DNN_HAVE_GCC_ATOMIC_BUILTINS -DNN_HAVE_GETADDRINFO_A=1 -DNN_HAVE_LIBNSL=1 -DNN_HAVE_LINUX -DNN_HAVE_MSG_CONTROL=1 -DNN_HAVE_PIPE2=1 -DNN_HAVE_PIPE=1 -DNN_HAVE_POLL=1 -DNN_HAVE_SEMAPHORE -DNN_HAVE_SEMAPHORE_PTHREAD=1 -DNN_HAVE_SOCKETPAIR=1 -DNN_HAVE_UNIX_SOCKETS=1 -DNN_MAX_SOCKETS=512 -DNN_SHARED_LIB -DNN_USE_EPOLL -DNN_USE_EVENTFD -D_GNU_SOURCE -D_POSIX_PTHREAD_SEMANTICS -D_REENTRANT -D_THREAD_SAFE -Dnanomsg_EXPORTS  -Wall -Wextra  -g -fPIC -o src/CMakeFiles/nanomsg.dir/protocols/pipeline/pull.c.o -c /home/wangzhao/experiments/deneva/utils/nanomsg/src/protocols/pipeline/pull.c",
+  "file": "/home/wangzhao/experiments/deneva/utils/nanomsg/src/protocols/pipeline/pull.c",
+  "output": "src/CMakeFiles/nanomsg.dir/protocols/pipeline/pull.c.o"
+},
+{
+  "directory": "/home/wangzhao/experiments/deneva/build",
+  "command": "/usr/bin/gcc -DNN_HAVE_ACCEPT4=1 -DNN_HAVE_BACKTRACE=1 -DNN_HAVE_CLOCK_GETTIME=1 -DNN_HAVE_CLOCK_MONOTONIC=1 -DNN_HAVE_EPOLL=1 -DNN_HAVE_EVENTFD=1 -DNN_HAVE_GCC_ATOMIC_BUILTINS -DNN_HAVE_GETADDRINFO_A=1 -DNN_HAVE_LIBNSL=1 -DNN_HAVE_LINUX -DNN_HAVE_MSG_CONTROL=1 -DNN_HAVE_PIPE2=1 -DNN_HAVE_PIPE=1 -DNN_HAVE_POLL=1 -DNN_HAVE_SEMAPHORE -DNN_HAVE_SEMAPHORE_PTHREAD=1 -DNN_HAVE_SOCKETPAIR=1 -DNN_HAVE_UNIX_SOCKETS=1 -DNN_MAX_SOCKETS=512 -DNN_SHARED_LIB -DNN_USE_EPOLL -DNN_USE_EVENTFD -D_GNU_SOURCE -D_POSIX_PTHREAD_SEMANTICS -D_REENTRANT -D_THREAD_SAFE -Dnanomsg_EXPORTS  -Wall -Wextra  -g -fPIC -o src/CMakeFiles/nanomsg.dir/protocols/pipeline/xpull.c.o -c /home/wangzhao/experiments/deneva/utils/nanomsg/src/protocols/pipeline/xpull.c",
+  "file": "/home/wangzhao/experiments/deneva/utils/nanomsg/src/protocols/pipeline/xpull.c",
+  "output": "src/CMakeFiles/nanomsg.dir/protocols/pipeline/xpull.c.o"
+},
+{
+  "directory": "/home/wangzhao/experiments/deneva/build",
+  "command": "/usr/bin/gcc -DNN_HAVE_ACCEPT4=1 -DNN_HAVE_BACKTRACE=1 -DNN_HAVE_CLOCK_GETTIME=1 -DNN_HAVE_CLOCK_MONOTONIC=1 -DNN_HAVE_EPOLL=1 -DNN_HAVE_EVENTFD=1 -DNN_HAVE_GCC_ATOMIC_BUILTINS -DNN_HAVE_GETADDRINFO_A=1 -DNN_HAVE_LIBNSL=1 -DNN_HAVE_LINUX -DNN_HAVE_MSG_CONTROL=1 -DNN_HAVE_PIPE2=1 -DNN_HAVE_PIPE=1 -DNN_HAVE_POLL=1 -DNN_HAVE_SEMAPHORE -DNN_HAVE_SEMAPHORE_PTHREAD=1 -DNN_HAVE_SOCKETPAIR=1 -DNN_HAVE_UNIX_SOCKETS=1 -DNN_MAX_SOCKETS=512 -DNN_SHARED_LIB -DNN_USE_EPOLL -DNN_USE_EVENTFD -D_GNU_SOURCE -D_POSIX_PTHREAD_SEMANTICS -D_REENTRANT -D_THREAD_SAFE -Dnanomsg_EXPORTS  -Wall -Wextra  -g -fPIC -o src/CMakeFiles/nanomsg.dir/protocols/pipeline/xpush.c.o -c /home/wangzhao/experiments/deneva/utils/nanomsg/src/protocols/pipeline/xpush.c",
+  "file": "/home/wangzhao/experiments/deneva/utils/nanomsg/src/protocols/pipeline/xpush.c",
+  "output": "src/CMakeFiles/nanomsg.dir/protocols/pipeline/xpush.c.o"
+},
+{
+  "directory": "/home/wangzhao/experiments/deneva/build",
+  "command": "/usr/bin/gcc -DNN_HAVE_ACCEPT4=1 -DNN_HAVE_BACKTRACE=1 -DNN_HAVE_CLOCK_GETTIME=1 -DNN_HAVE_CLOCK_MONOTONIC=1 -DNN_HAVE_EPOLL=1 -DNN_HAVE_EVENTFD=1 -DNN_HAVE_GCC_ATOMIC_BUILTINS -DNN_HAVE_GETADDRINFO_A=1 -DNN_HAVE_LIBNSL=1 -DNN_HAVE_LINUX -DNN_HAVE_MSG_CONTROL=1 -DNN_HAVE_PIPE2=1 -DNN_HAVE_PIPE=1 -DNN_HAVE_POLL=1 -DNN_HAVE_SEMAPHORE -DNN_HAVE_SEMAPHORE_PTHREAD=1 -DNN_HAVE_SOCKETPAIR=1 -DNN_HAVE_UNIX_SOCKETS=1 -DNN_MAX_SOCKETS=512 -DNN_SHARED_LIB -DNN_USE_EPOLL -DNN_USE_EVENTFD -D_GNU_SOURCE -D_POSIX_PTHREAD_SEMANTICS -D_REENTRANT -D_THREAD_SAFE -Dnanomsg_EXPORTS  -Wall -Wextra  -g -fPIC -o src/CMakeFiles/nanomsg.dir/protocols/pair/pair.c.o -c /home/wangzhao/experiments/deneva/utils/nanomsg/src/protocols/pair/pair.c",
+  "file": "/home/wangzhao/experiments/deneva/utils/nanomsg/src/protocols/pair/pair.c",
+  "output": "src/CMakeFiles/nanomsg.dir/protocols/pair/pair.c.o"
+},
+{
+  "directory": "/home/wangzhao/experiments/deneva/build",
+  "command": "/usr/bin/gcc -DNN_HAVE_ACCEPT4=1 -DNN_HAVE_BACKTRACE=1 -DNN_HAVE_CLOCK_GETTIME=1 -DNN_HAVE_CLOCK_MONOTONIC=1 -DNN_HAVE_EPOLL=1 -DNN_HAVE_EVENTFD=1 -DNN_HAVE_GCC_ATOMIC_BUILTINS -DNN_HAVE_GETADDRINFO_A=1 -DNN_HAVE_LIBNSL=1 -DNN_HAVE_LINUX -DNN_HAVE_MSG_CONTROL=1 -DNN_HAVE_PIPE2=1 -DNN_HAVE_PIPE=1 -DNN_HAVE_POLL=1 -DNN_HAVE_SEMAPHORE -DNN_HAVE_SEMAPHORE_PTHREAD=1 -DNN_HAVE_SOCKETPAIR=1 -DNN_HAVE_UNIX_SOCKETS=1 -DNN_MAX_SOCKETS=512 -DNN_SHARED_LIB -DNN_USE_EPOLL -DNN_USE_EVENTFD -D_GNU_SOURCE -D_POSIX_PTHREAD_SEMANTICS -D_REENTRANT -D_THREAD_SAFE -Dnanomsg_EXPORTS  -Wall -Wextra  -g -fPIC -o src/CMakeFiles/nanomsg.dir/protocols/pair/xpair.c.o -c /home/wangzhao/experiments/deneva/utils/nanomsg/src/protocols/pair/xpair.c",
+  "file": "/home/wangzhao/experiments/deneva/utils/nanomsg/src/protocols/pair/xpair.c",
+  "output": "src/CMakeFiles/nanomsg.dir/protocols/pair/xpair.c.o"
+},
+{
+  "directory": "/home/wangzhao/experiments/deneva/build",
+  "command": "/usr/bin/gcc -DNN_HAVE_ACCEPT4=1 -DNN_HAVE_BACKTRACE=1 -DNN_HAVE_CLOCK_GETTIME=1 -DNN_HAVE_CLOCK_MONOTONIC=1 -DNN_HAVE_EPOLL=1 -DNN_HAVE_EVENTFD=1 -DNN_HAVE_GCC_ATOMIC_BUILTINS -DNN_HAVE_GETADDRINFO_A=1 -DNN_HAVE_LIBNSL=1 -DNN_HAVE_LINUX -DNN_HAVE_MSG_CONTROL=1 -DNN_HAVE_PIPE2=1 -DNN_HAVE_PIPE=1 -DNN_HAVE_POLL=1 -DNN_HAVE_SEMAPHORE -DNN_HAVE_SEMAPHORE_PTHREAD=1 -DNN_HAVE_SOCKETPAIR=1 -DNN_HAVE_UNIX_SOCKETS=1 -DNN_MAX_SOCKETS=512 -DNN_SHARED_LIB -DNN_USE_EPOLL -DNN_USE_EVENTFD -D_GNU_SOURCE -D_POSIX_PTHREAD_SEMANTICS -D_REENTRANT -D_THREAD_SAFE -Dnanomsg_EXPORTS  -Wall -Wextra  -g -fPIC -o src/CMakeFiles/nanomsg.dir/protocols/pubsub/pub.c.o -c /home/wangzhao/experiments/deneva/utils/nanomsg/src/protocols/pubsub/pub.c",
+  "file": "/home/wangzhao/experiments/deneva/utils/nanomsg/src/protocols/pubsub/pub.c",
+  "output": "src/CMakeFiles/nanomsg.dir/protocols/pubsub/pub.c.o"
+},
+{
+  "directory": "/home/wangzhao/experiments/deneva/build",
+  "command": "/usr/bin/gcc -DNN_HAVE_ACCEPT4=1 -DNN_HAVE_BACKTRACE=1 -DNN_HAVE_CLOCK_GETTIME=1 -DNN_HAVE_CLOCK_MONOTONIC=1 -DNN_HAVE_EPOLL=1 -DNN_HAVE_EVENTFD=1 -DNN_HAVE_GCC_ATOMIC_BUILTINS -DNN_HAVE_GETADDRINFO_A=1 -DNN_HAVE_LIBNSL=1 -DNN_HAVE_LINUX -DNN_HAVE_MSG_CONTROL=1 -DNN_HAVE_PIPE2=1 -DNN_HAVE_PIPE=1 -DNN_HAVE_POLL=1 -DNN_HAVE_SEMAPHORE -DNN_HAVE_SEMAPHORE_PTHREAD=1 -DNN_HAVE_SOCKETPAIR=1 -DNN_HAVE_UNIX_SOCKETS=1 -DNN_MAX_SOCKETS=512 -DNN_SHARED_LIB -DNN_USE_EPOLL -DNN_USE_EVENTFD -D_GNU_SOURCE -D_POSIX_PTHREAD_SEMANTICS -D_REENTRANT -D_THREAD_SAFE -Dnanomsg_EXPORTS  -Wall -Wextra  -g -fPIC -o src/CMakeFiles/nanomsg.dir/protocols/pubsub/sub.c.o -c /home/wangzhao/experiments/deneva/utils/nanomsg/src/protocols/pubsub/sub.c",
+  "file": "/home/wangzhao/experiments/deneva/utils/nanomsg/src/protocols/pubsub/sub.c",
+  "output": "src/CMakeFiles/nanomsg.dir/protocols/pubsub/sub.c.o"
+},
+{
+  "directory": "/home/wangzhao/experiments/deneva/build",
+  "command": "/usr/bin/gcc -DNN_HAVE_ACCEPT4=1 -DNN_HAVE_BACKTRACE=1 -DNN_HAVE_CLOCK_GETTIME=1 -DNN_HAVE_CLOCK_MONOTONIC=1 -DNN_HAVE_EPOLL=1 -DNN_HAVE_EVENTFD=1 -DNN_HAVE_GCC_ATOMIC_BUILTINS -DNN_HAVE_GETADDRINFO_A=1 -DNN_HAVE_LIBNSL=1 -DNN_HAVE_LINUX -DNN_HAVE_MSG_CONTROL=1 -DNN_HAVE_PIPE2=1 -DNN_HAVE_PIPE=1 -DNN_HAVE_POLL=1 -DNN_HAVE_SEMAPHORE -DNN_HAVE_SEMAPHORE_PTHREAD=1 -DNN_HAVE_SOCKETPAIR=1 -DNN_HAVE_UNIX_SOCKETS=1 -DNN_MAX_SOCKETS=512 -DNN_SHARED_LIB -DNN_USE_EPOLL -DNN_USE_EVENTFD -D_GNU_SOURCE -D_POSIX_PTHREAD_SEMANTICS -D_REENTRANT -D_THREAD_SAFE -Dnanomsg_EXPORTS  -Wall -Wextra  -g -fPIC -o src/CMakeFiles/nanomsg.dir/protocols/pubsub/trie.c.o -c /home/wangzhao/experiments/deneva/utils/nanomsg/src/protocols/pubsub/trie.c",
+  "file": "/home/wangzhao/experiments/deneva/utils/nanomsg/src/protocols/pubsub/trie.c",
+  "output": "src/CMakeFiles/nanomsg.dir/protocols/pubsub/trie.c.o"
+},
+{
+  "directory": "/home/wangzhao/experiments/deneva/build",
+  "command": "/usr/bin/gcc -DNN_HAVE_ACCEPT4=1 -DNN_HAVE_BACKTRACE=1 -DNN_HAVE_CLOCK_GETTIME=1 -DNN_HAVE_CLOCK_MONOTONIC=1 -DNN_HAVE_EPOLL=1 -DNN_HAVE_EVENTFD=1 -DNN_HAVE_GCC_ATOMIC_BUILTINS -DNN_HAVE_GETADDRINFO_A=1 -DNN_HAVE_LIBNSL=1 -DNN_HAVE_LINUX -DNN_HAVE_MSG_CONTROL=1 -DNN_HAVE_PIPE2=1 -DNN_HAVE_PIPE=1 -DNN_HAVE_POLL=1 -DNN_HAVE_SEMAPHORE -DNN_HAVE_SEMAPHORE_PTHREAD=1 -DNN_HAVE_SOCKETPAIR=1 -DNN_HAVE_UNIX_SOCKETS=1 -DNN_MAX_SOCKETS=512 -DNN_SHARED_LIB -DNN_USE_EPOLL -DNN_USE_EVENTFD -D_GNU_SOURCE -D_POSIX_PTHREAD_SEMANTICS -D_REENTRANT -D_THREAD_SAFE -Dnanomsg_EXPORTS  -Wall -Wextra  -g -fPIC -o src/CMakeFiles/nanomsg.dir/protocols/pubsub/xpub.c.o -c /home/wangzhao/experiments/deneva/utils/nanomsg/src/protocols/pubsub/xpub.c",
+  "file": "/home/wangzhao/experiments/deneva/utils/nanomsg/src/protocols/pubsub/xpub.c",
+  "output": "src/CMakeFiles/nanomsg.dir/protocols/pubsub/xpub.c.o"
+},
+{
+  "directory": "/home/wangzhao/experiments/deneva/build",
+  "command": "/usr/bin/gcc -DNN_HAVE_ACCEPT4=1 -DNN_HAVE_BACKTRACE=1 -DNN_HAVE_CLOCK_GETTIME=1 -DNN_HAVE_CLOCK_MONOTONIC=1 -DNN_HAVE_EPOLL=1 -DNN_HAVE_EVENTFD=1 -DNN_HAVE_GCC_ATOMIC_BUILTINS -DNN_HAVE_GETADDRINFO_A=1 -DNN_HAVE_LIBNSL=1 -DNN_HAVE_LINUX -DNN_HAVE_MSG_CONTROL=1 -DNN_HAVE_PIPE2=1 -DNN_HAVE_PIPE=1 -DNN_HAVE_POLL=1 -DNN_HAVE_SEMAPHORE -DNN_HAVE_SEMAPHORE_PTHREAD=1 -DNN_HAVE_SOCKETPAIR=1 -DNN_HAVE_UNIX_SOCKETS=1 -DNN_MAX_SOCKETS=512 -DNN_SHARED_LIB -DNN_USE_EPOLL -DNN_USE_EVENTFD -D_GNU_SOURCE -D_POSIX_PTHREAD_SEMANTICS -D_REENTRANT -D_THREAD_SAFE -Dnanomsg_EXPORTS  -Wall -Wextra  -g -fPIC -o src/CMakeFiles/nanomsg.dir/protocols/pubsub/xsub.c.o -c /home/wangzhao/experiments/deneva/utils/nanomsg/src/protocols/pubsub/xsub.c",
+  "file": "/home/wangzhao/experiments/deneva/utils/nanomsg/src/protocols/pubsub/xsub.c",
+  "output": "src/CMakeFiles/nanomsg.dir/protocols/pubsub/xsub.c.o"
+},
+{
+  "directory": "/home/wangzhao/experiments/deneva/build",
+  "command": "/usr/bin/gcc -DNN_HAVE_ACCEPT4=1 -DNN_HAVE_BACKTRACE=1 -DNN_HAVE_CLOCK_GETTIME=1 -DNN_HAVE_CLOCK_MONOTONIC=1 -DNN_HAVE_EPOLL=1 -DNN_HAVE_EVENTFD=1 -DNN_HAVE_GCC_ATOMIC_BUILTINS -DNN_HAVE_GETADDRINFO_A=1 -DNN_HAVE_LIBNSL=1 -DNN_HAVE_LINUX -DNN_HAVE_MSG_CONTROL=1 -DNN_HAVE_PIPE2=1 -DNN_HAVE_PIPE=1 -DNN_HAVE_POLL=1 -DNN_HAVE_SEMAPHORE -DNN_HAVE_SEMAPHORE_PTHREAD=1 -DNN_HAVE_SOCKETPAIR=1 -DNN_HAVE_UNIX_SOCKETS=1 -DNN_MAX_SOCKETS=512 -DNN_SHARED_LIB -DNN_USE_EPOLL -DNN_USE_EVENTFD -D_GNU_SOURCE -D_POSIX_PTHREAD_SEMANTICS -D_REENTRANT -D_THREAD_SAFE -Dnanomsg_EXPORTS  -Wall -Wextra  -g -fPIC -o src/CMakeFiles/nanomsg.dir/protocols/reqrep/req.c.o -c /home/wangzhao/experiments/deneva/utils/nanomsg/src/protocols/reqrep/req.c",
+  "file": "/home/wangzhao/experiments/deneva/utils/nanomsg/src/protocols/reqrep/req.c",
+  "output": "src/CMakeFiles/nanomsg.dir/protocols/reqrep/req.c.o"
+},
+{
+  "directory": "/home/wangzhao/experiments/deneva/build",
+  "command": "/usr/bin/gcc -DNN_HAVE_ACCEPT4=1 -DNN_HAVE_BACKTRACE=1 -DNN_HAVE_CLOCK_GETTIME=1 -DNN_HAVE_CLOCK_MONOTONIC=1 -DNN_HAVE_EPOLL=1 -DNN_HAVE_EVENTFD=1 -DNN_HAVE_GCC_ATOMIC_BUILTINS -DNN_HAVE_GETADDRINFO_A=1 -DNN_HAVE_LIBNSL=1 -DNN_HAVE_LINUX -DNN_HAVE_MSG_CONTROL=1 -DNN_HAVE_PIPE2=1 -DNN_HAVE_PIPE=1 -DNN_HAVE_POLL=1 -DNN_HAVE_SEMAPHORE -DNN_HAVE_SEMAPHORE_PTHREAD=1 -DNN_HAVE_SOCKETPAIR=1 -DNN_HAVE_UNIX_SOCKETS=1 -DNN_MAX_SOCKETS=512 -DNN_SHARED_LIB -DNN_USE_EPOLL -DNN_USE_EVENTFD -D_GNU_SOURCE -D_POSIX_PTHREAD_SEMANTICS -D_REENTRANT -D_THREAD_SAFE -Dnanomsg_EXPORTS  -Wall -Wextra  -g -fPIC -o src/CMakeFiles/nanomsg.dir/protocols/reqrep/rep.c.o -c /home/wangzhao/experiments/deneva/utils/nanomsg/src/protocols/reqrep/rep.c",
+  "file": "/home/wangzhao/experiments/deneva/utils/nanomsg/src/protocols/reqrep/rep.c",
+  "output": "src/CMakeFiles/nanomsg.dir/protocols/reqrep/rep.c.o"
+},
+{
+  "directory": "/home/wangzhao/experiments/deneva/build",
+  "command": "/usr/bin/gcc -DNN_HAVE_ACCEPT4=1 -DNN_HAVE_BACKTRACE=1 -DNN_HAVE_CLOCK_GETTIME=1 -DNN_HAVE_CLOCK_MONOTONIC=1 -DNN_HAVE_EPOLL=1 -DNN_HAVE_EVENTFD=1 -DNN_HAVE_GCC_ATOMIC_BUILTINS -DNN_HAVE_GETADDRINFO_A=1 -DNN_HAVE_LIBNSL=1 -DNN_HAVE_LINUX -DNN_HAVE_MSG_CONTROL=1 -DNN_HAVE_PIPE2=1 -DNN_HAVE_PIPE=1 -DNN_HAVE_POLL=1 -DNN_HAVE_SEMAPHORE -DNN_HAVE_SEMAPHORE_PTHREAD=1 -DNN_HAVE_SOCKETPAIR=1 -DNN_HAVE_UNIX_SOCKETS=1 -DNN_MAX_SOCKETS=512 -DNN_SHARED_LIB -DNN_USE_EPOLL -DNN_USE_EVENTFD -D_GNU_SOURCE -D_POSIX_PTHREAD_SEMANTICS -D_REENTRANT -D_THREAD_SAFE -Dnanomsg_EXPORTS  -Wall -Wextra  -g -fPIC -o src/CMakeFiles/nanomsg.dir/protocols/reqrep/task.c.o -c /home/wangzhao/experiments/deneva/utils/nanomsg/src/protocols/reqrep/task.c",
+  "file": "/home/wangzhao/experiments/deneva/utils/nanomsg/src/protocols/reqrep/task.c",
+  "output": "src/CMakeFiles/nanomsg.dir/protocols/reqrep/task.c.o"
+},
+{
+  "directory": "/home/wangzhao/experiments/deneva/build",
+  "command": "/usr/bin/gcc -DNN_HAVE_ACCEPT4=1 -DNN_HAVE_BACKTRACE=1 -DNN_HAVE_CLOCK_GETTIME=1 -DNN_HAVE_CLOCK_MONOTONIC=1 -DNN_HAVE_EPOLL=1 -DNN_HAVE_EVENTFD=1 -DNN_HAVE_GCC_ATOMIC_BUILTINS -DNN_HAVE_GETADDRINFO_A=1 -DNN_HAVE_LIBNSL=1 -DNN_HAVE_LINUX -DNN_HAVE_MSG_CONTROL=1 -DNN_HAVE_PIPE2=1 -DNN_HAVE_PIPE=1 -DNN_HAVE_POLL=1 -DNN_HAVE_SEMAPHORE -DNN_HAVE_SEMAPHORE_PTHREAD=1 -DNN_HAVE_SOCKETPAIR=1 -DNN_HAVE_UNIX_SOCKETS=1 -DNN_MAX_SOCKETS=512 -DNN_SHARED_LIB -DNN_USE_EPOLL -DNN_USE_EVENTFD -D_GNU_SOURCE -D_POSIX_PTHREAD_SEMANTICS -D_REENTRANT -D_THREAD_SAFE -Dnanomsg_EXPORTS  -Wall -Wextra  -g -fPIC -o src/CMakeFiles/nanomsg.dir/protocols/reqrep/xrep.c.o -c /home/wangzhao/experiments/deneva/utils/nanomsg/src/protocols/reqrep/xrep.c",
+  "file": "/home/wangzhao/experiments/deneva/utils/nanomsg/src/protocols/reqrep/xrep.c",
+  "output": "src/CMakeFiles/nanomsg.dir/protocols/reqrep/xrep.c.o"
+},
+{
+  "directory": "/home/wangzhao/experiments/deneva/build",
+  "command": "/usr/bin/gcc -DNN_HAVE_ACCEPT4=1 -DNN_HAVE_BACKTRACE=1 -DNN_HAVE_CLOCK_GETTIME=1 -DNN_HAVE_CLOCK_MONOTONIC=1 -DNN_HAVE_EPOLL=1 -DNN_HAVE_EVENTFD=1 -DNN_HAVE_GCC_ATOMIC_BUILTINS -DNN_HAVE_GETADDRINFO_A=1 -DNN_HAVE_LIBNSL=1 -DNN_HAVE_LINUX -DNN_HAVE_MSG_CONTROL=1 -DNN_HAVE_PIPE2=1 -DNN_HAVE_PIPE=1 -DNN_HAVE_POLL=1 -DNN_HAVE_SEMAPHORE -DNN_HAVE_SEMAPHORE_PTHREAD=1 -DNN_HAVE_SOCKETPAIR=1 -DNN_HAVE_UNIX_SOCKETS=1 -DNN_MAX_SOCKETS=512 -DNN_SHARED_LIB -DNN_USE_EPOLL -DNN_USE_EVENTFD -D_GNU_SOURCE -D_POSIX_PTHREAD_SEMANTICS -D_REENTRANT -D_THREAD_SAFE -Dnanomsg_EXPORTS  -Wall -Wextra  -g -fPIC -o src/CMakeFiles/nanomsg.dir/protocols/reqrep/xreq.c.o -c /home/wangzhao/experiments/deneva/utils/nanomsg/src/protocols/reqrep/xreq.c",
+  "file": "/home/wangzhao/experiments/deneva/utils/nanomsg/src/protocols/reqrep/xreq.c",
+  "output": "src/CMakeFiles/nanomsg.dir/protocols/reqrep/xreq.c.o"
+},
+{
+  "directory": "/home/wangzhao/experiments/deneva/build",
+  "command": "/usr/bin/gcc -DNN_HAVE_ACCEPT4=1 -DNN_HAVE_BACKTRACE=1 -DNN_HAVE_CLOCK_GETTIME=1 -DNN_HAVE_CLOCK_MONOTONIC=1 -DNN_HAVE_EPOLL=1 -DNN_HAVE_EVENTFD=1 -DNN_HAVE_GCC_ATOMIC_BUILTINS -DNN_HAVE_GETADDRINFO_A=1 -DNN_HAVE_LIBNSL=1 -DNN_HAVE_LINUX -DNN_HAVE_MSG_CONTROL=1 -DNN_HAVE_PIPE2=1 -DNN_HAVE_PIPE=1 -DNN_HAVE_POLL=1 -DNN_HAVE_SEMAPHORE -DNN_HAVE_SEMAPHORE_PTHREAD=1 -DNN_HAVE_SOCKETPAIR=1 -DNN_HAVE_UNIX_SOCKETS=1 -DNN_MAX_SOCKETS=512 -DNN_SHARED_LIB -DNN_USE_EPOLL -DNN_USE_EVENTFD -D_GNU_SOURCE -D_POSIX_PTHREAD_SEMANTICS -D_REENTRANT -D_THREAD_SAFE -Dnanomsg_EXPORTS  -Wall -Wextra  -g -fPIC -o src/CMakeFiles/nanomsg.dir/protocols/survey/respondent.c.o -c /home/wangzhao/experiments/deneva/utils/nanomsg/src/protocols/survey/respondent.c",
+  "file": "/home/wangzhao/experiments/deneva/utils/nanomsg/src/protocols/survey/respondent.c",
+  "output": "src/CMakeFiles/nanomsg.dir/protocols/survey/respondent.c.o"
+},
+{
+  "directory": "/home/wangzhao/experiments/deneva/build",
+  "command": "/usr/bin/gcc -DNN_HAVE_ACCEPT4=1 -DNN_HAVE_BACKTRACE=1 -DNN_HAVE_CLOCK_GETTIME=1 -DNN_HAVE_CLOCK_MONOTONIC=1 -DNN_HAVE_EPOLL=1 -DNN_HAVE_EVENTFD=1 -DNN_HAVE_GCC_ATOMIC_BUILTINS -DNN_HAVE_GETADDRINFO_A=1 -DNN_HAVE_LIBNSL=1 -DNN_HAVE_LINUX -DNN_HAVE_MSG_CONTROL=1 -DNN_HAVE_PIPE2=1 -DNN_HAVE_PIPE=1 -DNN_HAVE_POLL=1 -DNN_HAVE_SEMAPHORE -DNN_HAVE_SEMAPHORE_PTHREAD=1 -DNN_HAVE_SOCKETPAIR=1 -DNN_HAVE_UNIX_SOCKETS=1 -DNN_MAX_SOCKETS=512 -DNN_SHARED_LIB -DNN_USE_EPOLL -DNN_USE_EVENTFD -D_GNU_SOURCE -D_POSIX_PTHREAD_SEMANTICS -D_REENTRANT -D_THREAD_SAFE -Dnanomsg_EXPORTS  -Wall -Wextra  -g -fPIC -o src/CMakeFiles/nanomsg.dir/protocols/survey/surveyor.c.o -c /home/wangzhao/experiments/deneva/utils/nanomsg/src/protocols/survey/surveyor.c",
+  "file": "/home/wangzhao/experiments/deneva/utils/nanomsg/src/protocols/survey/surveyor.c",
+  "output": "src/CMakeFiles/nanomsg.dir/protocols/survey/surveyor.c.o"
+},
+{
+  "directory": "/home/wangzhao/experiments/deneva/build",
+  "command": "/usr/bin/gcc -DNN_HAVE_ACCEPT4=1 -DNN_HAVE_BACKTRACE=1 -DNN_HAVE_CLOCK_GETTIME=1 -DNN_HAVE_CLOCK_MONOTONIC=1 -DNN_HAVE_EPOLL=1 -DNN_HAVE_EVENTFD=1 -DNN_HAVE_GCC_ATOMIC_BUILTINS -DNN_HAVE_GETADDRINFO_A=1 -DNN_HAVE_LIBNSL=1 -DNN_HAVE_LINUX -DNN_HAVE_MSG_CONTROL=1 -DNN_HAVE_PIPE2=1 -DNN_HAVE_PIPE=1 -DNN_HAVE_POLL=1 -DNN_HAVE_SEMAPHORE -DNN_HAVE_SEMAPHORE_PTHREAD=1 -DNN_HAVE_SOCKETPAIR=1 -DNN_HAVE_UNIX_SOCKETS=1 -DNN_MAX_SOCKETS=512 -DNN_SHARED_LIB -DNN_USE_EPOLL -DNN_USE_EVENTFD -D_GNU_SOURCE -D_POSIX_PTHREAD_SEMANTICS -D_REENTRANT -D_THREAD_SAFE -Dnanomsg_EXPORTS  -Wall -Wextra  -g -fPIC -o src/CMakeFiles/nanomsg.dir/protocols/survey/xrespondent.c.o -c /home/wangzhao/experiments/deneva/utils/nanomsg/src/protocols/survey/xrespondent.c",
+  "file": "/home/wangzhao/experiments/deneva/utils/nanomsg/src/protocols/survey/xrespondent.c",
+  "output": "src/CMakeFiles/nanomsg.dir/protocols/survey/xrespondent.c.o"
+},
+{
+  "directory": "/home/wangzhao/experiments/deneva/build",
+  "command": "/usr/bin/gcc -DNN_HAVE_ACCEPT4=1 -DNN_HAVE_BACKTRACE=1 -DNN_HAVE_CLOCK_GETTIME=1 -DNN_HAVE_CLOCK_MONOTONIC=1 -DNN_HAVE_EPOLL=1 -DNN_HAVE_EVENTFD=1 -DNN_HAVE_GCC_ATOMIC_BUILTINS -DNN_HAVE_GETADDRINFO_A=1 -DNN_HAVE_LIBNSL=1 -DNN_HAVE_LINUX -DNN_HAVE_MSG_CONTROL=1 -DNN_HAVE_PIPE2=1 -DNN_HAVE_PIPE=1 -DNN_HAVE_POLL=1 -DNN_HAVE_SEMAPHORE -DNN_HAVE_SEMAPHORE_PTHREAD=1 -DNN_HAVE_SOCKETPAIR=1 -DNN_HAVE_UNIX_SOCKETS=1 -DNN_MAX_SOCKETS=512 -DNN_SHARED_LIB -DNN_USE_EPOLL -DNN_USE_EVENTFD -D_GNU_SOURCE -D_POSIX_PTHREAD_SEMANTICS -D_REENTRANT -D_THREAD_SAFE -Dnanomsg_EXPORTS  -Wall -Wextra  -g -fPIC -o src/CMakeFiles/nanomsg.dir/protocols/survey/xsurveyor.c.o -c /home/wangzhao/experiments/deneva/utils/nanomsg/src/protocols/survey/xsurveyor.c",
+  "file": "/home/wangzhao/experiments/deneva/utils/nanomsg/src/protocols/survey/xsurveyor.c",
+  "output": "src/CMakeFiles/nanomsg.dir/protocols/survey/xsurveyor.c.o"
+},
+{
+  "directory": "/home/wangzhao/experiments/deneva/build",
+  "command": "/usr/bin/gcc -DNN_HAVE_ACCEPT4=1 -DNN_HAVE_BACKTRACE=1 -DNN_HAVE_CLOCK_GETTIME=1 -DNN_HAVE_CLOCK_MONOTONIC=1 -DNN_HAVE_EPOLL=1 -DNN_HAVE_EVENTFD=1 -DNN_HAVE_GCC_ATOMIC_BUILTINS -DNN_HAVE_GETADDRINFO_A=1 -DNN_HAVE_LIBNSL=1 -DNN_HAVE_LINUX -DNN_HAVE_MSG_CONTROL=1 -DNN_HAVE_PIPE2=1 -DNN_HAVE_PIPE=1 -DNN_HAVE_POLL=1 -DNN_HAVE_SEMAPHORE -DNN_HAVE_SEMAPHORE_PTHREAD=1 -DNN_HAVE_SOCKETPAIR=1 -DNN_HAVE_UNIX_SOCKETS=1 -DNN_MAX_SOCKETS=512 -DNN_SHARED_LIB -DNN_USE_EPOLL -DNN_USE_EVENTFD -D_GNU_SOURCE -D_POSIX_PTHREAD_SEMANTICS -D_REENTRANT -D_THREAD_SAFE -Dnanomsg_EXPORTS  -Wall -Wextra  -g -fPIC -o src/CMakeFiles/nanomsg.dir/transports/utils/backoff.c.o -c /home/wangzhao/experiments/deneva/utils/nanomsg/src/transports/utils/backoff.c",
+  "file": "/home/wangzhao/experiments/deneva/utils/nanomsg/src/transports/utils/backoff.c",
+  "output": "src/CMakeFiles/nanomsg.dir/transports/utils/backoff.c.o"
+},
+{
+  "directory": "/home/wangzhao/experiments/deneva/build",
+  "command": "/usr/bin/gcc -DNN_HAVE_ACCEPT4=1 -DNN_HAVE_BACKTRACE=1 -DNN_HAVE_CLOCK_GETTIME=1 -DNN_HAVE_CLOCK_MONOTONIC=1 -DNN_HAVE_EPOLL=1 -DNN_HAVE_EVENTFD=1 -DNN_HAVE_GCC_ATOMIC_BUILTINS -DNN_HAVE_GETADDRINFO_A=1 -DNN_HAVE_LIBNSL=1 -DNN_HAVE_LINUX -DNN_HAVE_MSG_CONTROL=1 -DNN_HAVE_PIPE2=1 -DNN_HAVE_PIPE=1 -DNN_HAVE_POLL=1 -DNN_HAVE_SEMAPHORE -DNN_HAVE_SEMAPHORE_PTHREAD=1 -DNN_HAVE_SOCKETPAIR=1 -DNN_HAVE_UNIX_SOCKETS=1 -DNN_MAX_SOCKETS=512 -DNN_SHARED_LIB -DNN_USE_EPOLL -DNN_USE_EVENTFD -D_GNU_SOURCE -D_POSIX_PTHREAD_SEMANTICS -D_REENTRANT -D_THREAD_SAFE -Dnanomsg_EXPORTS  -Wall -Wextra  -g -fPIC -o src/CMakeFiles/nanomsg.dir/transports/utils/dns.c.o -c /home/wangzhao/experiments/deneva/utils/nanomsg/src/transports/utils/dns.c",
+  "file": "/home/wangzhao/experiments/deneva/utils/nanomsg/src/transports/utils/dns.c",
+  "output": "src/CMakeFiles/nanomsg.dir/transports/utils/dns.c.o"
+},
+{
+  "directory": "/home/wangzhao/experiments/deneva/build",
+  "command": "/usr/bin/gcc -DNN_HAVE_ACCEPT4=1 -DNN_HAVE_BACKTRACE=1 -DNN_HAVE_CLOCK_GETTIME=1 -DNN_HAVE_CLOCK_MONOTONIC=1 -DNN_HAVE_EPOLL=1 -DNN_HAVE_EVENTFD=1 -DNN_HAVE_GCC_ATOMIC_BUILTINS -DNN_HAVE_GETADDRINFO_A=1 -DNN_HAVE_LIBNSL=1 -DNN_HAVE_LINUX -DNN_HAVE_MSG_CONTROL=1 -DNN_HAVE_PIPE2=1 -DNN_HAVE_PIPE=1 -DNN_HAVE_POLL=1 -DNN_HAVE_SEMAPHORE -DNN_HAVE_SEMAPHORE_PTHREAD=1 -DNN_HAVE_SOCKETPAIR=1 -DNN_HAVE_UNIX_SOCKETS=1 -DNN_MAX_SOCKETS=512 -DNN_SHARED_LIB -DNN_USE_EPOLL -DNN_USE_EVENTFD -D_GNU_SOURCE -D_POSIX_PTHREAD_SEMANTICS -D_REENTRANT -D_THREAD_SAFE -Dnanomsg_EXPORTS  -Wall -Wextra  -g -fPIC -o src/CMakeFiles/nanomsg.dir/transports/utils/iface.c.o -c /home/wangzhao/experiments/deneva/utils/nanomsg/src/transports/utils/iface.c",
+  "file": "/home/wangzhao/experiments/deneva/utils/nanomsg/src/transports/utils/iface.c",
+  "output": "src/CMakeFiles/nanomsg.dir/transports/utils/iface.c.o"
+},
+{
+  "directory": "/home/wangzhao/experiments/deneva/build",
+  "command": "/usr/bin/gcc -DNN_HAVE_ACCEPT4=1 -DNN_HAVE_BACKTRACE=1 -DNN_HAVE_CLOCK_GETTIME=1 -DNN_HAVE_CLOCK_MONOTONIC=1 -DNN_HAVE_EPOLL=1 -DNN_HAVE_EVENTFD=1 -DNN_HAVE_GCC_ATOMIC_BUILTINS -DNN_HAVE_GETADDRINFO_A=1 -DNN_HAVE_LIBNSL=1 -DNN_HAVE_LINUX -DNN_HAVE_MSG_CONTROL=1 -DNN_HAVE_PIPE2=1 -DNN_HAVE_PIPE=1 -DNN_HAVE_POLL=1 -DNN_HAVE_SEMAPHORE -DNN_HAVE_SEMAPHORE_PTHREAD=1 -DNN_HAVE_SOCKETPAIR=1 -DNN_HAVE_UNIX_SOCKETS=1 -DNN_MAX_SOCKETS=512 -DNN_SHARED_LIB -DNN_USE_EPOLL -DNN_USE_EVENTFD -D_GNU_SOURCE -D_POSIX_PTHREAD_SEMANTICS -D_REENTRANT -D_THREAD_SAFE -Dnanomsg_EXPORTS  -Wall -Wextra  -g -fPIC -o src/CMakeFiles/nanomsg.dir/transports/utils/literal.c.o -c /home/wangzhao/experiments/deneva/utils/nanomsg/src/transports/utils/literal.c",
+  "file": "/home/wangzhao/experiments/deneva/utils/nanomsg/src/transports/utils/literal.c",
+  "output": "src/CMakeFiles/nanomsg.dir/transports/utils/literal.c.o"
+},
+{
+  "directory": "/home/wangzhao/experiments/deneva/build",
+  "command": "/usr/bin/gcc -DNN_HAVE_ACCEPT4=1 -DNN_HAVE_BACKTRACE=1 -DNN_HAVE_CLOCK_GETTIME=1 -DNN_HAVE_CLOCK_MONOTONIC=1 -DNN_HAVE_EPOLL=1 -DNN_HAVE_EVENTFD=1 -DNN_HAVE_GCC_ATOMIC_BUILTINS -DNN_HAVE_GETADDRINFO_A=1 -DNN_HAVE_LIBNSL=1 -DNN_HAVE_LINUX -DNN_HAVE_MSG_CONTROL=1 -DNN_HAVE_PIPE2=1 -DNN_HAVE_PIPE=1 -DNN_HAVE_POLL=1 -DNN_HAVE_SEMAPHORE -DNN_HAVE_SEMAPHORE_PTHREAD=1 -DNN_HAVE_SOCKETPAIR=1 -DNN_HAVE_UNIX_SOCKETS=1 -DNN_MAX_SOCKETS=512 -DNN_SHARED_LIB -DNN_USE_EPOLL -DNN_USE_EVENTFD -D_GNU_SOURCE -D_POSIX_PTHREAD_SEMANTICS -D_REENTRANT -D_THREAD_SAFE -Dnanomsg_EXPORTS  -Wall -Wextra  -g -fPIC -o src/CMakeFiles/nanomsg.dir/transports/utils/port.c.o -c /home/wangzhao/experiments/deneva/utils/nanomsg/src/transports/utils/port.c",
+  "file": "/home/wangzhao/experiments/deneva/utils/nanomsg/src/transports/utils/port.c",
+  "output": "src/CMakeFiles/nanomsg.dir/transports/utils/port.c.o"
+},
+{
+  "directory": "/home/wangzhao/experiments/deneva/build",
+  "command": "/usr/bin/gcc -DNN_HAVE_ACCEPT4=1 -DNN_HAVE_BACKTRACE=1 -DNN_HAVE_CLOCK_GETTIME=1 -DNN_HAVE_CLOCK_MONOTONIC=1 -DNN_HAVE_EPOLL=1 -DNN_HAVE_EVENTFD=1 -DNN_HAVE_GCC_ATOMIC_BUILTINS -DNN_HAVE_GETADDRINFO_A=1 -DNN_HAVE_LIBNSL=1 -DNN_HAVE_LINUX -DNN_HAVE_MSG_CONTROL=1 -DNN_HAVE_PIPE2=1 -DNN_HAVE_PIPE=1 -DNN_HAVE_POLL=1 -DNN_HAVE_SEMAPHORE -DNN_HAVE_SEMAPHORE_PTHREAD=1 -DNN_HAVE_SOCKETPAIR=1 -DNN_HAVE_UNIX_SOCKETS=1 -DNN_MAX_SOCKETS=512 -DNN_SHARED_LIB -DNN_USE_EPOLL -DNN_USE_EVENTFD -D_GNU_SOURCE -D_POSIX_PTHREAD_SEMANTICS -D_REENTRANT -D_THREAD_SAFE -Dnanomsg_EXPORTS  -Wall -Wextra  -g -fPIC -o src/CMakeFiles/nanomsg.dir/transports/utils/streamhdr.c.o -c /home/wangzhao/experiments/deneva/utils/nanomsg/src/transports/utils/streamhdr.c",
+  "file": "/home/wangzhao/experiments/deneva/utils/nanomsg/src/transports/utils/streamhdr.c",
+  "output": "src/CMakeFiles/nanomsg.dir/transports/utils/streamhdr.c.o"
+},
+{
+  "directory": "/home/wangzhao/experiments/deneva/build",
+  "command": "/usr/bin/gcc -DNN_HAVE_ACCEPT4=1 -DNN_HAVE_BACKTRACE=1 -DNN_HAVE_CLOCK_GETTIME=1 -DNN_HAVE_CLOCK_MONOTONIC=1 -DNN_HAVE_EPOLL=1 -DNN_HAVE_EVENTFD=1 -DNN_HAVE_GCC_ATOMIC_BUILTINS -DNN_HAVE_GETADDRINFO_A=1 -DNN_HAVE_LIBNSL=1 -DNN_HAVE_LINUX -DNN_HAVE_MSG_CONTROL=1 -DNN_HAVE_PIPE2=1 -DNN_HAVE_PIPE=1 -DNN_HAVE_POLL=1 -DNN_HAVE_SEMAPHORE -DNN_HAVE_SEMAPHORE_PTHREAD=1 -DNN_HAVE_SOCKETPAIR=1 -DNN_HAVE_UNIX_SOCKETS=1 -DNN_MAX_SOCKETS=512 -DNN_SHARED_LIB -DNN_USE_EPOLL -DNN_USE_EVENTFD -D_GNU_SOURCE -D_POSIX_PTHREAD_SEMANTICS -D_REENTRANT -D_THREAD_SAFE -Dnanomsg_EXPORTS  -Wall -Wextra  -g -fPIC -o src/CMakeFiles/nanomsg.dir/transports/utils/base64.c.o -c /home/wangzhao/experiments/deneva/utils/nanomsg/src/transports/utils/base64.c",
+  "file": "/home/wangzhao/experiments/deneva/utils/nanomsg/src/transports/utils/base64.c",
+  "output": "src/CMakeFiles/nanomsg.dir/transports/utils/base64.c.o"
+},
+{
+  "directory": "/home/wangzhao/experiments/deneva/build",
+  "command": "/usr/bin/gcc -DNN_HAVE_ACCEPT4=1 -DNN_HAVE_BACKTRACE=1 -DNN_HAVE_CLOCK_GETTIME=1 -DNN_HAVE_CLOCK_MONOTONIC=1 -DNN_HAVE_EPOLL=1 -DNN_HAVE_EVENTFD=1 -DNN_HAVE_GCC_ATOMIC_BUILTINS -DNN_HAVE_GETADDRINFO_A=1 -DNN_HAVE_LIBNSL=1 -DNN_HAVE_LINUX -DNN_HAVE_MSG_CONTROL=1 -DNN_HAVE_PIPE2=1 -DNN_HAVE_PIPE=1 -DNN_HAVE_POLL=1 -DNN_HAVE_SEMAPHORE -DNN_HAVE_SEMAPHORE_PTHREAD=1 -DNN_HAVE_SOCKETPAIR=1 -DNN_HAVE_UNIX_SOCKETS=1 -DNN_MAX_SOCKETS=512 -DNN_SHARED_LIB -DNN_USE_EPOLL -DNN_USE_EVENTFD -D_GNU_SOURCE -D_POSIX_PTHREAD_SEMANTICS -D_REENTRANT -D_THREAD_SAFE -Dnanomsg_EXPORTS  -Wall -Wextra  -g -fPIC -o src/CMakeFiles/nanomsg.dir/transports/inproc/binproc.c.o -c /home/wangzhao/experiments/deneva/utils/nanomsg/src/transports/inproc/binproc.c",
+  "file": "/home/wangzhao/experiments/deneva/utils/nanomsg/src/transports/inproc/binproc.c",
+  "output": "src/CMakeFiles/nanomsg.dir/transports/inproc/binproc.c.o"
+},
+{
+  "directory": "/home/wangzhao/experiments/deneva/build",
+  "command": "/usr/bin/gcc -DNN_HAVE_ACCEPT4=1 -DNN_HAVE_BACKTRACE=1 -DNN_HAVE_CLOCK_GETTIME=1 -DNN_HAVE_CLOCK_MONOTONIC=1 -DNN_HAVE_EPOLL=1 -DNN_HAVE_EVENTFD=1 -DNN_HAVE_GCC_ATOMIC_BUILTINS -DNN_HAVE_GETADDRINFO_A=1 -DNN_HAVE_LIBNSL=1 -DNN_HAVE_LINUX -DNN_HAVE_MSG_CONTROL=1 -DNN_HAVE_PIPE2=1 -DNN_HAVE_PIPE=1 -DNN_HAVE_POLL=1 -DNN_HAVE_SEMAPHORE -DNN_HAVE_SEMAPHORE_PTHREAD=1 -DNN_HAVE_SOCKETPAIR=1 -DNN_HAVE_UNIX_SOCKETS=1 -DNN_MAX_SOCKETS=512 -DNN_SHARED_LIB -DNN_USE_EPOLL -DNN_USE_EVENTFD -D_GNU_SOURCE -D_POSIX_PTHREAD_SEMANTICS -D_REENTRANT -D_THREAD_SAFE -Dnanomsg_EXPORTS  -Wall -Wextra  -g -fPIC -o src/CMakeFiles/nanomsg.dir/transports/inproc/cinproc.c.o -c /home/wangzhao/experiments/deneva/utils/nanomsg/src/transports/inproc/cinproc.c",
+  "file": "/home/wangzhao/experiments/deneva/utils/nanomsg/src/transports/inproc/cinproc.c",
+  "output": "src/CMakeFiles/nanomsg.dir/transports/inproc/cinproc.c.o"
+},
+{
+  "directory": "/home/wangzhao/experiments/deneva/build",
+  "command": "/usr/bin/gcc -DNN_HAVE_ACCEPT4=1 -DNN_HAVE_BACKTRACE=1 -DNN_HAVE_CLOCK_GETTIME=1 -DNN_HAVE_CLOCK_MONOTONIC=1 -DNN_HAVE_EPOLL=1 -DNN_HAVE_EVENTFD=1 -DNN_HAVE_GCC_ATOMIC_BUILTINS -DNN_HAVE_GETADDRINFO_A=1 -DNN_HAVE_LIBNSL=1 -DNN_HAVE_LINUX -DNN_HAVE_MSG_CONTROL=1 -DNN_HAVE_PIPE2=1 -DNN_HAVE_PIPE=1 -DNN_HAVE_POLL=1 -DNN_HAVE_SEMAPHORE -DNN_HAVE_SEMAPHORE_PTHREAD=1 -DNN_HAVE_SOCKETPAIR=1 -DNN_HAVE_UNIX_SOCKETS=1 -DNN_MAX_SOCKETS=512 -DNN_SHARED_LIB -DNN_USE_EPOLL -DNN_USE_EVENTFD -D_GNU_SOURCE -D_POSIX_PTHREAD_SEMANTICS -D_REENTRANT -D_THREAD_SAFE -Dnanomsg_EXPORTS  -Wall -Wextra  -g -fPIC -o src/CMakeFiles/nanomsg.dir/transports/inproc/inproc.c.o -c /home/wangzhao/experiments/deneva/utils/nanomsg/src/transports/inproc/inproc.c",
+  "file": "/home/wangzhao/experiments/deneva/utils/nanomsg/src/transports/inproc/inproc.c",
+  "output": "src/CMakeFiles/nanomsg.dir/transports/inproc/inproc.c.o"
+},
+{
+  "directory": "/home/wangzhao/experiments/deneva/build",
+  "command": "/usr/bin/gcc -DNN_HAVE_ACCEPT4=1 -DNN_HAVE_BACKTRACE=1 -DNN_HAVE_CLOCK_GETTIME=1 -DNN_HAVE_CLOCK_MONOTONIC=1 -DNN_HAVE_EPOLL=1 -DNN_HAVE_EVENTFD=1 -DNN_HAVE_GCC_ATOMIC_BUILTINS -DNN_HAVE_GETADDRINFO_A=1 -DNN_HAVE_LIBNSL=1 -DNN_HAVE_LINUX -DNN_HAVE_MSG_CONTROL=1 -DNN_HAVE_PIPE2=1 -DNN_HAVE_PIPE=1 -DNN_HAVE_POLL=1 -DNN_HAVE_SEMAPHORE -DNN_HAVE_SEMAPHORE_PTHREAD=1 -DNN_HAVE_SOCKETPAIR=1 -DNN_HAVE_UNIX_SOCKETS=1 -DNN_MAX_SOCKETS=512 -DNN_SHARED_LIB -DNN_USE_EPOLL -DNN_USE_EVENTFD -D_GNU_SOURCE -D_POSIX_PTHREAD_SEMANTICS -D_REENTRANT -D_THREAD_SAFE -Dnanomsg_EXPORTS  -Wall -Wextra  -g -fPIC -o src/CMakeFiles/nanomsg.dir/transports/inproc/ins.c.o -c /home/wangzhao/experiments/deneva/utils/nanomsg/src/transports/inproc/ins.c",
+  "file": "/home/wangzhao/experiments/deneva/utils/nanomsg/src/transports/inproc/ins.c",
+  "output": "src/CMakeFiles/nanomsg.dir/transports/inproc/ins.c.o"
+},
+{
+  "directory": "/home/wangzhao/experiments/deneva/build",
+  "command": "/usr/bin/gcc -DNN_HAVE_ACCEPT4=1 -DNN_HAVE_BACKTRACE=1 -DNN_HAVE_CLOCK_GETTIME=1 -DNN_HAVE_CLOCK_MONOTONIC=1 -DNN_HAVE_EPOLL=1 -DNN_HAVE_EVENTFD=1 -DNN_HAVE_GCC_ATOMIC_BUILTINS -DNN_HAVE_GETADDRINFO_A=1 -DNN_HAVE_LIBNSL=1 -DNN_HAVE_LINUX -DNN_HAVE_MSG_CONTROL=1 -DNN_HAVE_PIPE2=1 -DNN_HAVE_PIPE=1 -DNN_HAVE_POLL=1 -DNN_HAVE_SEMAPHORE -DNN_HAVE_SEMAPHORE_PTHREAD=1 -DNN_HAVE_SOCKETPAIR=1 -DNN_HAVE_UNIX_SOCKETS=1 -DNN_MAX_SOCKETS=512 -DNN_SHARED_LIB -DNN_USE_EPOLL -DNN_USE_EVENTFD -D_GNU_SOURCE -D_POSIX_PTHREAD_SEMANTICS -D_REENTRANT -D_THREAD_SAFE -Dnanomsg_EXPORTS  -Wall -Wextra  -g -fPIC -o src/CMakeFiles/nanomsg.dir/transports/inproc/msgqueue.c.o -c /home/wangzhao/experiments/deneva/utils/nanomsg/src/transports/inproc/msgqueue.c",
+  "file": "/home/wangzhao/experiments/deneva/utils/nanomsg/src/transports/inproc/msgqueue.c",
+  "output": "src/CMakeFiles/nanomsg.dir/transports/inproc/msgqueue.c.o"
+},
+{
+  "directory": "/home/wangzhao/experiments/deneva/build",
+  "command": "/usr/bin/gcc -DNN_HAVE_ACCEPT4=1 -DNN_HAVE_BACKTRACE=1 -DNN_HAVE_CLOCK_GETTIME=1 -DNN_HAVE_CLOCK_MONOTONIC=1 -DNN_HAVE_EPOLL=1 -DNN_HAVE_EVENTFD=1 -DNN_HAVE_GCC_ATOMIC_BUILTINS -DNN_HAVE_GETADDRINFO_A=1 -DNN_HAVE_LIBNSL=1 -DNN_HAVE_LINUX -DNN_HAVE_MSG_CONTROL=1 -DNN_HAVE_PIPE2=1 -DNN_HAVE_PIPE=1 -DNN_HAVE_POLL=1 -DNN_HAVE_SEMAPHORE -DNN_HAVE_SEMAPHORE_PTHREAD=1 -DNN_HAVE_SOCKETPAIR=1 -DNN_HAVE_UNIX_SOCKETS=1 -DNN_MAX_SOCKETS=512 -DNN_SHARED_LIB -DNN_USE_EPOLL -DNN_USE_EVENTFD -D_GNU_SOURCE -D_POSIX_PTHREAD_SEMANTICS -D_REENTRANT -D_THREAD_SAFE -Dnanomsg_EXPORTS  -Wall -Wextra  -g -fPIC -o src/CMakeFiles/nanomsg.dir/transports/inproc/sinproc.c.o -c /home/wangzhao/experiments/deneva/utils/nanomsg/src/transports/inproc/sinproc.c",
+  "file": "/home/wangzhao/experiments/deneva/utils/nanomsg/src/transports/inproc/sinproc.c",
+  "output": "src/CMakeFiles/nanomsg.dir/transports/inproc/sinproc.c.o"
+},
+{
+  "directory": "/home/wangzhao/experiments/deneva/build",
+  "command": "/usr/bin/gcc -DNN_HAVE_ACCEPT4=1 -DNN_HAVE_BACKTRACE=1 -DNN_HAVE_CLOCK_GETTIME=1 -DNN_HAVE_CLOCK_MONOTONIC=1 -DNN_HAVE_EPOLL=1 -DNN_HAVE_EVENTFD=1 -DNN_HAVE_GCC_ATOMIC_BUILTINS -DNN_HAVE_GETADDRINFO_A=1 -DNN_HAVE_LIBNSL=1 -DNN_HAVE_LINUX -DNN_HAVE_MSG_CONTROL=1 -DNN_HAVE_PIPE2=1 -DNN_HAVE_PIPE=1 -DNN_HAVE_POLL=1 -DNN_HAVE_SEMAPHORE -DNN_HAVE_SEMAPHORE_PTHREAD=1 -DNN_HAVE_SOCKETPAIR=1 -DNN_HAVE_UNIX_SOCKETS=1 -DNN_MAX_SOCKETS=512 -DNN_SHARED_LIB -DNN_USE_EPOLL -DNN_USE_EVENTFD -D_GNU_SOURCE -D_POSIX_PTHREAD_SEMANTICS -D_REENTRANT -D_THREAD_SAFE -Dnanomsg_EXPORTS  -Wall -Wextra  -g -fPIC -o src/CMakeFiles/nanomsg.dir/transports/ipc/aipc.c.o -c /home/wangzhao/experiments/deneva/utils/nanomsg/src/transports/ipc/aipc.c",
+  "file": "/home/wangzhao/experiments/deneva/utils/nanomsg/src/transports/ipc/aipc.c",
+  "output": "src/CMakeFiles/nanomsg.dir/transports/ipc/aipc.c.o"
+},
+{
+  "directory": "/home/wangzhao/experiments/deneva/build",
+  "command": "/usr/bin/gcc -DNN_HAVE_ACCEPT4=1 -DNN_HAVE_BACKTRACE=1 -DNN_HAVE_CLOCK_GETTIME=1 -DNN_HAVE_CLOCK_MONOTONIC=1 -DNN_HAVE_EPOLL=1 -DNN_HAVE_EVENTFD=1 -DNN_HAVE_GCC_ATOMIC_BUILTINS -DNN_HAVE_GETADDRINFO_A=1 -DNN_HAVE_LIBNSL=1 -DNN_HAVE_LINUX -DNN_HAVE_MSG_CONTROL=1 -DNN_HAVE_PIPE2=1 -DNN_HAVE_PIPE=1 -DNN_HAVE_POLL=1 -DNN_HAVE_SEMAPHORE -DNN_HAVE_SEMAPHORE_PTHREAD=1 -DNN_HAVE_SOCKETPAIR=1 -DNN_HAVE_UNIX_SOCKETS=1 -DNN_MAX_SOCKETS=512 -DNN_SHARED_LIB -DNN_USE_EPOLL -DNN_USE_EVENTFD -D_GNU_SOURCE -D_POSIX_PTHREAD_SEMANTICS -D_REENTRANT -D_THREAD_SAFE -Dnanomsg_EXPORTS  -Wall -Wextra  -g -fPIC -o src/CMakeFiles/nanomsg.dir/transports/ipc/bipc.c.o -c /home/wangzhao/experiments/deneva/utils/nanomsg/src/transports/ipc/bipc.c",
+  "file": "/home/wangzhao/experiments/deneva/utils/nanomsg/src/transports/ipc/bipc.c",
+  "output": "src/CMakeFiles/nanomsg.dir/transports/ipc/bipc.c.o"
+},
+{
+  "directory": "/home/wangzhao/experiments/deneva/build",
+  "command": "/usr/bin/gcc -DNN_HAVE_ACCEPT4=1 -DNN_HAVE_BACKTRACE=1 -DNN_HAVE_CLOCK_GETTIME=1 -DNN_HAVE_CLOCK_MONOTONIC=1 -DNN_HAVE_EPOLL=1 -DNN_HAVE_EVENTFD=1 -DNN_HAVE_GCC_ATOMIC_BUILTINS -DNN_HAVE_GETADDRINFO_A=1 -DNN_HAVE_LIBNSL=1 -DNN_HAVE_LINUX -DNN_HAVE_MSG_CONTROL=1 -DNN_HAVE_PIPE2=1 -DNN_HAVE_PIPE=1 -DNN_HAVE_POLL=1 -DNN_HAVE_SEMAPHORE -DNN_HAVE_SEMAPHORE_PTHREAD=1 -DNN_HAVE_SOCKETPAIR=1 -DNN_HAVE_UNIX_SOCKETS=1 -DNN_MAX_SOCKETS=512 -DNN_SHARED_LIB -DNN_USE_EPOLL -DNN_USE_EVENTFD -D_GNU_SOURCE -D_POSIX_PTHREAD_SEMANTICS -D_REENTRANT -D_THREAD_SAFE -Dnanomsg_EXPORTS  -Wall -Wextra  -g -fPIC -o src/CMakeFiles/nanomsg.dir/transports/ipc/cipc.c.o -c /home/wangzhao/experiments/deneva/utils/nanomsg/src/transports/ipc/cipc.c",
+  "file": "/home/wangzhao/experiments/deneva/utils/nanomsg/src/transports/ipc/cipc.c",
+  "output": "src/CMakeFiles/nanomsg.dir/transports/ipc/cipc.c.o"
+},
+{
+  "directory": "/home/wangzhao/experiments/deneva/build",
+  "command": "/usr/bin/gcc -DNN_HAVE_ACCEPT4=1 -DNN_HAVE_BACKTRACE=1 -DNN_HAVE_CLOCK_GETTIME=1 -DNN_HAVE_CLOCK_MONOTONIC=1 -DNN_HAVE_EPOLL=1 -DNN_HAVE_EVENTFD=1 -DNN_HAVE_GCC_ATOMIC_BUILTINS -DNN_HAVE_GETADDRINFO_A=1 -DNN_HAVE_LIBNSL=1 -DNN_HAVE_LINUX -DNN_HAVE_MSG_CONTROL=1 -DNN_HAVE_PIPE2=1 -DNN_HAVE_PIPE=1 -DNN_HAVE_POLL=1 -DNN_HAVE_SEMAPHORE -DNN_HAVE_SEMAPHORE_PTHREAD=1 -DNN_HAVE_SOCKETPAIR=1 -DNN_HAVE_UNIX_SOCKETS=1 -DNN_MAX_SOCKETS=512 -DNN_SHARED_LIB -DNN_USE_EPOLL -DNN_USE_EVENTFD -D_GNU_SOURCE -D_POSIX_PTHREAD_SEMANTICS -D_REENTRANT -D_THREAD_SAFE -Dnanomsg_EXPORTS  -Wall -Wextra  -g -fPIC -o src/CMakeFiles/nanomsg.dir/transports/ipc/ipc.c.o -c /home/wangzhao/experiments/deneva/utils/nanomsg/src/transports/ipc/ipc.c",
+  "file": "/home/wangzhao/experiments/deneva/utils/nanomsg/src/transports/ipc/ipc.c",
+  "output": "src/CMakeFiles/nanomsg.dir/transports/ipc/ipc.c.o"
+},
+{
+  "directory": "/home/wangzhao/experiments/deneva/build",
+  "command": "/usr/bin/gcc -DNN_HAVE_ACCEPT4=1 -DNN_HAVE_BACKTRACE=1 -DNN_HAVE_CLOCK_GETTIME=1 -DNN_HAVE_CLOCK_MONOTONIC=1 -DNN_HAVE_EPOLL=1 -DNN_HAVE_EVENTFD=1 -DNN_HAVE_GCC_ATOMIC_BUILTINS -DNN_HAVE_GETADDRINFO_A=1 -DNN_HAVE_LIBNSL=1 -DNN_HAVE_LINUX -DNN_HAVE_MSG_CONTROL=1 -DNN_HAVE_PIPE2=1 -DNN_HAVE_PIPE=1 -DNN_HAVE_POLL=1 -DNN_HAVE_SEMAPHORE -DNN_HAVE_SEMAPHORE_PTHREAD=1 -DNN_HAVE_SOCKETPAIR=1 -DNN_HAVE_UNIX_SOCKETS=1 -DNN_MAX_SOCKETS=512 -DNN_SHARED_LIB -DNN_USE_EPOLL -DNN_USE_EVENTFD -D_GNU_SOURCE -D_POSIX_PTHREAD_SEMANTICS -D_REENTRANT -D_THREAD_SAFE -Dnanomsg_EXPORTS  -Wall -Wextra  -g -fPIC -o src/CMakeFiles/nanomsg.dir/transports/ipc/sipc.c.o -c /home/wangzhao/experiments/deneva/utils/nanomsg/src/transports/ipc/sipc.c",
+  "file": "/home/wangzhao/experiments/deneva/utils/nanomsg/src/transports/ipc/sipc.c",
+  "output": "src/CMakeFiles/nanomsg.dir/transports/ipc/sipc.c.o"
+},
+{
+  "directory": "/home/wangzhao/experiments/deneva/build",
+  "command": "/usr/bin/gcc -DNN_HAVE_ACCEPT4=1 -DNN_HAVE_BACKTRACE=1 -DNN_HAVE_CLOCK_GETTIME=1 -DNN_HAVE_CLOCK_MONOTONIC=1 -DNN_HAVE_EPOLL=1 -DNN_HAVE_EVENTFD=1 -DNN_HAVE_GCC_ATOMIC_BUILTINS -DNN_HAVE_GETADDRINFO_A=1 -DNN_HAVE_LIBNSL=1 -DNN_HAVE_LINUX -DNN_HAVE_MSG_CONTROL=1 -DNN_HAVE_PIPE2=1 -DNN_HAVE_PIPE=1 -DNN_HAVE_POLL=1 -DNN_HAVE_SEMAPHORE -DNN_HAVE_SEMAPHORE_PTHREAD=1 -DNN_HAVE_SOCKETPAIR=1 -DNN_HAVE_UNIX_SOCKETS=1 -DNN_MAX_SOCKETS=512 -DNN_SHARED_LIB -DNN_USE_EPOLL -DNN_USE_EVENTFD -D_GNU_SOURCE -D_POSIX_PTHREAD_SEMANTICS -D_REENTRANT -D_THREAD_SAFE -Dnanomsg_EXPORTS  -Wall -Wextra  -g -fPIC -o src/CMakeFiles/nanomsg.dir/transports/tcp/atcp.c.o -c /home/wangzhao/experiments/deneva/utils/nanomsg/src/transports/tcp/atcp.c",
+  "file": "/home/wangzhao/experiments/deneva/utils/nanomsg/src/transports/tcp/atcp.c",
+  "output": "src/CMakeFiles/nanomsg.dir/transports/tcp/atcp.c.o"
+},
+{
+  "directory": "/home/wangzhao/experiments/deneva/build",
+  "command": "/usr/bin/gcc -DNN_HAVE_ACCEPT4=1 -DNN_HAVE_BACKTRACE=1 -DNN_HAVE_CLOCK_GETTIME=1 -DNN_HAVE_CLOCK_MONOTONIC=1 -DNN_HAVE_EPOLL=1 -DNN_HAVE_EVENTFD=1 -DNN_HAVE_GCC_ATOMIC_BUILTINS -DNN_HAVE_GETADDRINFO_A=1 -DNN_HAVE_LIBNSL=1 -DNN_HAVE_LINUX -DNN_HAVE_MSG_CONTROL=1 -DNN_HAVE_PIPE2=1 -DNN_HAVE_PIPE=1 -DNN_HAVE_POLL=1 -DNN_HAVE_SEMAPHORE -DNN_HAVE_SEMAPHORE_PTHREAD=1 -DNN_HAVE_SOCKETPAIR=1 -DNN_HAVE_UNIX_SOCKETS=1 -DNN_MAX_SOCKETS=512 -DNN_SHARED_LIB -DNN_USE_EPOLL -DNN_USE_EVENTFD -D_GNU_SOURCE -D_POSIX_PTHREAD_SEMANTICS -D_REENTRANT -D_THREAD_SAFE -Dnanomsg_EXPORTS  -Wall -Wextra  -g -fPIC -o src/CMakeFiles/nanomsg.dir/transports/tcp/btcp.c.o -c /home/wangzhao/experiments/deneva/utils/nanomsg/src/transports/tcp/btcp.c",
+  "file": "/home/wangzhao/experiments/deneva/utils/nanomsg/src/transports/tcp/btcp.c",
+  "output": "src/CMakeFiles/nanomsg.dir/transports/tcp/btcp.c.o"
+},
+{
+  "directory": "/home/wangzhao/experiments/deneva/build",
+  "command": "/usr/bin/gcc -DNN_HAVE_ACCEPT4=1 -DNN_HAVE_BACKTRACE=1 -DNN_HAVE_CLOCK_GETTIME=1 -DNN_HAVE_CLOCK_MONOTONIC=1 -DNN_HAVE_EPOLL=1 -DNN_HAVE_EVENTFD=1 -DNN_HAVE_GCC_ATOMIC_BUILTINS -DNN_HAVE_GETADDRINFO_A=1 -DNN_HAVE_LIBNSL=1 -DNN_HAVE_LINUX -DNN_HAVE_MSG_CONTROL=1 -DNN_HAVE_PIPE2=1 -DNN_HAVE_PIPE=1 -DNN_HAVE_POLL=1 -DNN_HAVE_SEMAPHORE -DNN_HAVE_SEMAPHORE_PTHREAD=1 -DNN_HAVE_SOCKETPAIR=1 -DNN_HAVE_UNIX_SOCKETS=1 -DNN_MAX_SOCKETS=512 -DNN_SHARED_LIB -DNN_USE_EPOLL -DNN_USE_EVENTFD -D_GNU_SOURCE -D_POSIX_PTHREAD_SEMANTICS -D_REENTRANT -D_THREAD_SAFE -Dnanomsg_EXPORTS  -Wall -Wextra  -g -fPIC -o src/CMakeFiles/nanomsg.dir/transports/tcp/ctcp.c.o -c /home/wangzhao/experiments/deneva/utils/nanomsg/src/transports/tcp/ctcp.c",
+  "file": "/home/wangzhao/experiments/deneva/utils/nanomsg/src/transports/tcp/ctcp.c",
+  "output": "src/CMakeFiles/nanomsg.dir/transports/tcp/ctcp.c.o"
+},
+{
+  "directory": "/home/wangzhao/experiments/deneva/build",
+  "command": "/usr/bin/gcc -DNN_HAVE_ACCEPT4=1 -DNN_HAVE_BACKTRACE=1 -DNN_HAVE_CLOCK_GETTIME=1 -DNN_HAVE_CLOCK_MONOTONIC=1 -DNN_HAVE_EPOLL=1 -DNN_HAVE_EVENTFD=1 -DNN_HAVE_GCC_ATOMIC_BUILTINS -DNN_HAVE_GETADDRINFO_A=1 -DNN_HAVE_LIBNSL=1 -DNN_HAVE_LINUX -DNN_HAVE_MSG_CONTROL=1 -DNN_HAVE_PIPE2=1 -DNN_HAVE_PIPE=1 -DNN_HAVE_POLL=1 -DNN_HAVE_SEMAPHORE -DNN_HAVE_SEMAPHORE_PTHREAD=1 -DNN_HAVE_SOCKETPAIR=1 -DNN_HAVE_UNIX_SOCKETS=1 -DNN_MAX_SOCKETS=512 -DNN_SHARED_LIB -DNN_USE_EPOLL -DNN_USE_EVENTFD -D_GNU_SOURCE -D_POSIX_PTHREAD_SEMANTICS -D_REENTRANT -D_THREAD_SAFE -Dnanomsg_EXPORTS  -Wall -Wextra  -g -fPIC -o src/CMakeFiles/nanomsg.dir/transports/tcp/stcp.c.o -c /home/wangzhao/experiments/deneva/utils/nanomsg/src/transports/tcp/stcp.c",
+  "file": "/home/wangzhao/experiments/deneva/utils/nanomsg/src/transports/tcp/stcp.c",
+  "output": "src/CMakeFiles/nanomsg.dir/transports/tcp/stcp.c.o"
+},
+{
+  "directory": "/home/wangzhao/experiments/deneva/build",
+  "command": "/usr/bin/gcc -DNN_HAVE_ACCEPT4=1 -DNN_HAVE_BACKTRACE=1 -DNN_HAVE_CLOCK_GETTIME=1 -DNN_HAVE_CLOCK_MONOTONIC=1 -DNN_HAVE_EPOLL=1 -DNN_HAVE_EVENTFD=1 -DNN_HAVE_GCC_ATOMIC_BUILTINS -DNN_HAVE_GETADDRINFO_A=1 -DNN_HAVE_LIBNSL=1 -DNN_HAVE_LINUX -DNN_HAVE_MSG_CONTROL=1 -DNN_HAVE_PIPE2=1 -DNN_HAVE_PIPE=1 -DNN_HAVE_POLL=1 -DNN_HAVE_SEMAPHORE -DNN_HAVE_SEMAPHORE_PTHREAD=1 -DNN_HAVE_SOCKETPAIR=1 -DNN_HAVE_UNIX_SOCKETS=1 -DNN_MAX_SOCKETS=512 -DNN_SHARED_LIB -DNN_USE_EPOLL -DNN_USE_EVENTFD -D_GNU_SOURCE -D_POSIX_PTHREAD_SEMANTICS -D_REENTRANT -D_THREAD_SAFE -Dnanomsg_EXPORTS  -Wall -Wextra  -g -fPIC -o src/CMakeFiles/nanomsg.dir/transports/tcp/tcp.c.o -c /home/wangzhao/experiments/deneva/utils/nanomsg/src/transports/tcp/tcp.c",
+  "file": "/home/wangzhao/experiments/deneva/utils/nanomsg/src/transports/tcp/tcp.c",
+  "output": "src/CMakeFiles/nanomsg.dir/transports/tcp/tcp.c.o"
+},
+{
+  "directory": "/home/wangzhao/experiments/deneva/build",
+  "command": "/usr/bin/gcc -DNN_HAVE_ACCEPT4=1 -DNN_HAVE_BACKTRACE=1 -DNN_HAVE_CLOCK_GETTIME=1 -DNN_HAVE_CLOCK_MONOTONIC=1 -DNN_HAVE_EPOLL=1 -DNN_HAVE_EVENTFD=1 -DNN_HAVE_GCC_ATOMIC_BUILTINS -DNN_HAVE_GETADDRINFO_A=1 -DNN_HAVE_LIBNSL=1 -DNN_HAVE_LINUX -DNN_HAVE_MSG_CONTROL=1 -DNN_HAVE_PIPE2=1 -DNN_HAVE_PIPE=1 -DNN_HAVE_POLL=1 -DNN_HAVE_SEMAPHORE -DNN_HAVE_SEMAPHORE_PTHREAD=1 -DNN_HAVE_SOCKETPAIR=1 -DNN_HAVE_UNIX_SOCKETS=1 -DNN_MAX_SOCKETS=512 -DNN_SHARED_LIB -DNN_USE_EPOLL -DNN_USE_EVENTFD -D_GNU_SOURCE -D_POSIX_PTHREAD_SEMANTICS -D_REENTRANT -D_THREAD_SAFE -Dnanomsg_EXPORTS  -Wall -Wextra  -g -fPIC -o src/CMakeFiles/nanomsg.dir/transports/ws/aws.c.o -c /home/wangzhao/experiments/deneva/utils/nanomsg/src/transports/ws/aws.c",
+  "file": "/home/wangzhao/experiments/deneva/utils/nanomsg/src/transports/ws/aws.c",
+  "output": "src/CMakeFiles/nanomsg.dir/transports/ws/aws.c.o"
+},
+{
+  "directory": "/home/wangzhao/experiments/deneva/build",
+  "command": "/usr/bin/gcc -DNN_HAVE_ACCEPT4=1 -DNN_HAVE_BACKTRACE=1 -DNN_HAVE_CLOCK_GETTIME=1 -DNN_HAVE_CLOCK_MONOTONIC=1 -DNN_HAVE_EPOLL=1 -DNN_HAVE_EVENTFD=1 -DNN_HAVE_GCC_ATOMIC_BUILTINS -DNN_HAVE_GETADDRINFO_A=1 -DNN_HAVE_LIBNSL=1 -DNN_HAVE_LINUX -DNN_HAVE_MSG_CONTROL=1 -DNN_HAVE_PIPE2=1 -DNN_HAVE_PIPE=1 -DNN_HAVE_POLL=1 -DNN_HAVE_SEMAPHORE -DNN_HAVE_SEMAPHORE_PTHREAD=1 -DNN_HAVE_SOCKETPAIR=1 -DNN_HAVE_UNIX_SOCKETS=1 -DNN_MAX_SOCKETS=512 -DNN_SHARED_LIB -DNN_USE_EPOLL -DNN_USE_EVENTFD -D_GNU_SOURCE -D_POSIX_PTHREAD_SEMANTICS -D_REENTRANT -D_THREAD_SAFE -Dnanomsg_EXPORTS  -Wall -Wextra  -g -fPIC -o src/CMakeFiles/nanomsg.dir/transports/ws/bws.c.o -c /home/wangzhao/experiments/deneva/utils/nanomsg/src/transports/ws/bws.c",
+  "file": "/home/wangzhao/experiments/deneva/utils/nanomsg/src/transports/ws/bws.c",
+  "output": "src/CMakeFiles/nanomsg.dir/transports/ws/bws.c.o"
+},
+{
+  "directory": "/home/wangzhao/experiments/deneva/build",
+  "command": "/usr/bin/gcc -DNN_HAVE_ACCEPT4=1 -DNN_HAVE_BACKTRACE=1 -DNN_HAVE_CLOCK_GETTIME=1 -DNN_HAVE_CLOCK_MONOTONIC=1 -DNN_HAVE_EPOLL=1 -DNN_HAVE_EVENTFD=1 -DNN_HAVE_GCC_ATOMIC_BUILTINS -DNN_HAVE_GETADDRINFO_A=1 -DNN_HAVE_LIBNSL=1 -DNN_HAVE_LINUX -DNN_HAVE_MSG_CONTROL=1 -DNN_HAVE_PIPE2=1 -DNN_HAVE_PIPE=1 -DNN_HAVE_POLL=1 -DNN_HAVE_SEMAPHORE -DNN_HAVE_SEMAPHORE_PTHREAD=1 -DNN_HAVE_SOCKETPAIR=1 -DNN_HAVE_UNIX_SOCKETS=1 -DNN_MAX_SOCKETS=512 -DNN_SHARED_LIB -DNN_USE_EPOLL -DNN_USE_EVENTFD -D_GNU_SOURCE -D_POSIX_PTHREAD_SEMANTICS -D_REENTRANT -D_THREAD_SAFE -Dnanomsg_EXPORTS  -Wall -Wextra  -g -fPIC -o src/CMakeFiles/nanomsg.dir/transports/ws/cws.c.o -c /home/wangzhao/experiments/deneva/utils/nanomsg/src/transports/ws/cws.c",
+  "file": "/home/wangzhao/experiments/deneva/utils/nanomsg/src/transports/ws/cws.c",
+  "output": "src/CMakeFiles/nanomsg.dir/transports/ws/cws.c.o"
+},
+{
+  "directory": "/home/wangzhao/experiments/deneva/build",
+  "command": "/usr/bin/gcc -DNN_HAVE_ACCEPT4=1 -DNN_HAVE_BACKTRACE=1 -DNN_HAVE_CLOCK_GETTIME=1 -DNN_HAVE_CLOCK_MONOTONIC=1 -DNN_HAVE_EPOLL=1 -DNN_HAVE_EVENTFD=1 -DNN_HAVE_GCC_ATOMIC_BUILTINS -DNN_HAVE_GETADDRINFO_A=1 -DNN_HAVE_LIBNSL=1 -DNN_HAVE_LINUX -DNN_HAVE_MSG_CONTROL=1 -DNN_HAVE_PIPE2=1 -DNN_HAVE_PIPE=1 -DNN_HAVE_POLL=1 -DNN_HAVE_SEMAPHORE -DNN_HAVE_SEMAPHORE_PTHREAD=1 -DNN_HAVE_SOCKETPAIR=1 -DNN_HAVE_UNIX_SOCKETS=1 -DNN_MAX_SOCKETS=512 -DNN_SHARED_LIB -DNN_USE_EPOLL -DNN_USE_EVENTFD -D_GNU_SOURCE -D_POSIX_PTHREAD_SEMANTICS -D_REENTRANT -D_THREAD_SAFE -Dnanomsg_EXPORTS  -Wall -Wextra  -g -fPIC -o src/CMakeFiles/nanomsg.dir/transports/ws/sws.c.o -c /home/wangzhao/experiments/deneva/utils/nanomsg/src/transports/ws/sws.c",
+  "file": "/home/wangzhao/experiments/deneva/utils/nanomsg/src/transports/ws/sws.c",
+  "output": "src/CMakeFiles/nanomsg.dir/transports/ws/sws.c.o"
+},
+{
+  "directory": "/home/wangzhao/experiments/deneva/build",
+  "command": "/usr/bin/gcc -DNN_HAVE_ACCEPT4=1 -DNN_HAVE_BACKTRACE=1 -DNN_HAVE_CLOCK_GETTIME=1 -DNN_HAVE_CLOCK_MONOTONIC=1 -DNN_HAVE_EPOLL=1 -DNN_HAVE_EVENTFD=1 -DNN_HAVE_GCC_ATOMIC_BUILTINS -DNN_HAVE_GETADDRINFO_A=1 -DNN_HAVE_LIBNSL=1 -DNN_HAVE_LINUX -DNN_HAVE_MSG_CONTROL=1 -DNN_HAVE_PIPE2=1 -DNN_HAVE_PIPE=1 -DNN_HAVE_POLL=1 -DNN_HAVE_SEMAPHORE -DNN_HAVE_SEMAPHORE_PTHREAD=1 -DNN_HAVE_SOCKETPAIR=1 -DNN_HAVE_UNIX_SOCKETS=1 -DNN_MAX_SOCKETS=512 -DNN_SHARED_LIB -DNN_USE_EPOLL -DNN_USE_EVENTFD -D_GNU_SOURCE -D_POSIX_PTHREAD_SEMANTICS -D_REENTRANT -D_THREAD_SAFE -Dnanomsg_EXPORTS  -Wall -Wextra  -g -fPIC -o src/CMakeFiles/nanomsg.dir/transports/ws/ws.c.o -c /home/wangzhao/experiments/deneva/utils/nanomsg/src/transports/ws/ws.c",
+  "file": "/home/wangzhao/experiments/deneva/utils/nanomsg/src/transports/ws/ws.c",
+  "output": "src/CMakeFiles/nanomsg.dir/transports/ws/ws.c.o"
+},
+{
+  "directory": "/home/wangzhao/experiments/deneva/build",
+  "command": "/usr/bin/gcc -DNN_HAVE_ACCEPT4=1 -DNN_HAVE_BACKTRACE=1 -DNN_HAVE_CLOCK_GETTIME=1 -DNN_HAVE_CLOCK_MONOTONIC=1 -DNN_HAVE_EPOLL=1 -DNN_HAVE_EVENTFD=1 -DNN_HAVE_GCC_ATOMIC_BUILTINS -DNN_HAVE_GETADDRINFO_A=1 -DNN_HAVE_LIBNSL=1 -DNN_HAVE_LINUX -DNN_HAVE_MSG_CONTROL=1 -DNN_HAVE_PIPE2=1 -DNN_HAVE_PIPE=1 -DNN_HAVE_POLL=1 -DNN_HAVE_SEMAPHORE -DNN_HAVE_SEMAPHORE_PTHREAD=1 -DNN_HAVE_SOCKETPAIR=1 -DNN_HAVE_UNIX_SOCKETS=1 -DNN_MAX_SOCKETS=512 -DNN_SHARED_LIB -DNN_USE_EPOLL -DNN_USE_EVENTFD -D_GNU_SOURCE -D_POSIX_PTHREAD_SEMANTICS -D_REENTRANT -D_THREAD_SAFE -Dnanomsg_EXPORTS  -Wall -Wextra  -g -fPIC -o src/CMakeFiles/nanomsg.dir/transports/ws/ws_handshake.c.o -c /home/wangzhao/experiments/deneva/utils/nanomsg/src/transports/ws/ws_handshake.c",
+  "file": "/home/wangzhao/experiments/deneva/utils/nanomsg/src/transports/ws/ws_handshake.c",
+  "output": "src/CMakeFiles/nanomsg.dir/transports/ws/ws_handshake.c.o"
+},
+{
+  "directory": "/home/wangzhao/experiments/deneva/build",
+  "command": "/usr/bin/gcc -DNN_HAVE_ACCEPT4=1 -DNN_HAVE_BACKTRACE=1 -DNN_HAVE_CLOCK_GETTIME=1 -DNN_HAVE_CLOCK_MONOTONIC=1 -DNN_HAVE_EPOLL=1 -DNN_HAVE_EVENTFD=1 -DNN_HAVE_GCC_ATOMIC_BUILTINS -DNN_HAVE_GETADDRINFO_A=1 -DNN_HAVE_LIBNSL=1 -DNN_HAVE_LINUX -DNN_HAVE_MSG_CONTROL=1 -DNN_HAVE_PIPE2=1 -DNN_HAVE_PIPE=1 -DNN_HAVE_POLL=1 -DNN_HAVE_SEMAPHORE -DNN_HAVE_SEMAPHORE_PTHREAD=1 -DNN_HAVE_SOCKETPAIR=1 -DNN_HAVE_UNIX_SOCKETS=1 -DNN_MAX_SOCKETS=512 -DNN_SHARED_LIB -DNN_USE_EPOLL -DNN_USE_EVENTFD -D_GNU_SOURCE -D_POSIX_PTHREAD_SEMANTICS -D_REENTRANT -D_THREAD_SAFE -Dnanomsg_EXPORTS  -Wall -Wextra  -g -fPIC -o src/CMakeFiles/nanomsg.dir/transports/ws/sha1.c.o -c /home/wangzhao/experiments/deneva/utils/nanomsg/src/transports/ws/sha1.c",
+  "file": "/home/wangzhao/experiments/deneva/utils/nanomsg/src/transports/ws/sha1.c",
+  "output": "src/CMakeFiles/nanomsg.dir/transports/ws/sha1.c.o"
+},
+{
+  "directory": "/home/wangzhao/experiments/deneva/build",
+  "command": "/usr/bin/gcc -DNN_HAVE_ACCEPT4=1 -DNN_HAVE_BACKTRACE=1 -DNN_HAVE_CLOCK_GETTIME=1 -DNN_HAVE_CLOCK_MONOTONIC=1 -DNN_HAVE_EPOLL=1 -DNN_HAVE_EVENTFD=1 -DNN_HAVE_GCC_ATOMIC_BUILTINS -DNN_HAVE_GETADDRINFO_A=1 -DNN_HAVE_LIBNSL=1 -DNN_HAVE_LINUX -DNN_HAVE_MSG_CONTROL=1 -DNN_HAVE_PIPE2=1 -DNN_HAVE_PIPE=1 -DNN_HAVE_POLL=1 -DNN_HAVE_SEMAPHORE -DNN_HAVE_SEMAPHORE_PTHREAD=1 -DNN_HAVE_SOCKETPAIR=1 -DNN_HAVE_UNIX_SOCKETS=1 -DNN_MAX_SOCKETS=512 -DNN_SHARED_LIB -DNN_USE_EPOLL -DNN_USE_EVENTFD -D_GNU_SOURCE -D_POSIX_PTHREAD_SEMANTICS -D_REENTRANT -D_THREAD_SAFE -Dnanomsg_EXPORTS  -Wall -Wextra  -g -fPIC -o src/CMakeFiles/nanomsg.dir/aio/poller.c.o -c /home/wangzhao/experiments/deneva/utils/nanomsg/src/aio/poller.c",
+  "file": "/home/wangzhao/experiments/deneva/utils/nanomsg/src/aio/poller.c",
+  "output": "src/CMakeFiles/nanomsg.dir/aio/poller.c.o"
+}
+]

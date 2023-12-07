@@ -79,7 +79,7 @@ for exp in exps:
         output_f = output_f + strnow 
         print output_f
 
-        f = open("config.h",'r');
+        f = open("config.h",'r')
         lines = f.readlines()
         f.close()
         with open("config.h",'w') as f_cfg:

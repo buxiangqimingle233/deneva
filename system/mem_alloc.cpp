@@ -17,9 +17,9 @@
 #include "mem_alloc.h"
 #include "helper.h"
 #include "global.h"
-#include "jemalloc/jemalloc.h"
+#include "utils/jemalloc/include/jemalloc/jemalloc.h"
 
-//#define N_MALLOC
+#define N_MALLOC
 
 void mem_alloc::free(void * ptr, uint64_t size) {
 	if (NO_FREE) {} 

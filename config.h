@@ -5,7 +5,7 @@
 /***********************************************/
 // Simulation + Hardware
 /***********************************************/
-#define NODE_CNT 2
+#define NODE_CNT 4
 #define THREAD_CNT 4
 #define REM_THREAD_CNT THREAD_CNT
 #define SEND_THREAD_CNT THREAD_CNT
@@ -44,7 +44,7 @@
 #define TIME_ENABLE         true //STATS_ENABLE
 
 #define FIN_BY_TIME true
-#define MAX_TXN_IN_FLIGHT 100
+#define MAX_TXN_IN_FLIGHT 10000
 
 #define SERVER_GENERATE_QUERIES false
 
@@ -72,10 +72,10 @@
 /***********************************************/
 // Message Passing
 /***********************************************/
-#define TPORT_TYPE TCP
+#define TPORT_TYPE IPC
 #define TPORT_PORT 17000
 #define SET_AFFINITY true
-#define TPORT_TYPE TCP
+#define TPORT_TYPE IPC
 #define TPORT_PORT 17000
 #define SET_AFFINITY true
 
@@ -98,9 +98,9 @@
 // Concurrency Control
 /***********************************************/
 // WAIT_DIE, NO_WAIT, TIMESTAMP, MVCC, CALVIN, MAAT
-#define CC_ALG TIMESTAMP
+#define CC_ALG CALVIN
 #define ISOLATION_LEVEL SERIALIZABLE
-#define YCSB_ABORT_MODE false
+#define YCSB_ABORT_MODE true
 
 // all transactions acquire tuples according to the primary key order.
 #define KEY_ORDER         false
@@ -166,18 +166,18 @@
 #define DATA_PERC 100
 #define ACCESS_PERC 0.03
 #define INIT_PARALLELISM 8
-#define SYNTH_TABLE_SIZE 65536
-#define ZIPF_THETA 0.3
-#define TXN_WRITE_PERC 0.0
-#define TUP_WRITE_PERC 0.0
+#define SYNTH_TABLE_SIZE 67108864
+#define ZIPF_THETA 0
+#define TXN_WRITE_PERC 0.5
+#define TUP_WRITE_PERC 0.5
 #define SCAN_PERC           0
 #define SCAN_LEN          20
-#define PART_PER_TXN PART_CNT
+#define PART_PER_TXN 4
 #define PERC_MULTI_PART     MPR 
-#define REQ_PER_QUERY 10
+#define REQ_PER_QUERY 16
 #define FIELD_PER_TUPLE       10
 #define CREATE_TXN_FILE false
-#define STRICT_PPT 0
+#define STRICT_PPT 1
 // ==== [TPCC] ====
 // For large warehouse count, the tables do not fit in memory
 // small tpcc schemas shrink the table size.
@@ -194,7 +194,7 @@
 #define WH_UPDATE         true
 #define NUM_WH PART_CNT
 // % of transactions that access multiple partitions
-#define MPR 1.0
+#define MPR 1
 #define MPIR 0.01
 #define MPR_NEWORDER      20 // In %
 enum TPCCTable {TPCC_WAREHOUSE, 
@@ -349,9 +349,9 @@ enum PPSTxnType {PPS_ALL = 0,
 #define DONE_TIMER 1 * 60 * BILLION // ~1 minutes
 #define WARMUP_TIMER 1 * 60 * BILLION // ~1 minutes
 
-#define SEED 0
+#define SEED 114514
 #define SHMEM_ENV false
-#define ENVIRONMENT_EC2 true
+#define ENVIRONMENT_EC2 false
 
 #endif
 

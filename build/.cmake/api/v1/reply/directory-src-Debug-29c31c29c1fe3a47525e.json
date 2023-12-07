@@ -1,0 +1,117 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"src/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 372,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 375,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 390,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 404,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "lib/pkgconfig",
+			"paths" : 
+			[
+				"/home/wangzhao/experiments/deneva/build/src/nanomsg.pc"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"libnanomsg.so.6.0.1",
+				"libnanomsg.so.6"
+			],
+			"targetId" : "nanomsg::@145eef247bfb46b6828c",
+			"targetIndex" : 28,
+			"targetInstallNamelink" : "skip",
+			"type" : "target"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"libnanomsg.so"
+			],
+			"targetId" : "nanomsg::@145eef247bfb46b6828c",
+			"targetIndex" : 28,
+			"targetInstallNamelink" : "only",
+			"type" : "target"
+		},
+		{
+			"backtrace" : 3,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/nanomsg-1.2-4-ga54ccc7c",
+			"exportName" : "nanomsg-target",
+			"exportTargets" : 
+			[
+				{
+					"id" : "nanomsg::@145eef247bfb46b6828c",
+					"index" : 28
+				}
+			],
+			"paths" : 
+			[
+				"src/CMakeFiles/Export/c816409d2a915523f3018276ad17674f/nanomsg-target.cmake"
+			],
+			"type" : "export"
+		},
+		{
+			"backtrace" : 4,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/nanomsg-1.2-4-ga54ccc7c",
+			"paths" : 
+			[
+				"/home/wangzhao/experiments/deneva/build/src/nanomsg-config.cmake",
+				"/home/wangzhao/experiments/deneva/build/src/nanomsg-config-version.cmake"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "src",
+		"source" : "src"
+	}
+}

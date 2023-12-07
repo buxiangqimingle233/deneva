@@ -18,8 +18,8 @@
 #define _TRANSPORT_H_
 #include "global.h"
 #include "nn.hpp"
-#include <nanomsg/bus.h>
-#include <nanomsg/pair.h>
+#include "utils/nanomsg/src/bus.h"
+#include "utils/nanomsg/src/pair.h"
 #include "query.h"
 
 class Workload;

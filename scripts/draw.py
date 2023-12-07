@@ -372,8 +372,6 @@ def draw_line(fname, data, xticks,
     sns.set_palette("bright")
     sns.set_style("whitegrid")
 
-
-
     fig = figure(figsize=figsize)
     thr = [0] * len(xticks)
     lines = [0] * len(data)

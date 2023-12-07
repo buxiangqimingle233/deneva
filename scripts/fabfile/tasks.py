@@ -455,7 +455,7 @@ def get_results(outfiles,nids):
 @hosts('localhost')
 def write_config(cfgs):
     dbx_cfg = os.path.join(env.local_path,"config.h")
-    f = open(dbx_cfg,'r');
+    f = open(dbx_cfg,'r')
     lines = f.readlines()
     f.close()
     with open(dbx_cfg,'w') as f_cfg:
