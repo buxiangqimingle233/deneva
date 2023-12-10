@@ -98,7 +98,7 @@
 // Concurrency Control
 /***********************************************/
 // WAIT_DIE, NO_WAIT, TIMESTAMP, MVCC, CALVIN, MAAT
-#define CC_ALG CALVIN
+#define CC_ALG NO_WAIT
 #define ISOLATION_LEVEL SERIALIZABLE
 #define YCSB_ABORT_MODE true
 
@@ -162,13 +162,13 @@
 // SKEW_METHOD: 
 //    ZIPF: use ZIPF_THETA distribution
 //    HOT: use ACCESS_PERC of the accesses go to DATA_PERC of the data
-#define SKEW_METHOD ZIPF
+#define SKEW_METHOD HOT
 #define DATA_PERC 100
 #define ACCESS_PERC 0.03
 #define INIT_PARALLELISM 8
 #define SYNTH_TABLE_SIZE 67108864
 #define ZIPF_THETA 0
-#define TXN_WRITE_PERC 0.5
+#define TXN_WRITE_PERC 0.9
 #define TUP_WRITE_PERC 0.5
 #define SCAN_PERC           0
 #define SCAN_LEN          20
@@ -194,7 +194,7 @@
 #define WH_UPDATE         true
 #define NUM_WH PART_CNT
 // % of transactions that access multiple partitions
-#define MPR 1
+#define MPR 0.4
 #define MPIR 0.01
 #define MPR_NEWORDER      20 // In %
 enum TPCCTable {TPCC_WAREHOUSE, 

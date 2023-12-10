@@ -184,7 +184,7 @@ def network_sweep():
     ndelay = [0, 1, 2, 5, 10, 15, 20]
     # network delay in nanoseconds
     ndelay = [int(n * 1000) for n in ndelay]
-    nnodes = [2]
+    nnodes_ = [nnodes]
     txn_write_perc = [0.5]
     tup_write_perc = [0.5]
     load = [10000]
@@ -192,13 +192,13 @@ def network_sweep():
     skew = [0.6]
     base_table_size = 2097152 * 8
     fmt = ["WORKLOAD","NODE_CNT","CC_ALG","SYNTH_TABLE_SIZE","TUP_WRITE_PERC","TXN_WRITE_PERC","MAX_TXN_IN_FLIGHT","ZIPF_THETA","THREAD_CNT","NETWORK_DELAY_TEST","NETWORK_DELAY","SET_AFFINITY"]
-    exp = [[wl,n,algo,base_table_size * n,tup_wr_perc,txn_wr_perc,ld,sk,thr,"true",d,"false"] for thr,txn_wr_perc,tup_wr_perc,sk,ld,n,d,algo in itertools.product(tcnt,txn_write_perc,tup_write_perc,skew,load,nnodes,ndelay,nalgos)]
+    exp = [[wl,n,algo,base_table_size * n,tup_wr_perc,txn_wr_perc,ld,sk,thr,"true",d,"false"] for thr,txn_wr_perc,tup_wr_perc,sk,ld,n,d,algo in itertools.product(tcnt,txn_write_perc,tup_write_perc,skew,load,nnodes_,ndelay,nalgos)]
     return fmt,exp
 
 
 def ycsb_partitions_abort():
     wl = 'YCSB'
-    nnodes = [4]
+    nnodes_ = [nnodes]
     algos=['CALVIN']
     load = [10000]
     nparts = [4]
@@ -210,24 +210,35 @@ def ycsb_partitions_abort():
     skew = [0]
     rpq = 16
     fmt = ["WORKLOAD","REQ_PER_QUERY","PART_PER_TXN","NODE_CNT","CC_ALG","SYNTH_TABLE_SIZE","TUP_WRITE_PERC","TXN_WRITE_PERC","MAX_TXN_IN_FLIGHT","ZIPF_THETA","THREAD_CNT","STRICT_PPT","YCSB_ABORT_MODE", "MPR"]
-    exp = [[wl,rpq,p,n,algo,base_table_size * n,tup_wr_perc,txn_wr_perc,ld,sk,thr,1,'true', e] for thr,txn_wr_perc,tup_wr_perc,algo,sk,ld,n,p,e in itertools.product(tcnt,txn_write_perc,tup_write_perc,algos,skew,load,nnodes,nparts, mpr)]
+    exp = [[wl,rpq,p,n,algo,base_table_size * n,tup_wr_perc,txn_wr_perc,ld,sk,thr,1,'true', e] for thr,txn_wr_perc,tup_wr_perc,algo,sk,ld,n,p,e in itertools.product(tcnt,txn_write_perc,tup_write_perc,algos,skew,load,nnodes_,nparts, mpr)]
     return fmt,exp
 
 
 def deploy(output_f):
     pids = []
     print("Deploying: {}".format(output_f))
-    for n in range(ntotal):
-        if n < nnodes:
-            cmd = "./rundb -n{} -cn{} -nid{}".format(n, nnodes, nclnodes)
-        elif n < (nnodes + nclnodes):
-            cmd = "./runcl -n{} -cn{} -nid{}".format(n, nnodes, nclnodes)
-        else:
-            assert(False)
-
+    my_ip = subprocess.check_output("ifconfig | grep 'inet ' | grep -v '127.0.0.1' | cut -d: -f2 | awk '{ print $2}'", shell=True)
+    line_number = 0
+    with open('ifconfig.txt', 'r') as file:
+        for line in file:
+            if line.strip() in my_ip:
+                line_number += 1
+            else:
+                break
+    if line_number < nnodes:
+        cmd = "./rundb -n{} -cn{} -nid{}".format(nnodes, nclnodes, line_number)
+    else:
+        cmd = "./runcl -n{} -cn{} -nid{}".format(nnodes, nclnodes, line_number)
+    # for n in range(ntotal):
+    #     if n < nnodes:
+    #         cmd = "./rundb -n{} -cn{} -nid{}".format(n, nnodes, nclnodes)
+    #     elif n < (nnodes + nclnodes):
+    #         cmd = "./runcl -n{} -cn{} -nid{}".format(n, nnodes, nclnodes)
+    #     else:
+    #         assert(False)
         print(cmd)
         cmd = shlex.split(cmd)
-        ofile_n = "{}{}_{}.out".format(result_dir, n, output_f)
+        ofile_n = "{}{}_{}.out".format(result_dir, line_number, output_f)
         ofile = open(ofile_n,'w')
         p = subprocess.Popen(cmd, stdout=ofile, stderr=ofile)
         pids.insert(0,p)
@@ -334,9 +345,9 @@ def execute_all(exp_func):
                 if not found_cfg:
                     f_cfg.write(line)
 
-        os.system("make clean > temp.out 2>&1")
-        print("Running 'make' for the job...")
-        ret = os.system("make -j8 > temp.out 2>&1")
+        # os.system("make clean > temp.out 2>&1")
+        # print("Running 'make' for the job...")
+        # ret = os.system("make -j8 > temp.out 2>&1")
 
         os.system("mkdir -p {}".format(result_dir))
         os.system("cp config.h {}{}.cfg".format(result_dir, output_f))

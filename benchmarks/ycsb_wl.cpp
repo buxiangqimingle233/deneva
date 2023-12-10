@@ -185,7 +185,6 @@ void * YCSBWorkload::init_table_slice() {
 			new_row->set_value(fid, value,sizeof(value));
 		}
 #endif
-
 		itemid_t * m_item =
 			(itemid_t *) mem_allocator.alloc( sizeof(itemid_t));
 		assert(m_item != NULL);

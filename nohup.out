@@ -1,0 +1,246 @@
+xvals
+0
+0.2
+0.4
+0.6
+0.8
+1
+
+CALVIN
+91008.949658
+72217.96586
+52759.016649
+48185.699904999994
+39163.166579000004
+34412.583252
+Traceback (most recent call last):
+  File "/home/wangzhao/experiments/deneva/scripts/tiny_deploy.py", line 352, in <module>
+    execute_all(experiment_map[exp])
+  File "/home/wangzhao/experiments/deneva/scripts/tiny_deploy.py", line 273, in execute_all
+    fmt, experiments = exp_func()
+  File "/home/wangzhao/experiments/deneva/scripts/tiny_deploy.py", line 78, in ycsb_latency_breakdown
+    exp = [["HOT", wl,rpq,p,n,algo,base_table_size * n,tup_wr_perc,txn_wr_perc,ld,sk,thr,1,'true', e] for thr,txn_wr_perc,tup_wr_perc,algo,sk,ld,n,p,e in itertools.product(tcnt,txn_write_perc,tup_write_perc,nalgos,skew,load,nnodes,nparts)]
+  File "/home/wangzhao/experiments/deneva/scripts/tiny_deploy.py", line 78, in <listcomp>
+    exp = [["HOT", wl,rpq,p,n,algo,base_table_size * n,tup_wr_perc,txn_wr_perc,ld,sk,thr,1,'true', e] for thr,txn_wr_perc,tup_wr_perc,algo,sk,ld,n,p,e in itertools.product(tcnt,txn_write_perc,tup_write_perc,nalgos,skew,load,nnodes,nparts)]
+ValueError: not enough values to unpack (expected 9, got 8)
+Warning: Permanently added '198.22.255.110' (ECDSA) to the list of known hosts.
+Warning: Permanently added '198.22.255.100' (ECDSA) to the list of known hosts.
+Warning: Permanently added '198.22.255.100' (ECDSA) to the list of known hosts.
+Warning: Permanently added '198.22.255.100' (ECDSA) to the list of known hosts.
+Warning: Permanently added '198.22.255.110' (ECDSA) to the list of known hosts.
+Warning: Permanently added '198.22.255.100' (ECDSA) to the list of known hosts.
+Warning: Permanently added '198.22.255.100' (ECDSA) to the list of known hosts.
+Warning: Permanently added '198.22.255.110' (ECDSA) to the list of known hosts.
+Warning: Permanently added '198.22.255.110' (ECDSA) to the list of known hosts.
+Warning: Permanently added '198.22.255.110' (ECDSA) to the list of known hosts.
+Warning: Permanently added '198.22.255.110' (ECDSA) to the list of known hosts.
+Warning: Permanently added '198.22.255.110' (ECDSA) to the list of known hosts.
+Warning: Permanently added '198.22.255.96' (ECDSA) to the list of known hosts.
+Warning: Permanently added '198.22.255.100' (ECDSA) to the list of known hosts.
+Warning: Permanently added '198.22.255.74' (ECDSA) to the list of known hosts.
+Warning: Permanently added '198.22.255.96' (ECDSA) to the list of known hosts.
+Warning: Permanently added '198.22.255.96' (ECDSA) to the list of known hosts.
+Warning: Permanently added '198.22.255.96' (ECDSA) to the list of known hosts.
+Warning: Permanently added '198.22.255.96' (ECDSA) to the list of known hosts.
+Warning: Permanently added '198.22.255.96' (ECDSA) to the list of known hosts.
+Warning: Permanently added '198.22.255.74' (ECDSA) to the list of known hosts.
+Warning: Permanently added '198.22.255.110' (ECDSA) to the list of known hosts.
+Warning: Permanently added '198.22.255.100' (ECDSA) to the list of known hosts.
+Warning: Permanently added '198.22.255.74' (ECDSA) to the list of known hosts.
+Warning: Permanently added '198.22.255.74' (ECDSA) to the list of known hosts.
+Warning: Permanently added '198.22.255.96' (ECDSA) to the list of known hosts.
+Warning: Permanently added '198.22.255.96' (ECDSA) to the list of known hosts.
+Warning: Permanently added '198.22.255.74' (ECDSA) to the list of known hosts.
+Warning: Permanently added '198.22.255.74' (ECDSA) to the list of known hosts.
+Warning: Permanently added '198.22.255.100' (ECDSA) to the list of known hosts.
+Warning: Permanently added '198.22.255.74' (ECDSA) to the list of known hosts.
+Warning: Permanently added '198.22.255.74' (ECDSA) to the list of known hosts.
+sending incremental file list
+sending incremental file list
+sending incremental file list
+sending incremental file list
+sending incremental file list
+sending incremental file list
+sending incremental file list
+sending incremental file list
+sending incremental file list
+sending incremental file list
+sending incremental file list
+sending incremental file list
+sending incremental file list
+sending incremental file list
+sending incremental file list
+sending incremental file list
+sending incremental file list
+sending incremental file list
+sending incremental file list
+sending incremental file list
+sending incremental file list
+sending incremental file list
+sending incremental file list
+sending incremental file list
+sending incremental file list
+sending incremental file list
+sending incremental file list
+sending incremental file list
+sending incremental file list
+sending incremental file list
+ifconfig.txt
+            116 100%    0.00kB/s    0:00:00              116 100%    0.00kB/s    0:00:00 (xfr#1, to-chk=0/1)
+ifconfig.txt
+            116 100%    0.00kB/s    0:00:00              116 100%    0.00kB/s    0:00:00 (xfr#1, to-chk=0/1)
+runcl
+rundb
+ifconfig.txt
+ifconfig.txt
+            116 100%    0.00kB/s    0:00:00              116 100%    0.00kB/s    0:00:00 (xfr#1, to-chk=0/1)
+            116 100%    0.00kB/s    0:00:00              116 100%    0.00kB/s    0:00:00 (xfr#1, to-chk=0/1)
+         32,768   0%    0.00kB/s    0:00:00           32,768   0%    0.00kB/s    0:00:00  ifconfig.txt
+            116 100%    0.00kB/s    0:00:00              116 100%    0.00kB/s    0:00:00 (xfr#1, to-chk=0/1)
+runcl
+runcl
+runcl
+         32,768   0%    0.00kB/s    0:00:00  rundb
+         32,768   0%    0.00kB/s    0:00:00  runcl
+YCSB_schema.txt
+            218 100%    0.00kB/s    0:00:00              218 100%    0.00kB/s    0:00:00 (xfr#1, to-chk=0/1)
+YCSB_schema.txt
+            218 100%    0.00kB/s    0:00:00              218 100%    0.00kB/s    0:00:00 (xfr#1, to-chk=0/1)
+         32,768   0%    0.00kB/s    0:00:00           32,768   0%    0.00kB/s    0:00:00  runcl
+ifconfig.txt
+            116 100%    0.00kB/s    0:00:00              116 100%    0.00kB/s    0:00:00 (xfr#1, to-chk=0/1)
+runcl
+         32,768   0%    0.00kB/s    0:00:00  ifconfig.txt
+runcl
+            116 100%    0.00kB/s    0:00:00              116 100%    0.00kB/s    0:00:00 (xfr#1, to-chk=0/1)
+YCSB_schema.txt
+            218 100%    0.00kB/s    0:00:00              218 100%    0.00kB/s    0:00:00 (xfr#1, to-chk=0/1)
+YCSB_schema.txt
+            218 100%    0.00kB/s    0:00:00              218 100%    0.00kB/s    0:00:00 (xfr#1, to-chk=0/1)
+         32,768   0%    0.00kB/s    0:00:00           32,768   0%    0.00kB/s    0:00:00  rundb
+YCSB_schema.txt
+         32,768   0%    0.00kB/s    0:00:00              218 100%    0.00kB/s    0:00:00              218 100%    0.00kB/s    0:00:00 (xfr#1, to-chk=0/1)
+rundb
+YCSB_schema.txt
+         32,768   0%    0.00kB/s    0:00:00              218 100%    0.00kB/s    0:00:00              218 100%    0.00kB/s    0:00:00 (xfr#1, to-chk=0/1)
+rundb
+         32,768   0%    0.00kB/s    0:00:00  rundb
+YCSB_schema.txt
+            218 100%    0.00kB/s    0:00:00              218 100%    0.00kB/s    0:00:00 (xfr#1, to-chk=0/1)
+         32,768   0%    0.00kB/s    0:00:00  YCSB_schema.txt
+rundb
+            218 100%    0.00kB/s    0:00:00              218 100%    0.00kB/s    0:00:00 (xfr#1, to-chk=0/1)
+         32,768   0%    0.00kB/s    0:00:00           32,768   0%    0.00kB/s    0:00:00  
+sent 146 bytes  received 35 bytes  40.22 bytes/sec
+total size is 116  speedup is 0.64
+
+sent 146 bytes  received 35 bytes  40.22 bytes/sec
+total size is 116  speedup is 0.64
+
+sent 146 bytes  received 35 bytes  40.22 bytes/sec
+total size is 116  speedup is 0.64
+
+sent 146 bytes  received 35 bytes  40.22 bytes/sec
+total size is 116  speedup is 0.64
+
+sent 146 bytes  received 35 bytes  40.22 bytes/sec
+total size is 116  speedup is 0.64
+
+sent 208 bytes  received 35 bytes  54.00 bytes/sec
+total size is 218  speedup is 0.90
+
+sent 208 bytes  received 35 bytes  54.00 bytes/sec
+total size is 218  speedup is 0.90
+
+sent 146 bytes  received 35 bytes  40.22 bytes/sec
+total size is 116  speedup is 0.64
+
+sent 146 bytes  received 35 bytes  40.22 bytes/sec
+total size is 116  speedup is 0.64
+
+sent 208 bytes  received 35 bytes  54.00 bytes/sec
+total size is 218  speedup is 0.90
+
+sent 208 bytes  received 35 bytes  54.00 bytes/sec
+total size is 218  speedup is 0.90
+
+sent 208 bytes  received 35 bytes  54.00 bytes/sec
+total size is 218  speedup is 0.90
+
+sent 208 bytes  received 35 bytes  54.00 bytes/sec
+total size is 218  speedup is 0.90
+
+sent 208 bytes  received 35 bytes  54.00 bytes/sec
+total size is 218  speedup is 0.90
+
+sent 208 bytes  received 35 bytes  54.00 bytes/sec
+total size is 218  speedup is 0.90
+sending incremental file list
+      5,472,256  33%    5.05MB/s    0:00:02        5,472,256  33%    5.05MB/s    0:00:02        5,472,256  33%    5.01MB/s    0:00:02        5,472,256  33%    5.02MB/s    0:00:02        5,472,256  33%    5.02MB/s    0:00:02        5,472,256  33%    5.01MB/s    0:00:02  rundb
+         32,768   0%    0.00kB/s    0:00:00        5,701,632  34%    4.24MB/s    0:00:02        5,701,632  34%    4.23MB/s    0:00:02        5,701,632  34%    4.22MB/s    0:00:02        5,701,632  34%    4.20MB/s    0:00:02        5,701,632  34%    4.24MB/s    0:00:02        5,701,632  34%    4.17MB/s    0:00:02        5,701,632  34%    4.20MB/s    0:00:02        5,701,632  34%    4.18MB/s    0:00:02        5,701,632  34%    4.20MB/s    0:00:02        9,076,736  55%    4.25MB/s    0:00:01        9,043,968  55%    4.24MB/s    0:00:01        9,109,504  55%    4.25MB/s    0:00:01        8,880,128  54%    4.15MB/s    0:00:01        8,814,592  53%    4.10MB/s    0:00:01        8,912,896  54%    4.16MB/s    0:00:01       15,695,872  95%    6.56MB/s    0:00:00       15,728,640  96%    6.57MB/s    0:00:00       13,533,184  82%    5.65MB/s    0:00:00       13,697,024  83%    5.70MB/s    0:00:00       16,359,952 100%    6.75MB/s    0:00:02 (xfr#1, to-chk=0/1)
+     15,106,048  92%    6.32MB/s    0:00:00       15,368,192  93%    6.37MB/s    0:00:00       14,319,616  87%    5.94MB/s    0:00:00       12,288,000  75%    5.11MB/s    0:00:00       16,359,952 100%    6.73MB/s    0:00:02 (xfr#1, to-chk=0/1)
+     12,386,304  75%    5.15MB/s    0:00:00       16,359,952 100%    6.76MB/s    0:00:02 (xfr#1, to-chk=0/1)
+     16,359,952 100%    6.62MB/s    0:00:02 (xfr#1, to-chk=0/1)
+     16,373,096 100%    6.68MB/s    0:00:02 (xfr#1, to-chk=0/1)
+     16,359,952 100%    6.59MB/s    0:00:02 (xfr#1, to-chk=0/1)
+     16,373,096 100%    6.53MB/s    0:00:02 (xfr#1, to-chk=0/1)
+sending incremental file list
+     16,373,096 100%    6.52MB/s    0:00:02 (xfr#1, to-chk=0/1)
+     16,373,096 100%    6.52MB/s    0:00:02 (xfr#1, to-chk=0/1)
+     16,359,952 100%    6.49MB/s    0:00:02 (xfr#1, to-chk=0/1)
+     16,359,952 100%    6.46MB/s    0:00:02 (xfr#1, to-chk=0/1)
+     16,359,952 100%    6.48MB/s    0:00:02 (xfr#1, to-chk=0/1)
+     16,373,096 100%    6.43MB/s    0:00:02 (xfr#1, to-chk=0/1)
+     16,373,096 100%    6.36MB/s    0:00:02 (xfr#1, to-chk=0/1)
+     16,373,096 100%    6.36MB/s    0:00:02 (xfr#1, to-chk=0/1)
+
+sent 5,688,628 bytes  received 35 bytes  758,488.40 bytes/sec
+total size is 16,359,952  speedup is 2.88
+
+sent 5,688,628 bytes  received 35 bytes  758,488.40 bytes/sec
+total size is 16,359,952  speedup is 2.88
+
+sent 5,688,628 bytes  received 35 bytes  758,488.40 bytes/sec
+total size is 16,359,952  speedup is 2.88
+
+sent 5,692,122 bytes  received 35 bytes  758,954.27 bytes/sec
+total size is 16,373,096  speedup is 2.88
+
+sent 5,688,628 bytes  received 35 bytes  758,488.40 bytes/sec
+total size is 16,359,952  speedup is 2.88
+
+sent 5,688,628 bytes  received 35 bytes  758,488.40 bytes/sec
+total size is 16,359,952  speedup is 2.88
+
+sent 5,692,122 bytes  received 35 bytes  758,954.27 bytes/sec
+total size is 16,373,096  speedup is 2.88
+
+sent 5,692,122 bytes  received 35 bytes  758,954.27 bytes/sec
+total size is 16,373,096  speedup is 2.88
+
+sent 5,692,122 bytes  received 35 bytes  758,954.27 bytes/sec
+total size is 16,373,096  speedup is 2.88
+
+sent 5,688,628 bytes  received 35 bytes  758,488.40 bytes/sec
+total size is 16,359,952  speedup is 2.88
+
+sent 5,688,628 bytes  received 35 bytes  758,488.40 bytes/sec
+total size is 16,359,952  speedup is 2.88
+
+sent 5,692,122 bytes  received 35 bytes  758,954.27 bytes/sec
+total size is 16,373,096  speedup is 2.88
+
+sent 5,692,122 bytes  received 35 bytes  758,954.27 bytes/sec
+total size is 16,373,096  speedup is 2.88
+
+sent 5,692,122 bytes  received 35 bytes  758,954.27 bytes/sec
+total size is 16,373,096  speedup is 2.88
+
+sent 5,688,628 bytes  received 35 bytes  758,488.40 bytes/sec
+total size is 16,359,952  speedup is 2.88
+
+sent 71 bytes  received 12 bytes  11.07 bytes/sec
+total size is 116  speedup is 1.40
+      5,472,256  33%  736.24kB/s    0:00:14        5,701,632  34%  328.37kB/s    0:00:32        5,931,008  36%  174.04kB/s    0:00:59        6,029,312  36%  122.61kB/s    0:01:24        6,389,760  39%   17.12kB/s    0:09:42        6,619,136  40%   15.78kB/s    0:10:18        6,914,048  42%   17.48kB/s    0:09:01        7,274,496  44%   25.86kB/s    0:05:51        7,503,872  45%   21.37kB/s    0:06:55        7,766,016  47%   21.45kB/s    0:06:41        7,995,392  48%   19.81kB/s    0:07:02        8,323,072  50%   17.05kB/s    0:07:52        8,650,752  52%   17.88kB/s    0:07:11        8,912,896  54%   17.98kB/s    0:06:54        9,142,272  55%   19.02kB/s    0:06:20        9,404,416  57%   16.73kB/s    0:06:56        9,633,792  58%   16.19kB/s    0:06:56  rsync error: received SIGINT, SIGTERM, or SIGHUP (code 20) at rsync.c(644) [sender=3.1.2]
+rsync: [sender] write error: Broken pipe (32)
+

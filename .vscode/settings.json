@@ -1,4 +1,10 @@
 {
     "cmake.sourceDirectory": "${workspaceFolder}/utils/nanomsg",
-    "C_Cpp.default.configurationProvider": "ms-vscode.makefile-tools"
+    "C_Cpp.default.configurationProvider": "ms-vscode.makefile-tools",
+    "files.associations": {
+        "*.m": "matlab",
+        "spatial_spec": "code-text-binary",
+        "istream": "cpp",
+        "ostream": "cpp"
+    }
 }

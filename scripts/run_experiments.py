@@ -21,10 +21,9 @@ test_dir_name = "tests-" + strnow
 cfgs = configs
 
 execute = True
-remote = False
+remote = True
 cluster = None
 skip = False
-
 
 exps=[]
 
@@ -61,28 +60,27 @@ for arg in sys.argv[1:]:
 
 for exp in exps:
     fmt,experiments = experiment_map[exp]()
-
     for e in experiments:
         cfgs = get_cfgs(fmt,e)
         if remote:
             cfgs["TPORT_TYPE"],cfgs["TPORT_TYPE_IPC"],cfgs["TPORT_PORT"]="\"tcp\"","false",7000
 
-        output_f = get_outfile_name(cfgs)
+        output_f = get_outfile_name(cfgs, fmt)
 
         # Check whether experiment has been already been run in this batch
         if skip:
             if len(glob.glob('{}*{}*.out'.format(result_dir,output_f))) > 0:
-                print "Experiment exists in results folder... skipping"
+                print("Experiment exists in results folder... skipping")
                 continue
 
         output_dir = output_f + "/"
         output_f = output_f + strnow 
-        print output_f
+        print (output_f)
 
-        f = open("config.h",'r')
+        f = open("./config.h",'r')
         lines = f.readlines()
         f.close()
-        with open("config.h",'w') as f_cfg:
+        with open("./config.h",'w') as f_cfg:
             for line in lines:
                 found_cfg = False
                 for c in cfgs:
@@ -163,7 +161,7 @@ for exp in exps:
                 elif cluster == 'vcloud':
                     cmd = './scripts/vcloud_deploy.sh \'{}\' /{}/ {}'.format(' '.join(machines),uname,cfgs["NODE_CNT"])
                 print(cmd)
-                os.system(cmd)
+                # os.system(cmd)
 
                 for m,n in zip(machines,range(len(machines))):
                     if cluster == 'istc':

@@ -17,7 +17,7 @@
 #include "mem_alloc.h"
 #include "helper.h"
 #include "global.h"
-#include "utils/jemalloc/include/jemalloc/jemalloc.h"
+// #include "utils/jemalloc/include/jemalloc/jemalloc.h"
 
 #define N_MALLOC
 
@@ -33,9 +33,8 @@ void mem_alloc::free(void * ptr, uint64_t size) {
 
 void * mem_alloc::alloc(uint64_t size) {
 	void * ptr;
-
 #ifdef N_MALLOC
-  ptr = malloc(size);
+  ptr = std::malloc(size);
 #else
   ptr = je_malloc(size);
 #endif

@@ -358,7 +358,7 @@ configs = {
     "WORKLOAD" : "YCSB",
     "CC_ALG" : "WAIT_DIE",
     "MPR" : 1.0,
-    "TPORT_TYPE":"IPC",
+    "TPORT_TYPE":"TCP",
     "TPORT_PORT":"17000",
     "PART_CNT": "NODE_CNT",
     "PART_PER_TXN": "PART_CNT",
