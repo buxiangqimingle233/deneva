@@ -1,246 +1,247 @@
-xvals
-0
-0.2
-0.4
-0.6
-0.8
-1
-
-CALVIN
-91008.949658
-72217.96586
-52759.016649
-48185.699904999994
-39163.166579000004
-34412.583252
-Traceback (most recent call last):
-  File "/home/wangzhao/experiments/deneva/scripts/tiny_deploy.py", line 352, in <module>
-    execute_all(experiment_map[exp])
-  File "/home/wangzhao/experiments/deneva/scripts/tiny_deploy.py", line 273, in execute_all
-    fmt, experiments = exp_func()
-  File "/home/wangzhao/experiments/deneva/scripts/tiny_deploy.py", line 78, in ycsb_latency_breakdown
-    exp = [["HOT", wl,rpq,p,n,algo,base_table_size * n,tup_wr_perc,txn_wr_perc,ld,sk,thr,1,'true', e] for thr,txn_wr_perc,tup_wr_perc,algo,sk,ld,n,p,e in itertools.product(tcnt,txn_write_perc,tup_write_perc,nalgos,skew,load,nnodes,nparts)]
-  File "/home/wangzhao/experiments/deneva/scripts/tiny_deploy.py", line 78, in <listcomp>
-    exp = [["HOT", wl,rpq,p,n,algo,base_table_size * n,tup_wr_perc,txn_wr_perc,ld,sk,thr,1,'true', e] for thr,txn_wr_perc,tup_wr_perc,algo,sk,ld,n,p,e in itertools.product(tcnt,txn_write_perc,tup_write_perc,nalgos,skew,load,nnodes,nparts)]
-ValueError: not enough values to unpack (expected 9, got 8)
-Warning: Permanently added '198.22.255.110' (ECDSA) to the list of known hosts.
-Warning: Permanently added '198.22.255.100' (ECDSA) to the list of known hosts.
-Warning: Permanently added '198.22.255.100' (ECDSA) to the list of known hosts.
-Warning: Permanently added '198.22.255.100' (ECDSA) to the list of known hosts.
-Warning: Permanently added '198.22.255.110' (ECDSA) to the list of known hosts.
-Warning: Permanently added '198.22.255.100' (ECDSA) to the list of known hosts.
-Warning: Permanently added '198.22.255.100' (ECDSA) to the list of known hosts.
-Warning: Permanently added '198.22.255.110' (ECDSA) to the list of known hosts.
-Warning: Permanently added '198.22.255.110' (ECDSA) to the list of known hosts.
-Warning: Permanently added '198.22.255.110' (ECDSA) to the list of known hosts.
-Warning: Permanently added '198.22.255.110' (ECDSA) to the list of known hosts.
-Warning: Permanently added '198.22.255.110' (ECDSA) to the list of known hosts.
-Warning: Permanently added '198.22.255.96' (ECDSA) to the list of known hosts.
-Warning: Permanently added '198.22.255.100' (ECDSA) to the list of known hosts.
-Warning: Permanently added '198.22.255.74' (ECDSA) to the list of known hosts.
-Warning: Permanently added '198.22.255.96' (ECDSA) to the list of known hosts.
-Warning: Permanently added '198.22.255.96' (ECDSA) to the list of known hosts.
-Warning: Permanently added '198.22.255.96' (ECDSA) to the list of known hosts.
-Warning: Permanently added '198.22.255.96' (ECDSA) to the list of known hosts.
-Warning: Permanently added '198.22.255.96' (ECDSA) to the list of known hosts.
-Warning: Permanently added '198.22.255.74' (ECDSA) to the list of known hosts.
-Warning: Permanently added '198.22.255.110' (ECDSA) to the list of known hosts.
-Warning: Permanently added '198.22.255.100' (ECDSA) to the list of known hosts.
-Warning: Permanently added '198.22.255.74' (ECDSA) to the list of known hosts.
-Warning: Permanently added '198.22.255.74' (ECDSA) to the list of known hosts.
-Warning: Permanently added '198.22.255.96' (ECDSA) to the list of known hosts.
-Warning: Permanently added '198.22.255.96' (ECDSA) to the list of known hosts.
-Warning: Permanently added '198.22.255.74' (ECDSA) to the list of known hosts.
-Warning: Permanently added '198.22.255.74' (ECDSA) to the list of known hosts.
-Warning: Permanently added '198.22.255.100' (ECDSA) to the list of known hosts.
-Warning: Permanently added '198.22.255.74' (ECDSA) to the list of known hosts.
-Warning: Permanently added '198.22.255.74' (ECDSA) to the list of known hosts.
-sending incremental file list
-sending incremental file list
-sending incremental file list
-sending incremental file list
-sending incremental file list
-sending incremental file list
-sending incremental file list
-sending incremental file list
-sending incremental file list
-sending incremental file list
-sending incremental file list
-sending incremental file list
-sending incremental file list
-sending incremental file list
-sending incremental file list
-sending incremental file list
-sending incremental file list
-sending incremental file list
-sending incremental file list
-sending incremental file list
-sending incremental file list
-sending incremental file list
-sending incremental file list
-sending incremental file list
-sending incremental file list
-sending incremental file list
-sending incremental file list
-sending incremental file list
-sending incremental file list
-sending incremental file list
-ifconfig.txt
-            116 100%    0.00kB/s    0:00:00              116 100%    0.00kB/s    0:00:00 (xfr#1, to-chk=0/1)
-ifconfig.txt
-            116 100%    0.00kB/s    0:00:00              116 100%    0.00kB/s    0:00:00 (xfr#1, to-chk=0/1)
-runcl
-rundb
-ifconfig.txt
-ifconfig.txt
-            116 100%    0.00kB/s    0:00:00              116 100%    0.00kB/s    0:00:00 (xfr#1, to-chk=0/1)
-            116 100%    0.00kB/s    0:00:00              116 100%    0.00kB/s    0:00:00 (xfr#1, to-chk=0/1)
-         32,768   0%    0.00kB/s    0:00:00           32,768   0%    0.00kB/s    0:00:00  ifconfig.txt
-            116 100%    0.00kB/s    0:00:00              116 100%    0.00kB/s    0:00:00 (xfr#1, to-chk=0/1)
-runcl
-runcl
-runcl
-         32,768   0%    0.00kB/s    0:00:00  rundb
-         32,768   0%    0.00kB/s    0:00:00  runcl
-YCSB_schema.txt
-            218 100%    0.00kB/s    0:00:00              218 100%    0.00kB/s    0:00:00 (xfr#1, to-chk=0/1)
-YCSB_schema.txt
-            218 100%    0.00kB/s    0:00:00              218 100%    0.00kB/s    0:00:00 (xfr#1, to-chk=0/1)
-         32,768   0%    0.00kB/s    0:00:00           32,768   0%    0.00kB/s    0:00:00  runcl
-ifconfig.txt
-            116 100%    0.00kB/s    0:00:00              116 100%    0.00kB/s    0:00:00 (xfr#1, to-chk=0/1)
-runcl
-         32,768   0%    0.00kB/s    0:00:00  ifconfig.txt
-runcl
-            116 100%    0.00kB/s    0:00:00              116 100%    0.00kB/s    0:00:00 (xfr#1, to-chk=0/1)
-YCSB_schema.txt
-            218 100%    0.00kB/s    0:00:00              218 100%    0.00kB/s    0:00:00 (xfr#1, to-chk=0/1)
-YCSB_schema.txt
-            218 100%    0.00kB/s    0:00:00              218 100%    0.00kB/s    0:00:00 (xfr#1, to-chk=0/1)
-         32,768   0%    0.00kB/s    0:00:00           32,768   0%    0.00kB/s    0:00:00  rundb
-YCSB_schema.txt
-         32,768   0%    0.00kB/s    0:00:00              218 100%    0.00kB/s    0:00:00              218 100%    0.00kB/s    0:00:00 (xfr#1, to-chk=0/1)
-rundb
-YCSB_schema.txt
-         32,768   0%    0.00kB/s    0:00:00              218 100%    0.00kB/s    0:00:00              218 100%    0.00kB/s    0:00:00 (xfr#1, to-chk=0/1)
-rundb
-         32,768   0%    0.00kB/s    0:00:00  rundb
-YCSB_schema.txt
-            218 100%    0.00kB/s    0:00:00              218 100%    0.00kB/s    0:00:00 (xfr#1, to-chk=0/1)
-         32,768   0%    0.00kB/s    0:00:00  YCSB_schema.txt
-rundb
-            218 100%    0.00kB/s    0:00:00              218 100%    0.00kB/s    0:00:00 (xfr#1, to-chk=0/1)
-         32,768   0%    0.00kB/s    0:00:00           32,768   0%    0.00kB/s    0:00:00  
-sent 146 bytes  received 35 bytes  40.22 bytes/sec
-total size is 116  speedup is 0.64
-
-sent 146 bytes  received 35 bytes  40.22 bytes/sec
-total size is 116  speedup is 0.64
-
-sent 146 bytes  received 35 bytes  40.22 bytes/sec
-total size is 116  speedup is 0.64
-
-sent 146 bytes  received 35 bytes  40.22 bytes/sec
-total size is 116  speedup is 0.64
-
-sent 146 bytes  received 35 bytes  40.22 bytes/sec
-total size is 116  speedup is 0.64
-
-sent 208 bytes  received 35 bytes  54.00 bytes/sec
-total size is 218  speedup is 0.90
-
-sent 208 bytes  received 35 bytes  54.00 bytes/sec
-total size is 218  speedup is 0.90
-
-sent 146 bytes  received 35 bytes  40.22 bytes/sec
-total size is 116  speedup is 0.64
-
-sent 146 bytes  received 35 bytes  40.22 bytes/sec
-total size is 116  speedup is 0.64
-
-sent 208 bytes  received 35 bytes  54.00 bytes/sec
-total size is 218  speedup is 0.90
-
-sent 208 bytes  received 35 bytes  54.00 bytes/sec
-total size is 218  speedup is 0.90
-
-sent 208 bytes  received 35 bytes  54.00 bytes/sec
-total size is 218  speedup is 0.90
-
-sent 208 bytes  received 35 bytes  54.00 bytes/sec
-total size is 218  speedup is 0.90
-
-sent 208 bytes  received 35 bytes  54.00 bytes/sec
-total size is 218  speedup is 0.90
-
-sent 208 bytes  received 35 bytes  54.00 bytes/sec
-total size is 218  speedup is 0.90
-sending incremental file list
-      5,472,256  33%    5.05MB/s    0:00:02        5,472,256  33%    5.05MB/s    0:00:02        5,472,256  33%    5.01MB/s    0:00:02        5,472,256  33%    5.02MB/s    0:00:02        5,472,256  33%    5.02MB/s    0:00:02        5,472,256  33%    5.01MB/s    0:00:02  rundb
-         32,768   0%    0.00kB/s    0:00:00        5,701,632  34%    4.24MB/s    0:00:02        5,701,632  34%    4.23MB/s    0:00:02        5,701,632  34%    4.22MB/s    0:00:02        5,701,632  34%    4.20MB/s    0:00:02        5,701,632  34%    4.24MB/s    0:00:02        5,701,632  34%    4.17MB/s    0:00:02        5,701,632  34%    4.20MB/s    0:00:02        5,701,632  34%    4.18MB/s    0:00:02        5,701,632  34%    4.20MB/s    0:00:02        9,076,736  55%    4.25MB/s    0:00:01        9,043,968  55%    4.24MB/s    0:00:01        9,109,504  55%    4.25MB/s    0:00:01        8,880,128  54%    4.15MB/s    0:00:01        8,814,592  53%    4.10MB/s    0:00:01        8,912,896  54%    4.16MB/s    0:00:01       15,695,872  95%    6.56MB/s    0:00:00       15,728,640  96%    6.57MB/s    0:00:00       13,533,184  82%    5.65MB/s    0:00:00       13,697,024  83%    5.70MB/s    0:00:00       16,359,952 100%    6.75MB/s    0:00:02 (xfr#1, to-chk=0/1)
-     15,106,048  92%    6.32MB/s    0:00:00       15,368,192  93%    6.37MB/s    0:00:00       14,319,616  87%    5.94MB/s    0:00:00       12,288,000  75%    5.11MB/s    0:00:00       16,359,952 100%    6.73MB/s    0:00:02 (xfr#1, to-chk=0/1)
-     12,386,304  75%    5.15MB/s    0:00:00       16,359,952 100%    6.76MB/s    0:00:02 (xfr#1, to-chk=0/1)
-     16,359,952 100%    6.62MB/s    0:00:02 (xfr#1, to-chk=0/1)
-     16,373,096 100%    6.68MB/s    0:00:02 (xfr#1, to-chk=0/1)
-     16,359,952 100%    6.59MB/s    0:00:02 (xfr#1, to-chk=0/1)
-     16,373,096 100%    6.53MB/s    0:00:02 (xfr#1, to-chk=0/1)
-sending incremental file list
-     16,373,096 100%    6.52MB/s    0:00:02 (xfr#1, to-chk=0/1)
-     16,373,096 100%    6.52MB/s    0:00:02 (xfr#1, to-chk=0/1)
-     16,359,952 100%    6.49MB/s    0:00:02 (xfr#1, to-chk=0/1)
-     16,359,952 100%    6.46MB/s    0:00:02 (xfr#1, to-chk=0/1)
-     16,359,952 100%    6.48MB/s    0:00:02 (xfr#1, to-chk=0/1)
-     16,373,096 100%    6.43MB/s    0:00:02 (xfr#1, to-chk=0/1)
-     16,373,096 100%    6.36MB/s    0:00:02 (xfr#1, to-chk=0/1)
-     16,373,096 100%    6.36MB/s    0:00:02 (xfr#1, to-chk=0/1)
-
-sent 5,688,628 bytes  received 35 bytes  758,488.40 bytes/sec
-total size is 16,359,952  speedup is 2.88
-
-sent 5,688,628 bytes  received 35 bytes  758,488.40 bytes/sec
-total size is 16,359,952  speedup is 2.88
-
-sent 5,688,628 bytes  received 35 bytes  758,488.40 bytes/sec
-total size is 16,359,952  speedup is 2.88
-
-sent 5,692,122 bytes  received 35 bytes  758,954.27 bytes/sec
-total size is 16,373,096  speedup is 2.88
-
-sent 5,688,628 bytes  received 35 bytes  758,488.40 bytes/sec
-total size is 16,359,952  speedup is 2.88
-
-sent 5,688,628 bytes  received 35 bytes  758,488.40 bytes/sec
-total size is 16,359,952  speedup is 2.88
-
-sent 5,692,122 bytes  received 35 bytes  758,954.27 bytes/sec
-total size is 16,373,096  speedup is 2.88
-
-sent 5,692,122 bytes  received 35 bytes  758,954.27 bytes/sec
-total size is 16,373,096  speedup is 2.88
-
-sent 5,692,122 bytes  received 35 bytes  758,954.27 bytes/sec
-total size is 16,373,096  speedup is 2.88
-
-sent 5,688,628 bytes  received 35 bytes  758,488.40 bytes/sec
-total size is 16,359,952  speedup is 2.88
-
-sent 5,688,628 bytes  received 35 bytes  758,488.40 bytes/sec
-total size is 16,359,952  speedup is 2.88
-
-sent 5,692,122 bytes  received 35 bytes  758,954.27 bytes/sec
-total size is 16,373,096  speedup is 2.88
-
-sent 5,692,122 bytes  received 35 bytes  758,954.27 bytes/sec
-total size is 16,373,096  speedup is 2.88
-
-sent 5,692,122 bytes  received 35 bytes  758,954.27 bytes/sec
-total size is 16,373,096  speedup is 2.88
-
-sent 5,688,628 bytes  received 35 bytes  758,488.40 bytes/sec
-total size is 16,359,952  speedup is 2.88
-
-sent 71 bytes  received 12 bytes  11.07 bytes/sec
-total size is 116  speedup is 1.40
-      5,472,256  33%  736.24kB/s    0:00:14        5,701,632  34%  328.37kB/s    0:00:32        5,931,008  36%  174.04kB/s    0:00:59        6,029,312  36%  122.61kB/s    0:01:24        6,389,760  39%   17.12kB/s    0:09:42        6,619,136  40%   15.78kB/s    0:10:18        6,914,048  42%   17.48kB/s    0:09:01        7,274,496  44%   25.86kB/s    0:05:51        7,503,872  45%   21.37kB/s    0:06:55        7,766,016  47%   21.45kB/s    0:06:41        7,995,392  48%   19.81kB/s    0:07:02        8,323,072  50%   17.05kB/s    0:07:52        8,650,752  52%   17.88kB/s    0:07:11        8,912,896  54%   17.98kB/s    0:06:54        9,142,272  55%   19.02kB/s    0:06:20        9,404,416  57%   16.73kB/s    0:06:56        9,633,792  58%   16.19kB/s    0:06:56  rsync error: received SIGINT, SIGTERM, or SIGHUP (code 20) at rsync.c(644) [sender=3.1.2]
-rsync: [sender] write error: Broken pipe (32)
-
+<rspec xmlns="http://www.geni.net/resources/rspec/3" xmlns:emulab="http://www.protogeni.net/resources/rspec/ext/emulab/1" xmlns:tour="http://www.protogeni.net/resources/rspec/ext/apt-tour/1" xmlns:jacks="http://www.protogeni.net/resources/rspec/ext/jacks/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.geni.net/resources/rspec/3    http://www.geni.net/resources/rspec/3/request.xsd" type="request">
+  <node xmlns:emulab="http://www.protogeni.net/resources/rspec/ext/emulab/1" client_id="node-0" exclusive="true" component_manager_id="urn:publicid:IDN+utah.cloudlab.us+authority+cm" component_id="urn:publicid:IDN+utah.cloudlab.us+node+hp088" sliver_id="urn:publicid:IDN+utah.cloudlab.us+sliver+1815187">
+    <sliver_type name="raw-pc">
+      <disk_image name="urn:publicid:IDN+utah.cloudlab.us+image+ds22-PG0:DrTMH-Enabled-on-xl170"/>
+    </sliver_type>
+    <hardware_type name="xl170"/>
+    <interface client_id="node-0:interface-0" component_id="urn:publicid:IDN+utah.cloudlab.us+interface+hp088:eth1" sliver_id="urn:publicid:IDN+utah.cloudlab.us+sliver+1815195" mac_address="9cdc715b22d1">
+      <ip address="10.10.1.1" type="ipv4" netmask="255.255.255.0"/>
+    </interface>
+    <services>
+      <login authentication="ssh-keys" hostname="hp088.utah.cloudlab.us" port="22" username="bxqml233"/>
+      <emulab:console server="boss.utah.cloudlab.us"/>
+      <emulab:recovery available="true"/>
+      <emulab:powercycle available="true"/>
+      <emulab:imageable available="true"/>
+      <execute shell="/bin/sh" command="sudo apt-get update"/>
+      <execute shell="/bin/sh" command="sudo apt-get install -y cmake git python3-pip libzmq3-dev libtool-bin"/>
+    </services>
+    <emulab:rootkey private="true" public="true"/>
+    <emulab:vnode name="hp088" hardware_type="xl170"/>
+    <host name="node-0.DrTM-H.ds22-PG0.utah.cloudlab.us" ipv4="128.110.218.127"/>
+  </node>
+  <node xmlns:emulab="http://www.protogeni.net/resources/rspec/ext/emulab/1" client_id="node-1" exclusive="true" component_manager_id="urn:publicid:IDN+utah.cloudlab.us+authority+cm" component_id="urn:publicid:IDN+utah.cloudlab.us+node+hp113" sliver_id="urn:publicid:IDN+utah.cloudlab.us+sliver+1815192">
+    <sliver_type name="raw-pc">
+      <disk_image name="urn:publicid:IDN+utah.cloudlab.us+image+ds22-PG0:DrTMH-Enabled-on-xl170"/>
+    </sliver_type>
+    <hardware_type name="xl170"/>
+    <interface client_id="node-1:interface-1" component_id="urn:publicid:IDN+utah.cloudlab.us+interface+hp113:eth1" sliver_id="urn:publicid:IDN+utah.cloudlab.us+sliver+1815196" mac_address="9cdc7149b8d1">
+      <ip address="10.10.1.2" type="ipv4" netmask="255.255.255.0"/>
+    </interface>
+    <services>
+      <login authentication="ssh-keys" hostname="hp113.utah.cloudlab.us" port="22" username="bxqml233"/>
+      <emulab:console server="boss.utah.cloudlab.us"/>
+      <emulab:recovery available="true"/>
+      <emulab:powercycle available="true"/>
+      <emulab:imageable available="true"/>
+      <execute shell="/bin/sh" command="sudo apt-get update"/>
+      <execute shell="/bin/sh" command="sudo apt-get install -y cmake git python3-pip libzmq3-dev libtool-bin"/>
+    </services>
+    <emulab:rootkey private="true" public="true"/>
+    <emulab:vnode name="hp113" hardware_type="xl170"/>
+    <host name="node-1.DrTM-H.ds22-PG0.utah.cloudlab.us" ipv4="128.110.218.152"/>
+  </node>
+  <node xmlns:emulab="http://www.protogeni.net/resources/rspec/ext/emulab/1" client_id="node-2" exclusive="true" component_manager_id="urn:publicid:IDN+utah.cloudlab.us+authority+cm" component_id="urn:publicid:IDN+utah.cloudlab.us+node+hp102" sliver_id="urn:publicid:IDN+utah.cloudlab.us+sliver+1815191">
+    <sliver_type name="raw-pc">
+      <disk_image name="urn:publicid:IDN+utah.cloudlab.us+image+ds22-PG0:DrTMH-Enabled-on-xl170"/>
+    </sliver_type>
+    <hardware_type name="xl170"/>
+    <interface client_id="node-2:interface-2" component_id="urn:publicid:IDN+utah.cloudlab.us+interface+hp102:eth1" sliver_id="urn:publicid:IDN+utah.cloudlab.us+sliver+1815197" mac_address="9cdc7149c821">
+      <ip address="10.10.1.3" type="ipv4" netmask="255.255.255.0"/>
+    </interface>
+    <services>
+      <login authentication="ssh-keys" hostname="hp102.utah.cloudlab.us" port="22" username="bxqml233"/>
+      <emulab:console server="boss.utah.cloudlab.us"/>
+      <emulab:recovery available="true"/>
+      <emulab:powercycle available="true"/>
+      <emulab:imageable available="true"/>
+      <execute shell="/bin/sh" command="sudo apt-get update"/>
+      <execute shell="/bin/sh" command="sudo apt-get install -y cmake git python3-pip libzmq3-dev libtool-bin"/>
+    </services>
+    <emulab:rootkey private="true" public="true"/>
+    <emulab:vnode name="hp102" hardware_type="xl170"/>
+    <host name="node-2.DrTM-H.ds22-PG0.utah.cloudlab.us" ipv4="128.110.218.141"/>
+  </node>
+  <node xmlns:emulab="http://www.protogeni.net/resources/rspec/ext/emulab/1" client_id="node-3" exclusive="true" component_manager_id="urn:publicid:IDN+utah.cloudlab.us+authority+cm" component_id="urn:publicid:IDN+utah.cloudlab.us+node+hp105" sliver_id="urn:publicid:IDN+utah.cloudlab.us+sliver+1815186">
+    <sliver_type name="raw-pc">
+      <disk_image name="urn:publicid:IDN+utah.cloudlab.us+image+ds22-PG0:DrTMH-Enabled-on-xl170"/>
+    </sliver_type>
+    <hardware_type name="xl170"/>
+    <interface client_id="node-3:interface-3" component_id="urn:publicid:IDN+utah.cloudlab.us+interface+hp105:eth1" sliver_id="urn:publicid:IDN+utah.cloudlab.us+sliver+1815198" mac_address="9cdc714b8371">
+      <ip address="10.10.1.4" type="ipv4" netmask="255.255.255.0"/>
+    </interface>
+    <services>
+      <login authentication="ssh-keys" hostname="hp105.utah.cloudlab.us" port="22" username="bxqml233"/>
+      <emulab:console server="boss.utah.cloudlab.us"/>
+      <emulab:recovery available="true"/>
+      <emulab:powercycle available="true"/>
+      <emulab:imageable available="true"/>
+      <execute shell="/bin/sh" command="sudo apt-get update"/>
+      <execute shell="/bin/sh" command="sudo apt-get install -y cmake git python3-pip libzmq3-dev libtool-bin"/>
+    </services>
+    <emulab:rootkey private="true" public="true"/>
+    <emulab:vnode name="hp105" hardware_type="xl170"/>
+    <host name="node-3.DrTM-H.ds22-PG0.utah.cloudlab.us" ipv4="128.110.218.144"/>
+  </node>
+  <node xmlns:emulab="http://www.protogeni.net/resources/rspec/ext/emulab/1" client_id="node-4" exclusive="true" component_manager_id="urn:publicid:IDN+utah.cloudlab.us+authority+cm" component_id="urn:publicid:IDN+utah.cloudlab.us+node+hp115" sliver_id="urn:publicid:IDN+utah.cloudlab.us+sliver+1815190">
+    <sliver_type name="raw-pc">
+      <disk_image name="urn:publicid:IDN+utah.cloudlab.us+image+ds22-PG0:DrTMH-Enabled-on-xl170"/>
+    </sliver_type>
+    <hardware_type name="xl170"/>
+    <interface client_id="node-4:interface-4" component_id="urn:publicid:IDN+utah.cloudlab.us+interface+hp115:eth1" sliver_id="urn:publicid:IDN+utah.cloudlab.us+sliver+1815199" mac_address="9cdc715cafc1">
+      <ip address="10.10.1.5" type="ipv4" netmask="255.255.255.0"/>
+    </interface>
+    <services>
+      <login authentication="ssh-keys" hostname="hp115.utah.cloudlab.us" port="22" username="bxqml233"/>
+      <emulab:console server="boss.utah.cloudlab.us"/>
+      <emulab:recovery available="true"/>
+      <emulab:powercycle available="true"/>
+      <emulab:imageable available="true"/>
+      <execute shell="/bin/sh" command="sudo apt-get update"/>
+      <execute shell="/bin/sh" command="sudo apt-get install -y cmake git python3-pip libzmq3-dev libtool-bin"/>
+    </services>
+    <emulab:rootkey private="true" public="true"/>
+    <emulab:vnode name="hp115" hardware_type="xl170"/>
+    <host name="node-4.DrTM-H.ds22-PG0.utah.cloudlab.us" ipv4="128.110.218.154"/>
+  </node>
+  <node xmlns:emulab="http://www.protogeni.net/resources/rspec/ext/emulab/1" client_id="node-5" exclusive="true" component_manager_id="urn:publicid:IDN+utah.cloudlab.us+authority+cm" component_id="urn:publicid:IDN+utah.cloudlab.us+node+hp081" sliver_id="urn:publicid:IDN+utah.cloudlab.us+sliver+1815189">
+    <sliver_type name="raw-pc">
+      <disk_image name="urn:publicid:IDN+utah.cloudlab.us+image+ds22-PG0:DrTMH-Enabled-on-xl170"/>
+    </sliver_type>
+    <hardware_type name="xl170"/>
+    <interface client_id="node-5:interface-5" component_id="urn:publicid:IDN+utah.cloudlab.us+interface+hp081:eth1" sliver_id="urn:publicid:IDN+utah.cloudlab.us+sliver+1815200" mac_address="9cdc715dd5f1">
+      <ip address="10.10.1.6" type="ipv4" netmask="255.255.255.0"/>
+    </interface>
+    <services>
+      <login authentication="ssh-keys" hostname="hp081.utah.cloudlab.us" port="22" username="bxqml233"/>
+      <emulab:console server="boss.utah.cloudlab.us"/>
+      <emulab:recovery available="true"/>
+      <emulab:powercycle available="true"/>
+      <emulab:imageable available="true"/>
+      <execute shell="/bin/sh" command="sudo apt-get update"/>
+      <execute shell="/bin/sh" command="sudo apt-get install -y cmake git python3-pip libzmq3-dev libtool-bin"/>
+    </services>
+    <emulab:rootkey private="true" public="true"/>
+    <emulab:vnode name="hp081" hardware_type="xl170"/>
+    <host name="node-5.DrTM-H.ds22-PG0.utah.cloudlab.us" ipv4="128.110.218.120"/>
+  </node>
+  <node xmlns:emulab="http://www.protogeni.net/resources/rspec/ext/emulab/1" client_id="node-6" exclusive="true" component_manager_id="urn:publicid:IDN+utah.cloudlab.us+authority+cm" component_id="urn:publicid:IDN+utah.cloudlab.us+node+hp087" sliver_id="urn:publicid:IDN+utah.cloudlab.us+sliver+1815185">
+    <sliver_type name="raw-pc">
+      <disk_image name="urn:publicid:IDN+utah.cloudlab.us+image+ds22-PG0:DrTMH-Enabled-on-xl170"/>
+    </sliver_type>
+    <hardware_type name="xl170"/>
+    <interface client_id="node-6:interface-6" component_id="urn:publicid:IDN+utah.cloudlab.us+interface+hp087:eth1" sliver_id="urn:publicid:IDN+utah.cloudlab.us+sliver+1815201" mac_address="9cdc715b2261">
+      <ip address="10.10.1.7" type="ipv4" netmask="255.255.255.0"/>
+    </interface>
+    <services>
+      <login authentication="ssh-keys" hostname="hp087.utah.cloudlab.us" port="22" username="bxqml233"/>
+      <emulab:console server="boss.utah.cloudlab.us"/>
+      <emulab:recovery available="true"/>
+      <emulab:powercycle available="true"/>
+      <emulab:imageable available="true"/>
+      <execute shell="/bin/sh" command="sudo apt-get update"/>
+      <execute shell="/bin/sh" command="sudo apt-get install -y cmake git python3-pip libzmq3-dev libtool-bin"/>
+    </services>
+    <emulab:rootkey private="true" public="true"/>
+    <emulab:vnode name="hp087" hardware_type="xl170"/>
+    <host name="node-6.DrTM-H.ds22-PG0.utah.cloudlab.us" ipv4="128.110.218.126"/>
+  </node>
+  <node xmlns:emulab="http://www.protogeni.net/resources/rspec/ext/emulab/1" client_id="node-7" exclusive="true" component_manager_id="urn:publicid:IDN+utah.cloudlab.us+authority+cm" component_id="urn:publicid:IDN+utah.cloudlab.us+node+hp118" sliver_id="urn:publicid:IDN+utah.cloudlab.us+sliver+1815188">
+    <sliver_type name="raw-pc">
+      <disk_image name="urn:publicid:IDN+utah.cloudlab.us+image+ds22-PG0:DrTMH-Enabled-on-xl170"/>
+    </sliver_type>
+    <hardware_type name="xl170"/>
+    <interface client_id="node-7:interface-7" component_id="urn:publicid:IDN+utah.cloudlab.us+interface+hp118:eth1" sliver_id="urn:publicid:IDN+utah.cloudlab.us+sliver+1815202" mac_address="9cdc7149a8b1">
+      <ip address="10.10.1.8" type="ipv4" netmask="255.255.255.0"/>
+    </interface>
+    <services>
+      <login authentication="ssh-keys" hostname="hp118.utah.cloudlab.us" port="22" username="bxqml233"/>
+      <emulab:console server="boss.utah.cloudlab.us"/>
+      <emulab:recovery available="true"/>
+      <emulab:powercycle available="true"/>
+      <emulab:imageable available="true"/>
+      <execute shell="/bin/sh" command="sudo apt-get update"/>
+      <execute shell="/bin/sh" command="sudo apt-get install -y cmake git python3-pip libzmq3-dev libtool-bin"/>
+    </services>
+    <emulab:rootkey private="true" public="true"/>
+    <emulab:vnode name="hp118" hardware_type="xl170"/>
+    <host name="node-7.DrTM-H.ds22-PG0.utah.cloudlab.us" ipv4="128.110.218.157"/>
+  </node>
+  <link xmlns:jacks="http://www.protogeni.net/resources/rspec/ext/jacks/1" client_id="link-0" sliver_id="urn:publicid:IDN+utah.cloudlab.us+sliver+1815194" vlantag="272">
+    <interface_ref client_id="node-0:interface-0" component_id="urn:publicid:IDN+utah.cloudlab.us+interface+hp088:eth1" sliver_id="urn:publicid:IDN+utah.cloudlab.us+sliver+1815195"/>
+    <interface_ref client_id="node-1:interface-1" component_id="urn:publicid:IDN+utah.cloudlab.us+interface+hp113:eth1" sliver_id="urn:publicid:IDN+utah.cloudlab.us+sliver+1815196"/>
+    <interface_ref client_id="node-2:interface-2" component_id="urn:publicid:IDN+utah.cloudlab.us+interface+hp102:eth1" sliver_id="urn:publicid:IDN+utah.cloudlab.us+sliver+1815197"/>
+    <interface_ref client_id="node-3:interface-3" component_id="urn:publicid:IDN+utah.cloudlab.us+interface+hp105:eth1" sliver_id="urn:publicid:IDN+utah.cloudlab.us+sliver+1815198"/>
+    <interface_ref client_id="node-4:interface-4" component_id="urn:publicid:IDN+utah.cloudlab.us+interface+hp115:eth1" sliver_id="urn:publicid:IDN+utah.cloudlab.us+sliver+1815199"/>
+    <interface_ref client_id="node-5:interface-5" component_id="urn:publicid:IDN+utah.cloudlab.us+interface+hp081:eth1" sliver_id="urn:publicid:IDN+utah.cloudlab.us+sliver+1815200"/>
+    <interface_ref client_id="node-6:interface-6" component_id="urn:publicid:IDN+utah.cloudlab.us+interface+hp087:eth1" sliver_id="urn:publicid:IDN+utah.cloudlab.us+sliver+1815201"/>
+    <interface_ref client_id="node-7:interface-7" component_id="urn:publicid:IDN+utah.cloudlab.us+interface+hp118:eth1" sliver_id="urn:publicid:IDN+utah.cloudlab.us+sliver+1815202"/>
+    <component_manager name="urn:publicid:IDN+utah.cloudlab.us+authority+cm"/>
+    <property xmlns="http://www.geni.net/resources/rspec/3" source_id="node-0:interface-0" dest_id="node-1:interface-1" capacity="25000000"/>
+    <property xmlns="http://www.geni.net/resources/rspec/3" source_id="node-0:interface-0" dest_id="node-2:interface-2" capacity="25000000"/>
+    <property xmlns="http://www.geni.net/resources/rspec/3" source_id="node-0:interface-0" dest_id="node-3:interface-3" capacity="25000000"/>
+    <property xmlns="http://www.geni.net/resources/rspec/3" source_id="node-0:interface-0" dest_id="node-4:interface-4" capacity="25000000"/>
+    <property xmlns="http://www.geni.net/resources/rspec/3" source_id="node-0:interface-0" dest_id="node-5:interface-5" capacity="25000000"/>
+    <property xmlns="http://www.geni.net/resources/rspec/3" source_id="node-0:interface-0" dest_id="node-6:interface-6" capacity="25000000"/>
+    <property xmlns="http://www.geni.net/resources/rspec/3" source_id="node-0:interface-0" dest_id="node-7:interface-7" capacity="25000000"/>
+    <property xmlns="http://www.geni.net/resources/rspec/3" source_id="node-1:interface-1" dest_id="node-0:interface-0" capacity="25000000"/>
+    <property xmlns="http://www.geni.net/resources/rspec/3" source_id="node-1:interface-1" dest_id="node-2:interface-2" capacity="25000000"/>
+    <property xmlns="http://www.geni.net/resources/rspec/3" source_id="node-1:interface-1" dest_id="node-3:interface-3" capacity="25000000"/>
+    <property xmlns="http://www.geni.net/resources/rspec/3" source_id="node-1:interface-1" dest_id="node-4:interface-4" capacity="25000000"/>
+    <property xmlns="http://www.geni.net/resources/rspec/3" source_id="node-1:interface-1" dest_id="node-5:interface-5" capacity="25000000"/>
+    <property xmlns="http://www.geni.net/resources/rspec/3" source_id="node-1:interface-1" dest_id="node-6:interface-6" capacity="25000000"/>
+    <property xmlns="http://www.geni.net/resources/rspec/3" source_id="node-1:interface-1" dest_id="node-7:interface-7" capacity="25000000"/>
+    <property xmlns="http://www.geni.net/resources/rspec/3" source_id="node-2:interface-2" dest_id="node-0:interface-0" capacity="25000000"/>
+    <property xmlns="http://www.geni.net/resources/rspec/3" source_id="node-2:interface-2" dest_id="node-1:interface-1" capacity="25000000"/>
+    <property xmlns="http://www.geni.net/resources/rspec/3" source_id="node-2:interface-2" dest_id="node-3:interface-3" capacity="25000000"/>
+    <property xmlns="http://www.geni.net/resources/rspec/3" source_id="node-2:interface-2" dest_id="node-4:interface-4" capacity="25000000"/>
+    <property xmlns="http://www.geni.net/resources/rspec/3" source_id="node-2:interface-2" dest_id="node-5:interface-5" capacity="25000000"/>
+    <property xmlns="http://www.geni.net/resources/rspec/3" source_id="node-2:interface-2" dest_id="node-6:interface-6" capacity="25000000"/>
+    <property xmlns="http://www.geni.net/resources/rspec/3" source_id="node-2:interface-2" dest_id="node-7:interface-7" capacity="25000000"/>
+    <property xmlns="http://www.geni.net/resources/rspec/3" source_id="node-3:interface-3" dest_id="node-0:interface-0" capacity="25000000"/>
+    <property xmlns="http://www.geni.net/resources/rspec/3" source_id="node-3:interface-3" dest_id="node-1:interface-1" capacity="25000000"/>
+    <property xmlns="http://www.geni.net/resources/rspec/3" source_id="node-3:interface-3" dest_id="node-2:interface-2" capacity="25000000"/>
+    <property xmlns="http://www.geni.net/resources/rspec/3" source_id="node-3:interface-3" dest_id="node-4:interface-4" capacity="25000000"/>
+    <property xmlns="http://www.geni.net/resources/rspec/3" source_id="node-3:interface-3" dest_id="node-5:interface-5" capacity="25000000"/>
+    <property xmlns="http://www.geni.net/resources/rspec/3" source_id="node-3:interface-3" dest_id="node-6:interface-6" capacity="25000000"/>
+    <property xmlns="http://www.geni.net/resources/rspec/3" source_id="node-3:interface-3" dest_id="node-7:interface-7" capacity="25000000"/>
+    <property xmlns="http://www.geni.net/resources/rspec/3" source_id="node-4:interface-4" dest_id="node-0:interface-0" capacity="25000000"/>
+    <property xmlns="http://www.geni.net/resources/rspec/3" source_id="node-4:interface-4" dest_id="node-1:interface-1" capacity="25000000"/>
+    <property xmlns="http://www.geni.net/resources/rspec/3" source_id="node-4:interface-4" dest_id="node-2:interface-2" capacity="25000000"/>
+    <property xmlns="http://www.geni.net/resources/rspec/3" source_id="node-4:interface-4" dest_id="node-3:interface-3" capacity="25000000"/>
+    <property xmlns="http://www.geni.net/resources/rspec/3" source_id="node-4:interface-4" dest_id="node-5:interface-5" capacity="25000000"/>
+    <property xmlns="http://www.geni.net/resources/rspec/3" source_id="node-4:interface-4" dest_id="node-6:interface-6" capacity="25000000"/>
+    <property xmlns="http://www.geni.net/resources/rspec/3" source_id="node-4:interface-4" dest_id="node-7:interface-7" capacity="25000000"/>
+    <property xmlns="http://www.geni.net/resources/rspec/3" source_id="node-5:interface-5" dest_id="node-0:interface-0" capacity="25000000"/>
+    <property xmlns="http://www.geni.net/resources/rspec/3" source_id="node-5:interface-5" dest_id="node-1:interface-1" capacity="25000000"/>
+    <property xmlns="http://www.geni.net/resources/rspec/3" source_id="node-5:interface-5" dest_id="node-2:interface-2" capacity="25000000"/>
+    <property xmlns="http://www.geni.net/resources/rspec/3" source_id="node-5:interface-5" dest_id="node-3:interface-3" capacity="25000000"/>
+    <property xmlns="http://www.geni.net/resources/rspec/3" source_id="node-5:interface-5" dest_id="node-4:interface-4" capacity="25000000"/>
+    <property xmlns="http://www.geni.net/resources/rspec/3" source_id="node-5:interface-5" dest_id="node-6:interface-6" capacity="25000000"/>
+    <property xmlns="http://www.geni.net/resources/rspec/3" source_id="node-5:interface-5" dest_id="node-7:interface-7" capacity="25000000"/>
+    <property xmlns="http://www.geni.net/resources/rspec/3" source_id="node-6:interface-6" dest_id="node-0:interface-0" capacity="25000000"/>
+    <property xmlns="http://www.geni.net/resources/rspec/3" source_id="node-6:interface-6" dest_id="node-1:interface-1" capacity="25000000"/>
+    <property xmlns="http://www.geni.net/resources/rspec/3" source_id="node-6:interface-6" dest_id="node-2:interface-2" capacity="25000000"/>
+    <property xmlns="http://www.geni.net/resources/rspec/3" source_id="node-6:interface-6" dest_id="node-3:interface-3" capacity="25000000"/>
+    <property xmlns="http://www.geni.net/resources/rspec/3" source_id="node-6:interface-6" dest_id="node-4:interface-4" capacity="25000000"/>
+    <property xmlns="http://www.geni.net/resources/rspec/3" source_id="node-6:interface-6" dest_id="node-5:interface-5" capacity="25000000"/>
+    <property xmlns="http://www.geni.net/resources/rspec/3" source_id="node-6:interface-6" dest_id="node-7:interface-7" capacity="25000000"/>
+    <property xmlns="http://www.geni.net/resources/rspec/3" source_id="node-7:interface-7" dest_id="node-0:interface-0" capacity="25000000"/>
+    <property xmlns="http://www.geni.net/resources/rspec/3" source_id="node-7:interface-7" dest_id="node-1:interface-1" capacity="25000000"/>
+    <property xmlns="http://www.geni.net/resources/rspec/3" source_id="node-7:interface-7" dest_id="node-2:interface-2" capacity="25000000"/>
+    <property xmlns="http://www.geni.net/resources/rspec/3" source_id="node-7:interface-7" dest_id="node-3:interface-3" capacity="25000000"/>
+    <property xmlns="http://www.geni.net/resources/rspec/3" source_id="node-7:interface-7" dest_id="node-4:interface-4" capacity="25000000"/>
+    <property xmlns="http://www.geni.net/resources/rspec/3" source_id="node-7:interface-7" dest_id="node-5:interface-5" capacity="25000000"/>
+    <property xmlns="http://www.geni.net/resources/rspec/3" source_id="node-7:interface-7" dest_id="node-6:interface-6" capacity="25000000"/>
+  </link>
+  <rspec_tour xmlns="http://www.protogeni.net/resources/rspec/ext/apt-tour/1">
+    <description type="markdown">8 xl170 with ConnectX4 NIC connected to test RDMA traffic (used for server-client architecture)</description>
+  </rspec_tour>
+  <data_set xmlns="http://www.protogeni.net/resources/rspec/ext/profile-parameters/1">
+    <data_item name="emulab.net.parameter.n_nodes">8</data_item>
+  </data_set>
+  <emulab:portal name="cloudlab" url="https://www.cloudlab.us/status.php?uuid=2fb35dfd-2ba8-11ef-9f39-e4434b2381fc" project="ds22" experiment="DrTM-H" sequence="1718518688"/>
+  <rs:site_info xmlns:rs="http://www.protogeni.net/resources/rspec/ext/site-info/1">
+    <rs:location country="US" latitude="40.750714" longitude="-111.893288"/>
+  </rs:site_info>
+</rspec>

@@ -82,7 +82,7 @@
 		{
 			"backtrace" : 3,
 			"component" : "Unspecified",
-			"destination" : "lib/cmake/nanomsg-1.2-4-ga54ccc7c",
+			"destination" : "lib/cmake/nanomsg-1.2-4-ga54ccc7c-dirty",
 			"exportName" : "nanomsg-target",
 			"exportTargets" : 
 			[
@@ -93,14 +93,14 @@
 			],
 			"paths" : 
 			[
-				"src/CMakeFiles/Export/c816409d2a915523f3018276ad17674f/nanomsg-target.cmake"
+				"src/CMakeFiles/Export/c4af4c41fba885c6a506b83e20a53dca/nanomsg-target.cmake"
 			],
 			"type" : "export"
 		},
 		{
 			"backtrace" : 4,
 			"component" : "Unspecified",
-			"destination" : "lib/cmake/nanomsg-1.2-4-ga54ccc7c",
+			"destination" : "lib/cmake/nanomsg-1.2-4-ga54ccc7c-dirty",
 			"paths" : 
 			[
 				"/home/wangzhao/experiments/deneva/build/src/nanomsg-config.cmake",

@@ -1,0 +1,54 @@
+#include <stdio.h>
+#include <string.h>
+#include <sys/socket.h>
+#include <arpa/inet.h>
+#include <unistd.h>
+#include <time.h>
+
+#define SERVER_PORT 8888
+#define SERVER_IP "127.0.0.1"
+#define MESSAGE "Ping"
+#define BUFFER_SIZE 1024
+
+int main() {
+    int sock;
+    struct sockaddr_in server;
+    char buffer[BUFFER_SIZE];
+    struct timespec start, end;
+
+    // Create socket
+    sock = socket(AF_INET, SOCK_STREAM, 0);
+    if (sock == -1) {
+        printf("Could not create socket");
+    }
+
+    server.sin_addr.s_addr = inet_addr(SERVER_IP);
+    server.sin_family = AF_INET;
+    server.sin_port = htons(SERVER_PORT);
+
+    // Connect to server
+    if (connect(sock, (struct sockaddr *)&server, sizeof(server)) < 0) {
+        perror("Connect failed. Error");
+        return 1;
+    }
+
+    // Send message and measure time
+    clock_gettime(CLOCK_MONOTONIC, &start);
+    if (send(sock, MESSAGE, strlen(MESSAGE), 0) < 0) {
+        puts("Send failed");
+        return 1;
+    }
+
+    // Receive a reply from the server
+    if (recv(sock, buffer, sizeof(buffer), 0) < 0) {
+        puts("Recv failed");
+        return 1;
+    }
+    clock_gettime(CLOCK_MONOTONIC, &end);
+
+    uint64_t diff = 1000000000L * (end.tv_sec - start.tv_sec) + end.tv_nsec - start.tv_nsec;
+    printf("Elapsed time = %llu nanoseconds\n", (long long unsigned int) diff);
+
+    close(sock);
+    return 0;
+}

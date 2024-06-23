@@ -2,20 +2,16 @@ import shlex
 import subprocess
 import itertools
 from helper import get_cfgs, get_outfile_name
-import fnmatch
 import datetime
 import os, re, sys
-import matplotlib.pyplot as plt
-import numpy as np
-import csv
-import concurrent.futures
+import multiprocessing
 import time
 
-result_dir = "./results/"
+result_dir = "./results_new/"
 output_f = "test"
 
 now = datetime.datetime.now()
-strnow=now.strftime("%Y%m%d-%H%M%S")
+strnow=now.strftime("%Y%m%d-%H%M%S") 
 
 
 def network_sweep():
@@ -40,7 +36,7 @@ def ycsb_partitions_abort():
     wl = 'YCSB'
     nnodes = [4]
     algos=['CALVIN']
-    load = [10000]  
+    load = [10000]
     nparts = [4]
     mpr = [0, 0.2, 0.4, 0.6, 0.8, 1]
     
@@ -48,8 +44,8 @@ def ycsb_partitions_abort():
     # mpr = [0, 0.2]
     # mpr = [0.2, 0.4]
 
-    base_table_size = 2097152*8
-    txn_write_perc = [0.5]
+    base_table_size = 2097152 * 8
+    txn_write_perc = [0, 0.5, 0.7]
     tup_write_perc = [0.5]
     tcnt = [4]
     skew = [0]
@@ -58,27 +54,76 @@ def ycsb_partitions_abort():
     exp = [["HOT", wl,rpq,p,n,algo,base_table_size * n,tup_wr_perc,txn_wr_perc,ld,sk,thr,1,'true', e] for thr,txn_wr_perc,tup_wr_perc,algo,sk,ld,n,p,e in itertools.product(tcnt,txn_write_perc,tup_write_perc,algos,skew,load,nnodes,nparts, mpr)]
     return fmt, exp
 
+def ycsb_partitions_distr():
+    wl = 'YCSB'
+    nnodes = [8]
+    algos=['NO_WAIT','WAIT_DIE','MVCC','CALVIN','TIMESTAMP']
+    load = [10000]
+    nparts = [1,2,4,6,8]
+    # nparts = [1]
+    base_table_size=2097152*8
+    txn_write_perc = [0.5]
+    tup_write_perc = [0.5]
+    tcnt = [4]
+    skew = [0.6]
+    rpq = 16
+    fmt = ["WORKLOAD","REQ_PER_QUERY","PART_PER_TXN","NODE_CNT","CC_ALG","SYNTH_TABLE_SIZE","TUP_WRITE_PERC","TXN_WRITE_PERC","MAX_TXN_IN_FLIGHT","ZIPF_THETA","THREAD_CNT","STRICT_PPT"]
+    exp = [[wl,rpq,p,n,algo,base_table_size*n,tup_wr_perc,txn_wr_perc,ld,sk,thr,1] for thr,txn_wr_perc,tup_wr_perc,algo,sk,ld,n,p in itertools.product(tcnt,txn_write_perc,tup_write_perc,algos,skew,load,nnodes,nparts)]
+    return fmt,exp
+
 
 def ycsb_latency_breakdown():
     wl = 'YCSB'
-    nnodes = [4]
-    nalgos=['NO_WAIT','WAIT_DIE','MVCC','MAAT','TIMESTAMP']
-    load = [10000]  
+    nnodes = [8]
+    nalgos=['NO_WAIT', 'WAIT_DIE', 'MVCC', 'OCC']
+    load = [10000]
     nparts = [4]
 
-    mpr = [0.4]
-    base_table_size = 2097152*8
-    txn_write_perc = [0.9, 0.1]
+    mpr = [0.4]     # No use in zipf
+    base_table_size = 1024 ** 2 * 16 / 8
+    txn_write_perc = [0, 0.7]
     tup_write_perc = [0.5]
 
-    tcnt = [4]
-    skew = [0]
+    tcnt = [8]
+    skew = [0, 0.8]
     rpq = 16
 
     fmt = ["SKEW_METHOD", "WORKLOAD","REQ_PER_QUERY","PART_PER_TXN","NODE_CNT","CC_ALG","SYNTH_TABLE_SIZE","TUP_WRITE_PERC","TXN_WRITE_PERC","MAX_TXN_IN_FLIGHT","ZIPF_THETA","THREAD_CNT","STRICT_PPT","YCSB_ABORT_MODE", "MPR"]
-    exp = [["HOT", wl,rpq,p,n,algo,base_table_size * n,tup_wr_perc,txn_wr_perc,ld,sk,thr,1,'true', e] for thr,txn_wr_perc,tup_wr_perc,algo,sk,ld,n,p,e in itertools.product(tcnt,txn_write_perc,tup_write_perc,nalgos,skew,load,nnodes,nparts, mpr)]
+    exp = [["ZIPF", wl,rpq,p,n,algo,base_table_size * n,tup_wr_perc,txn_wr_perc,ld,sk,thr,1,'true', e] for thr,txn_wr_perc,tup_wr_perc,algo,sk,ld,n,p,e in itertools.product(tcnt,txn_write_perc,tup_write_perc,nalgos,skew,load,nnodes,nparts, mpr)]
 
     return fmt, exp
+
+# Use 8 nodes * 8 threads per node, 1, 2, 6 wh per server, standard mix, RO mix
+def tpcc_latency_breakdown():
+    wl = 'TPCC'
+    nnodes = [8]
+    nalgos = ['NO_WAIT', 'WAIT_DIE', 'MVCC', 'OCC']
+    npercpay = [0.5, 0]
+    wh = [1, 8]      # wh per node
+    load = [10000]
+    thd = 8
+
+    fmt = ["WORKLOAD","NODE_CNT","CC_ALG","PERC_PAYMENT","NUM_WH","MAX_TXN_IN_FLIGHT", "THREAD_CNT"]
+    exp = [[wl,n,algo,pay,wh * n,ld,thd] for n,algo,pay,wh,ld in itertools.product(nnodes,nalgos,npercpay,wh,load)]
+
+    return fmt, exp
+
+
+def tpcc_partition_sensitivity():
+    wl = 'TPCC'
+    nnodes = [4]
+    nalgos = ['NO_WAIT', 'WAIT_DIE', 'MVCC', 'OCC']
+    npercpay = [0.5, 0]
+    wh = [1, 8]      # wh per node
+    load = [10000]
+    thd = 6
+    mpr = [0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1]
+
+    fmt = ["MPR_NEWORDER", "WORKLOAD","NODE_CNT","CC_ALG","PERC_PAYMENT","NUM_WH","MAX_TXN_IN_FLIGHT", "THREAD_CNT"]
+    exp = [[m, wl,n,algo,pay,wh * n,ld,thd] for m, n,algo,pay,wh,ld in itertools.product(mpr, nnodes,nalgos,npercpay,wh,load)]
+
+    return fmt, exp
+
 
 
 def deploy_local(output_f, cfgs):
@@ -87,11 +132,15 @@ def deploy_local(output_f, cfgs):
     nnodes = cfgs["NODE_CNT"]
     ntotal = nnodes + nnodes
 
+    cmd = "numactl --cpunodebind=1 --membind=1 ./rundb -nid{}".format(n)
+
     for n in range(ntotal):
         if n < nnodes:
-            cmd = "./rundb -nid{}".format(n)
+            # cmd = "./rundb -nid{}".format(n)
+            "numactl --cpunodebind=0 --membind=1 ./rundb -nid{}".format(n)
         elif n < (ntotal):
-            cmd = "./runcl -nid{}".format(n)
+            # cmd = "./runcl -nid{}".format(n)
+            cmd = "numactl --cpunodebind=1 --membind=0 ./runcl -nid{}".format(n)
         else:
             assert(False)
 
@@ -103,6 +152,28 @@ def deploy_local(output_f, cfgs):
         pids.insert(0,p)
     for n in range(ntotal):
         pids[n].wait()
+
+
+def send_file(args):
+    m, f, uname = args
+    cmd = "rsync -avz -e \'ssh -o IPQoS=none -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null\' --progress {} {}@{}:{}".format(f, uname, m, f"/users/{uname}/")
+    print(cmd)
+    while True:
+        proc = subprocess.Popen(cmd, shell=True, stdout=sys.stdout, stderr=sys.stderr)
+        start_time = time.time()
+        while True:
+            if proc.poll() is not None:
+                break  # process has terminated
+            elif time.time() - start_time > 30:  # 30 seconds
+                print("rsync timed out, killing process and retrying...")
+                proc.kill()
+                kill_cmd = f"ssh -o IPQoS=none -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null {uname}@{m} 'fuser -k /users/{uname}/{f}'"
+                subprocess.run(kill_cmd, shell=True)
+                time.sleep(10)  # wait for a bit before retrying
+                break
+            time.sleep(1)  # check every second
+        if proc.poll() is not None:
+            break  # process has terminated, exit the outer loop
 
 
 def deploy_remote(output_f, cfgs):
@@ -126,25 +197,23 @@ def deploy_remote(output_f, cfgs):
     os.system(f"cat {cfg_fname} >> ifconfig.txt")
 
     if cfgs["WORKLOAD"] == "TPCC":
-        files = ["./rundb","./runcl","./ifconfig.txt","./benchmarks/TPCC_short_schema.txt"]
+        files = ["./rundb","./runcl","./ifconfig.txt","./benchmarks/TPCC_full_schema.txt"]
     elif cfgs["WORKLOAD"] == "YCSB":
         files = ["./rundb","./runcl","./ifconfig.txt","./benchmarks/YCSB_schema.txt"]
 
-    # Copy essential files to remote nodes
-    #  bxqml233@pc88.cloudlab.umass.edu
-    # scp -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null ./ifconfig.txt $node:~/deneva
-
 # Parallel version
-    scp_procs = []
-    for m, f in itertools.product(machines, files):
-        # cmd = "scp -o IPQoS=none -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null {} {}@{}:{}".format(f, uname, m, f"/users/{uname}/")
-        cmd = "rsync -avz -e \'ssh -o IPQoS=none -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null\' --progress {} {}@{}:{}".format(f, uname, m, f"/users/{uname}/")
-        print(cmd)
-        scp_procs.append(subprocess.Popen(cmd, shell=True, stdout=sys.stdout, stderr=sys.stderr))
+    # scp_procs = []
+    # for m, f in itertools.product(machines, files):
+    #     # cmd = "scp -o IPQoS=none -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null {} {}@{}:{}".format(f, uname, m, f"/users/{uname}/")
+    #     # cmd = "echo {} | tr \' \' \'\\n\' | parallel -j 1 rsync -avz -e {} {} --progress {} {}@{}:{}".format(" ".join(files), f, uname, m, f"/users/{uname}/")
+    #     # echo "path/to/file1 path/to/file2 path/to/file3" | tr ' ' '\n' | parallel -j <number_of_jobs> rsync -avz {} user@remote_server:/destination/path/
+    #     cmd = "rsync -avz -e \'ssh -o IPQoS=none -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null\' --progress {} {}@{}:{}".format(f, uname, m, f"/users/{uname}/")
+    #     print(cmd)
+    #     scp_procs.append(subprocess.Popen(cmd, shell=True, stdout=sys.stdout, stderr=sys.stderr))
 
-    for p in scp_procs:
-        p.wait()
-
+    for m in machines:
+        with multiprocessing.Pool() as pool:
+            pool.map(send_file, [(m, f, uname) for f in files])
 
     for m in machines:
         cmd = "pkill -f rundb; pkill -f runcl; sync"
@@ -160,7 +229,7 @@ def deploy_remote(output_f, cfgs):
     for m, cnt in zip(machines, range(ntotal)):
         exe = "./rundb" if cnt < nnodes else "./runcl"
         cmd = "env SCHEMA_PATH=\"{}\" timeout -k 8m 8m {} -nid{} ".format(f"/users/{uname}/", exe, cnt)
-        cmd = "ssh -o IPQoS=none -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null {}@{} ".format(uname, m) + cmd
+        cmd = "ssh -o IPQoS=none -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null {}@{}".format(uname, m) + cmd
 
         ofile_n = "{}{}_{}.out".format(result_dir, cnt, output_f)
         ofile = open(ofile_n,'w')
@@ -170,106 +239,6 @@ def deploy_remote(output_f, cfgs):
     for p in ssh_procs:
         p.wait()
 
-
-def get_throughput(output_f):
-    client = False          # We only sum up throughput from clients, since CALVIN may count a txn multiple times
-    throughput = 0
-    with open(output_f, "r") as f:
-        for line in f:
-            if "Running client" in line:
-                client = True
-            if "[summary]" in line:
-                throughput_match = re.search(r"tput=(\d+\.\d+)", line)
-                throughput = float(throughput_match.group(1))
-    return throughput if client else 0
-
-
-def sumup_procs(directory, pattern, exec_time):
-    total_throughput = 0
-    for root, dirnames, filenames in os.walk(directory):
-        for filename in fnmatch.filter(filenames, "*"+ pattern + '*.out'):
-            if str(exec_time) in filename:
-                total_throughput += get_throughput(os.path.join(root, filename))
-            # matches.append(os.path.join(root, filename))
-    return total_throughput
-
-
-def draw_line_plot(yval, xval, vval, title, xlabel, ylabel, vlabel, save_path):
-    assert len(yval) == len(vval)
-    colors = plt.cm.tab20(np.linspace(0, 1, len(vval)))
-    markers = ['s-', 'o-', '^-', 'D-', 'x-', 'P-', '>-', '<-', '8-', 'p-', '*-']
-
-    fig, ax = plt.subplots(figsize=(14, 8))
-    for i in range(len(vval)):
-        ax.plot(xval, yval[i], markers[i], color=colors[i], label=f'{vlabel}={vval[i]}')
-
-    # Set labels and title
-    ax.set_xlabel(xlabel)
-    ax.set_ylabel(ylabel)
-    ax.set_title(title)
-    ax.legend(vval, loc='upper right', fontsize='small')
-    plt.tight_layout()
-    plt.grid(True, which='both', linestyle='--', linewidth=0.5)
-
-    plt.tight_layout()
-    plt.savefig(save_path)
-
-    plt.clf()
-
-
-def print_csv(yval, xval, vval):
-    # Print xvals, vvals, and yvals to the terminal in CSV format
-    writer = csv.writer(sys.stdout, delimiter='\n')
-    writer.writerow(['xvals'] + xval)
-    writer = csv.writer(sys.stdout, delimiter=' ')
-    writer.writerow([])
-
-    writer.writerow(vval)
-    # Transpose yvals and print each row
-    yvals_transposed = list(map(list, zip(*yval)))
-    for i, yvals_row in enumerate(yvals_transposed):
-        writer.writerow(yvals_row)
-
-
-def network_sweep_plot(exec_time):
-    fmt, experiments = network_sweep()
-    xvals = []
-    vvals = ['NO_WAIT','WAIT_DIE','MVCC','MAAT','TIMESTAMP','CALVIN']
-    yvals = [[0] * 7 for _ in range(len(vvals))]
-    for e in experiments:
-        cfgs = get_cfgs(fmt,e)
-        output_f = get_outfile_name(cfgs, fmt, ["127.0.0.1", "127.0.0.1"])
-        throughput = sumup_procs(result_dir, output_f, exec_time)
-
-        # throughput = get_throughput(output_f)
-
-        if cfgs["NETWORK_DELAY"] not in xvals:
-            xvals.append(cfgs["NETWORK_DELAY"])
-
-        x_index = xvals.index(cfgs["NETWORK_DELAY"])
-        v_index = vvals.index(cfgs["CC_ALG"])
-        yvals[v_index][x_index] = throughput
-    print_csv(yvals, xvals, vvals)
-    draw_line_plot(yvals, xvals, vvals, 'Throughput vs Network Delay', 'Network Delay (us)', 'Throughput (txn/s)', 'CC Algorithm', 'network_sweep.png')
-
-
-def ycsb_partitions_abort_plot(exec_time):
-    fmt, experiments = ycsb_partitions_abort()
-    xvals = [0, 0.2, 0.4, 0.6, 0.8, 1]
-    vvals = ['CALVIN']
-    yvals = [[0] * len(xvals) for _ in range(len(vvals))]
-    for e in experiments:
-        cfgs = get_cfgs(fmt,e)
-        output_f = get_outfile_name(cfgs, fmt, ["127.0.0.1", "127.0.0.1", "127.0.0.1", "127.0.0.1"])
-        throughput = sumup_procs(result_dir, output_f, exec_time)
-
-        x_index = xvals.index(cfgs["MPR"])
-        v_index = vvals.index(cfgs["CC_ALG"])
-        yvals[v_index][x_index] = throughput
-    print_csv(yvals, xvals, vvals)
-    draw_line_plot(yvals, xvals, vvals, 'Throughput vs Partitions per Transaction', 'Partitions per Transaction', 'Throughput (txn/s)', 'CC Algorithm', 'ycsb_partitions_abort.png')
-
-
 def execute_all(exp_func):
     global output_f, result_dir
 
@@ -277,8 +246,11 @@ def execute_all(exp_func):
     for e in experiments:
         cfgs = get_cfgs(fmt,e)
         output_f = get_outfile_name(cfgs, fmt, [])
-        # result_dir = os.path.join("results", output_f)
         output_f = output_f + strnow
+        result_dir = os.path.join("./results_new/", output_f)
+        if not os.path.exists(result_dir):
+            os.makedirs(result_dir)
+        result_dir += "/"
 
 # compile locally (with all static libs)
         f = open("config-std.h",'r')
@@ -318,44 +290,44 @@ experiment_map = {
     "network_sweep": network_sweep,
     "ycsb_partitions_abort": ycsb_partitions_abort,
     "ycsb_latency_breakdown": ycsb_latency_breakdown,
+    "tpcc_latency_breakdown": tpcc_latency_breakdown,
+    "ycsb_partitions_distr": ycsb_partitions_distr,
+    "tpcc_partition_sensitivity": tpcc_partition_sensitivity
 }
 
-if len(sys.argv) < 2:
-    sys.exit("Usage: %s [-exec/-e/-noexec/-ne] [-c cluster] experiments\n \
-            -exec/-e: compile and execute locally (default)\n \
-            -noexec/-ne: compile first target only \
-            -c: run remote on cluster; possible values: istc, vcloud\n \
-            " % sys.argv[0])
-
-for arg in sys.argv[1:]:
-    if arg == "-help" or arg == "-h":
-        sys.exit("Usage: %s [-exec/-e/-noexec/-ne] [-skip] [-c cluster] experiments\n \
+if __name__ == "__main__":
+    if len(sys.argv) < 2:
+        sys.exit("Usage: %s [-exec/-e/-noexec/-ne] [-c cluster] experiments\n \
                 -exec/-e: compile and execute locally (default)\n \
                 -noexec/-ne: compile first target only \
-                -skip: skip any experiments already in results folder\n \
                 -c: run remote on cluster; possible values: istc, vcloud\n \
                 " % sys.argv[0])
-    if arg == "-exec" or arg == "-e":
-        execute = True
-    elif arg == "-noexec" or arg == "-ne":
-        execute = False
-    elif arg == "-skip":
-        skip = True
-    elif arg == "-c":
-        remote = True
-        arg_cluster = True
-    else:
-        exps.append(arg)
 
+    for arg in sys.argv[1:]:
+        if arg == "-help" or arg == "-h":
+            sys.exit("Usage: %s [-exec/-e/-noexec/-ne] [-skip] [-c cluster] experiments\n \
+                    -exec/-e: compile and execute locally (default)\n \
+                    -noexec/-ne: compile first target only \
+                    -skip: skip any experiments already in results folder\n \
+                    -c: run remote on cluster; possible values: istc, vcloud\n \
+                    " % sys.argv[0])
+        if arg == "-exec" or arg == "-e":
+            execute = True
+        elif arg == "-noexec" or arg == "-ne":
+            execute = False
+        elif arg == "-skip":
+            skip = True
+        elif arg == "-c":
+            remote = True
+            arg_cluster = True
+        else:
+            exps.append(arg)
 
-ycsb_partitions_abort_plot("174851")        # A successful run on 4 nodes, cloudlab rs620
-
-
-for exp in exps:
-    execute_all(experiment_map[exp])
+    for exp in exps:
+        execute_all(experiment_map[exp])
 
 # execute_all(ycsb_partitions_abort)
 # plot()
 # execute_all()
-# ppr_network_plot()
+# ppr_network_plot()    
 # network_sweep_plot("094449")

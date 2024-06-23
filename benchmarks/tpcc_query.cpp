@@ -168,12 +168,8 @@ BaseQuery * TPCCQueryGenerator::gen_payment(uint64_t home_partition) {
 	double x = (double)(rand() % 10000) / 10000;
 	int y = URand(1, 100);
 
-	//if(x > g_mpr) { 
-	if(x > 0.15) { 
-		// home warehouse
-		query->c_d_id = query->d_id;
-		query->c_w_id = query->w_id;
-	} else {	
+	// if(x > 0.15) { 
+  if (x < MPR_NEWORDER) {	
 		// remote warehouse
 		query->c_d_id = URand(1, g_dist_per_wh);
 		if(g_num_wh > 1) {
@@ -183,7 +179,10 @@ BaseQuery * TPCCQueryGenerator::gen_payment(uint64_t home_partition) {
 			}
 		} else 
       query->c_w_id = query->w_id;
-	}
+	} else {
+    query->c_d_id = query->d_id;
+		query->c_w_id = query->w_id;
+  }
 	if(y <= 60) {
 		// by last name
 		query->by_last_name = true;

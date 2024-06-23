@@ -106,7 +106,7 @@ int main(int argc, char* argv[])
 	printf("Workload initialized!\n");
   fflush(stdout);
 #if NETWORK_TEST
-	tport_man.init(g_node_id,m_wl);
+	tport_man.init();
 	sleep(3);
 	if(g_node_id == 0)
 		network_test();
@@ -343,45 +343,41 @@ void * run_thread(void * id) {
 	return NULL;
 }
 
-void network_test() {
+// void network_test() {
 
-      /*
-	ts_t start;
-	ts_t end;
-	ts_t time;
-	int bytes;
-  float total = 0;
-	for (int i = 0; i < 4; ++i) {
-		time = 0;
-		int num_bytes = (int) pow(10,i);
-		printf("Network Bytes: %d\nns: ", num_bytes);
-		for(int j = 0;j < 1000; j++) {
-			start = get_sys_clock();
-			tport_man.simple_send_msg(num_bytes);
-			while((bytes = tport_man.simple_recv_msg()) == 0) {}
-			end = get_sys_clock();
-			assert(bytes == num_bytes);
-			time = end-start;
-      total += time;
-			//printf("%lu\n",time);
-		}
-		printf("Avg(s): %f\n",total/BILLION/1000);
-    fflush(stdout);
-		//time = time/1000;
-		//printf("Network Bytes: %d, s: %f\n",i,time/BILLION);
-		//printf("Network Bytes: %d, ns: %.3f\n",i,time);
+// 	ts_t start;
+// 	ts_t end;
+// 	ts_t time;
+// 	int bytes;
+//   float total = 0;
+// 	for (int i = 0; i < 4; ++i) {
+// 		time = 0;
+// 		int num_bytes = (int) pow(10,i);
+// 		printf("Network Bytes: %d\nns: ", num_bytes);
+// 		for(int j = 0;j < 1000; j++) {
+// 			start = get_sys_clock();
+// 			tport_man.simple_send_msg(num_bytes);
+// 			while((bytes = tport_man.simple_recv_msg()) == 0) {}
+// 			end = get_sys_clock();
+// 			assert(bytes == num_bytes);
+// 			time = end-start;
+//       total += time;
+// 			//printf("%lu\n",time);
+// 		}
+// 		printf("Avg(s): %f\n",total/BILLION/1000);
+//     fflush(stdout);
+// 		//time = time/1000;
+// 		//printf("Network Bytes: %d, s: %f\n",i,time/BILLION);
+// 		//printf("Network Bytes: %d, ns: %.3f\n",i,time);
 		
-	}
-      */
+// 	}
 
-}
+// }
 
-void network_test_recv() {
-  /*
-	int bytes;
-	while(1) {
-		if( (bytes = tport_man.simple_recv_msg()) > 0)
-			tport_man.simple_send_msg(bytes);
-	}
-  */
-}
+// void network_test_recv() {
+// 	int bytes;
+// 	while(1) {
+// 		if( (bytes = tport_man.simple_recv_msg()) > 0)
+// 			tport_man.simple_send_msg(bytes);
+// 	}
+// }

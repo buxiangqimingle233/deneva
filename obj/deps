@@ -381,8 +381,7 @@ obj/worker_thread.o: system/worker_thread.cpp system/global.h config.h \
 obj/mem_alloc.o: system/mem_alloc.cpp system/mem_alloc.h system/global.h \
  config.h statistics/stats.h statistics/stats_array.h system/pool.h \
  system/helper.h system/concurrentqueue.h system/txn_table.h \
- system/logger.h system/sim_manager.h \
- utils/jemalloc/include/jemalloc/jemalloc.h
+ system/logger.h system/sim_manager.h
 obj/query.o: system/query.cpp system/query.h system/global.h config.h \
  statistics/stats.h statistics/stats_array.h system/pool.h \
  system/helper.h system/concurrentqueue.h system/txn_table.h \

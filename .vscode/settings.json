@@ -5,6 +5,12 @@
         "*.m": "matlab",
         "spatial_spec": "code-text-binary",
         "istream": "cpp",
-        "ostream": "cpp"
+        "ostream": "cpp",
+        "*.tcc": "cpp",
+        "unordered_map": "cpp",
+        "fstream": "cpp",
+        "sstream": "cpp",
+        "*.inc": "cpp",
+        "utility": "cpp"
     }
 }

@@ -6,7 +6,7 @@ libdir=/usr/local/lib
 Name: nanomsg
 Description: High-Performance Scalability Protocols
 URL: http://nanomsg.org/
-Version: 1.2-4-ga54ccc7c
+Version: 1.2-4-ga54ccc7c-dirty
 Requires:
 Libs: -L${libdir} -lnanomsg
 Libs.private: -lanl -lrt -lpthread -lnsl

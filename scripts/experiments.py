@@ -205,7 +205,7 @@ def tpcc_scaling1():
     npercpay=[0.0,1.0]
     wh=128
     load = [10000]
-    fmt = ["WORKLOAD","NODE_CNT","CC_ALG","PERC_PAYMENT","NUM_WH","MAX_TXN_IN_FLIGHT"]
+    fmt = ["WORKLOAD","NODE_CNT","CC_ALG"," ","NUM_WH","MAX_TXN_IN_FLIGHT"]
     exp = [[wl,n,cc,pp,wh*n,tif] for tif,pp,n,cc in itertools.product(load,npercpay,nnodes,nalgos)]
     return fmt,exp
 
@@ -348,8 +348,10 @@ configs = {
     "THREAD_CNT": 4,
     "REPLICA_CNT": 0,
     "REPLICA_TYPE": "AP",
-    "REM_THREAD_CNT": "THREAD_CNT",
-    "SEND_THREAD_CNT": "THREAD_CNT",
+    # "REM_THREAD_CNT": "THREAD_CNT",
+    # "SEND_THREAD_CNT": "THREAD_CNT",
+    "REM_THREAD_CNT": 1,
+    "SEND_THREAD_CNT": 1,
     "CLIENT_NODE_CNT" : "NODE_CNT",
     "CLIENT_THREAD_CNT" : 4,
     "CLIENT_REM_THREAD_CNT" : 2,

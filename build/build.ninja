@@ -55,8 +55,6 @@ build CMakeFiles/nanocat.dir/tools/nanocat.c.o: C_COMPILER__nanocat_unscanned_De
   FLAGS = -Wall -Wextra  -g
   OBJECT_DIR = CMakeFiles/nanocat.dir
   OBJECT_FILE_DIR = CMakeFiles/nanocat.dir/tools
-  TARGET_COMPILE_PDB = CMakeFiles/nanocat.dir/
-  TARGET_PDB = nanocat.pdb
 
 build CMakeFiles/nanocat.dir/tools/options.c.o: C_COMPILER__nanocat_unscanned_Debug /home/wangzhao/experiments/deneva/utils/nanomsg/tools/options.c || cmake_object_order_depends_target_nanocat
   DEFINES = -DNN_HAVE_ACCEPT4=1 -DNN_HAVE_BACKTRACE=1 -DNN_HAVE_CLOCK_GETTIME=1 -DNN_HAVE_CLOCK_MONOTONIC=1 -DNN_HAVE_EPOLL=1 -DNN_HAVE_EVENTFD=1 -DNN_HAVE_GCC_ATOMIC_BUILTINS -DNN_HAVE_GETADDRINFO_A=1 -DNN_HAVE_LIBNSL=1 -DNN_HAVE_LINUX -DNN_HAVE_MSG_CONTROL=1 -DNN_HAVE_PIPE2=1 -DNN_HAVE_PIPE=1 -DNN_HAVE_POLL=1 -DNN_HAVE_SEMAPHORE -DNN_HAVE_SEMAPHORE_PTHREAD=1 -DNN_HAVE_SOCKETPAIR=1 -DNN_HAVE_UNIX_SOCKETS=1 -DNN_MAX_SOCKETS=512 -D_GNU_SOURCE -D_POSIX_PTHREAD_SEMANTICS -D_REENTRANT -D_THREAD_SAFE
@@ -64,8 +62,6 @@ build CMakeFiles/nanocat.dir/tools/options.c.o: C_COMPILER__nanocat_unscanned_De
   FLAGS = -Wall -Wextra  -g
   OBJECT_DIR = CMakeFiles/nanocat.dir
   OBJECT_FILE_DIR = CMakeFiles/nanocat.dir/tools
-  TARGET_COMPILE_PDB = CMakeFiles/nanocat.dir/
-  TARGET_PDB = nanocat.pdb
 
 
 # =============================================================================
@@ -82,9 +78,8 @@ build nanocat: C_EXECUTABLE_LINKER__nanocat_Debug CMakeFiles/nanocat.dir/tools/n
   OBJECT_DIR = CMakeFiles/nanocat.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_COMPILE_PDB = CMakeFiles/nanocat.dir/
   TARGET_FILE = nanocat
-  TARGET_PDB = nanocat.pdb
+  TARGET_PDB = nanocat.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target inproc
@@ -101,8 +96,6 @@ build CMakeFiles/inproc.dir/tests/inproc.c.o: C_COMPILER__inproc_unscanned_Debug
   FLAGS = -Wall -Wextra  -g
   OBJECT_DIR = CMakeFiles/inproc.dir
   OBJECT_FILE_DIR = CMakeFiles/inproc.dir/tests
-  TARGET_COMPILE_PDB = CMakeFiles/inproc.dir/
-  TARGET_PDB = inproc.pdb
 
 
 # =============================================================================
@@ -119,9 +112,8 @@ build inproc: C_EXECUTABLE_LINKER__inproc_Debug CMakeFiles/inproc.dir/tests/inpr
   OBJECT_DIR = CMakeFiles/inproc.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_COMPILE_PDB = CMakeFiles/inproc.dir/
   TARGET_FILE = inproc
-  TARGET_PDB = inproc.pdb
+  TARGET_PDB = inproc.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target inproc_shutdown
@@ -138,8 +130,6 @@ build CMakeFiles/inproc_shutdown.dir/tests/inproc_shutdown.c.o: C_COMPILER__inpr
   FLAGS = -Wall -Wextra  -g
   OBJECT_DIR = CMakeFiles/inproc_shutdown.dir
   OBJECT_FILE_DIR = CMakeFiles/inproc_shutdown.dir/tests
-  TARGET_COMPILE_PDB = CMakeFiles/inproc_shutdown.dir/
-  TARGET_PDB = inproc_shutdown.pdb
 
 
 # =============================================================================
@@ -156,9 +146,8 @@ build inproc_shutdown: C_EXECUTABLE_LINKER__inproc_shutdown_Debug CMakeFiles/inp
   OBJECT_DIR = CMakeFiles/inproc_shutdown.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_COMPILE_PDB = CMakeFiles/inproc_shutdown.dir/
   TARGET_FILE = inproc_shutdown
-  TARGET_PDB = inproc_shutdown.pdb
+  TARGET_PDB = inproc_shutdown.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target ipc
@@ -175,8 +164,6 @@ build CMakeFiles/ipc.dir/tests/ipc.c.o: C_COMPILER__ipc_unscanned_Debug /home/wa
   FLAGS = -Wall -Wextra  -g
   OBJECT_DIR = CMakeFiles/ipc.dir
   OBJECT_FILE_DIR = CMakeFiles/ipc.dir/tests
-  TARGET_COMPILE_PDB = CMakeFiles/ipc.dir/
-  TARGET_PDB = ipc.pdb
 
 
 # =============================================================================
@@ -193,9 +180,8 @@ build ipc: C_EXECUTABLE_LINKER__ipc_Debug CMakeFiles/ipc.dir/tests/ipc.c.o | lib
   OBJECT_DIR = CMakeFiles/ipc.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_COMPILE_PDB = CMakeFiles/ipc.dir/
   TARGET_FILE = ipc
-  TARGET_PDB = ipc.pdb
+  TARGET_PDB = ipc.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target ipc_shutdown
@@ -212,8 +198,6 @@ build CMakeFiles/ipc_shutdown.dir/tests/ipc_shutdown.c.o: C_COMPILER__ipc_shutdo
   FLAGS = -Wall -Wextra  -g
   OBJECT_DIR = CMakeFiles/ipc_shutdown.dir
   OBJECT_FILE_DIR = CMakeFiles/ipc_shutdown.dir/tests
-  TARGET_COMPILE_PDB = CMakeFiles/ipc_shutdown.dir/
-  TARGET_PDB = ipc_shutdown.pdb
 
 
 # =============================================================================
@@ -230,9 +214,8 @@ build ipc_shutdown: C_EXECUTABLE_LINKER__ipc_shutdown_Debug CMakeFiles/ipc_shutd
   OBJECT_DIR = CMakeFiles/ipc_shutdown.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_COMPILE_PDB = CMakeFiles/ipc_shutdown.dir/
   TARGET_FILE = ipc_shutdown
-  TARGET_PDB = ipc_shutdown.pdb
+  TARGET_PDB = ipc_shutdown.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target ipc_stress
@@ -249,8 +232,6 @@ build CMakeFiles/ipc_stress.dir/tests/ipc_stress.c.o: C_COMPILER__ipc_stress_uns
   FLAGS = -Wall -Wextra  -g
   OBJECT_DIR = CMakeFiles/ipc_stress.dir
   OBJECT_FILE_DIR = CMakeFiles/ipc_stress.dir/tests
-  TARGET_COMPILE_PDB = CMakeFiles/ipc_stress.dir/
-  TARGET_PDB = ipc_stress.pdb
 
 
 # =============================================================================
@@ -267,9 +248,8 @@ build ipc_stress: C_EXECUTABLE_LINKER__ipc_stress_Debug CMakeFiles/ipc_stress.di
   OBJECT_DIR = CMakeFiles/ipc_stress.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_COMPILE_PDB = CMakeFiles/ipc_stress.dir/
   TARGET_FILE = ipc_stress
-  TARGET_PDB = ipc_stress.pdb
+  TARGET_PDB = ipc_stress.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target tcp
@@ -286,8 +266,6 @@ build CMakeFiles/tcp.dir/tests/tcp.c.o: C_COMPILER__tcp_unscanned_Debug /home/wa
   FLAGS = -Wall -Wextra  -g
   OBJECT_DIR = CMakeFiles/tcp.dir
   OBJECT_FILE_DIR = CMakeFiles/tcp.dir/tests
-  TARGET_COMPILE_PDB = CMakeFiles/tcp.dir/
-  TARGET_PDB = tcp.pdb
 
 
 # =============================================================================
@@ -304,9 +282,8 @@ build tcp: C_EXECUTABLE_LINKER__tcp_Debug CMakeFiles/tcp.dir/tests/tcp.c.o | lib
   OBJECT_DIR = CMakeFiles/tcp.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_COMPILE_PDB = CMakeFiles/tcp.dir/
   TARGET_FILE = tcp
-  TARGET_PDB = tcp.pdb
+  TARGET_PDB = tcp.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target tcp_shutdown
@@ -323,8 +300,6 @@ build CMakeFiles/tcp_shutdown.dir/tests/tcp_shutdown.c.o: C_COMPILER__tcp_shutdo
   FLAGS = -Wall -Wextra  -g
   OBJECT_DIR = CMakeFiles/tcp_shutdown.dir
   OBJECT_FILE_DIR = CMakeFiles/tcp_shutdown.dir/tests
-  TARGET_COMPILE_PDB = CMakeFiles/tcp_shutdown.dir/
-  TARGET_PDB = tcp_shutdown.pdb
 
 
 # =============================================================================
@@ -341,9 +316,8 @@ build tcp_shutdown: C_EXECUTABLE_LINKER__tcp_shutdown_Debug CMakeFiles/tcp_shutd
   OBJECT_DIR = CMakeFiles/tcp_shutdown.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_COMPILE_PDB = CMakeFiles/tcp_shutdown.dir/
   TARGET_FILE = tcp_shutdown
-  TARGET_PDB = tcp_shutdown.pdb
+  TARGET_PDB = tcp_shutdown.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target ws
@@ -360,8 +334,6 @@ build CMakeFiles/ws.dir/tests/ws.c.o: C_COMPILER__ws_unscanned_Debug /home/wangz
   FLAGS = -Wall -Wextra  -g
   OBJECT_DIR = CMakeFiles/ws.dir
   OBJECT_FILE_DIR = CMakeFiles/ws.dir/tests
-  TARGET_COMPILE_PDB = CMakeFiles/ws.dir/
-  TARGET_PDB = ws.pdb
 
 
 # =============================================================================
@@ -378,9 +350,8 @@ build ws: C_EXECUTABLE_LINKER__ws_Debug CMakeFiles/ws.dir/tests/ws.c.o | libnano
   OBJECT_DIR = CMakeFiles/ws.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_COMPILE_PDB = CMakeFiles/ws.dir/
   TARGET_FILE = ws
-  TARGET_PDB = ws.pdb
+  TARGET_PDB = ws.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target pair
@@ -397,8 +368,6 @@ build CMakeFiles/pair.dir/tests/pair.c.o: C_COMPILER__pair_unscanned_Debug /home
   FLAGS = -Wall -Wextra  -g
   OBJECT_DIR = CMakeFiles/pair.dir
   OBJECT_FILE_DIR = CMakeFiles/pair.dir/tests
-  TARGET_COMPILE_PDB = CMakeFiles/pair.dir/
-  TARGET_PDB = pair.pdb
 
 
 # =============================================================================
@@ -415,9 +384,8 @@ build pair: C_EXECUTABLE_LINKER__pair_Debug CMakeFiles/pair.dir/tests/pair.c.o |
   OBJECT_DIR = CMakeFiles/pair.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_COMPILE_PDB = CMakeFiles/pair.dir/
   TARGET_FILE = pair
-  TARGET_PDB = pair.pdb
+  TARGET_PDB = pair.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target pubsub
@@ -434,8 +402,6 @@ build CMakeFiles/pubsub.dir/tests/pubsub.c.o: C_COMPILER__pubsub_unscanned_Debug
   FLAGS = -Wall -Wextra  -g
   OBJECT_DIR = CMakeFiles/pubsub.dir
   OBJECT_FILE_DIR = CMakeFiles/pubsub.dir/tests
-  TARGET_COMPILE_PDB = CMakeFiles/pubsub.dir/
-  TARGET_PDB = pubsub.pdb
 
 
 # =============================================================================
@@ -452,9 +418,8 @@ build pubsub: C_EXECUTABLE_LINKER__pubsub_Debug CMakeFiles/pubsub.dir/tests/pubs
   OBJECT_DIR = CMakeFiles/pubsub.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_COMPILE_PDB = CMakeFiles/pubsub.dir/
   TARGET_FILE = pubsub
-  TARGET_PDB = pubsub.pdb
+  TARGET_PDB = pubsub.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target reqrep
@@ -471,8 +436,6 @@ build CMakeFiles/reqrep.dir/tests/reqrep.c.o: C_COMPILER__reqrep_unscanned_Debug
   FLAGS = -Wall -Wextra  -g
   OBJECT_DIR = CMakeFiles/reqrep.dir
   OBJECT_FILE_DIR = CMakeFiles/reqrep.dir/tests
-  TARGET_COMPILE_PDB = CMakeFiles/reqrep.dir/
-  TARGET_PDB = reqrep.pdb
 
 
 # =============================================================================
@@ -489,9 +452,8 @@ build reqrep: C_EXECUTABLE_LINKER__reqrep_Debug CMakeFiles/reqrep.dir/tests/reqr
   OBJECT_DIR = CMakeFiles/reqrep.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_COMPILE_PDB = CMakeFiles/reqrep.dir/
   TARGET_FILE = reqrep
-  TARGET_PDB = reqrep.pdb
+  TARGET_PDB = reqrep.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target pipeline
@@ -508,8 +470,6 @@ build CMakeFiles/pipeline.dir/tests/pipeline.c.o: C_COMPILER__pipeline_unscanned
   FLAGS = -Wall -Wextra  -g
   OBJECT_DIR = CMakeFiles/pipeline.dir
   OBJECT_FILE_DIR = CMakeFiles/pipeline.dir/tests
-  TARGET_COMPILE_PDB = CMakeFiles/pipeline.dir/
-  TARGET_PDB = pipeline.pdb
 
 
 # =============================================================================
@@ -526,9 +486,8 @@ build pipeline: C_EXECUTABLE_LINKER__pipeline_Debug CMakeFiles/pipeline.dir/test
   OBJECT_DIR = CMakeFiles/pipeline.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_COMPILE_PDB = CMakeFiles/pipeline.dir/
   TARGET_FILE = pipeline
-  TARGET_PDB = pipeline.pdb
+  TARGET_PDB = pipeline.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target survey
@@ -545,8 +504,6 @@ build CMakeFiles/survey.dir/tests/survey.c.o: C_COMPILER__survey_unscanned_Debug
   FLAGS = -Wall -Wextra  -g
   OBJECT_DIR = CMakeFiles/survey.dir
   OBJECT_FILE_DIR = CMakeFiles/survey.dir/tests
-  TARGET_COMPILE_PDB = CMakeFiles/survey.dir/
-  TARGET_PDB = survey.pdb
 
 
 # =============================================================================
@@ -563,9 +520,8 @@ build survey: C_EXECUTABLE_LINKER__survey_Debug CMakeFiles/survey.dir/tests/surv
   OBJECT_DIR = CMakeFiles/survey.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_COMPILE_PDB = CMakeFiles/survey.dir/
   TARGET_FILE = survey
-  TARGET_PDB = survey.pdb
+  TARGET_PDB = survey.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target bus
@@ -582,8 +538,6 @@ build CMakeFiles/bus.dir/tests/bus.c.o: C_COMPILER__bus_unscanned_Debug /home/wa
   FLAGS = -Wall -Wextra  -g
   OBJECT_DIR = CMakeFiles/bus.dir
   OBJECT_FILE_DIR = CMakeFiles/bus.dir/tests
-  TARGET_COMPILE_PDB = CMakeFiles/bus.dir/
-  TARGET_PDB = bus.pdb
 
 
 # =============================================================================
@@ -600,9 +554,8 @@ build bus: C_EXECUTABLE_LINKER__bus_Debug CMakeFiles/bus.dir/tests/bus.c.o | lib
   OBJECT_DIR = CMakeFiles/bus.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_COMPILE_PDB = CMakeFiles/bus.dir/
   TARGET_FILE = bus
-  TARGET_PDB = bus.pdb
+  TARGET_PDB = bus.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target async_shutdown
@@ -619,8 +572,6 @@ build CMakeFiles/async_shutdown.dir/tests/async_shutdown.c.o: C_COMPILER__async_
   FLAGS = -Wall -Wextra  -g
   OBJECT_DIR = CMakeFiles/async_shutdown.dir
   OBJECT_FILE_DIR = CMakeFiles/async_shutdown.dir/tests
-  TARGET_COMPILE_PDB = CMakeFiles/async_shutdown.dir/
-  TARGET_PDB = async_shutdown.pdb
 
 
 # =============================================================================
@@ -637,9 +588,8 @@ build async_shutdown: C_EXECUTABLE_LINKER__async_shutdown_Debug CMakeFiles/async
   OBJECT_DIR = CMakeFiles/async_shutdown.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_COMPILE_PDB = CMakeFiles/async_shutdown.dir/
   TARGET_FILE = async_shutdown
-  TARGET_PDB = async_shutdown.pdb
+  TARGET_PDB = async_shutdown.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target block
@@ -656,8 +606,6 @@ build CMakeFiles/block.dir/tests/block.c.o: C_COMPILER__block_unscanned_Debug /h
   FLAGS = -Wall -Wextra  -g
   OBJECT_DIR = CMakeFiles/block.dir
   OBJECT_FILE_DIR = CMakeFiles/block.dir/tests
-  TARGET_COMPILE_PDB = CMakeFiles/block.dir/
-  TARGET_PDB = block.pdb
 
 
 # =============================================================================
@@ -674,9 +622,8 @@ build block: C_EXECUTABLE_LINKER__block_Debug CMakeFiles/block.dir/tests/block.c
   OBJECT_DIR = CMakeFiles/block.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_COMPILE_PDB = CMakeFiles/block.dir/
   TARGET_FILE = block
-  TARGET_PDB = block.pdb
+  TARGET_PDB = block.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target term
@@ -693,8 +640,6 @@ build CMakeFiles/term.dir/tests/term.c.o: C_COMPILER__term_unscanned_Debug /home
   FLAGS = -Wall -Wextra  -g
   OBJECT_DIR = CMakeFiles/term.dir
   OBJECT_FILE_DIR = CMakeFiles/term.dir/tests
-  TARGET_COMPILE_PDB = CMakeFiles/term.dir/
-  TARGET_PDB = term.pdb
 
 
 # =============================================================================
@@ -711,9 +656,8 @@ build term: C_EXECUTABLE_LINKER__term_Debug CMakeFiles/term.dir/tests/term.c.o |
   OBJECT_DIR = CMakeFiles/term.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_COMPILE_PDB = CMakeFiles/term.dir/
   TARGET_FILE = term
-  TARGET_PDB = term.pdb
+  TARGET_PDB = term.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target timeo
@@ -730,8 +674,6 @@ build CMakeFiles/timeo.dir/tests/timeo.c.o: C_COMPILER__timeo_unscanned_Debug /h
   FLAGS = -Wall -Wextra  -g
   OBJECT_DIR = CMakeFiles/timeo.dir
   OBJECT_FILE_DIR = CMakeFiles/timeo.dir/tests
-  TARGET_COMPILE_PDB = CMakeFiles/timeo.dir/
-  TARGET_PDB = timeo.pdb
 
 
 # =============================================================================
@@ -748,9 +690,8 @@ build timeo: C_EXECUTABLE_LINKER__timeo_Debug CMakeFiles/timeo.dir/tests/timeo.c
   OBJECT_DIR = CMakeFiles/timeo.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_COMPILE_PDB = CMakeFiles/timeo.dir/
   TARGET_FILE = timeo
-  TARGET_PDB = timeo.pdb
+  TARGET_PDB = timeo.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target iovec
@@ -767,8 +708,6 @@ build CMakeFiles/iovec.dir/tests/iovec.c.o: C_COMPILER__iovec_unscanned_Debug /h
   FLAGS = -Wall -Wextra  -g
   OBJECT_DIR = CMakeFiles/iovec.dir
   OBJECT_FILE_DIR = CMakeFiles/iovec.dir/tests
-  TARGET_COMPILE_PDB = CMakeFiles/iovec.dir/
-  TARGET_PDB = iovec.pdb
 
 
 # =============================================================================
@@ -785,9 +724,8 @@ build iovec: C_EXECUTABLE_LINKER__iovec_Debug CMakeFiles/iovec.dir/tests/iovec.c
   OBJECT_DIR = CMakeFiles/iovec.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_COMPILE_PDB = CMakeFiles/iovec.dir/
   TARGET_FILE = iovec
-  TARGET_PDB = iovec.pdb
+  TARGET_PDB = iovec.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target msg
@@ -804,8 +742,6 @@ build CMakeFiles/msg.dir/tests/msg.c.o: C_COMPILER__msg_unscanned_Debug /home/wa
   FLAGS = -Wall -Wextra  -g
   OBJECT_DIR = CMakeFiles/msg.dir
   OBJECT_FILE_DIR = CMakeFiles/msg.dir/tests
-  TARGET_COMPILE_PDB = CMakeFiles/msg.dir/
-  TARGET_PDB = msg.pdb
 
 
 # =============================================================================
@@ -822,9 +758,8 @@ build msg: C_EXECUTABLE_LINKER__msg_Debug CMakeFiles/msg.dir/tests/msg.c.o | lib
   OBJECT_DIR = CMakeFiles/msg.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_COMPILE_PDB = CMakeFiles/msg.dir/
   TARGET_FILE = msg
-  TARGET_PDB = msg.pdb
+  TARGET_PDB = msg.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target prio
@@ -841,8 +776,6 @@ build CMakeFiles/prio.dir/tests/prio.c.o: C_COMPILER__prio_unscanned_Debug /home
   FLAGS = -Wall -Wextra  -g
   OBJECT_DIR = CMakeFiles/prio.dir
   OBJECT_FILE_DIR = CMakeFiles/prio.dir/tests
-  TARGET_COMPILE_PDB = CMakeFiles/prio.dir/
-  TARGET_PDB = prio.pdb
 
 
 # =============================================================================
@@ -859,9 +792,8 @@ build prio: C_EXECUTABLE_LINKER__prio_Debug CMakeFiles/prio.dir/tests/prio.c.o |
   OBJECT_DIR = CMakeFiles/prio.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_COMPILE_PDB = CMakeFiles/prio.dir/
   TARGET_FILE = prio
-  TARGET_PDB = prio.pdb
+  TARGET_PDB = prio.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target poll
@@ -878,8 +810,6 @@ build CMakeFiles/poll.dir/tests/poll.c.o: C_COMPILER__poll_unscanned_Debug /home
   FLAGS = -Wall -Wextra  -g
   OBJECT_DIR = CMakeFiles/poll.dir
   OBJECT_FILE_DIR = CMakeFiles/poll.dir/tests
-  TARGET_COMPILE_PDB = CMakeFiles/poll.dir/
-  TARGET_PDB = poll.pdb
 
 
 # =============================================================================
@@ -896,9 +826,8 @@ build poll: C_EXECUTABLE_LINKER__poll_Debug CMakeFiles/poll.dir/tests/poll.c.o |
   OBJECT_DIR = CMakeFiles/poll.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_COMPILE_PDB = CMakeFiles/poll.dir/
   TARGET_FILE = poll
-  TARGET_PDB = poll.pdb
+  TARGET_PDB = poll.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target device
@@ -915,8 +844,6 @@ build CMakeFiles/device.dir/tests/device.c.o: C_COMPILER__device_unscanned_Debug
   FLAGS = -Wall -Wextra  -g
   OBJECT_DIR = CMakeFiles/device.dir
   OBJECT_FILE_DIR = CMakeFiles/device.dir/tests
-  TARGET_COMPILE_PDB = CMakeFiles/device.dir/
-  TARGET_PDB = device.pdb
 
 
 # =============================================================================
@@ -933,9 +860,8 @@ build device: C_EXECUTABLE_LINKER__device_Debug CMakeFiles/device.dir/tests/devi
   OBJECT_DIR = CMakeFiles/device.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_COMPILE_PDB = CMakeFiles/device.dir/
   TARGET_FILE = device
-  TARGET_PDB = device.pdb
+  TARGET_PDB = device.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target device4
@@ -952,8 +878,6 @@ build CMakeFiles/device4.dir/tests/device4.c.o: C_COMPILER__device4_unscanned_De
   FLAGS = -Wall -Wextra  -g
   OBJECT_DIR = CMakeFiles/device4.dir
   OBJECT_FILE_DIR = CMakeFiles/device4.dir/tests
-  TARGET_COMPILE_PDB = CMakeFiles/device4.dir/
-  TARGET_PDB = device4.pdb
 
 
 # =============================================================================
@@ -970,9 +894,8 @@ build device4: C_EXECUTABLE_LINKER__device4_Debug CMakeFiles/device4.dir/tests/d
   OBJECT_DIR = CMakeFiles/device4.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_COMPILE_PDB = CMakeFiles/device4.dir/
   TARGET_FILE = device4
-  TARGET_PDB = device4.pdb
+  TARGET_PDB = device4.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target device5
@@ -989,8 +912,6 @@ build CMakeFiles/device5.dir/tests/device5.c.o: C_COMPILER__device5_unscanned_De
   FLAGS = -Wall -Wextra  -g
   OBJECT_DIR = CMakeFiles/device5.dir
   OBJECT_FILE_DIR = CMakeFiles/device5.dir/tests
-  TARGET_COMPILE_PDB = CMakeFiles/device5.dir/
-  TARGET_PDB = device5.pdb
 
 
 # =============================================================================
@@ -1007,9 +928,8 @@ build device5: C_EXECUTABLE_LINKER__device5_Debug CMakeFiles/device5.dir/tests/d
   OBJECT_DIR = CMakeFiles/device5.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_COMPILE_PDB = CMakeFiles/device5.dir/
   TARGET_FILE = device5
-  TARGET_PDB = device5.pdb
+  TARGET_PDB = device5.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target device6
@@ -1026,8 +946,6 @@ build CMakeFiles/device6.dir/tests/device6.c.o: C_COMPILER__device6_unscanned_De
   FLAGS = -Wall -Wextra  -g
   OBJECT_DIR = CMakeFiles/device6.dir
   OBJECT_FILE_DIR = CMakeFiles/device6.dir/tests
-  TARGET_COMPILE_PDB = CMakeFiles/device6.dir/
-  TARGET_PDB = device6.pdb
 
 
 # =============================================================================
@@ -1044,9 +962,8 @@ build device6: C_EXECUTABLE_LINKER__device6_Debug CMakeFiles/device6.dir/tests/d
   OBJECT_DIR = CMakeFiles/device6.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_COMPILE_PDB = CMakeFiles/device6.dir/
   TARGET_FILE = device6
-  TARGET_PDB = device6.pdb
+  TARGET_PDB = device6.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target device7
@@ -1063,8 +980,6 @@ build CMakeFiles/device7.dir/tests/device7.c.o: C_COMPILER__device7_unscanned_De
   FLAGS = -Wall -Wextra  -g
   OBJECT_DIR = CMakeFiles/device7.dir
   OBJECT_FILE_DIR = CMakeFiles/device7.dir/tests
-  TARGET_COMPILE_PDB = CMakeFiles/device7.dir/
-  TARGET_PDB = device7.pdb
 
 
 # =============================================================================
@@ -1081,9 +996,8 @@ build device7: C_EXECUTABLE_LINKER__device7_Debug CMakeFiles/device7.dir/tests/d
   OBJECT_DIR = CMakeFiles/device7.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_COMPILE_PDB = CMakeFiles/device7.dir/
   TARGET_FILE = device7
-  TARGET_PDB = device7.pdb
+  TARGET_PDB = device7.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target emfile
@@ -1100,8 +1014,6 @@ build CMakeFiles/emfile.dir/tests/emfile.c.o: C_COMPILER__emfile_unscanned_Debug
   FLAGS = -Wall -Wextra  -g
   OBJECT_DIR = CMakeFiles/emfile.dir
   OBJECT_FILE_DIR = CMakeFiles/emfile.dir/tests
-  TARGET_COMPILE_PDB = CMakeFiles/emfile.dir/
-  TARGET_PDB = emfile.pdb
 
 
 # =============================================================================
@@ -1118,9 +1030,8 @@ build emfile: C_EXECUTABLE_LINKER__emfile_Debug CMakeFiles/emfile.dir/tests/emfi
   OBJECT_DIR = CMakeFiles/emfile.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_COMPILE_PDB = CMakeFiles/emfile.dir/
   TARGET_FILE = emfile
-  TARGET_PDB = emfile.pdb
+  TARGET_PDB = emfile.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target domain
@@ -1137,8 +1048,6 @@ build CMakeFiles/domain.dir/tests/domain.c.o: C_COMPILER__domain_unscanned_Debug
   FLAGS = -Wall -Wextra  -g
   OBJECT_DIR = CMakeFiles/domain.dir
   OBJECT_FILE_DIR = CMakeFiles/domain.dir/tests
-  TARGET_COMPILE_PDB = CMakeFiles/domain.dir/
-  TARGET_PDB = domain.pdb
 
 
 # =============================================================================
@@ -1155,9 +1064,8 @@ build domain: C_EXECUTABLE_LINKER__domain_Debug CMakeFiles/domain.dir/tests/doma
   OBJECT_DIR = CMakeFiles/domain.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_COMPILE_PDB = CMakeFiles/domain.dir/
   TARGET_FILE = domain
-  TARGET_PDB = domain.pdb
+  TARGET_PDB = domain.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target trie
@@ -1174,8 +1082,6 @@ build CMakeFiles/trie.dir/tests/trie.c.o: C_COMPILER__trie_unscanned_Debug /home
   FLAGS = -Wall -Wextra  -g
   OBJECT_DIR = CMakeFiles/trie.dir
   OBJECT_FILE_DIR = CMakeFiles/trie.dir/tests
-  TARGET_COMPILE_PDB = CMakeFiles/trie.dir/
-  TARGET_PDB = trie.pdb
 
 
 # =============================================================================
@@ -1192,9 +1098,8 @@ build trie: C_EXECUTABLE_LINKER__trie_Debug CMakeFiles/trie.dir/tests/trie.c.o |
   OBJECT_DIR = CMakeFiles/trie.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_COMPILE_PDB = CMakeFiles/trie.dir/
   TARGET_FILE = trie
-  TARGET_PDB = trie.pdb
+  TARGET_PDB = trie.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target list
@@ -1211,8 +1116,6 @@ build CMakeFiles/list.dir/tests/list.c.o: C_COMPILER__list_unscanned_Debug /home
   FLAGS = -Wall -Wextra  -g
   OBJECT_DIR = CMakeFiles/list.dir
   OBJECT_FILE_DIR = CMakeFiles/list.dir/tests
-  TARGET_COMPILE_PDB = CMakeFiles/list.dir/
-  TARGET_PDB = list.pdb
 
 
 # =============================================================================
@@ -1229,9 +1132,8 @@ build list: C_EXECUTABLE_LINKER__list_Debug CMakeFiles/list.dir/tests/list.c.o |
   OBJECT_DIR = CMakeFiles/list.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_COMPILE_PDB = CMakeFiles/list.dir/
   TARGET_FILE = list
-  TARGET_PDB = list.pdb
+  TARGET_PDB = list.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target hash
@@ -1248,8 +1150,6 @@ build CMakeFiles/hash.dir/tests/hash.c.o: C_COMPILER__hash_unscanned_Debug /home
   FLAGS = -Wall -Wextra  -g
   OBJECT_DIR = CMakeFiles/hash.dir
   OBJECT_FILE_DIR = CMakeFiles/hash.dir/tests
-  TARGET_COMPILE_PDB = CMakeFiles/hash.dir/
-  TARGET_PDB = hash.pdb
 
 
 # =============================================================================
@@ -1266,9 +1166,8 @@ build hash: C_EXECUTABLE_LINKER__hash_Debug CMakeFiles/hash.dir/tests/hash.c.o |
   OBJECT_DIR = CMakeFiles/hash.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_COMPILE_PDB = CMakeFiles/hash.dir/
   TARGET_FILE = hash
-  TARGET_PDB = hash.pdb
+  TARGET_PDB = hash.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target stats
@@ -1285,8 +1184,6 @@ build CMakeFiles/stats.dir/tests/stats.c.o: C_COMPILER__stats_unscanned_Debug /h
   FLAGS = -Wall -Wextra  -g
   OBJECT_DIR = CMakeFiles/stats.dir
   OBJECT_FILE_DIR = CMakeFiles/stats.dir/tests
-  TARGET_COMPILE_PDB = CMakeFiles/stats.dir/
-  TARGET_PDB = stats.pdb
 
 
 # =============================================================================
@@ -1303,9 +1200,8 @@ build stats: C_EXECUTABLE_LINKER__stats_Debug CMakeFiles/stats.dir/tests/stats.c
   OBJECT_DIR = CMakeFiles/stats.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_COMPILE_PDB = CMakeFiles/stats.dir/
   TARGET_FILE = stats
-  TARGET_PDB = stats.pdb
+  TARGET_PDB = stats.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target symbol
@@ -1322,8 +1218,6 @@ build CMakeFiles/symbol.dir/tests/symbol.c.o: C_COMPILER__symbol_unscanned_Debug
   FLAGS = -Wall -Wextra  -g
   OBJECT_DIR = CMakeFiles/symbol.dir
   OBJECT_FILE_DIR = CMakeFiles/symbol.dir/tests
-  TARGET_COMPILE_PDB = CMakeFiles/symbol.dir/
-  TARGET_PDB = symbol.pdb
 
 
 # =============================================================================
@@ -1340,9 +1234,8 @@ build symbol: C_EXECUTABLE_LINKER__symbol_Debug CMakeFiles/symbol.dir/tests/symb
   OBJECT_DIR = CMakeFiles/symbol.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_COMPILE_PDB = CMakeFiles/symbol.dir/
   TARGET_FILE = symbol
-  TARGET_PDB = symbol.pdb
+  TARGET_PDB = symbol.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target separation
@@ -1359,8 +1252,6 @@ build CMakeFiles/separation.dir/tests/separation.c.o: C_COMPILER__separation_uns
   FLAGS = -Wall -Wextra  -g
   OBJECT_DIR = CMakeFiles/separation.dir
   OBJECT_FILE_DIR = CMakeFiles/separation.dir/tests
-  TARGET_COMPILE_PDB = CMakeFiles/separation.dir/
-  TARGET_PDB = separation.pdb
 
 
 # =============================================================================
@@ -1377,9 +1268,8 @@ build separation: C_EXECUTABLE_LINKER__separation_Debug CMakeFiles/separation.di
   OBJECT_DIR = CMakeFiles/separation.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_COMPILE_PDB = CMakeFiles/separation.dir/
   TARGET_FILE = separation
-  TARGET_PDB = separation.pdb
+  TARGET_PDB = separation.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target zerocopy
@@ -1396,8 +1286,6 @@ build CMakeFiles/zerocopy.dir/tests/zerocopy.c.o: C_COMPILER__zerocopy_unscanned
   FLAGS = -Wall -Wextra  -g
   OBJECT_DIR = CMakeFiles/zerocopy.dir
   OBJECT_FILE_DIR = CMakeFiles/zerocopy.dir/tests
-  TARGET_COMPILE_PDB = CMakeFiles/zerocopy.dir/
-  TARGET_PDB = zerocopy.pdb
 
 
 # =============================================================================
@@ -1414,9 +1302,8 @@ build zerocopy: C_EXECUTABLE_LINKER__zerocopy_Debug CMakeFiles/zerocopy.dir/test
   OBJECT_DIR = CMakeFiles/zerocopy.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_COMPILE_PDB = CMakeFiles/zerocopy.dir/
   TARGET_FILE = zerocopy
-  TARGET_PDB = zerocopy.pdb
+  TARGET_PDB = zerocopy.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target shutdown
@@ -1433,8 +1320,6 @@ build CMakeFiles/shutdown.dir/tests/shutdown.c.o: C_COMPILER__shutdown_unscanned
   FLAGS = -Wall -Wextra  -g
   OBJECT_DIR = CMakeFiles/shutdown.dir
   OBJECT_FILE_DIR = CMakeFiles/shutdown.dir/tests
-  TARGET_COMPILE_PDB = CMakeFiles/shutdown.dir/
-  TARGET_PDB = shutdown.pdb
 
 
 # =============================================================================
@@ -1451,9 +1336,8 @@ build shutdown: C_EXECUTABLE_LINKER__shutdown_Debug CMakeFiles/shutdown.dir/test
   OBJECT_DIR = CMakeFiles/shutdown.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_COMPILE_PDB = CMakeFiles/shutdown.dir/
   TARGET_FILE = shutdown
-  TARGET_PDB = shutdown.pdb
+  TARGET_PDB = shutdown.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target cmsg
@@ -1470,8 +1354,6 @@ build CMakeFiles/cmsg.dir/tests/cmsg.c.o: C_COMPILER__cmsg_unscanned_Debug /home
   FLAGS = -Wall -Wextra  -g
   OBJECT_DIR = CMakeFiles/cmsg.dir
   OBJECT_FILE_DIR = CMakeFiles/cmsg.dir/tests
-  TARGET_COMPILE_PDB = CMakeFiles/cmsg.dir/
-  TARGET_PDB = cmsg.pdb
 
 
 # =============================================================================
@@ -1488,9 +1370,8 @@ build cmsg: C_EXECUTABLE_LINKER__cmsg_Debug CMakeFiles/cmsg.dir/tests/cmsg.c.o |
   OBJECT_DIR = CMakeFiles/cmsg.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_COMPILE_PDB = CMakeFiles/cmsg.dir/
   TARGET_FILE = cmsg
-  TARGET_PDB = cmsg.pdb
+  TARGET_PDB = cmsg.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target bug328
@@ -1507,8 +1388,6 @@ build CMakeFiles/bug328.dir/tests/bug328.c.o: C_COMPILER__bug328_unscanned_Debug
   FLAGS = -Wall -Wextra  -g
   OBJECT_DIR = CMakeFiles/bug328.dir
   OBJECT_FILE_DIR = CMakeFiles/bug328.dir/tests
-  TARGET_COMPILE_PDB = CMakeFiles/bug328.dir/
-  TARGET_PDB = bug328.pdb
 
 
 # =============================================================================
@@ -1525,9 +1404,8 @@ build bug328: C_EXECUTABLE_LINKER__bug328_Debug CMakeFiles/bug328.dir/tests/bug3
   OBJECT_DIR = CMakeFiles/bug328.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_COMPILE_PDB = CMakeFiles/bug328.dir/
   TARGET_FILE = bug328
-  TARGET_PDB = bug328.pdb
+  TARGET_PDB = bug328.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target bug777
@@ -1544,8 +1422,6 @@ build CMakeFiles/bug777.dir/tests/bug777.c.o: C_COMPILER__bug777_unscanned_Debug
   FLAGS = -Wall -Wextra  -g
   OBJECT_DIR = CMakeFiles/bug777.dir
   OBJECT_FILE_DIR = CMakeFiles/bug777.dir/tests
-  TARGET_COMPILE_PDB = CMakeFiles/bug777.dir/
-  TARGET_PDB = bug777.pdb
 
 
 # =============================================================================
@@ -1562,9 +1438,8 @@ build bug777: C_EXECUTABLE_LINKER__bug777_Debug CMakeFiles/bug777.dir/tests/bug7
   OBJECT_DIR = CMakeFiles/bug777.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_COMPILE_PDB = CMakeFiles/bug777.dir/
   TARGET_FILE = bug777
-  TARGET_PDB = bug777.pdb
+  TARGET_PDB = bug777.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target ws_async_shutdown
@@ -1581,8 +1456,6 @@ build CMakeFiles/ws_async_shutdown.dir/tests/ws_async_shutdown.c.o: C_COMPILER__
   FLAGS = -Wall -Wextra  -g
   OBJECT_DIR = CMakeFiles/ws_async_shutdown.dir
   OBJECT_FILE_DIR = CMakeFiles/ws_async_shutdown.dir/tests
-  TARGET_COMPILE_PDB = CMakeFiles/ws_async_shutdown.dir/
-  TARGET_PDB = ws_async_shutdown.pdb
 
 
 # =============================================================================
@@ -1599,9 +1472,8 @@ build ws_async_shutdown: C_EXECUTABLE_LINKER__ws_async_shutdown_Debug CMakeFiles
   OBJECT_DIR = CMakeFiles/ws_async_shutdown.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_COMPILE_PDB = CMakeFiles/ws_async_shutdown.dir/
   TARGET_FILE = ws_async_shutdown
-  TARGET_PDB = ws_async_shutdown.pdb
+  TARGET_PDB = ws_async_shutdown.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target reqttl
@@ -1618,8 +1490,6 @@ build CMakeFiles/reqttl.dir/tests/reqttl.c.o: C_COMPILER__reqttl_unscanned_Debug
   FLAGS = -Wall -Wextra  -g
   OBJECT_DIR = CMakeFiles/reqttl.dir
   OBJECT_FILE_DIR = CMakeFiles/reqttl.dir/tests
-  TARGET_COMPILE_PDB = CMakeFiles/reqttl.dir/
-  TARGET_PDB = reqttl.pdb
 
 
 # =============================================================================
@@ -1636,9 +1506,8 @@ build reqttl: C_EXECUTABLE_LINKER__reqttl_Debug CMakeFiles/reqttl.dir/tests/reqt
   OBJECT_DIR = CMakeFiles/reqttl.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_COMPILE_PDB = CMakeFiles/reqttl.dir/
   TARGET_FILE = reqttl
-  TARGET_PDB = reqttl.pdb
+  TARGET_PDB = reqttl.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target surveyttl
@@ -1655,8 +1524,6 @@ build CMakeFiles/surveyttl.dir/tests/surveyttl.c.o: C_COMPILER__surveyttl_unscan
   FLAGS = -Wall -Wextra  -g
   OBJECT_DIR = CMakeFiles/surveyttl.dir
   OBJECT_FILE_DIR = CMakeFiles/surveyttl.dir/tests
-  TARGET_COMPILE_PDB = CMakeFiles/surveyttl.dir/
-  TARGET_PDB = surveyttl.pdb
 
 
 # =============================================================================
@@ -1673,9 +1540,8 @@ build surveyttl: C_EXECUTABLE_LINKER__surveyttl_Debug CMakeFiles/surveyttl.dir/t
   OBJECT_DIR = CMakeFiles/surveyttl.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_COMPILE_PDB = CMakeFiles/surveyttl.dir/
   TARGET_FILE = surveyttl
-  TARGET_PDB = surveyttl.pdb
+  TARGET_PDB = surveyttl.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target inproc_lat
@@ -1692,8 +1558,6 @@ build CMakeFiles/inproc_lat.dir/perf/inproc_lat.c.o: C_COMPILER__inproc_lat_unsc
   FLAGS = -Wall -Wextra  -g
   OBJECT_DIR = CMakeFiles/inproc_lat.dir
   OBJECT_FILE_DIR = CMakeFiles/inproc_lat.dir/perf
-  TARGET_COMPILE_PDB = CMakeFiles/inproc_lat.dir/
-  TARGET_PDB = inproc_lat.pdb
 
 
 # =============================================================================
@@ -1710,9 +1574,8 @@ build inproc_lat: C_EXECUTABLE_LINKER__inproc_lat_Debug CMakeFiles/inproc_lat.di
   OBJECT_DIR = CMakeFiles/inproc_lat.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_COMPILE_PDB = CMakeFiles/inproc_lat.dir/
   TARGET_FILE = inproc_lat
-  TARGET_PDB = inproc_lat.pdb
+  TARGET_PDB = inproc_lat.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target inproc_thr
@@ -1729,8 +1592,6 @@ build CMakeFiles/inproc_thr.dir/perf/inproc_thr.c.o: C_COMPILER__inproc_thr_unsc
   FLAGS = -Wall -Wextra  -g
   OBJECT_DIR = CMakeFiles/inproc_thr.dir
   OBJECT_FILE_DIR = CMakeFiles/inproc_thr.dir/perf
-  TARGET_COMPILE_PDB = CMakeFiles/inproc_thr.dir/
-  TARGET_PDB = inproc_thr.pdb
 
 
 # =============================================================================
@@ -1747,9 +1608,8 @@ build inproc_thr: C_EXECUTABLE_LINKER__inproc_thr_Debug CMakeFiles/inproc_thr.di
   OBJECT_DIR = CMakeFiles/inproc_thr.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_COMPILE_PDB = CMakeFiles/inproc_thr.dir/
   TARGET_FILE = inproc_thr
-  TARGET_PDB = inproc_thr.pdb
+  TARGET_PDB = inproc_thr.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target local_lat
@@ -1766,8 +1626,6 @@ build CMakeFiles/local_lat.dir/perf/local_lat.c.o: C_COMPILER__local_lat_unscann
   FLAGS = -Wall -Wextra  -g
   OBJECT_DIR = CMakeFiles/local_lat.dir
   OBJECT_FILE_DIR = CMakeFiles/local_lat.dir/perf
-  TARGET_COMPILE_PDB = CMakeFiles/local_lat.dir/
-  TARGET_PDB = local_lat.pdb
 
 
 # =============================================================================
@@ -1784,9 +1642,8 @@ build local_lat: C_EXECUTABLE_LINKER__local_lat_Debug CMakeFiles/local_lat.dir/p
   OBJECT_DIR = CMakeFiles/local_lat.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_COMPILE_PDB = CMakeFiles/local_lat.dir/
   TARGET_FILE = local_lat
-  TARGET_PDB = local_lat.pdb
+  TARGET_PDB = local_lat.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target remote_lat
@@ -1803,8 +1660,6 @@ build CMakeFiles/remote_lat.dir/perf/remote_lat.c.o: C_COMPILER__remote_lat_unsc
   FLAGS = -Wall -Wextra  -g
   OBJECT_DIR = CMakeFiles/remote_lat.dir
   OBJECT_FILE_DIR = CMakeFiles/remote_lat.dir/perf
-  TARGET_COMPILE_PDB = CMakeFiles/remote_lat.dir/
-  TARGET_PDB = remote_lat.pdb
 
 
 # =============================================================================
@@ -1821,9 +1676,8 @@ build remote_lat: C_EXECUTABLE_LINKER__remote_lat_Debug CMakeFiles/remote_lat.di
   OBJECT_DIR = CMakeFiles/remote_lat.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_COMPILE_PDB = CMakeFiles/remote_lat.dir/
   TARGET_FILE = remote_lat
-  TARGET_PDB = remote_lat.pdb
+  TARGET_PDB = remote_lat.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target local_thr
@@ -1840,8 +1694,6 @@ build CMakeFiles/local_thr.dir/perf/local_thr.c.o: C_COMPILER__local_thr_unscann
   FLAGS = -Wall -Wextra  -g
   OBJECT_DIR = CMakeFiles/local_thr.dir
   OBJECT_FILE_DIR = CMakeFiles/local_thr.dir/perf
-  TARGET_COMPILE_PDB = CMakeFiles/local_thr.dir/
-  TARGET_PDB = local_thr.pdb
 
 
 # =============================================================================
@@ -1858,9 +1710,8 @@ build local_thr: C_EXECUTABLE_LINKER__local_thr_Debug CMakeFiles/local_thr.dir/p
   OBJECT_DIR = CMakeFiles/local_thr.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_COMPILE_PDB = CMakeFiles/local_thr.dir/
   TARGET_FILE = local_thr
-  TARGET_PDB = local_thr.pdb
+  TARGET_PDB = local_thr.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target remote_thr
@@ -1877,8 +1728,6 @@ build CMakeFiles/remote_thr.dir/perf/remote_thr.c.o: C_COMPILER__remote_thr_unsc
   FLAGS = -Wall -Wextra  -g
   OBJECT_DIR = CMakeFiles/remote_thr.dir
   OBJECT_FILE_DIR = CMakeFiles/remote_thr.dir/perf
-  TARGET_COMPILE_PDB = CMakeFiles/remote_thr.dir/
-  TARGET_PDB = remote_thr.pdb
 
 
 # =============================================================================
@@ -1895,9 +1744,8 @@ build remote_thr: C_EXECUTABLE_LINKER__remote_thr_Debug CMakeFiles/remote_thr.di
   OBJECT_DIR = CMakeFiles/remote_thr.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_COMPILE_PDB = CMakeFiles/remote_thr.dir/
   TARGET_FILE = remote_thr
-  TARGET_PDB = remote_thr.pdb
+  TARGET_PDB = remote_thr.dbg
 
 
 #############################################
@@ -2034,8 +1882,6 @@ build src/CMakeFiles/nanomsg.dir/core/ep.c.o: C_COMPILER__nanomsg_unscanned_Debu
   FLAGS = -Wall -Wextra  -g -fPIC
   OBJECT_DIR = src/CMakeFiles/nanomsg.dir
   OBJECT_FILE_DIR = src/CMakeFiles/nanomsg.dir/core
-  TARGET_COMPILE_PDB = src/CMakeFiles/nanomsg.dir/
-  TARGET_PDB = libnanomsg.pdb
 
 build src/CMakeFiles/nanomsg.dir/core/global.c.o: C_COMPILER__nanomsg_unscanned_Debug /home/wangzhao/experiments/deneva/utils/nanomsg/src/core/global.c || cmake_object_order_depends_target_nanomsg
   DEFINES = -DNN_HAVE_ACCEPT4=1 -DNN_HAVE_BACKTRACE=1 -DNN_HAVE_CLOCK_GETTIME=1 -DNN_HAVE_CLOCK_MONOTONIC=1 -DNN_HAVE_EPOLL=1 -DNN_HAVE_EVENTFD=1 -DNN_HAVE_GCC_ATOMIC_BUILTINS -DNN_HAVE_GETADDRINFO_A=1 -DNN_HAVE_LIBNSL=1 -DNN_HAVE_LINUX -DNN_HAVE_MSG_CONTROL=1 -DNN_HAVE_PIPE2=1 -DNN_HAVE_PIPE=1 -DNN_HAVE_POLL=1 -DNN_HAVE_SEMAPHORE -DNN_HAVE_SEMAPHORE_PTHREAD=1 -DNN_HAVE_SOCKETPAIR=1 -DNN_HAVE_UNIX_SOCKETS=1 -DNN_MAX_SOCKETS=512 -DNN_SHARED_LIB -DNN_USE_EPOLL -DNN_USE_EVENTFD -D_GNU_SOURCE -D_POSIX_PTHREAD_SEMANTICS -D_REENTRANT -D_THREAD_SAFE -Dnanomsg_EXPORTS
@@ -2043,8 +1889,6 @@ build src/CMakeFiles/nanomsg.dir/core/global.c.o: C_COMPILER__nanomsg_unscanned_
   FLAGS = -Wall -Wextra  -g -fPIC
   OBJECT_DIR = src/CMakeFiles/nanomsg.dir
   OBJECT_FILE_DIR = src/CMakeFiles/nanomsg.dir/core
-  TARGET_COMPILE_PDB = src/CMakeFiles/nanomsg.dir/
-  TARGET_PDB = libnanomsg.pdb
 
 build src/CMakeFiles/nanomsg.dir/core/pipe.c.o: C_COMPILER__nanomsg_unscanned_Debug /home/wangzhao/experiments/deneva/utils/nanomsg/src/core/pipe.c || cmake_object_order_depends_target_nanomsg
   DEFINES = -DNN_HAVE_ACCEPT4=1 -DNN_HAVE_BACKTRACE=1 -DNN_HAVE_CLOCK_GETTIME=1 -DNN_HAVE_CLOCK_MONOTONIC=1 -DNN_HAVE_EPOLL=1 -DNN_HAVE_EVENTFD=1 -DNN_HAVE_GCC_ATOMIC_BUILTINS -DNN_HAVE_GETADDRINFO_A=1 -DNN_HAVE_LIBNSL=1 -DNN_HAVE_LINUX -DNN_HAVE_MSG_CONTROL=1 -DNN_HAVE_PIPE2=1 -DNN_HAVE_PIPE=1 -DNN_HAVE_POLL=1 -DNN_HAVE_SEMAPHORE -DNN_HAVE_SEMAPHORE_PTHREAD=1 -DNN_HAVE_SOCKETPAIR=1 -DNN_HAVE_UNIX_SOCKETS=1 -DNN_MAX_SOCKETS=512 -DNN_SHARED_LIB -DNN_USE_EPOLL -DNN_USE_EVENTFD -D_GNU_SOURCE -D_POSIX_PTHREAD_SEMANTICS -D_REENTRANT -D_THREAD_SAFE -Dnanomsg_EXPORTS
@@ -2052,8 +1896,6 @@ build src/CMakeFiles/nanomsg.dir/core/pipe.c.o: C_COMPILER__nanomsg_unscanned_De
   FLAGS = -Wall -Wextra  -g -fPIC
   OBJECT_DIR = src/CMakeFiles/nanomsg.dir
   OBJECT_FILE_DIR = src/CMakeFiles/nanomsg.dir/core
-  TARGET_COMPILE_PDB = src/CMakeFiles/nanomsg.dir/
-  TARGET_PDB = libnanomsg.pdb
 
 build src/CMakeFiles/nanomsg.dir/core/poll.c.o: C_COMPILER__nanomsg_unscanned_Debug /home/wangzhao/experiments/deneva/utils/nanomsg/src/core/poll.c || cmake_object_order_depends_target_nanomsg
   DEFINES = -DNN_HAVE_ACCEPT4=1 -DNN_HAVE_BACKTRACE=1 -DNN_HAVE_CLOCK_GETTIME=1 -DNN_HAVE_CLOCK_MONOTONIC=1 -DNN_HAVE_EPOLL=1 -DNN_HAVE_EVENTFD=1 -DNN_HAVE_GCC_ATOMIC_BUILTINS -DNN_HAVE_GETADDRINFO_A=1 -DNN_HAVE_LIBNSL=1 -DNN_HAVE_LINUX -DNN_HAVE_MSG_CONTROL=1 -DNN_HAVE_PIPE2=1 -DNN_HAVE_PIPE=1 -DNN_HAVE_POLL=1 -DNN_HAVE_SEMAPHORE -DNN_HAVE_SEMAPHORE_PTHREAD=1 -DNN_HAVE_SOCKETPAIR=1 -DNN_HAVE_UNIX_SOCKETS=1 -DNN_MAX_SOCKETS=512 -DNN_SHARED_LIB -DNN_USE_EPOLL -DNN_USE_EVENTFD -D_GNU_SOURCE -D_POSIX_PTHREAD_SEMANTICS -D_REENTRANT -D_THREAD_SAFE -Dnanomsg_EXPORTS
@@ -2061,8 +1903,6 @@ build src/CMakeFiles/nanomsg.dir/core/poll.c.o: C_COMPILER__nanomsg_unscanned_De
   FLAGS = -Wall -Wextra  -g -fPIC
   OBJECT_DIR = src/CMakeFiles/nanomsg.dir
   OBJECT_FILE_DIR = src/CMakeFiles/nanomsg.dir/core
-  TARGET_COMPILE_PDB = src/CMakeFiles/nanomsg.dir/
-  TARGET_PDB = libnanomsg.pdb
 
 build src/CMakeFiles/nanomsg.dir/core/sock.c.o: C_COMPILER__nanomsg_unscanned_Debug /home/wangzhao/experiments/deneva/utils/nanomsg/src/core/sock.c || cmake_object_order_depends_target_nanomsg
   DEFINES = -DNN_HAVE_ACCEPT4=1 -DNN_HAVE_BACKTRACE=1 -DNN_HAVE_CLOCK_GETTIME=1 -DNN_HAVE_CLOCK_MONOTONIC=1 -DNN_HAVE_EPOLL=1 -DNN_HAVE_EVENTFD=1 -DNN_HAVE_GCC_ATOMIC_BUILTINS -DNN_HAVE_GETADDRINFO_A=1 -DNN_HAVE_LIBNSL=1 -DNN_HAVE_LINUX -DNN_HAVE_MSG_CONTROL=1 -DNN_HAVE_PIPE2=1 -DNN_HAVE_PIPE=1 -DNN_HAVE_POLL=1 -DNN_HAVE_SEMAPHORE -DNN_HAVE_SEMAPHORE_PTHREAD=1 -DNN_HAVE_SOCKETPAIR=1 -DNN_HAVE_UNIX_SOCKETS=1 -DNN_MAX_SOCKETS=512 -DNN_SHARED_LIB -DNN_USE_EPOLL -DNN_USE_EVENTFD -D_GNU_SOURCE -D_POSIX_PTHREAD_SEMANTICS -D_REENTRANT -D_THREAD_SAFE -Dnanomsg_EXPORTS
@@ -2070,8 +1910,6 @@ build src/CMakeFiles/nanomsg.dir/core/sock.c.o: C_COMPILER__nanomsg_unscanned_De
   FLAGS = -Wall -Wextra  -g -fPIC
   OBJECT_DIR = src/CMakeFiles/nanomsg.dir
   OBJECT_FILE_DIR = src/CMakeFiles/nanomsg.dir/core
-  TARGET_COMPILE_PDB = src/CMakeFiles/nanomsg.dir/
-  TARGET_PDB = libnanomsg.pdb
 
 build src/CMakeFiles/nanomsg.dir/core/sockbase.c.o: C_COMPILER__nanomsg_unscanned_Debug /home/wangzhao/experiments/deneva/utils/nanomsg/src/core/sockbase.c || cmake_object_order_depends_target_nanomsg
   DEFINES = -DNN_HAVE_ACCEPT4=1 -DNN_HAVE_BACKTRACE=1 -DNN_HAVE_CLOCK_GETTIME=1 -DNN_HAVE_CLOCK_MONOTONIC=1 -DNN_HAVE_EPOLL=1 -DNN_HAVE_EVENTFD=1 -DNN_HAVE_GCC_ATOMIC_BUILTINS -DNN_HAVE_GETADDRINFO_A=1 -DNN_HAVE_LIBNSL=1 -DNN_HAVE_LINUX -DNN_HAVE_MSG_CONTROL=1 -DNN_HAVE_PIPE2=1 -DNN_HAVE_PIPE=1 -DNN_HAVE_POLL=1 -DNN_HAVE_SEMAPHORE -DNN_HAVE_SEMAPHORE_PTHREAD=1 -DNN_HAVE_SOCKETPAIR=1 -DNN_HAVE_UNIX_SOCKETS=1 -DNN_MAX_SOCKETS=512 -DNN_SHARED_LIB -DNN_USE_EPOLL -DNN_USE_EVENTFD -D_GNU_SOURCE -D_POSIX_PTHREAD_SEMANTICS -D_REENTRANT -D_THREAD_SAFE -Dnanomsg_EXPORTS
@@ -2079,8 +1917,6 @@ build src/CMakeFiles/nanomsg.dir/core/sockbase.c.o: C_COMPILER__nanomsg_unscanne
   FLAGS = -Wall -Wextra  -g -fPIC
   OBJECT_DIR = src/CMakeFiles/nanomsg.dir
   OBJECT_FILE_DIR = src/CMakeFiles/nanomsg.dir/core
-  TARGET_COMPILE_PDB = src/CMakeFiles/nanomsg.dir/
-  TARGET_PDB = libnanomsg.pdb
 
 build src/CMakeFiles/nanomsg.dir/core/symbol.c.o: C_COMPILER__nanomsg_unscanned_Debug /home/wangzhao/experiments/deneva/utils/nanomsg/src/core/symbol.c || cmake_object_order_depends_target_nanomsg
   DEFINES = -DNN_HAVE_ACCEPT4=1 -DNN_HAVE_BACKTRACE=1 -DNN_HAVE_CLOCK_GETTIME=1 -DNN_HAVE_CLOCK_MONOTONIC=1 -DNN_HAVE_EPOLL=1 -DNN_HAVE_EVENTFD=1 -DNN_HAVE_GCC_ATOMIC_BUILTINS -DNN_HAVE_GETADDRINFO_A=1 -DNN_HAVE_LIBNSL=1 -DNN_HAVE_LINUX -DNN_HAVE_MSG_CONTROL=1 -DNN_HAVE_PIPE2=1 -DNN_HAVE_PIPE=1 -DNN_HAVE_POLL=1 -DNN_HAVE_SEMAPHORE -DNN_HAVE_SEMAPHORE_PTHREAD=1 -DNN_HAVE_SOCKETPAIR=1 -DNN_HAVE_UNIX_SOCKETS=1 -DNN_MAX_SOCKETS=512 -DNN_SHARED_LIB -DNN_USE_EPOLL -DNN_USE_EVENTFD -D_GNU_SOURCE -D_POSIX_PTHREAD_SEMANTICS -D_REENTRANT -D_THREAD_SAFE -Dnanomsg_EXPORTS
@@ -2088,8 +1924,6 @@ build src/CMakeFiles/nanomsg.dir/core/symbol.c.o: C_COMPILER__nanomsg_unscanned_
   FLAGS = -Wall -Wextra  -g -fPIC
   OBJECT_DIR = src/CMakeFiles/nanomsg.dir
   OBJECT_FILE_DIR = src/CMakeFiles/nanomsg.dir/core
-  TARGET_COMPILE_PDB = src/CMakeFiles/nanomsg.dir/
-  TARGET_PDB = libnanomsg.pdb
 
 build src/CMakeFiles/nanomsg.dir/aio/ctx.c.o: C_COMPILER__nanomsg_unscanned_Debug /home/wangzhao/experiments/deneva/utils/nanomsg/src/aio/ctx.c || cmake_object_order_depends_target_nanomsg
   DEFINES = -DNN_HAVE_ACCEPT4=1 -DNN_HAVE_BACKTRACE=1 -DNN_HAVE_CLOCK_GETTIME=1 -DNN_HAVE_CLOCK_MONOTONIC=1 -DNN_HAVE_EPOLL=1 -DNN_HAVE_EVENTFD=1 -DNN_HAVE_GCC_ATOMIC_BUILTINS -DNN_HAVE_GETADDRINFO_A=1 -DNN_HAVE_LIBNSL=1 -DNN_HAVE_LINUX -DNN_HAVE_MSG_CONTROL=1 -DNN_HAVE_PIPE2=1 -DNN_HAVE_PIPE=1 -DNN_HAVE_POLL=1 -DNN_HAVE_SEMAPHORE -DNN_HAVE_SEMAPHORE_PTHREAD=1 -DNN_HAVE_SOCKETPAIR=1 -DNN_HAVE_UNIX_SOCKETS=1 -DNN_MAX_SOCKETS=512 -DNN_SHARED_LIB -DNN_USE_EPOLL -DNN_USE_EVENTFD -D_GNU_SOURCE -D_POSIX_PTHREAD_SEMANTICS -D_REENTRANT -D_THREAD_SAFE -Dnanomsg_EXPORTS
@@ -2097,8 +1931,6 @@ build src/CMakeFiles/nanomsg.dir/aio/ctx.c.o: C_COMPILER__nanomsg_unscanned_Debu
   FLAGS = -Wall -Wextra  -g -fPIC
   OBJECT_DIR = src/CMakeFiles/nanomsg.dir
   OBJECT_FILE_DIR = src/CMakeFiles/nanomsg.dir/aio
-  TARGET_COMPILE_PDB = src/CMakeFiles/nanomsg.dir/
-  TARGET_PDB = libnanomsg.pdb
 
 build src/CMakeFiles/nanomsg.dir/aio/fsm.c.o: C_COMPILER__nanomsg_unscanned_Debug /home/wangzhao/experiments/deneva/utils/nanomsg/src/aio/fsm.c || cmake_object_order_depends_target_nanomsg
   DEFINES = -DNN_HAVE_ACCEPT4=1 -DNN_HAVE_BACKTRACE=1 -DNN_HAVE_CLOCK_GETTIME=1 -DNN_HAVE_CLOCK_MONOTONIC=1 -DNN_HAVE_EPOLL=1 -DNN_HAVE_EVENTFD=1 -DNN_HAVE_GCC_ATOMIC_BUILTINS -DNN_HAVE_GETADDRINFO_A=1 -DNN_HAVE_LIBNSL=1 -DNN_HAVE_LINUX -DNN_HAVE_MSG_CONTROL=1 -DNN_HAVE_PIPE2=1 -DNN_HAVE_PIPE=1 -DNN_HAVE_POLL=1 -DNN_HAVE_SEMAPHORE -DNN_HAVE_SEMAPHORE_PTHREAD=1 -DNN_HAVE_SOCKETPAIR=1 -DNN_HAVE_UNIX_SOCKETS=1 -DNN_MAX_SOCKETS=512 -DNN_SHARED_LIB -DNN_USE_EPOLL -DNN_USE_EVENTFD -D_GNU_SOURCE -D_POSIX_PTHREAD_SEMANTICS -D_REENTRANT -D_THREAD_SAFE -Dnanomsg_EXPORTS
@@ -2106,8 +1938,6 @@ build src/CMakeFiles/nanomsg.dir/aio/fsm.c.o: C_COMPILER__nanomsg_unscanned_Debu
   FLAGS = -Wall -Wextra  -g -fPIC
   OBJECT_DIR = src/CMakeFiles/nanomsg.dir
   OBJECT_FILE_DIR = src/CMakeFiles/nanomsg.dir/aio
-  TARGET_COMPILE_PDB = src/CMakeFiles/nanomsg.dir/
-  TARGET_PDB = libnanomsg.pdb
 
 build src/CMakeFiles/nanomsg.dir/aio/pool.c.o: C_COMPILER__nanomsg_unscanned_Debug /home/wangzhao/experiments/deneva/utils/nanomsg/src/aio/pool.c || cmake_object_order_depends_target_nanomsg
   DEFINES = -DNN_HAVE_ACCEPT4=1 -DNN_HAVE_BACKTRACE=1 -DNN_HAVE_CLOCK_GETTIME=1 -DNN_HAVE_CLOCK_MONOTONIC=1 -DNN_HAVE_EPOLL=1 -DNN_HAVE_EVENTFD=1 -DNN_HAVE_GCC_ATOMIC_BUILTINS -DNN_HAVE_GETADDRINFO_A=1 -DNN_HAVE_LIBNSL=1 -DNN_HAVE_LINUX -DNN_HAVE_MSG_CONTROL=1 -DNN_HAVE_PIPE2=1 -DNN_HAVE_PIPE=1 -DNN_HAVE_POLL=1 -DNN_HAVE_SEMAPHORE -DNN_HAVE_SEMAPHORE_PTHREAD=1 -DNN_HAVE_SOCKETPAIR=1 -DNN_HAVE_UNIX_SOCKETS=1 -DNN_MAX_SOCKETS=512 -DNN_SHARED_LIB -DNN_USE_EPOLL -DNN_USE_EVENTFD -D_GNU_SOURCE -D_POSIX_PTHREAD_SEMANTICS -D_REENTRANT -D_THREAD_SAFE -Dnanomsg_EXPORTS
@@ -2115,8 +1945,6 @@ build src/CMakeFiles/nanomsg.dir/aio/pool.c.o: C_COMPILER__nanomsg_unscanned_Deb
   FLAGS = -Wall -Wextra  -g -fPIC
   OBJECT_DIR = src/CMakeFiles/nanomsg.dir
   OBJECT_FILE_DIR = src/CMakeFiles/nanomsg.dir/aio
-  TARGET_COMPILE_PDB = src/CMakeFiles/nanomsg.dir/
-  TARGET_PDB = libnanomsg.pdb
 
 build src/CMakeFiles/nanomsg.dir/aio/timer.c.o: C_COMPILER__nanomsg_unscanned_Debug /home/wangzhao/experiments/deneva/utils/nanomsg/src/aio/timer.c || cmake_object_order_depends_target_nanomsg
   DEFINES = -DNN_HAVE_ACCEPT4=1 -DNN_HAVE_BACKTRACE=1 -DNN_HAVE_CLOCK_GETTIME=1 -DNN_HAVE_CLOCK_MONOTONIC=1 -DNN_HAVE_EPOLL=1 -DNN_HAVE_EVENTFD=1 -DNN_HAVE_GCC_ATOMIC_BUILTINS -DNN_HAVE_GETADDRINFO_A=1 -DNN_HAVE_LIBNSL=1 -DNN_HAVE_LINUX -DNN_HAVE_MSG_CONTROL=1 -DNN_HAVE_PIPE2=1 -DNN_HAVE_PIPE=1 -DNN_HAVE_POLL=1 -DNN_HAVE_SEMAPHORE -DNN_HAVE_SEMAPHORE_PTHREAD=1 -DNN_HAVE_SOCKETPAIR=1 -DNN_HAVE_UNIX_SOCKETS=1 -DNN_MAX_SOCKETS=512 -DNN_SHARED_LIB -DNN_USE_EPOLL -DNN_USE_EVENTFD -D_GNU_SOURCE -D_POSIX_PTHREAD_SEMANTICS -D_REENTRANT -D_THREAD_SAFE -Dnanomsg_EXPORTS
@@ -2124,8 +1952,6 @@ build src/CMakeFiles/nanomsg.dir/aio/timer.c.o: C_COMPILER__nanomsg_unscanned_De
   FLAGS = -Wall -Wextra  -g -fPIC
   OBJECT_DIR = src/CMakeFiles/nanomsg.dir
   OBJECT_FILE_DIR = src/CMakeFiles/nanomsg.dir/aio
-  TARGET_COMPILE_PDB = src/CMakeFiles/nanomsg.dir/
-  TARGET_PDB = libnanomsg.pdb
 
 build src/CMakeFiles/nanomsg.dir/aio/timerset.c.o: C_COMPILER__nanomsg_unscanned_Debug /home/wangzhao/experiments/deneva/utils/nanomsg/src/aio/timerset.c || cmake_object_order_depends_target_nanomsg
   DEFINES = -DNN_HAVE_ACCEPT4=1 -DNN_HAVE_BACKTRACE=1 -DNN_HAVE_CLOCK_GETTIME=1 -DNN_HAVE_CLOCK_MONOTONIC=1 -DNN_HAVE_EPOLL=1 -DNN_HAVE_EVENTFD=1 -DNN_HAVE_GCC_ATOMIC_BUILTINS -DNN_HAVE_GETADDRINFO_A=1 -DNN_HAVE_LIBNSL=1 -DNN_HAVE_LINUX -DNN_HAVE_MSG_CONTROL=1 -DNN_HAVE_PIPE2=1 -DNN_HAVE_PIPE=1 -DNN_HAVE_POLL=1 -DNN_HAVE_SEMAPHORE -DNN_HAVE_SEMAPHORE_PTHREAD=1 -DNN_HAVE_SOCKETPAIR=1 -DNN_HAVE_UNIX_SOCKETS=1 -DNN_MAX_SOCKETS=512 -DNN_SHARED_LIB -DNN_USE_EPOLL -DNN_USE_EVENTFD -D_GNU_SOURCE -D_POSIX_PTHREAD_SEMANTICS -D_REENTRANT -D_THREAD_SAFE -Dnanomsg_EXPORTS
@@ -2133,8 +1959,6 @@ build src/CMakeFiles/nanomsg.dir/aio/timerset.c.o: C_COMPILER__nanomsg_unscanned
   FLAGS = -Wall -Wextra  -g -fPIC
   OBJECT_DIR = src/CMakeFiles/nanomsg.dir
   OBJECT_FILE_DIR = src/CMakeFiles/nanomsg.dir/aio
-  TARGET_COMPILE_PDB = src/CMakeFiles/nanomsg.dir/
-  TARGET_PDB = libnanomsg.pdb
 
 build src/CMakeFiles/nanomsg.dir/aio/usock.c.o: C_COMPILER__nanomsg_unscanned_Debug /home/wangzhao/experiments/deneva/utils/nanomsg/src/aio/usock.c || cmake_object_order_depends_target_nanomsg
   DEFINES = -DNN_HAVE_ACCEPT4=1 -DNN_HAVE_BACKTRACE=1 -DNN_HAVE_CLOCK_GETTIME=1 -DNN_HAVE_CLOCK_MONOTONIC=1 -DNN_HAVE_EPOLL=1 -DNN_HAVE_EVENTFD=1 -DNN_HAVE_GCC_ATOMIC_BUILTINS -DNN_HAVE_GETADDRINFO_A=1 -DNN_HAVE_LIBNSL=1 -DNN_HAVE_LINUX -DNN_HAVE_MSG_CONTROL=1 -DNN_HAVE_PIPE2=1 -DNN_HAVE_PIPE=1 -DNN_HAVE_POLL=1 -DNN_HAVE_SEMAPHORE -DNN_HAVE_SEMAPHORE_PTHREAD=1 -DNN_HAVE_SOCKETPAIR=1 -DNN_HAVE_UNIX_SOCKETS=1 -DNN_MAX_SOCKETS=512 -DNN_SHARED_LIB -DNN_USE_EPOLL -DNN_USE_EVENTFD -D_GNU_SOURCE -D_POSIX_PTHREAD_SEMANTICS -D_REENTRANT -D_THREAD_SAFE -Dnanomsg_EXPORTS
@@ -2142,8 +1966,6 @@ build src/CMakeFiles/nanomsg.dir/aio/usock.c.o: C_COMPILER__nanomsg_unscanned_De
   FLAGS = -Wall -Wextra  -g -fPIC
   OBJECT_DIR = src/CMakeFiles/nanomsg.dir
   OBJECT_FILE_DIR = src/CMakeFiles/nanomsg.dir/aio
-  TARGET_COMPILE_PDB = src/CMakeFiles/nanomsg.dir/
-  TARGET_PDB = libnanomsg.pdb
 
 build src/CMakeFiles/nanomsg.dir/aio/worker.c.o: C_COMPILER__nanomsg_unscanned_Debug /home/wangzhao/experiments/deneva/utils/nanomsg/src/aio/worker.c || cmake_object_order_depends_target_nanomsg
   DEFINES = -DNN_HAVE_ACCEPT4=1 -DNN_HAVE_BACKTRACE=1 -DNN_HAVE_CLOCK_GETTIME=1 -DNN_HAVE_CLOCK_MONOTONIC=1 -DNN_HAVE_EPOLL=1 -DNN_HAVE_EVENTFD=1 -DNN_HAVE_GCC_ATOMIC_BUILTINS -DNN_HAVE_GETADDRINFO_A=1 -DNN_HAVE_LIBNSL=1 -DNN_HAVE_LINUX -DNN_HAVE_MSG_CONTROL=1 -DNN_HAVE_PIPE2=1 -DNN_HAVE_PIPE=1 -DNN_HAVE_POLL=1 -DNN_HAVE_SEMAPHORE -DNN_HAVE_SEMAPHORE_PTHREAD=1 -DNN_HAVE_SOCKETPAIR=1 -DNN_HAVE_UNIX_SOCKETS=1 -DNN_MAX_SOCKETS=512 -DNN_SHARED_LIB -DNN_USE_EPOLL -DNN_USE_EVENTFD -D_GNU_SOURCE -D_POSIX_PTHREAD_SEMANTICS -D_REENTRANT -D_THREAD_SAFE -Dnanomsg_EXPORTS
@@ -2151,8 +1973,6 @@ build src/CMakeFiles/nanomsg.dir/aio/worker.c.o: C_COMPILER__nanomsg_unscanned_D
   FLAGS = -Wall -Wextra  -g -fPIC
   OBJECT_DIR = src/CMakeFiles/nanomsg.dir
   OBJECT_FILE_DIR = src/CMakeFiles/nanomsg.dir/aio
-  TARGET_COMPILE_PDB = src/CMakeFiles/nanomsg.dir/
-  TARGET_PDB = libnanomsg.pdb
 
 build src/CMakeFiles/nanomsg.dir/utils/alloc.c.o: C_COMPILER__nanomsg_unscanned_Debug /home/wangzhao/experiments/deneva/utils/nanomsg/src/utils/alloc.c || cmake_object_order_depends_target_nanomsg
   DEFINES = -DNN_HAVE_ACCEPT4=1 -DNN_HAVE_BACKTRACE=1 -DNN_HAVE_CLOCK_GETTIME=1 -DNN_HAVE_CLOCK_MONOTONIC=1 -DNN_HAVE_EPOLL=1 -DNN_HAVE_EVENTFD=1 -DNN_HAVE_GCC_ATOMIC_BUILTINS -DNN_HAVE_GETADDRINFO_A=1 -DNN_HAVE_LIBNSL=1 -DNN_HAVE_LINUX -DNN_HAVE_MSG_CONTROL=1 -DNN_HAVE_PIPE2=1 -DNN_HAVE_PIPE=1 -DNN_HAVE_POLL=1 -DNN_HAVE_SEMAPHORE -DNN_HAVE_SEMAPHORE_PTHREAD=1 -DNN_HAVE_SOCKETPAIR=1 -DNN_HAVE_UNIX_SOCKETS=1 -DNN_MAX_SOCKETS=512 -DNN_SHARED_LIB -DNN_USE_EPOLL -DNN_USE_EVENTFD -D_GNU_SOURCE -D_POSIX_PTHREAD_SEMANTICS -D_REENTRANT -D_THREAD_SAFE -Dnanomsg_EXPORTS
@@ -2160,8 +1980,6 @@ build src/CMakeFiles/nanomsg.dir/utils/alloc.c.o: C_COMPILER__nanomsg_unscanned_
   FLAGS = -Wall -Wextra  -g -fPIC
   OBJECT_DIR = src/CMakeFiles/nanomsg.dir
   OBJECT_FILE_DIR = src/CMakeFiles/nanomsg.dir/utils
-  TARGET_COMPILE_PDB = src/CMakeFiles/nanomsg.dir/
-  TARGET_PDB = libnanomsg.pdb
 
 build src/CMakeFiles/nanomsg.dir/utils/atomic.c.o: C_COMPILER__nanomsg_unscanned_Debug /home/wangzhao/experiments/deneva/utils/nanomsg/src/utils/atomic.c || cmake_object_order_depends_target_nanomsg
   DEFINES = -DNN_HAVE_ACCEPT4=1 -DNN_HAVE_BACKTRACE=1 -DNN_HAVE_CLOCK_GETTIME=1 -DNN_HAVE_CLOCK_MONOTONIC=1 -DNN_HAVE_EPOLL=1 -DNN_HAVE_EVENTFD=1 -DNN_HAVE_GCC_ATOMIC_BUILTINS -DNN_HAVE_GETADDRINFO_A=1 -DNN_HAVE_LIBNSL=1 -DNN_HAVE_LINUX -DNN_HAVE_MSG_CONTROL=1 -DNN_HAVE_PIPE2=1 -DNN_HAVE_PIPE=1 -DNN_HAVE_POLL=1 -DNN_HAVE_SEMAPHORE -DNN_HAVE_SEMAPHORE_PTHREAD=1 -DNN_HAVE_SOCKETPAIR=1 -DNN_HAVE_UNIX_SOCKETS=1 -DNN_MAX_SOCKETS=512 -DNN_SHARED_LIB -DNN_USE_EPOLL -DNN_USE_EVENTFD -D_GNU_SOURCE -D_POSIX_PTHREAD_SEMANTICS -D_REENTRANT -D_THREAD_SAFE -Dnanomsg_EXPORTS
@@ -2169,8 +1987,6 @@ build src/CMakeFiles/nanomsg.dir/utils/atomic.c.o: C_COMPILER__nanomsg_unscanned
   FLAGS = -Wall -Wextra  -g -fPIC
   OBJECT_DIR = src/CMakeFiles/nanomsg.dir
   OBJECT_FILE_DIR = src/CMakeFiles/nanomsg.dir/utils
-  TARGET_COMPILE_PDB = src/CMakeFiles/nanomsg.dir/
-  TARGET_PDB = libnanomsg.pdb
 
 build src/CMakeFiles/nanomsg.dir/utils/chunk.c.o: C_COMPILER__nanomsg_unscanned_Debug /home/wangzhao/experiments/deneva/utils/nanomsg/src/utils/chunk.c || cmake_object_order_depends_target_nanomsg
   DEFINES = -DNN_HAVE_ACCEPT4=1 -DNN_HAVE_BACKTRACE=1 -DNN_HAVE_CLOCK_GETTIME=1 -DNN_HAVE_CLOCK_MONOTONIC=1 -DNN_HAVE_EPOLL=1 -DNN_HAVE_EVENTFD=1 -DNN_HAVE_GCC_ATOMIC_BUILTINS -DNN_HAVE_GETADDRINFO_A=1 -DNN_HAVE_LIBNSL=1 -DNN_HAVE_LINUX -DNN_HAVE_MSG_CONTROL=1 -DNN_HAVE_PIPE2=1 -DNN_HAVE_PIPE=1 -DNN_HAVE_POLL=1 -DNN_HAVE_SEMAPHORE -DNN_HAVE_SEMAPHORE_PTHREAD=1 -DNN_HAVE_SOCKETPAIR=1 -DNN_HAVE_UNIX_SOCKETS=1 -DNN_MAX_SOCKETS=512 -DNN_SHARED_LIB -DNN_USE_EPOLL -DNN_USE_EVENTFD -D_GNU_SOURCE -D_POSIX_PTHREAD_SEMANTICS -D_REENTRANT -D_THREAD_SAFE -Dnanomsg_EXPORTS
@@ -2178,8 +1994,6 @@ build src/CMakeFiles/nanomsg.dir/utils/chunk.c.o: C_COMPILER__nanomsg_unscanned_
   FLAGS = -Wall -Wextra  -g -fPIC
   OBJECT_DIR = src/CMakeFiles/nanomsg.dir
   OBJECT_FILE_DIR = src/CMakeFiles/nanomsg.dir/utils
-  TARGET_COMPILE_PDB = src/CMakeFiles/nanomsg.dir/
-  TARGET_PDB = libnanomsg.pdb
 
 build src/CMakeFiles/nanomsg.dir/utils/chunkref.c.o: C_COMPILER__nanomsg_unscanned_Debug /home/wangzhao/experiments/deneva/utils/nanomsg/src/utils/chunkref.c || cmake_object_order_depends_target_nanomsg
   DEFINES = -DNN_HAVE_ACCEPT4=1 -DNN_HAVE_BACKTRACE=1 -DNN_HAVE_CLOCK_GETTIME=1 -DNN_HAVE_CLOCK_MONOTONIC=1 -DNN_HAVE_EPOLL=1 -DNN_HAVE_EVENTFD=1 -DNN_HAVE_GCC_ATOMIC_BUILTINS -DNN_HAVE_GETADDRINFO_A=1 -DNN_HAVE_LIBNSL=1 -DNN_HAVE_LINUX -DNN_HAVE_MSG_CONTROL=1 -DNN_HAVE_PIPE2=1 -DNN_HAVE_PIPE=1 -DNN_HAVE_POLL=1 -DNN_HAVE_SEMAPHORE -DNN_HAVE_SEMAPHORE_PTHREAD=1 -DNN_HAVE_SOCKETPAIR=1 -DNN_HAVE_UNIX_SOCKETS=1 -DNN_MAX_SOCKETS=512 -DNN_SHARED_LIB -DNN_USE_EPOLL -DNN_USE_EVENTFD -D_GNU_SOURCE -D_POSIX_PTHREAD_SEMANTICS -D_REENTRANT -D_THREAD_SAFE -Dnanomsg_EXPORTS
@@ -2187,8 +2001,6 @@ build src/CMakeFiles/nanomsg.dir/utils/chunkref.c.o: C_COMPILER__nanomsg_unscann
   FLAGS = -Wall -Wextra  -g -fPIC
   OBJECT_DIR = src/CMakeFiles/nanomsg.dir
   OBJECT_FILE_DIR = src/CMakeFiles/nanomsg.dir/utils
-  TARGET_COMPILE_PDB = src/CMakeFiles/nanomsg.dir/
-  TARGET_PDB = libnanomsg.pdb
 
 build src/CMakeFiles/nanomsg.dir/utils/clock.c.o: C_COMPILER__nanomsg_unscanned_Debug /home/wangzhao/experiments/deneva/utils/nanomsg/src/utils/clock.c || cmake_object_order_depends_target_nanomsg
   DEFINES = -DNN_HAVE_ACCEPT4=1 -DNN_HAVE_BACKTRACE=1 -DNN_HAVE_CLOCK_GETTIME=1 -DNN_HAVE_CLOCK_MONOTONIC=1 -DNN_HAVE_EPOLL=1 -DNN_HAVE_EVENTFD=1 -DNN_HAVE_GCC_ATOMIC_BUILTINS -DNN_HAVE_GETADDRINFO_A=1 -DNN_HAVE_LIBNSL=1 -DNN_HAVE_LINUX -DNN_HAVE_MSG_CONTROL=1 -DNN_HAVE_PIPE2=1 -DNN_HAVE_PIPE=1 -DNN_HAVE_POLL=1 -DNN_HAVE_SEMAPHORE -DNN_HAVE_SEMAPHORE_PTHREAD=1 -DNN_HAVE_SOCKETPAIR=1 -DNN_HAVE_UNIX_SOCKETS=1 -DNN_MAX_SOCKETS=512 -DNN_SHARED_LIB -DNN_USE_EPOLL -DNN_USE_EVENTFD -D_GNU_SOURCE -D_POSIX_PTHREAD_SEMANTICS -D_REENTRANT -D_THREAD_SAFE -Dnanomsg_EXPORTS
@@ -2196,8 +2008,6 @@ build src/CMakeFiles/nanomsg.dir/utils/clock.c.o: C_COMPILER__nanomsg_unscanned_
   FLAGS = -Wall -Wextra  -g -fPIC
   OBJECT_DIR = src/CMakeFiles/nanomsg.dir
   OBJECT_FILE_DIR = src/CMakeFiles/nanomsg.dir/utils
-  TARGET_COMPILE_PDB = src/CMakeFiles/nanomsg.dir/
-  TARGET_PDB = libnanomsg.pdb
 
 build src/CMakeFiles/nanomsg.dir/utils/closefd.c.o: C_COMPILER__nanomsg_unscanned_Debug /home/wangzhao/experiments/deneva/utils/nanomsg/src/utils/closefd.c || cmake_object_order_depends_target_nanomsg
   DEFINES = -DNN_HAVE_ACCEPT4=1 -DNN_HAVE_BACKTRACE=1 -DNN_HAVE_CLOCK_GETTIME=1 -DNN_HAVE_CLOCK_MONOTONIC=1 -DNN_HAVE_EPOLL=1 -DNN_HAVE_EVENTFD=1 -DNN_HAVE_GCC_ATOMIC_BUILTINS -DNN_HAVE_GETADDRINFO_A=1 -DNN_HAVE_LIBNSL=1 -DNN_HAVE_LINUX -DNN_HAVE_MSG_CONTROL=1 -DNN_HAVE_PIPE2=1 -DNN_HAVE_PIPE=1 -DNN_HAVE_POLL=1 -DNN_HAVE_SEMAPHORE -DNN_HAVE_SEMAPHORE_PTHREAD=1 -DNN_HAVE_SOCKETPAIR=1 -DNN_HAVE_UNIX_SOCKETS=1 -DNN_MAX_SOCKETS=512 -DNN_SHARED_LIB -DNN_USE_EPOLL -DNN_USE_EVENTFD -D_GNU_SOURCE -D_POSIX_PTHREAD_SEMANTICS -D_REENTRANT -D_THREAD_SAFE -Dnanomsg_EXPORTS
@@ -2205,8 +2015,6 @@ build src/CMakeFiles/nanomsg.dir/utils/closefd.c.o: C_COMPILER__nanomsg_unscanne
   FLAGS = -Wall -Wextra  -g -fPIC
   OBJECT_DIR = src/CMakeFiles/nanomsg.dir
   OBJECT_FILE_DIR = src/CMakeFiles/nanomsg.dir/utils
-  TARGET_COMPILE_PDB = src/CMakeFiles/nanomsg.dir/
-  TARGET_PDB = libnanomsg.pdb
 
 build src/CMakeFiles/nanomsg.dir/utils/efd.c.o: C_COMPILER__nanomsg_unscanned_Debug /home/wangzhao/experiments/deneva/utils/nanomsg/src/utils/efd.c || cmake_object_order_depends_target_nanomsg
   DEFINES = -DNN_HAVE_ACCEPT4=1 -DNN_HAVE_BACKTRACE=1 -DNN_HAVE_CLOCK_GETTIME=1 -DNN_HAVE_CLOCK_MONOTONIC=1 -DNN_HAVE_EPOLL=1 -DNN_HAVE_EVENTFD=1 -DNN_HAVE_GCC_ATOMIC_BUILTINS -DNN_HAVE_GETADDRINFO_A=1 -DNN_HAVE_LIBNSL=1 -DNN_HAVE_LINUX -DNN_HAVE_MSG_CONTROL=1 -DNN_HAVE_PIPE2=1 -DNN_HAVE_PIPE=1 -DNN_HAVE_POLL=1 -DNN_HAVE_SEMAPHORE -DNN_HAVE_SEMAPHORE_PTHREAD=1 -DNN_HAVE_SOCKETPAIR=1 -DNN_HAVE_UNIX_SOCKETS=1 -DNN_MAX_SOCKETS=512 -DNN_SHARED_LIB -DNN_USE_EPOLL -DNN_USE_EVENTFD -D_GNU_SOURCE -D_POSIX_PTHREAD_SEMANTICS -D_REENTRANT -D_THREAD_SAFE -Dnanomsg_EXPORTS
@@ -2214,8 +2022,6 @@ build src/CMakeFiles/nanomsg.dir/utils/efd.c.o: C_COMPILER__nanomsg_unscanned_De
   FLAGS = -Wall -Wextra  -g -fPIC
   OBJECT_DIR = src/CMakeFiles/nanomsg.dir
   OBJECT_FILE_DIR = src/CMakeFiles/nanomsg.dir/utils
-  TARGET_COMPILE_PDB = src/CMakeFiles/nanomsg.dir/
-  TARGET_PDB = libnanomsg.pdb
 
 build src/CMakeFiles/nanomsg.dir/utils/err.c.o: C_COMPILER__nanomsg_unscanned_Debug /home/wangzhao/experiments/deneva/utils/nanomsg/src/utils/err.c || cmake_object_order_depends_target_nanomsg
   DEFINES = -DNN_HAVE_ACCEPT4=1 -DNN_HAVE_BACKTRACE=1 -DNN_HAVE_CLOCK_GETTIME=1 -DNN_HAVE_CLOCK_MONOTONIC=1 -DNN_HAVE_EPOLL=1 -DNN_HAVE_EVENTFD=1 -DNN_HAVE_GCC_ATOMIC_BUILTINS -DNN_HAVE_GETADDRINFO_A=1 -DNN_HAVE_LIBNSL=1 -DNN_HAVE_LINUX -DNN_HAVE_MSG_CONTROL=1 -DNN_HAVE_PIPE2=1 -DNN_HAVE_PIPE=1 -DNN_HAVE_POLL=1 -DNN_HAVE_SEMAPHORE -DNN_HAVE_SEMAPHORE_PTHREAD=1 -DNN_HAVE_SOCKETPAIR=1 -DNN_HAVE_UNIX_SOCKETS=1 -DNN_MAX_SOCKETS=512 -DNN_SHARED_LIB -DNN_USE_EPOLL -DNN_USE_EVENTFD -D_GNU_SOURCE -D_POSIX_PTHREAD_SEMANTICS -D_REENTRANT -D_THREAD_SAFE -Dnanomsg_EXPORTS
@@ -2223,8 +2029,6 @@ build src/CMakeFiles/nanomsg.dir/utils/err.c.o: C_COMPILER__nanomsg_unscanned_De
   FLAGS = -Wall -Wextra  -g -fPIC
   OBJECT_DIR = src/CMakeFiles/nanomsg.dir
   OBJECT_FILE_DIR = src/CMakeFiles/nanomsg.dir/utils
-  TARGET_COMPILE_PDB = src/CMakeFiles/nanomsg.dir/
-  TARGET_PDB = libnanomsg.pdb
 
 build src/CMakeFiles/nanomsg.dir/utils/hash.c.o: C_COMPILER__nanomsg_unscanned_Debug /home/wangzhao/experiments/deneva/utils/nanomsg/src/utils/hash.c || cmake_object_order_depends_target_nanomsg
   DEFINES = -DNN_HAVE_ACCEPT4=1 -DNN_HAVE_BACKTRACE=1 -DNN_HAVE_CLOCK_GETTIME=1 -DNN_HAVE_CLOCK_MONOTONIC=1 -DNN_HAVE_EPOLL=1 -DNN_HAVE_EVENTFD=1 -DNN_HAVE_GCC_ATOMIC_BUILTINS -DNN_HAVE_GETADDRINFO_A=1 -DNN_HAVE_LIBNSL=1 -DNN_HAVE_LINUX -DNN_HAVE_MSG_CONTROL=1 -DNN_HAVE_PIPE2=1 -DNN_HAVE_PIPE=1 -DNN_HAVE_POLL=1 -DNN_HAVE_SEMAPHORE -DNN_HAVE_SEMAPHORE_PTHREAD=1 -DNN_HAVE_SOCKETPAIR=1 -DNN_HAVE_UNIX_SOCKETS=1 -DNN_MAX_SOCKETS=512 -DNN_SHARED_LIB -DNN_USE_EPOLL -DNN_USE_EVENTFD -D_GNU_SOURCE -D_POSIX_PTHREAD_SEMANTICS -D_REENTRANT -D_THREAD_SAFE -Dnanomsg_EXPORTS
@@ -2232,8 +2036,6 @@ build src/CMakeFiles/nanomsg.dir/utils/hash.c.o: C_COMPILER__nanomsg_unscanned_D
   FLAGS = -Wall -Wextra  -g -fPIC
   OBJECT_DIR = src/CMakeFiles/nanomsg.dir
   OBJECT_FILE_DIR = src/CMakeFiles/nanomsg.dir/utils
-  TARGET_COMPILE_PDB = src/CMakeFiles/nanomsg.dir/
-  TARGET_PDB = libnanomsg.pdb
 
 build src/CMakeFiles/nanomsg.dir/utils/list.c.o: C_COMPILER__nanomsg_unscanned_Debug /home/wangzhao/experiments/deneva/utils/nanomsg/src/utils/list.c || cmake_object_order_depends_target_nanomsg
   DEFINES = -DNN_HAVE_ACCEPT4=1 -DNN_HAVE_BACKTRACE=1 -DNN_HAVE_CLOCK_GETTIME=1 -DNN_HAVE_CLOCK_MONOTONIC=1 -DNN_HAVE_EPOLL=1 -DNN_HAVE_EVENTFD=1 -DNN_HAVE_GCC_ATOMIC_BUILTINS -DNN_HAVE_GETADDRINFO_A=1 -DNN_HAVE_LIBNSL=1 -DNN_HAVE_LINUX -DNN_HAVE_MSG_CONTROL=1 -DNN_HAVE_PIPE2=1 -DNN_HAVE_PIPE=1 -DNN_HAVE_POLL=1 -DNN_HAVE_SEMAPHORE -DNN_HAVE_SEMAPHORE_PTHREAD=1 -DNN_HAVE_SOCKETPAIR=1 -DNN_HAVE_UNIX_SOCKETS=1 -DNN_MAX_SOCKETS=512 -DNN_SHARED_LIB -DNN_USE_EPOLL -DNN_USE_EVENTFD -D_GNU_SOURCE -D_POSIX_PTHREAD_SEMANTICS -D_REENTRANT -D_THREAD_SAFE -Dnanomsg_EXPORTS
@@ -2241,8 +2043,6 @@ build src/CMakeFiles/nanomsg.dir/utils/list.c.o: C_COMPILER__nanomsg_unscanned_D
   FLAGS = -Wall -Wextra  -g -fPIC
   OBJECT_DIR = src/CMakeFiles/nanomsg.dir
   OBJECT_FILE_DIR = src/CMakeFiles/nanomsg.dir/utils
-  TARGET_COMPILE_PDB = src/CMakeFiles/nanomsg.dir/
-  TARGET_PDB = libnanomsg.pdb
 
 build src/CMakeFiles/nanomsg.dir/utils/msg.c.o: C_COMPILER__nanomsg_unscanned_Debug /home/wangzhao/experiments/deneva/utils/nanomsg/src/utils/msg.c || cmake_object_order_depends_target_nanomsg
   DEFINES = -DNN_HAVE_ACCEPT4=1 -DNN_HAVE_BACKTRACE=1 -DNN_HAVE_CLOCK_GETTIME=1 -DNN_HAVE_CLOCK_MONOTONIC=1 -DNN_HAVE_EPOLL=1 -DNN_HAVE_EVENTFD=1 -DNN_HAVE_GCC_ATOMIC_BUILTINS -DNN_HAVE_GETADDRINFO_A=1 -DNN_HAVE_LIBNSL=1 -DNN_HAVE_LINUX -DNN_HAVE_MSG_CONTROL=1 -DNN_HAVE_PIPE2=1 -DNN_HAVE_PIPE=1 -DNN_HAVE_POLL=1 -DNN_HAVE_SEMAPHORE -DNN_HAVE_SEMAPHORE_PTHREAD=1 -DNN_HAVE_SOCKETPAIR=1 -DNN_HAVE_UNIX_SOCKETS=1 -DNN_MAX_SOCKETS=512 -DNN_SHARED_LIB -DNN_USE_EPOLL -DNN_USE_EVENTFD -D_GNU_SOURCE -D_POSIX_PTHREAD_SEMANTICS -D_REENTRANT -D_THREAD_SAFE -Dnanomsg_EXPORTS
@@ -2250,8 +2050,6 @@ build src/CMakeFiles/nanomsg.dir/utils/msg.c.o: C_COMPILER__nanomsg_unscanned_De
   FLAGS = -Wall -Wextra  -g -fPIC
   OBJECT_DIR = src/CMakeFiles/nanomsg.dir
   OBJECT_FILE_DIR = src/CMakeFiles/nanomsg.dir/utils
-  TARGET_COMPILE_PDB = src/CMakeFiles/nanomsg.dir/
-  TARGET_PDB = libnanomsg.pdb
 
 build src/CMakeFiles/nanomsg.dir/utils/condvar.c.o: C_COMPILER__nanomsg_unscanned_Debug /home/wangzhao/experiments/deneva/utils/nanomsg/src/utils/condvar.c || cmake_object_order_depends_target_nanomsg
   DEFINES = -DNN_HAVE_ACCEPT4=1 -DNN_HAVE_BACKTRACE=1 -DNN_HAVE_CLOCK_GETTIME=1 -DNN_HAVE_CLOCK_MONOTONIC=1 -DNN_HAVE_EPOLL=1 -DNN_HAVE_EVENTFD=1 -DNN_HAVE_GCC_ATOMIC_BUILTINS -DNN_HAVE_GETADDRINFO_A=1 -DNN_HAVE_LIBNSL=1 -DNN_HAVE_LINUX -DNN_HAVE_MSG_CONTROL=1 -DNN_HAVE_PIPE2=1 -DNN_HAVE_PIPE=1 -DNN_HAVE_POLL=1 -DNN_HAVE_SEMAPHORE -DNN_HAVE_SEMAPHORE_PTHREAD=1 -DNN_HAVE_SOCKETPAIR=1 -DNN_HAVE_UNIX_SOCKETS=1 -DNN_MAX_SOCKETS=512 -DNN_SHARED_LIB -DNN_USE_EPOLL -DNN_USE_EVENTFD -D_GNU_SOURCE -D_POSIX_PTHREAD_SEMANTICS -D_REENTRANT -D_THREAD_SAFE -Dnanomsg_EXPORTS
@@ -2259,8 +2057,6 @@ build src/CMakeFiles/nanomsg.dir/utils/condvar.c.o: C_COMPILER__nanomsg_unscanne
   FLAGS = -Wall -Wextra  -g -fPIC
   OBJECT_DIR = src/CMakeFiles/nanomsg.dir
   OBJECT_FILE_DIR = src/CMakeFiles/nanomsg.dir/utils
-  TARGET_COMPILE_PDB = src/CMakeFiles/nanomsg.dir/
-  TARGET_PDB = libnanomsg.pdb
 
 build src/CMakeFiles/nanomsg.dir/utils/mutex.c.o: C_COMPILER__nanomsg_unscanned_Debug /home/wangzhao/experiments/deneva/utils/nanomsg/src/utils/mutex.c || cmake_object_order_depends_target_nanomsg
   DEFINES = -DNN_HAVE_ACCEPT4=1 -DNN_HAVE_BACKTRACE=1 -DNN_HAVE_CLOCK_GETTIME=1 -DNN_HAVE_CLOCK_MONOTONIC=1 -DNN_HAVE_EPOLL=1 -DNN_HAVE_EVENTFD=1 -DNN_HAVE_GCC_ATOMIC_BUILTINS -DNN_HAVE_GETADDRINFO_A=1 -DNN_HAVE_LIBNSL=1 -DNN_HAVE_LINUX -DNN_HAVE_MSG_CONTROL=1 -DNN_HAVE_PIPE2=1 -DNN_HAVE_PIPE=1 -DNN_HAVE_POLL=1 -DNN_HAVE_SEMAPHORE -DNN_HAVE_SEMAPHORE_PTHREAD=1 -DNN_HAVE_SOCKETPAIR=1 -DNN_HAVE_UNIX_SOCKETS=1 -DNN_MAX_SOCKETS=512 -DNN_SHARED_LIB -DNN_USE_EPOLL -DNN_USE_EVENTFD -D_GNU_SOURCE -D_POSIX_PTHREAD_SEMANTICS -D_REENTRANT -D_THREAD_SAFE -Dnanomsg_EXPORTS
@@ -2268,8 +2064,6 @@ build src/CMakeFiles/nanomsg.dir/utils/mutex.c.o: C_COMPILER__nanomsg_unscanned_
   FLAGS = -Wall -Wextra  -g -fPIC
   OBJECT_DIR = src/CMakeFiles/nanomsg.dir
   OBJECT_FILE_DIR = src/CMakeFiles/nanomsg.dir/utils
-  TARGET_COMPILE_PDB = src/CMakeFiles/nanomsg.dir/
-  TARGET_PDB = libnanomsg.pdb
 
 build src/CMakeFiles/nanomsg.dir/utils/once.c.o: C_COMPILER__nanomsg_unscanned_Debug /home/wangzhao/experiments/deneva/utils/nanomsg/src/utils/once.c || cmake_object_order_depends_target_nanomsg
   DEFINES = -DNN_HAVE_ACCEPT4=1 -DNN_HAVE_BACKTRACE=1 -DNN_HAVE_CLOCK_GETTIME=1 -DNN_HAVE_CLOCK_MONOTONIC=1 -DNN_HAVE_EPOLL=1 -DNN_HAVE_EVENTFD=1 -DNN_HAVE_GCC_ATOMIC_BUILTINS -DNN_HAVE_GETADDRINFO_A=1 -DNN_HAVE_LIBNSL=1 -DNN_HAVE_LINUX -DNN_HAVE_MSG_CONTROL=1 -DNN_HAVE_PIPE2=1 -DNN_HAVE_PIPE=1 -DNN_HAVE_POLL=1 -DNN_HAVE_SEMAPHORE -DNN_HAVE_SEMAPHORE_PTHREAD=1 -DNN_HAVE_SOCKETPAIR=1 -DNN_HAVE_UNIX_SOCKETS=1 -DNN_MAX_SOCKETS=512 -DNN_SHARED_LIB -DNN_USE_EPOLL -DNN_USE_EVENTFD -D_GNU_SOURCE -D_POSIX_PTHREAD_SEMANTICS -D_REENTRANT -D_THREAD_SAFE -Dnanomsg_EXPORTS
@@ -2277,8 +2071,6 @@ build src/CMakeFiles/nanomsg.dir/utils/once.c.o: C_COMPILER__nanomsg_unscanned_D
   FLAGS = -Wall -Wextra  -g -fPIC
   OBJECT_DIR = src/CMakeFiles/nanomsg.dir
   OBJECT_FILE_DIR = src/CMakeFiles/nanomsg.dir/utils
-  TARGET_COMPILE_PDB = src/CMakeFiles/nanomsg.dir/
-  TARGET_PDB = libnanomsg.pdb
 
 build src/CMakeFiles/nanomsg.dir/utils/queue.c.o: C_COMPILER__nanomsg_unscanned_Debug /home/wangzhao/experiments/deneva/utils/nanomsg/src/utils/queue.c || cmake_object_order_depends_target_nanomsg
   DEFINES = -DNN_HAVE_ACCEPT4=1 -DNN_HAVE_BACKTRACE=1 -DNN_HAVE_CLOCK_GETTIME=1 -DNN_HAVE_CLOCK_MONOTONIC=1 -DNN_HAVE_EPOLL=1 -DNN_HAVE_EVENTFD=1 -DNN_HAVE_GCC_ATOMIC_BUILTINS -DNN_HAVE_GETADDRINFO_A=1 -DNN_HAVE_LIBNSL=1 -DNN_HAVE_LINUX -DNN_HAVE_MSG_CONTROL=1 -DNN_HAVE_PIPE2=1 -DNN_HAVE_PIPE=1 -DNN_HAVE_POLL=1 -DNN_HAVE_SEMAPHORE -DNN_HAVE_SEMAPHORE_PTHREAD=1 -DNN_HAVE_SOCKETPAIR=1 -DNN_HAVE_UNIX_SOCKETS=1 -DNN_MAX_SOCKETS=512 -DNN_SHARED_LIB -DNN_USE_EPOLL -DNN_USE_EVENTFD -D_GNU_SOURCE -D_POSIX_PTHREAD_SEMANTICS -D_REENTRANT -D_THREAD_SAFE -Dnanomsg_EXPORTS
@@ -2286,8 +2078,6 @@ build src/CMakeFiles/nanomsg.dir/utils/queue.c.o: C_COMPILER__nanomsg_unscanned_
   FLAGS = -Wall -Wextra  -g -fPIC
   OBJECT_DIR = src/CMakeFiles/nanomsg.dir
   OBJECT_FILE_DIR = src/CMakeFiles/nanomsg.dir/utils
-  TARGET_COMPILE_PDB = src/CMakeFiles/nanomsg.dir/
-  TARGET_PDB = libnanomsg.pdb
 
 build src/CMakeFiles/nanomsg.dir/utils/random.c.o: C_COMPILER__nanomsg_unscanned_Debug /home/wangzhao/experiments/deneva/utils/nanomsg/src/utils/random.c || cmake_object_order_depends_target_nanomsg
   DEFINES = -DNN_HAVE_ACCEPT4=1 -DNN_HAVE_BACKTRACE=1 -DNN_HAVE_CLOCK_GETTIME=1 -DNN_HAVE_CLOCK_MONOTONIC=1 -DNN_HAVE_EPOLL=1 -DNN_HAVE_EVENTFD=1 -DNN_HAVE_GCC_ATOMIC_BUILTINS -DNN_HAVE_GETADDRINFO_A=1 -DNN_HAVE_LIBNSL=1 -DNN_HAVE_LINUX -DNN_HAVE_MSG_CONTROL=1 -DNN_HAVE_PIPE2=1 -DNN_HAVE_PIPE=1 -DNN_HAVE_POLL=1 -DNN_HAVE_SEMAPHORE -DNN_HAVE_SEMAPHORE_PTHREAD=1 -DNN_HAVE_SOCKETPAIR=1 -DNN_HAVE_UNIX_SOCKETS=1 -DNN_MAX_SOCKETS=512 -DNN_SHARED_LIB -DNN_USE_EPOLL -DNN_USE_EVENTFD -D_GNU_SOURCE -D_POSIX_PTHREAD_SEMANTICS -D_REENTRANT -D_THREAD_SAFE -Dnanomsg_EXPORTS
@@ -2295,8 +2085,6 @@ build src/CMakeFiles/nanomsg.dir/utils/random.c.o: C_COMPILER__nanomsg_unscanned
   FLAGS = -Wall -Wextra  -g -fPIC
   OBJECT_DIR = src/CMakeFiles/nanomsg.dir
   OBJECT_FILE_DIR = src/CMakeFiles/nanomsg.dir/utils
-  TARGET_COMPILE_PDB = src/CMakeFiles/nanomsg.dir/
-  TARGET_PDB = libnanomsg.pdb
 
 build src/CMakeFiles/nanomsg.dir/utils/sem.c.o: C_COMPILER__nanomsg_unscanned_Debug /home/wangzhao/experiments/deneva/utils/nanomsg/src/utils/sem.c || cmake_object_order_depends_target_nanomsg
   DEFINES = -DNN_HAVE_ACCEPT4=1 -DNN_HAVE_BACKTRACE=1 -DNN_HAVE_CLOCK_GETTIME=1 -DNN_HAVE_CLOCK_MONOTONIC=1 -DNN_HAVE_EPOLL=1 -DNN_HAVE_EVENTFD=1 -DNN_HAVE_GCC_ATOMIC_BUILTINS -DNN_HAVE_GETADDRINFO_A=1 -DNN_HAVE_LIBNSL=1 -DNN_HAVE_LINUX -DNN_HAVE_MSG_CONTROL=1 -DNN_HAVE_PIPE2=1 -DNN_HAVE_PIPE=1 -DNN_HAVE_POLL=1 -DNN_HAVE_SEMAPHORE -DNN_HAVE_SEMAPHORE_PTHREAD=1 -DNN_HAVE_SOCKETPAIR=1 -DNN_HAVE_UNIX_SOCKETS=1 -DNN_MAX_SOCKETS=512 -DNN_SHARED_LIB -DNN_USE_EPOLL -DNN_USE_EVENTFD -D_GNU_SOURCE -D_POSIX_PTHREAD_SEMANTICS -D_REENTRANT -D_THREAD_SAFE -Dnanomsg_EXPORTS
@@ -2304,8 +2092,6 @@ build src/CMakeFiles/nanomsg.dir/utils/sem.c.o: C_COMPILER__nanomsg_unscanned_De
   FLAGS = -Wall -Wextra  -g -fPIC
   OBJECT_DIR = src/CMakeFiles/nanomsg.dir
   OBJECT_FILE_DIR = src/CMakeFiles/nanomsg.dir/utils
-  TARGET_COMPILE_PDB = src/CMakeFiles/nanomsg.dir/
-  TARGET_PDB = libnanomsg.pdb
 
 build src/CMakeFiles/nanomsg.dir/utils/sleep.c.o: C_COMPILER__nanomsg_unscanned_Debug /home/wangzhao/experiments/deneva/utils/nanomsg/src/utils/sleep.c || cmake_object_order_depends_target_nanomsg
   DEFINES = -DNN_HAVE_ACCEPT4=1 -DNN_HAVE_BACKTRACE=1 -DNN_HAVE_CLOCK_GETTIME=1 -DNN_HAVE_CLOCK_MONOTONIC=1 -DNN_HAVE_EPOLL=1 -DNN_HAVE_EVENTFD=1 -DNN_HAVE_GCC_ATOMIC_BUILTINS -DNN_HAVE_GETADDRINFO_A=1 -DNN_HAVE_LIBNSL=1 -DNN_HAVE_LINUX -DNN_HAVE_MSG_CONTROL=1 -DNN_HAVE_PIPE2=1 -DNN_HAVE_PIPE=1 -DNN_HAVE_POLL=1 -DNN_HAVE_SEMAPHORE -DNN_HAVE_SEMAPHORE_PTHREAD=1 -DNN_HAVE_SOCKETPAIR=1 -DNN_HAVE_UNIX_SOCKETS=1 -DNN_MAX_SOCKETS=512 -DNN_SHARED_LIB -DNN_USE_EPOLL -DNN_USE_EVENTFD -D_GNU_SOURCE -D_POSIX_PTHREAD_SEMANTICS -D_REENTRANT -D_THREAD_SAFE -Dnanomsg_EXPORTS
@@ -2313,8 +2099,6 @@ build src/CMakeFiles/nanomsg.dir/utils/sleep.c.o: C_COMPILER__nanomsg_unscanned_
   FLAGS = -Wall -Wextra  -g -fPIC
   OBJECT_DIR = src/CMakeFiles/nanomsg.dir
   OBJECT_FILE_DIR = src/CMakeFiles/nanomsg.dir/utils
-  TARGET_COMPILE_PDB = src/CMakeFiles/nanomsg.dir/
-  TARGET_PDB = libnanomsg.pdb
 
 build src/CMakeFiles/nanomsg.dir/utils/strcasecmp.c.o: C_COMPILER__nanomsg_unscanned_Debug /home/wangzhao/experiments/deneva/utils/nanomsg/src/utils/strcasecmp.c || cmake_object_order_depends_target_nanomsg
   DEFINES = -DNN_HAVE_ACCEPT4=1 -DNN_HAVE_BACKTRACE=1 -DNN_HAVE_CLOCK_GETTIME=1 -DNN_HAVE_CLOCK_MONOTONIC=1 -DNN_HAVE_EPOLL=1 -DNN_HAVE_EVENTFD=1 -DNN_HAVE_GCC_ATOMIC_BUILTINS -DNN_HAVE_GETADDRINFO_A=1 -DNN_HAVE_LIBNSL=1 -DNN_HAVE_LINUX -DNN_HAVE_MSG_CONTROL=1 -DNN_HAVE_PIPE2=1 -DNN_HAVE_PIPE=1 -DNN_HAVE_POLL=1 -DNN_HAVE_SEMAPHORE -DNN_HAVE_SEMAPHORE_PTHREAD=1 -DNN_HAVE_SOCKETPAIR=1 -DNN_HAVE_UNIX_SOCKETS=1 -DNN_MAX_SOCKETS=512 -DNN_SHARED_LIB -DNN_USE_EPOLL -DNN_USE_EVENTFD -D_GNU_SOURCE -D_POSIX_PTHREAD_SEMANTICS -D_REENTRANT -D_THREAD_SAFE -Dnanomsg_EXPORTS
@@ -2322,8 +2106,6 @@ build src/CMakeFiles/nanomsg.dir/utils/strcasecmp.c.o: C_COMPILER__nanomsg_unsca
   FLAGS = -Wall -Wextra  -g -fPIC
   OBJECT_DIR = src/CMakeFiles/nanomsg.dir
   OBJECT_FILE_DIR = src/CMakeFiles/nanomsg.dir/utils
-  TARGET_COMPILE_PDB = src/CMakeFiles/nanomsg.dir/
-  TARGET_PDB = libnanomsg.pdb
 
 build src/CMakeFiles/nanomsg.dir/utils/strcasestr.c.o: C_COMPILER__nanomsg_unscanned_Debug /home/wangzhao/experiments/deneva/utils/nanomsg/src/utils/strcasestr.c || cmake_object_order_depends_target_nanomsg
   DEFINES = -DNN_HAVE_ACCEPT4=1 -DNN_HAVE_BACKTRACE=1 -DNN_HAVE_CLOCK_GETTIME=1 -DNN_HAVE_CLOCK_MONOTONIC=1 -DNN_HAVE_EPOLL=1 -DNN_HAVE_EVENTFD=1 -DNN_HAVE_GCC_ATOMIC_BUILTINS -DNN_HAVE_GETADDRINFO_A=1 -DNN_HAVE_LIBNSL=1 -DNN_HAVE_LINUX -DNN_HAVE_MSG_CONTROL=1 -DNN_HAVE_PIPE2=1 -DNN_HAVE_PIPE=1 -DNN_HAVE_POLL=1 -DNN_HAVE_SEMAPHORE -DNN_HAVE_SEMAPHORE_PTHREAD=1 -DNN_HAVE_SOCKETPAIR=1 -DNN_HAVE_UNIX_SOCKETS=1 -DNN_MAX_SOCKETS=512 -DNN_SHARED_LIB -DNN_USE_EPOLL -DNN_USE_EVENTFD -D_GNU_SOURCE -D_POSIX_PTHREAD_SEMANTICS -D_REENTRANT -D_THREAD_SAFE -Dnanomsg_EXPORTS
@@ -2331,8 +2113,6 @@ build src/CMakeFiles/nanomsg.dir/utils/strcasestr.c.o: C_COMPILER__nanomsg_unsca
   FLAGS = -Wall -Wextra  -g -fPIC
   OBJECT_DIR = src/CMakeFiles/nanomsg.dir
   OBJECT_FILE_DIR = src/CMakeFiles/nanomsg.dir/utils
-  TARGET_COMPILE_PDB = src/CMakeFiles/nanomsg.dir/
-  TARGET_PDB = libnanomsg.pdb
 
 build src/CMakeFiles/nanomsg.dir/utils/strncasecmp.c.o: C_COMPILER__nanomsg_unscanned_Debug /home/wangzhao/experiments/deneva/utils/nanomsg/src/utils/strncasecmp.c || cmake_object_order_depends_target_nanomsg
   DEFINES = -DNN_HAVE_ACCEPT4=1 -DNN_HAVE_BACKTRACE=1 -DNN_HAVE_CLOCK_GETTIME=1 -DNN_HAVE_CLOCK_MONOTONIC=1 -DNN_HAVE_EPOLL=1 -DNN_HAVE_EVENTFD=1 -DNN_HAVE_GCC_ATOMIC_BUILTINS -DNN_HAVE_GETADDRINFO_A=1 -DNN_HAVE_LIBNSL=1 -DNN_HAVE_LINUX -DNN_HAVE_MSG_CONTROL=1 -DNN_HAVE_PIPE2=1 -DNN_HAVE_PIPE=1 -DNN_HAVE_POLL=1 -DNN_HAVE_SEMAPHORE -DNN_HAVE_SEMAPHORE_PTHREAD=1 -DNN_HAVE_SOCKETPAIR=1 -DNN_HAVE_UNIX_SOCKETS=1 -DNN_MAX_SOCKETS=512 -DNN_SHARED_LIB -DNN_USE_EPOLL -DNN_USE_EVENTFD -D_GNU_SOURCE -D_POSIX_PTHREAD_SEMANTICS -D_REENTRANT -D_THREAD_SAFE -Dnanomsg_EXPORTS
@@ -2340,8 +2120,6 @@ build src/CMakeFiles/nanomsg.dir/utils/strncasecmp.c.o: C_COMPILER__nanomsg_unsc
   FLAGS = -Wall -Wextra  -g -fPIC
   OBJECT_DIR = src/CMakeFiles/nanomsg.dir
   OBJECT_FILE_DIR = src/CMakeFiles/nanomsg.dir/utils
-  TARGET_COMPILE_PDB = src/CMakeFiles/nanomsg.dir/
-  TARGET_PDB = libnanomsg.pdb
 
 build src/CMakeFiles/nanomsg.dir/utils/thread.c.o: C_COMPILER__nanomsg_unscanned_Debug /home/wangzhao/experiments/deneva/utils/nanomsg/src/utils/thread.c || cmake_object_order_depends_target_nanomsg
   DEFINES = -DNN_HAVE_ACCEPT4=1 -DNN_HAVE_BACKTRACE=1 -DNN_HAVE_CLOCK_GETTIME=1 -DNN_HAVE_CLOCK_MONOTONIC=1 -DNN_HAVE_EPOLL=1 -DNN_HAVE_EVENTFD=1 -DNN_HAVE_GCC_ATOMIC_BUILTINS -DNN_HAVE_GETADDRINFO_A=1 -DNN_HAVE_LIBNSL=1 -DNN_HAVE_LINUX -DNN_HAVE_MSG_CONTROL=1 -DNN_HAVE_PIPE2=1 -DNN_HAVE_PIPE=1 -DNN_HAVE_POLL=1 -DNN_HAVE_SEMAPHORE -DNN_HAVE_SEMAPHORE_PTHREAD=1 -DNN_HAVE_SOCKETPAIR=1 -DNN_HAVE_UNIX_SOCKETS=1 -DNN_MAX_SOCKETS=512 -DNN_SHARED_LIB -DNN_USE_EPOLL -DNN_USE_EVENTFD -D_GNU_SOURCE -D_POSIX_PTHREAD_SEMANTICS -D_REENTRANT -D_THREAD_SAFE -Dnanomsg_EXPORTS
@@ -2349,8 +2127,6 @@ build src/CMakeFiles/nanomsg.dir/utils/thread.c.o: C_COMPILER__nanomsg_unscanned
   FLAGS = -Wall -Wextra  -g -fPIC
   OBJECT_DIR = src/CMakeFiles/nanomsg.dir
   OBJECT_FILE_DIR = src/CMakeFiles/nanomsg.dir/utils
-  TARGET_COMPILE_PDB = src/CMakeFiles/nanomsg.dir/
-  TARGET_PDB = libnanomsg.pdb
 
 build src/CMakeFiles/nanomsg.dir/utils/wire.c.o: C_COMPILER__nanomsg_unscanned_Debug /home/wangzhao/experiments/deneva/utils/nanomsg/src/utils/wire.c || cmake_object_order_depends_target_nanomsg
   DEFINES = -DNN_HAVE_ACCEPT4=1 -DNN_HAVE_BACKTRACE=1 -DNN_HAVE_CLOCK_GETTIME=1 -DNN_HAVE_CLOCK_MONOTONIC=1 -DNN_HAVE_EPOLL=1 -DNN_HAVE_EVENTFD=1 -DNN_HAVE_GCC_ATOMIC_BUILTINS -DNN_HAVE_GETADDRINFO_A=1 -DNN_HAVE_LIBNSL=1 -DNN_HAVE_LINUX -DNN_HAVE_MSG_CONTROL=1 -DNN_HAVE_PIPE2=1 -DNN_HAVE_PIPE=1 -DNN_HAVE_POLL=1 -DNN_HAVE_SEMAPHORE -DNN_HAVE_SEMAPHORE_PTHREAD=1 -DNN_HAVE_SOCKETPAIR=1 -DNN_HAVE_UNIX_SOCKETS=1 -DNN_MAX_SOCKETS=512 -DNN_SHARED_LIB -DNN_USE_EPOLL -DNN_USE_EVENTFD -D_GNU_SOURCE -D_POSIX_PTHREAD_SEMANTICS -D_REENTRANT -D_THREAD_SAFE -Dnanomsg_EXPORTS
@@ -2358,8 +2134,6 @@ build src/CMakeFiles/nanomsg.dir/utils/wire.c.o: C_COMPILER__nanomsg_unscanned_D
   FLAGS = -Wall -Wextra  -g -fPIC
   OBJECT_DIR = src/CMakeFiles/nanomsg.dir
   OBJECT_FILE_DIR = src/CMakeFiles/nanomsg.dir/utils
-  TARGET_COMPILE_PDB = src/CMakeFiles/nanomsg.dir/
-  TARGET_PDB = libnanomsg.pdb
 
 build src/CMakeFiles/nanomsg.dir/devices/device.c.o: C_COMPILER__nanomsg_unscanned_Debug /home/wangzhao/experiments/deneva/utils/nanomsg/src/devices/device.c || cmake_object_order_depends_target_nanomsg
   DEFINES = -DNN_HAVE_ACCEPT4=1 -DNN_HAVE_BACKTRACE=1 -DNN_HAVE_CLOCK_GETTIME=1 -DNN_HAVE_CLOCK_MONOTONIC=1 -DNN_HAVE_EPOLL=1 -DNN_HAVE_EVENTFD=1 -DNN_HAVE_GCC_ATOMIC_BUILTINS -DNN_HAVE_GETADDRINFO_A=1 -DNN_HAVE_LIBNSL=1 -DNN_HAVE_LINUX -DNN_HAVE_MSG_CONTROL=1 -DNN_HAVE_PIPE2=1 -DNN_HAVE_PIPE=1 -DNN_HAVE_POLL=1 -DNN_HAVE_SEMAPHORE -DNN_HAVE_SEMAPHORE_PTHREAD=1 -DNN_HAVE_SOCKETPAIR=1 -DNN_HAVE_UNIX_SOCKETS=1 -DNN_MAX_SOCKETS=512 -DNN_SHARED_LIB -DNN_USE_EPOLL -DNN_USE_EVENTFD -D_GNU_SOURCE -D_POSIX_PTHREAD_SEMANTICS -D_REENTRANT -D_THREAD_SAFE -Dnanomsg_EXPORTS
@@ -2367,8 +2141,6 @@ build src/CMakeFiles/nanomsg.dir/devices/device.c.o: C_COMPILER__nanomsg_unscann
   FLAGS = -Wall -Wextra  -g -fPIC
   OBJECT_DIR = src/CMakeFiles/nanomsg.dir
   OBJECT_FILE_DIR = src/CMakeFiles/nanomsg.dir/devices
-  TARGET_COMPILE_PDB = src/CMakeFiles/nanomsg.dir/
-  TARGET_PDB = libnanomsg.pdb
 
 build src/CMakeFiles/nanomsg.dir/protocols/utils/dist.c.o: C_COMPILER__nanomsg_unscanned_Debug /home/wangzhao/experiments/deneva/utils/nanomsg/src/protocols/utils/dist.c || cmake_object_order_depends_target_nanomsg
   DEFINES = -DNN_HAVE_ACCEPT4=1 -DNN_HAVE_BACKTRACE=1 -DNN_HAVE_CLOCK_GETTIME=1 -DNN_HAVE_CLOCK_MONOTONIC=1 -DNN_HAVE_EPOLL=1 -DNN_HAVE_EVENTFD=1 -DNN_HAVE_GCC_ATOMIC_BUILTINS -DNN_HAVE_GETADDRINFO_A=1 -DNN_HAVE_LIBNSL=1 -DNN_HAVE_LINUX -DNN_HAVE_MSG_CONTROL=1 -DNN_HAVE_PIPE2=1 -DNN_HAVE_PIPE=1 -DNN_HAVE_POLL=1 -DNN_HAVE_SEMAPHORE -DNN_HAVE_SEMAPHORE_PTHREAD=1 -DNN_HAVE_SOCKETPAIR=1 -DNN_HAVE_UNIX_SOCKETS=1 -DNN_MAX_SOCKETS=512 -DNN_SHARED_LIB -DNN_USE_EPOLL -DNN_USE_EVENTFD -D_GNU_SOURCE -D_POSIX_PTHREAD_SEMANTICS -D_REENTRANT -D_THREAD_SAFE -Dnanomsg_EXPORTS
@@ -2376,8 +2148,6 @@ build src/CMakeFiles/nanomsg.dir/protocols/utils/dist.c.o: C_COMPILER__nanomsg_u
   FLAGS = -Wall -Wextra  -g -fPIC
   OBJECT_DIR = src/CMakeFiles/nanomsg.dir
   OBJECT_FILE_DIR = src/CMakeFiles/nanomsg.dir/protocols/utils
-  TARGET_COMPILE_PDB = src/CMakeFiles/nanomsg.dir/
-  TARGET_PDB = libnanomsg.pdb
 
 build src/CMakeFiles/nanomsg.dir/protocols/utils/excl.c.o: C_COMPILER__nanomsg_unscanned_Debug /home/wangzhao/experiments/deneva/utils/nanomsg/src/protocols/utils/excl.c || cmake_object_order_depends_target_nanomsg
   DEFINES = -DNN_HAVE_ACCEPT4=1 -DNN_HAVE_BACKTRACE=1 -DNN_HAVE_CLOCK_GETTIME=1 -DNN_HAVE_CLOCK_MONOTONIC=1 -DNN_HAVE_EPOLL=1 -DNN_HAVE_EVENTFD=1 -DNN_HAVE_GCC_ATOMIC_BUILTINS -DNN_HAVE_GETADDRINFO_A=1 -DNN_HAVE_LIBNSL=1 -DNN_HAVE_LINUX -DNN_HAVE_MSG_CONTROL=1 -DNN_HAVE_PIPE2=1 -DNN_HAVE_PIPE=1 -DNN_HAVE_POLL=1 -DNN_HAVE_SEMAPHORE -DNN_HAVE_SEMAPHORE_PTHREAD=1 -DNN_HAVE_SOCKETPAIR=1 -DNN_HAVE_UNIX_SOCKETS=1 -DNN_MAX_SOCKETS=512 -DNN_SHARED_LIB -DNN_USE_EPOLL -DNN_USE_EVENTFD -D_GNU_SOURCE -D_POSIX_PTHREAD_SEMANTICS -D_REENTRANT -D_THREAD_SAFE -Dnanomsg_EXPORTS
@@ -2385,8 +2155,6 @@ build src/CMakeFiles/nanomsg.dir/protocols/utils/excl.c.o: C_COMPILER__nanomsg_u
   FLAGS = -Wall -Wextra  -g -fPIC
   OBJECT_DIR = src/CMakeFiles/nanomsg.dir
   OBJECT_FILE_DIR = src/CMakeFiles/nanomsg.dir/protocols/utils
-  TARGET_COMPILE_PDB = src/CMakeFiles/nanomsg.dir/
-  TARGET_PDB = libnanomsg.pdb
 
 build src/CMakeFiles/nanomsg.dir/protocols/utils/fq.c.o: C_COMPILER__nanomsg_unscanned_Debug /home/wangzhao/experiments/deneva/utils/nanomsg/src/protocols/utils/fq.c || cmake_object_order_depends_target_nanomsg
   DEFINES = -DNN_HAVE_ACCEPT4=1 -DNN_HAVE_BACKTRACE=1 -DNN_HAVE_CLOCK_GETTIME=1 -DNN_HAVE_CLOCK_MONOTONIC=1 -DNN_HAVE_EPOLL=1 -DNN_HAVE_EVENTFD=1 -DNN_HAVE_GCC_ATOMIC_BUILTINS -DNN_HAVE_GETADDRINFO_A=1 -DNN_HAVE_LIBNSL=1 -DNN_HAVE_LINUX -DNN_HAVE_MSG_CONTROL=1 -DNN_HAVE_PIPE2=1 -DNN_HAVE_PIPE=1 -DNN_HAVE_POLL=1 -DNN_HAVE_SEMAPHORE -DNN_HAVE_SEMAPHORE_PTHREAD=1 -DNN_HAVE_SOCKETPAIR=1 -DNN_HAVE_UNIX_SOCKETS=1 -DNN_MAX_SOCKETS=512 -DNN_SHARED_LIB -DNN_USE_EPOLL -DNN_USE_EVENTFD -D_GNU_SOURCE -D_POSIX_PTHREAD_SEMANTICS -D_REENTRANT -D_THREAD_SAFE -Dnanomsg_EXPORTS
@@ -2394,8 +2162,6 @@ build src/CMakeFiles/nanomsg.dir/protocols/utils/fq.c.o: C_COMPILER__nanomsg_uns
   FLAGS = -Wall -Wextra  -g -fPIC
   OBJECT_DIR = src/CMakeFiles/nanomsg.dir
   OBJECT_FILE_DIR = src/CMakeFiles/nanomsg.dir/protocols/utils
-  TARGET_COMPILE_PDB = src/CMakeFiles/nanomsg.dir/
-  TARGET_PDB = libnanomsg.pdb
 
 build src/CMakeFiles/nanomsg.dir/protocols/utils/lb.c.o: C_COMPILER__nanomsg_unscanned_Debug /home/wangzhao/experiments/deneva/utils/nanomsg/src/protocols/utils/lb.c || cmake_object_order_depends_target_nanomsg
   DEFINES = -DNN_HAVE_ACCEPT4=1 -DNN_HAVE_BACKTRACE=1 -DNN_HAVE_CLOCK_GETTIME=1 -DNN_HAVE_CLOCK_MONOTONIC=1 -DNN_HAVE_EPOLL=1 -DNN_HAVE_EVENTFD=1 -DNN_HAVE_GCC_ATOMIC_BUILTINS -DNN_HAVE_GETADDRINFO_A=1 -DNN_HAVE_LIBNSL=1 -DNN_HAVE_LINUX -DNN_HAVE_MSG_CONTROL=1 -DNN_HAVE_PIPE2=1 -DNN_HAVE_PIPE=1 -DNN_HAVE_POLL=1 -DNN_HAVE_SEMAPHORE -DNN_HAVE_SEMAPHORE_PTHREAD=1 -DNN_HAVE_SOCKETPAIR=1 -DNN_HAVE_UNIX_SOCKETS=1 -DNN_MAX_SOCKETS=512 -DNN_SHARED_LIB -DNN_USE_EPOLL -DNN_USE_EVENTFD -D_GNU_SOURCE -D_POSIX_PTHREAD_SEMANTICS -D_REENTRANT -D_THREAD_SAFE -Dnanomsg_EXPORTS
@@ -2403,8 +2169,6 @@ build src/CMakeFiles/nanomsg.dir/protocols/utils/lb.c.o: C_COMPILER__nanomsg_uns
   FLAGS = -Wall -Wextra  -g -fPIC
   OBJECT_DIR = src/CMakeFiles/nanomsg.dir
   OBJECT_FILE_DIR = src/CMakeFiles/nanomsg.dir/protocols/utils
-  TARGET_COMPILE_PDB = src/CMakeFiles/nanomsg.dir/
-  TARGET_PDB = libnanomsg.pdb
 
 build src/CMakeFiles/nanomsg.dir/protocols/utils/priolist.c.o: C_COMPILER__nanomsg_unscanned_Debug /home/wangzhao/experiments/deneva/utils/nanomsg/src/protocols/utils/priolist.c || cmake_object_order_depends_target_nanomsg
   DEFINES = -DNN_HAVE_ACCEPT4=1 -DNN_HAVE_BACKTRACE=1 -DNN_HAVE_CLOCK_GETTIME=1 -DNN_HAVE_CLOCK_MONOTONIC=1 -DNN_HAVE_EPOLL=1 -DNN_HAVE_EVENTFD=1 -DNN_HAVE_GCC_ATOMIC_BUILTINS -DNN_HAVE_GETADDRINFO_A=1 -DNN_HAVE_LIBNSL=1 -DNN_HAVE_LINUX -DNN_HAVE_MSG_CONTROL=1 -DNN_HAVE_PIPE2=1 -DNN_HAVE_PIPE=1 -DNN_HAVE_POLL=1 -DNN_HAVE_SEMAPHORE -DNN_HAVE_SEMAPHORE_PTHREAD=1 -DNN_HAVE_SOCKETPAIR=1 -DNN_HAVE_UNIX_SOCKETS=1 -DNN_MAX_SOCKETS=512 -DNN_SHARED_LIB -DNN_USE_EPOLL -DNN_USE_EVENTFD -D_GNU_SOURCE -D_POSIX_PTHREAD_SEMANTICS -D_REENTRANT -D_THREAD_SAFE -Dnanomsg_EXPORTS
@@ -2412,8 +2176,6 @@ build src/CMakeFiles/nanomsg.dir/protocols/utils/priolist.c.o: C_COMPILER__nanom
   FLAGS = -Wall -Wextra  -g -fPIC
   OBJECT_DIR = src/CMakeFiles/nanomsg.dir
   OBJECT_FILE_DIR = src/CMakeFiles/nanomsg.dir/protocols/utils
-  TARGET_COMPILE_PDB = src/CMakeFiles/nanomsg.dir/
-  TARGET_PDB = libnanomsg.pdb
 
 build src/CMakeFiles/nanomsg.dir/protocols/bus/bus.c.o: C_COMPILER__nanomsg_unscanned_Debug /home/wangzhao/experiments/deneva/utils/nanomsg/src/protocols/bus/bus.c || cmake_object_order_depends_target_nanomsg
   DEFINES = -DNN_HAVE_ACCEPT4=1 -DNN_HAVE_BACKTRACE=1 -DNN_HAVE_CLOCK_GETTIME=1 -DNN_HAVE_CLOCK_MONOTONIC=1 -DNN_HAVE_EPOLL=1 -DNN_HAVE_EVENTFD=1 -DNN_HAVE_GCC_ATOMIC_BUILTINS -DNN_HAVE_GETADDRINFO_A=1 -DNN_HAVE_LIBNSL=1 -DNN_HAVE_LINUX -DNN_HAVE_MSG_CONTROL=1 -DNN_HAVE_PIPE2=1 -DNN_HAVE_PIPE=1 -DNN_HAVE_POLL=1 -DNN_HAVE_SEMAPHORE -DNN_HAVE_SEMAPHORE_PTHREAD=1 -DNN_HAVE_SOCKETPAIR=1 -DNN_HAVE_UNIX_SOCKETS=1 -DNN_MAX_SOCKETS=512 -DNN_SHARED_LIB -DNN_USE_EPOLL -DNN_USE_EVENTFD -D_GNU_SOURCE -D_POSIX_PTHREAD_SEMANTICS -D_REENTRANT -D_THREAD_SAFE -Dnanomsg_EXPORTS
@@ -2421,8 +2183,6 @@ build src/CMakeFiles/nanomsg.dir/protocols/bus/bus.c.o: C_COMPILER__nanomsg_unsc
   FLAGS = -Wall -Wextra  -g -fPIC
   OBJECT_DIR = src/CMakeFiles/nanomsg.dir
   OBJECT_FILE_DIR = src/CMakeFiles/nanomsg.dir/protocols/bus
-  TARGET_COMPILE_PDB = src/CMakeFiles/nanomsg.dir/
-  TARGET_PDB = libnanomsg.pdb
 
 build src/CMakeFiles/nanomsg.dir/protocols/bus/xbus.c.o: C_COMPILER__nanomsg_unscanned_Debug /home/wangzhao/experiments/deneva/utils/nanomsg/src/protocols/bus/xbus.c || cmake_object_order_depends_target_nanomsg
   DEFINES = -DNN_HAVE_ACCEPT4=1 -DNN_HAVE_BACKTRACE=1 -DNN_HAVE_CLOCK_GETTIME=1 -DNN_HAVE_CLOCK_MONOTONIC=1 -DNN_HAVE_EPOLL=1 -DNN_HAVE_EVENTFD=1 -DNN_HAVE_GCC_ATOMIC_BUILTINS -DNN_HAVE_GETADDRINFO_A=1 -DNN_HAVE_LIBNSL=1 -DNN_HAVE_LINUX -DNN_HAVE_MSG_CONTROL=1 -DNN_HAVE_PIPE2=1 -DNN_HAVE_PIPE=1 -DNN_HAVE_POLL=1 -DNN_HAVE_SEMAPHORE -DNN_HAVE_SEMAPHORE_PTHREAD=1 -DNN_HAVE_SOCKETPAIR=1 -DNN_HAVE_UNIX_SOCKETS=1 -DNN_MAX_SOCKETS=512 -DNN_SHARED_LIB -DNN_USE_EPOLL -DNN_USE_EVENTFD -D_GNU_SOURCE -D_POSIX_PTHREAD_SEMANTICS -D_REENTRANT -D_THREAD_SAFE -Dnanomsg_EXPORTS
@@ -2430,8 +2190,6 @@ build src/CMakeFiles/nanomsg.dir/protocols/bus/xbus.c.o: C_COMPILER__nanomsg_uns
   FLAGS = -Wall -Wextra  -g -fPIC
   OBJECT_DIR = src/CMakeFiles/nanomsg.dir
   OBJECT_FILE_DIR = src/CMakeFiles/nanomsg.dir/protocols/bus
-  TARGET_COMPILE_PDB = src/CMakeFiles/nanomsg.dir/
-  TARGET_PDB = libnanomsg.pdb
 
 build src/CMakeFiles/nanomsg.dir/protocols/pipeline/push.c.o: C_COMPILER__nanomsg_unscanned_Debug /home/wangzhao/experiments/deneva/utils/nanomsg/src/protocols/pipeline/push.c || cmake_object_order_depends_target_nanomsg
   DEFINES = -DNN_HAVE_ACCEPT4=1 -DNN_HAVE_BACKTRACE=1 -DNN_HAVE_CLOCK_GETTIME=1 -DNN_HAVE_CLOCK_MONOTONIC=1 -DNN_HAVE_EPOLL=1 -DNN_HAVE_EVENTFD=1 -DNN_HAVE_GCC_ATOMIC_BUILTINS -DNN_HAVE_GETADDRINFO_A=1 -DNN_HAVE_LIBNSL=1 -DNN_HAVE_LINUX -DNN_HAVE_MSG_CONTROL=1 -DNN_HAVE_PIPE2=1 -DNN_HAVE_PIPE=1 -DNN_HAVE_POLL=1 -DNN_HAVE_SEMAPHORE -DNN_HAVE_SEMAPHORE_PTHREAD=1 -DNN_HAVE_SOCKETPAIR=1 -DNN_HAVE_UNIX_SOCKETS=1 -DNN_MAX_SOCKETS=512 -DNN_SHARED_LIB -DNN_USE_EPOLL -DNN_USE_EVENTFD -D_GNU_SOURCE -D_POSIX_PTHREAD_SEMANTICS -D_REENTRANT -D_THREAD_SAFE -Dnanomsg_EXPORTS
@@ -2439,8 +2197,6 @@ build src/CMakeFiles/nanomsg.dir/protocols/pipeline/push.c.o: C_COMPILER__nanoms
   FLAGS = -Wall -Wextra  -g -fPIC
   OBJECT_DIR = src/CMakeFiles/nanomsg.dir
   OBJECT_FILE_DIR = src/CMakeFiles/nanomsg.dir/protocols/pipeline
-  TARGET_COMPILE_PDB = src/CMakeFiles/nanomsg.dir/
-  TARGET_PDB = libnanomsg.pdb
 
 build src/CMakeFiles/nanomsg.dir/protocols/pipeline/pull.c.o: C_COMPILER__nanomsg_unscanned_Debug /home/wangzhao/experiments/deneva/utils/nanomsg/src/protocols/pipeline/pull.c || cmake_object_order_depends_target_nanomsg
   DEFINES = -DNN_HAVE_ACCEPT4=1 -DNN_HAVE_BACKTRACE=1 -DNN_HAVE_CLOCK_GETTIME=1 -DNN_HAVE_CLOCK_MONOTONIC=1 -DNN_HAVE_EPOLL=1 -DNN_HAVE_EVENTFD=1 -DNN_HAVE_GCC_ATOMIC_BUILTINS -DNN_HAVE_GETADDRINFO_A=1 -DNN_HAVE_LIBNSL=1 -DNN_HAVE_LINUX -DNN_HAVE_MSG_CONTROL=1 -DNN_HAVE_PIPE2=1 -DNN_HAVE_PIPE=1 -DNN_HAVE_POLL=1 -DNN_HAVE_SEMAPHORE -DNN_HAVE_SEMAPHORE_PTHREAD=1 -DNN_HAVE_SOCKETPAIR=1 -DNN_HAVE_UNIX_SOCKETS=1 -DNN_MAX_SOCKETS=512 -DNN_SHARED_LIB -DNN_USE_EPOLL -DNN_USE_EVENTFD -D_GNU_SOURCE -D_POSIX_PTHREAD_SEMANTICS -D_REENTRANT -D_THREAD_SAFE -Dnanomsg_EXPORTS
@@ -2448,8 +2204,6 @@ build src/CMakeFiles/nanomsg.dir/protocols/pipeline/pull.c.o: C_COMPILER__nanoms
   FLAGS = -Wall -Wextra  -g -fPIC
   OBJECT_DIR = src/CMakeFiles/nanomsg.dir
   OBJECT_FILE_DIR = src/CMakeFiles/nanomsg.dir/protocols/pipeline
-  TARGET_COMPILE_PDB = src/CMakeFiles/nanomsg.dir/
-  TARGET_PDB = libnanomsg.pdb
 
 build src/CMakeFiles/nanomsg.dir/protocols/pipeline/xpull.c.o: C_COMPILER__nanomsg_unscanned_Debug /home/wangzhao/experiments/deneva/utils/nanomsg/src/protocols/pipeline/xpull.c || cmake_object_order_depends_target_nanomsg
   DEFINES = -DNN_HAVE_ACCEPT4=1 -DNN_HAVE_BACKTRACE=1 -DNN_HAVE_CLOCK_GETTIME=1 -DNN_HAVE_CLOCK_MONOTONIC=1 -DNN_HAVE_EPOLL=1 -DNN_HAVE_EVENTFD=1 -DNN_HAVE_GCC_ATOMIC_BUILTINS -DNN_HAVE_GETADDRINFO_A=1 -DNN_HAVE_LIBNSL=1 -DNN_HAVE_LINUX -DNN_HAVE_MSG_CONTROL=1 -DNN_HAVE_PIPE2=1 -DNN_HAVE_PIPE=1 -DNN_HAVE_POLL=1 -DNN_HAVE_SEMAPHORE -DNN_HAVE_SEMAPHORE_PTHREAD=1 -DNN_HAVE_SOCKETPAIR=1 -DNN_HAVE_UNIX_SOCKETS=1 -DNN_MAX_SOCKETS=512 -DNN_SHARED_LIB -DNN_USE_EPOLL -DNN_USE_EVENTFD -D_GNU_SOURCE -D_POSIX_PTHREAD_SEMANTICS -D_REENTRANT -D_THREAD_SAFE -Dnanomsg_EXPORTS
@@ -2457,8 +2211,6 @@ build src/CMakeFiles/nanomsg.dir/protocols/pipeline/xpull.c.o: C_COMPILER__nanom
   FLAGS = -Wall -Wextra  -g -fPIC
   OBJECT_DIR = src/CMakeFiles/nanomsg.dir
   OBJECT_FILE_DIR = src/CMakeFiles/nanomsg.dir/protocols/pipeline
-  TARGET_COMPILE_PDB = src/CMakeFiles/nanomsg.dir/
-  TARGET_PDB = libnanomsg.pdb
 
 build src/CMakeFiles/nanomsg.dir/protocols/pipeline/xpush.c.o: C_COMPILER__nanomsg_unscanned_Debug /home/wangzhao/experiments/deneva/utils/nanomsg/src/protocols/pipeline/xpush.c || cmake_object_order_depends_target_nanomsg
   DEFINES = -DNN_HAVE_ACCEPT4=1 -DNN_HAVE_BACKTRACE=1 -DNN_HAVE_CLOCK_GETTIME=1 -DNN_HAVE_CLOCK_MONOTONIC=1 -DNN_HAVE_EPOLL=1 -DNN_HAVE_EVENTFD=1 -DNN_HAVE_GCC_ATOMIC_BUILTINS -DNN_HAVE_GETADDRINFO_A=1 -DNN_HAVE_LIBNSL=1 -DNN_HAVE_LINUX -DNN_HAVE_MSG_CONTROL=1 -DNN_HAVE_PIPE2=1 -DNN_HAVE_PIPE=1 -DNN_HAVE_POLL=1 -DNN_HAVE_SEMAPHORE -DNN_HAVE_SEMAPHORE_PTHREAD=1 -DNN_HAVE_SOCKETPAIR=1 -DNN_HAVE_UNIX_SOCKETS=1 -DNN_MAX_SOCKETS=512 -DNN_SHARED_LIB -DNN_USE_EPOLL -DNN_USE_EVENTFD -D_GNU_SOURCE -D_POSIX_PTHREAD_SEMANTICS -D_REENTRANT -D_THREAD_SAFE -Dnanomsg_EXPORTS
@@ -2466,8 +2218,6 @@ build src/CMakeFiles/nanomsg.dir/protocols/pipeline/xpush.c.o: C_COMPILER__nanom
   FLAGS = -Wall -Wextra  -g -fPIC
   OBJECT_DIR = src/CMakeFiles/nanomsg.dir
   OBJECT_FILE_DIR = src/CMakeFiles/nanomsg.dir/protocols/pipeline
-  TARGET_COMPILE_PDB = src/CMakeFiles/nanomsg.dir/
-  TARGET_PDB = libnanomsg.pdb
 
 build src/CMakeFiles/nanomsg.dir/protocols/pair/pair.c.o: C_COMPILER__nanomsg_unscanned_Debug /home/wangzhao/experiments/deneva/utils/nanomsg/src/protocols/pair/pair.c || cmake_object_order_depends_target_nanomsg
   DEFINES = -DNN_HAVE_ACCEPT4=1 -DNN_HAVE_BACKTRACE=1 -DNN_HAVE_CLOCK_GETTIME=1 -DNN_HAVE_CLOCK_MONOTONIC=1 -DNN_HAVE_EPOLL=1 -DNN_HAVE_EVENTFD=1 -DNN_HAVE_GCC_ATOMIC_BUILTINS -DNN_HAVE_GETADDRINFO_A=1 -DNN_HAVE_LIBNSL=1 -DNN_HAVE_LINUX -DNN_HAVE_MSG_CONTROL=1 -DNN_HAVE_PIPE2=1 -DNN_HAVE_PIPE=1 -DNN_HAVE_POLL=1 -DNN_HAVE_SEMAPHORE -DNN_HAVE_SEMAPHORE_PTHREAD=1 -DNN_HAVE_SOCKETPAIR=1 -DNN_HAVE_UNIX_SOCKETS=1 -DNN_MAX_SOCKETS=512 -DNN_SHARED_LIB -DNN_USE_EPOLL -DNN_USE_EVENTFD -D_GNU_SOURCE -D_POSIX_PTHREAD_SEMANTICS -D_REENTRANT -D_THREAD_SAFE -Dnanomsg_EXPORTS
@@ -2475,8 +2225,6 @@ build src/CMakeFiles/nanomsg.dir/protocols/pair/pair.c.o: C_COMPILER__nanomsg_un
   FLAGS = -Wall -Wextra  -g -fPIC
   OBJECT_DIR = src/CMakeFiles/nanomsg.dir
   OBJECT_FILE_DIR = src/CMakeFiles/nanomsg.dir/protocols/pair
-  TARGET_COMPILE_PDB = src/CMakeFiles/nanomsg.dir/
-  TARGET_PDB = libnanomsg.pdb
 
 build src/CMakeFiles/nanomsg.dir/protocols/pair/xpair.c.o: C_COMPILER__nanomsg_unscanned_Debug /home/wangzhao/experiments/deneva/utils/nanomsg/src/protocols/pair/xpair.c || cmake_object_order_depends_target_nanomsg
   DEFINES = -DNN_HAVE_ACCEPT4=1 -DNN_HAVE_BACKTRACE=1 -DNN_HAVE_CLOCK_GETTIME=1 -DNN_HAVE_CLOCK_MONOTONIC=1 -DNN_HAVE_EPOLL=1 -DNN_HAVE_EVENTFD=1 -DNN_HAVE_GCC_ATOMIC_BUILTINS -DNN_HAVE_GETADDRINFO_A=1 -DNN_HAVE_LIBNSL=1 -DNN_HAVE_LINUX -DNN_HAVE_MSG_CONTROL=1 -DNN_HAVE_PIPE2=1 -DNN_HAVE_PIPE=1 -DNN_HAVE_POLL=1 -DNN_HAVE_SEMAPHORE -DNN_HAVE_SEMAPHORE_PTHREAD=1 -DNN_HAVE_SOCKETPAIR=1 -DNN_HAVE_UNIX_SOCKETS=1 -DNN_MAX_SOCKETS=512 -DNN_SHARED_LIB -DNN_USE_EPOLL -DNN_USE_EVENTFD -D_GNU_SOURCE -D_POSIX_PTHREAD_SEMANTICS -D_REENTRANT -D_THREAD_SAFE -Dnanomsg_EXPORTS
@@ -2484,8 +2232,6 @@ build src/CMakeFiles/nanomsg.dir/protocols/pair/xpair.c.o: C_COMPILER__nanomsg_u
   FLAGS = -Wall -Wextra  -g -fPIC
   OBJECT_DIR = src/CMakeFiles/nanomsg.dir
   OBJECT_FILE_DIR = src/CMakeFiles/nanomsg.dir/protocols/pair
-  TARGET_COMPILE_PDB = src/CMakeFiles/nanomsg.dir/
-  TARGET_PDB = libnanomsg.pdb
 
 build src/CMakeFiles/nanomsg.dir/protocols/pubsub/pub.c.o: C_COMPILER__nanomsg_unscanned_Debug /home/wangzhao/experiments/deneva/utils/nanomsg/src/protocols/pubsub/pub.c || cmake_object_order_depends_target_nanomsg
   DEFINES = -DNN_HAVE_ACCEPT4=1 -DNN_HAVE_BACKTRACE=1 -DNN_HAVE_CLOCK_GETTIME=1 -DNN_HAVE_CLOCK_MONOTONIC=1 -DNN_HAVE_EPOLL=1 -DNN_HAVE_EVENTFD=1 -DNN_HAVE_GCC_ATOMIC_BUILTINS -DNN_HAVE_GETADDRINFO_A=1 -DNN_HAVE_LIBNSL=1 -DNN_HAVE_LINUX -DNN_HAVE_MSG_CONTROL=1 -DNN_HAVE_PIPE2=1 -DNN_HAVE_PIPE=1 -DNN_HAVE_POLL=1 -DNN_HAVE_SEMAPHORE -DNN_HAVE_SEMAPHORE_PTHREAD=1 -DNN_HAVE_SOCKETPAIR=1 -DNN_HAVE_UNIX_SOCKETS=1 -DNN_MAX_SOCKETS=512 -DNN_SHARED_LIB -DNN_USE_EPOLL -DNN_USE_EVENTFD -D_GNU_SOURCE -D_POSIX_PTHREAD_SEMANTICS -D_REENTRANT -D_THREAD_SAFE -Dnanomsg_EXPORTS
@@ -2493,8 +2239,6 @@ build src/CMakeFiles/nanomsg.dir/protocols/pubsub/pub.c.o: C_COMPILER__nanomsg_u
   FLAGS = -Wall -Wextra  -g -fPIC
   OBJECT_DIR = src/CMakeFiles/nanomsg.dir
   OBJECT_FILE_DIR = src/CMakeFiles/nanomsg.dir/protocols/pubsub
-  TARGET_COMPILE_PDB = src/CMakeFiles/nanomsg.dir/
-  TARGET_PDB = libnanomsg.pdb
 
 build src/CMakeFiles/nanomsg.dir/protocols/pubsub/sub.c.o: C_COMPILER__nanomsg_unscanned_Debug /home/wangzhao/experiments/deneva/utils/nanomsg/src/protocols/pubsub/sub.c || cmake_object_order_depends_target_nanomsg
   DEFINES = -DNN_HAVE_ACCEPT4=1 -DNN_HAVE_BACKTRACE=1 -DNN_HAVE_CLOCK_GETTIME=1 -DNN_HAVE_CLOCK_MONOTONIC=1 -DNN_HAVE_EPOLL=1 -DNN_HAVE_EVENTFD=1 -DNN_HAVE_GCC_ATOMIC_BUILTINS -DNN_HAVE_GETADDRINFO_A=1 -DNN_HAVE_LIBNSL=1 -DNN_HAVE_LINUX -DNN_HAVE_MSG_CONTROL=1 -DNN_HAVE_PIPE2=1 -DNN_HAVE_PIPE=1 -DNN_HAVE_POLL=1 -DNN_HAVE_SEMAPHORE -DNN_HAVE_SEMAPHORE_PTHREAD=1 -DNN_HAVE_SOCKETPAIR=1 -DNN_HAVE_UNIX_SOCKETS=1 -DNN_MAX_SOCKETS=512 -DNN_SHARED_LIB -DNN_USE_EPOLL -DNN_USE_EVENTFD -D_GNU_SOURCE -D_POSIX_PTHREAD_SEMANTICS -D_REENTRANT -D_THREAD_SAFE -Dnanomsg_EXPORTS
@@ -2502,8 +2246,6 @@ build src/CMakeFiles/nanomsg.dir/protocols/pubsub/sub.c.o: C_COMPILER__nanomsg_u
   FLAGS = -Wall -Wextra  -g -fPIC
   OBJECT_DIR = src/CMakeFiles/nanomsg.dir
   OBJECT_FILE_DIR = src/CMakeFiles/nanomsg.dir/protocols/pubsub
-  TARGET_COMPILE_PDB = src/CMakeFiles/nanomsg.dir/
-  TARGET_PDB = libnanomsg.pdb
 
 build src/CMakeFiles/nanomsg.dir/protocols/pubsub/trie.c.o: C_COMPILER__nanomsg_unscanned_Debug /home/wangzhao/experiments/deneva/utils/nanomsg/src/protocols/pubsub/trie.c || cmake_object_order_depends_target_nanomsg
   DEFINES = -DNN_HAVE_ACCEPT4=1 -DNN_HAVE_BACKTRACE=1 -DNN_HAVE_CLOCK_GETTIME=1 -DNN_HAVE_CLOCK_MONOTONIC=1 -DNN_HAVE_EPOLL=1 -DNN_HAVE_EVENTFD=1 -DNN_HAVE_GCC_ATOMIC_BUILTINS -DNN_HAVE_GETADDRINFO_A=1 -DNN_HAVE_LIBNSL=1 -DNN_HAVE_LINUX -DNN_HAVE_MSG_CONTROL=1 -DNN_HAVE_PIPE2=1 -DNN_HAVE_PIPE=1 -DNN_HAVE_POLL=1 -DNN_HAVE_SEMAPHORE -DNN_HAVE_SEMAPHORE_PTHREAD=1 -DNN_HAVE_SOCKETPAIR=1 -DNN_HAVE_UNIX_SOCKETS=1 -DNN_MAX_SOCKETS=512 -DNN_SHARED_LIB -DNN_USE_EPOLL -DNN_USE_EVENTFD -D_GNU_SOURCE -D_POSIX_PTHREAD_SEMANTICS -D_REENTRANT -D_THREAD_SAFE -Dnanomsg_EXPORTS
@@ -2511,8 +2253,6 @@ build src/CMakeFiles/nanomsg.dir/protocols/pubsub/trie.c.o: C_COMPILER__nanomsg_
   FLAGS = -Wall -Wextra  -g -fPIC
   OBJECT_DIR = src/CMakeFiles/nanomsg.dir
   OBJECT_FILE_DIR = src/CMakeFiles/nanomsg.dir/protocols/pubsub
-  TARGET_COMPILE_PDB = src/CMakeFiles/nanomsg.dir/
-  TARGET_PDB = libnanomsg.pdb
 
 build src/CMakeFiles/nanomsg.dir/protocols/pubsub/xpub.c.o: C_COMPILER__nanomsg_unscanned_Debug /home/wangzhao/experiments/deneva/utils/nanomsg/src/protocols/pubsub/xpub.c || cmake_object_order_depends_target_nanomsg
   DEFINES = -DNN_HAVE_ACCEPT4=1 -DNN_HAVE_BACKTRACE=1 -DNN_HAVE_CLOCK_GETTIME=1 -DNN_HAVE_CLOCK_MONOTONIC=1 -DNN_HAVE_EPOLL=1 -DNN_HAVE_EVENTFD=1 -DNN_HAVE_GCC_ATOMIC_BUILTINS -DNN_HAVE_GETADDRINFO_A=1 -DNN_HAVE_LIBNSL=1 -DNN_HAVE_LINUX -DNN_HAVE_MSG_CONTROL=1 -DNN_HAVE_PIPE2=1 -DNN_HAVE_PIPE=1 -DNN_HAVE_POLL=1 -DNN_HAVE_SEMAPHORE -DNN_HAVE_SEMAPHORE_PTHREAD=1 -DNN_HAVE_SOCKETPAIR=1 -DNN_HAVE_UNIX_SOCKETS=1 -DNN_MAX_SOCKETS=512 -DNN_SHARED_LIB -DNN_USE_EPOLL -DNN_USE_EVENTFD -D_GNU_SOURCE -D_POSIX_PTHREAD_SEMANTICS -D_REENTRANT -D_THREAD_SAFE -Dnanomsg_EXPORTS
@@ -2520,8 +2260,6 @@ build src/CMakeFiles/nanomsg.dir/protocols/pubsub/xpub.c.o: C_COMPILER__nanomsg_
   FLAGS = -Wall -Wextra  -g -fPIC
   OBJECT_DIR = src/CMakeFiles/nanomsg.dir
   OBJECT_FILE_DIR = src/CMakeFiles/nanomsg.dir/protocols/pubsub
-  TARGET_COMPILE_PDB = src/CMakeFiles/nanomsg.dir/
-  TARGET_PDB = libnanomsg.pdb
 
 build src/CMakeFiles/nanomsg.dir/protocols/pubsub/xsub.c.o: C_COMPILER__nanomsg_unscanned_Debug /home/wangzhao/experiments/deneva/utils/nanomsg/src/protocols/pubsub/xsub.c || cmake_object_order_depends_target_nanomsg
   DEFINES = -DNN_HAVE_ACCEPT4=1 -DNN_HAVE_BACKTRACE=1 -DNN_HAVE_CLOCK_GETTIME=1 -DNN_HAVE_CLOCK_MONOTONIC=1 -DNN_HAVE_EPOLL=1 -DNN_HAVE_EVENTFD=1 -DNN_HAVE_GCC_ATOMIC_BUILTINS -DNN_HAVE_GETADDRINFO_A=1 -DNN_HAVE_LIBNSL=1 -DNN_HAVE_LINUX -DNN_HAVE_MSG_CONTROL=1 -DNN_HAVE_PIPE2=1 -DNN_HAVE_PIPE=1 -DNN_HAVE_POLL=1 -DNN_HAVE_SEMAPHORE -DNN_HAVE_SEMAPHORE_PTHREAD=1 -DNN_HAVE_SOCKETPAIR=1 -DNN_HAVE_UNIX_SOCKETS=1 -DNN_MAX_SOCKETS=512 -DNN_SHARED_LIB -DNN_USE_EPOLL -DNN_USE_EVENTFD -D_GNU_SOURCE -D_POSIX_PTHREAD_SEMANTICS -D_REENTRANT -D_THREAD_SAFE -Dnanomsg_EXPORTS
@@ -2529,8 +2267,6 @@ build src/CMakeFiles/nanomsg.dir/protocols/pubsub/xsub.c.o: C_COMPILER__nanomsg_
   FLAGS = -Wall -Wextra  -g -fPIC
   OBJECT_DIR = src/CMakeFiles/nanomsg.dir
   OBJECT_FILE_DIR = src/CMakeFiles/nanomsg.dir/protocols/pubsub
-  TARGET_COMPILE_PDB = src/CMakeFiles/nanomsg.dir/
-  TARGET_PDB = libnanomsg.pdb
 
 build src/CMakeFiles/nanomsg.dir/protocols/reqrep/req.c.o: C_COMPILER__nanomsg_unscanned_Debug /home/wangzhao/experiments/deneva/utils/nanomsg/src/protocols/reqrep/req.c || cmake_object_order_depends_target_nanomsg
   DEFINES = -DNN_HAVE_ACCEPT4=1 -DNN_HAVE_BACKTRACE=1 -DNN_HAVE_CLOCK_GETTIME=1 -DNN_HAVE_CLOCK_MONOTONIC=1 -DNN_HAVE_EPOLL=1 -DNN_HAVE_EVENTFD=1 -DNN_HAVE_GCC_ATOMIC_BUILTINS -DNN_HAVE_GETADDRINFO_A=1 -DNN_HAVE_LIBNSL=1 -DNN_HAVE_LINUX -DNN_HAVE_MSG_CONTROL=1 -DNN_HAVE_PIPE2=1 -DNN_HAVE_PIPE=1 -DNN_HAVE_POLL=1 -DNN_HAVE_SEMAPHORE -DNN_HAVE_SEMAPHORE_PTHREAD=1 -DNN_HAVE_SOCKETPAIR=1 -DNN_HAVE_UNIX_SOCKETS=1 -DNN_MAX_SOCKETS=512 -DNN_SHARED_LIB -DNN_USE_EPOLL -DNN_USE_EVENTFD -D_GNU_SOURCE -D_POSIX_PTHREAD_SEMANTICS -D_REENTRANT -D_THREAD_SAFE -Dnanomsg_EXPORTS
@@ -2538,8 +2274,6 @@ build src/CMakeFiles/nanomsg.dir/protocols/reqrep/req.c.o: C_COMPILER__nanomsg_u
   FLAGS = -Wall -Wextra  -g -fPIC
   OBJECT_DIR = src/CMakeFiles/nanomsg.dir
   OBJECT_FILE_DIR = src/CMakeFiles/nanomsg.dir/protocols/reqrep
-  TARGET_COMPILE_PDB = src/CMakeFiles/nanomsg.dir/
-  TARGET_PDB = libnanomsg.pdb
 
 build src/CMakeFiles/nanomsg.dir/protocols/reqrep/rep.c.o: C_COMPILER__nanomsg_unscanned_Debug /home/wangzhao/experiments/deneva/utils/nanomsg/src/protocols/reqrep/rep.c || cmake_object_order_depends_target_nanomsg
   DEFINES = -DNN_HAVE_ACCEPT4=1 -DNN_HAVE_BACKTRACE=1 -DNN_HAVE_CLOCK_GETTIME=1 -DNN_HAVE_CLOCK_MONOTONIC=1 -DNN_HAVE_EPOLL=1 -DNN_HAVE_EVENTFD=1 -DNN_HAVE_GCC_ATOMIC_BUILTINS -DNN_HAVE_GETADDRINFO_A=1 -DNN_HAVE_LIBNSL=1 -DNN_HAVE_LINUX -DNN_HAVE_MSG_CONTROL=1 -DNN_HAVE_PIPE2=1 -DNN_HAVE_PIPE=1 -DNN_HAVE_POLL=1 -DNN_HAVE_SEMAPHORE -DNN_HAVE_SEMAPHORE_PTHREAD=1 -DNN_HAVE_SOCKETPAIR=1 -DNN_HAVE_UNIX_SOCKETS=1 -DNN_MAX_SOCKETS=512 -DNN_SHARED_LIB -DNN_USE_EPOLL -DNN_USE_EVENTFD -D_GNU_SOURCE -D_POSIX_PTHREAD_SEMANTICS -D_REENTRANT -D_THREAD_SAFE -Dnanomsg_EXPORTS
@@ -2547,8 +2281,6 @@ build src/CMakeFiles/nanomsg.dir/protocols/reqrep/rep.c.o: C_COMPILER__nanomsg_u
   FLAGS = -Wall -Wextra  -g -fPIC
   OBJECT_DIR = src/CMakeFiles/nanomsg.dir
   OBJECT_FILE_DIR = src/CMakeFiles/nanomsg.dir/protocols/reqrep
-  TARGET_COMPILE_PDB = src/CMakeFiles/nanomsg.dir/
-  TARGET_PDB = libnanomsg.pdb
 
 build src/CMakeFiles/nanomsg.dir/protocols/reqrep/task.c.o: C_COMPILER__nanomsg_unscanned_Debug /home/wangzhao/experiments/deneva/utils/nanomsg/src/protocols/reqrep/task.c || cmake_object_order_depends_target_nanomsg
   DEFINES = -DNN_HAVE_ACCEPT4=1 -DNN_HAVE_BACKTRACE=1 -DNN_HAVE_CLOCK_GETTIME=1 -DNN_HAVE_CLOCK_MONOTONIC=1 -DNN_HAVE_EPOLL=1 -DNN_HAVE_EVENTFD=1 -DNN_HAVE_GCC_ATOMIC_BUILTINS -DNN_HAVE_GETADDRINFO_A=1 -DNN_HAVE_LIBNSL=1 -DNN_HAVE_LINUX -DNN_HAVE_MSG_CONTROL=1 -DNN_HAVE_PIPE2=1 -DNN_HAVE_PIPE=1 -DNN_HAVE_POLL=1 -DNN_HAVE_SEMAPHORE -DNN_HAVE_SEMAPHORE_PTHREAD=1 -DNN_HAVE_SOCKETPAIR=1 -DNN_HAVE_UNIX_SOCKETS=1 -DNN_MAX_SOCKETS=512 -DNN_SHARED_LIB -DNN_USE_EPOLL -DNN_USE_EVENTFD -D_GNU_SOURCE -D_POSIX_PTHREAD_SEMANTICS -D_REENTRANT -D_THREAD_SAFE -Dnanomsg_EXPORTS
@@ -2556,8 +2288,6 @@ build src/CMakeFiles/nanomsg.dir/protocols/reqrep/task.c.o: C_COMPILER__nanomsg_
   FLAGS = -Wall -Wextra  -g -fPIC
   OBJECT_DIR = src/CMakeFiles/nanomsg.dir
   OBJECT_FILE_DIR = src/CMakeFiles/nanomsg.dir/protocols/reqrep
-  TARGET_COMPILE_PDB = src/CMakeFiles/nanomsg.dir/
-  TARGET_PDB = libnanomsg.pdb
 
 build src/CMakeFiles/nanomsg.dir/protocols/reqrep/xrep.c.o: C_COMPILER__nanomsg_unscanned_Debug /home/wangzhao/experiments/deneva/utils/nanomsg/src/protocols/reqrep/xrep.c || cmake_object_order_depends_target_nanomsg
   DEFINES = -DNN_HAVE_ACCEPT4=1 -DNN_HAVE_BACKTRACE=1 -DNN_HAVE_CLOCK_GETTIME=1 -DNN_HAVE_CLOCK_MONOTONIC=1 -DNN_HAVE_EPOLL=1 -DNN_HAVE_EVENTFD=1 -DNN_HAVE_GCC_ATOMIC_BUILTINS -DNN_HAVE_GETADDRINFO_A=1 -DNN_HAVE_LIBNSL=1 -DNN_HAVE_LINUX -DNN_HAVE_MSG_CONTROL=1 -DNN_HAVE_PIPE2=1 -DNN_HAVE_PIPE=1 -DNN_HAVE_POLL=1 -DNN_HAVE_SEMAPHORE -DNN_HAVE_SEMAPHORE_PTHREAD=1 -DNN_HAVE_SOCKETPAIR=1 -DNN_HAVE_UNIX_SOCKETS=1 -DNN_MAX_SOCKETS=512 -DNN_SHARED_LIB -DNN_USE_EPOLL -DNN_USE_EVENTFD -D_GNU_SOURCE -D_POSIX_PTHREAD_SEMANTICS -D_REENTRANT -D_THREAD_SAFE -Dnanomsg_EXPORTS
@@ -2565,8 +2295,6 @@ build src/CMakeFiles/nanomsg.dir/protocols/reqrep/xrep.c.o: C_COMPILER__nanomsg_
   FLAGS = -Wall -Wextra  -g -fPIC
   OBJECT_DIR = src/CMakeFiles/nanomsg.dir
   OBJECT_FILE_DIR = src/CMakeFiles/nanomsg.dir/protocols/reqrep
-  TARGET_COMPILE_PDB = src/CMakeFiles/nanomsg.dir/
-  TARGET_PDB = libnanomsg.pdb
 
 build src/CMakeFiles/nanomsg.dir/protocols/reqrep/xreq.c.o: C_COMPILER__nanomsg_unscanned_Debug /home/wangzhao/experiments/deneva/utils/nanomsg/src/protocols/reqrep/xreq.c || cmake_object_order_depends_target_nanomsg
   DEFINES = -DNN_HAVE_ACCEPT4=1 -DNN_HAVE_BACKTRACE=1 -DNN_HAVE_CLOCK_GETTIME=1 -DNN_HAVE_CLOCK_MONOTONIC=1 -DNN_HAVE_EPOLL=1 -DNN_HAVE_EVENTFD=1 -DNN_HAVE_GCC_ATOMIC_BUILTINS -DNN_HAVE_GETADDRINFO_A=1 -DNN_HAVE_LIBNSL=1 -DNN_HAVE_LINUX -DNN_HAVE_MSG_CONTROL=1 -DNN_HAVE_PIPE2=1 -DNN_HAVE_PIPE=1 -DNN_HAVE_POLL=1 -DNN_HAVE_SEMAPHORE -DNN_HAVE_SEMAPHORE_PTHREAD=1 -DNN_HAVE_SOCKETPAIR=1 -DNN_HAVE_UNIX_SOCKETS=1 -DNN_MAX_SOCKETS=512 -DNN_SHARED_LIB -DNN_USE_EPOLL -DNN_USE_EVENTFD -D_GNU_SOURCE -D_POSIX_PTHREAD_SEMANTICS -D_REENTRANT -D_THREAD_SAFE -Dnanomsg_EXPORTS
@@ -2574,8 +2302,6 @@ build src/CMakeFiles/nanomsg.dir/protocols/reqrep/xreq.c.o: C_COMPILER__nanomsg_
   FLAGS = -Wall -Wextra  -g -fPIC
   OBJECT_DIR = src/CMakeFiles/nanomsg.dir
   OBJECT_FILE_DIR = src/CMakeFiles/nanomsg.dir/protocols/reqrep
-  TARGET_COMPILE_PDB = src/CMakeFiles/nanomsg.dir/
-  TARGET_PDB = libnanomsg.pdb
 
 build src/CMakeFiles/nanomsg.dir/protocols/survey/respondent.c.o: C_COMPILER__nanomsg_unscanned_Debug /home/wangzhao/experiments/deneva/utils/nanomsg/src/protocols/survey/respondent.c || cmake_object_order_depends_target_nanomsg
   DEFINES = -DNN_HAVE_ACCEPT4=1 -DNN_HAVE_BACKTRACE=1 -DNN_HAVE_CLOCK_GETTIME=1 -DNN_HAVE_CLOCK_MONOTONIC=1 -DNN_HAVE_EPOLL=1 -DNN_HAVE_EVENTFD=1 -DNN_HAVE_GCC_ATOMIC_BUILTINS -DNN_HAVE_GETADDRINFO_A=1 -DNN_HAVE_LIBNSL=1 -DNN_HAVE_LINUX -DNN_HAVE_MSG_CONTROL=1 -DNN_HAVE_PIPE2=1 -DNN_HAVE_PIPE=1 -DNN_HAVE_POLL=1 -DNN_HAVE_SEMAPHORE -DNN_HAVE_SEMAPHORE_PTHREAD=1 -DNN_HAVE_SOCKETPAIR=1 -DNN_HAVE_UNIX_SOCKETS=1 -DNN_MAX_SOCKETS=512 -DNN_SHARED_LIB -DNN_USE_EPOLL -DNN_USE_EVENTFD -D_GNU_SOURCE -D_POSIX_PTHREAD_SEMANTICS -D_REENTRANT -D_THREAD_SAFE -Dnanomsg_EXPORTS
@@ -2583,8 +2309,6 @@ build src/CMakeFiles/nanomsg.dir/protocols/survey/respondent.c.o: C_COMPILER__na
   FLAGS = -Wall -Wextra  -g -fPIC
   OBJECT_DIR = src/CMakeFiles/nanomsg.dir
   OBJECT_FILE_DIR = src/CMakeFiles/nanomsg.dir/protocols/survey
-  TARGET_COMPILE_PDB = src/CMakeFiles/nanomsg.dir/
-  TARGET_PDB = libnanomsg.pdb
 
 build src/CMakeFiles/nanomsg.dir/protocols/survey/surveyor.c.o: C_COMPILER__nanomsg_unscanned_Debug /home/wangzhao/experiments/deneva/utils/nanomsg/src/protocols/survey/surveyor.c || cmake_object_order_depends_target_nanomsg
   DEFINES = -DNN_HAVE_ACCEPT4=1 -DNN_HAVE_BACKTRACE=1 -DNN_HAVE_CLOCK_GETTIME=1 -DNN_HAVE_CLOCK_MONOTONIC=1 -DNN_HAVE_EPOLL=1 -DNN_HAVE_EVENTFD=1 -DNN_HAVE_GCC_ATOMIC_BUILTINS -DNN_HAVE_GETADDRINFO_A=1 -DNN_HAVE_LIBNSL=1 -DNN_HAVE_LINUX -DNN_HAVE_MSG_CONTROL=1 -DNN_HAVE_PIPE2=1 -DNN_HAVE_PIPE=1 -DNN_HAVE_POLL=1 -DNN_HAVE_SEMAPHORE -DNN_HAVE_SEMAPHORE_PTHREAD=1 -DNN_HAVE_SOCKETPAIR=1 -DNN_HAVE_UNIX_SOCKETS=1 -DNN_MAX_SOCKETS=512 -DNN_SHARED_LIB -DNN_USE_EPOLL -DNN_USE_EVENTFD -D_GNU_SOURCE -D_POSIX_PTHREAD_SEMANTICS -D_REENTRANT -D_THREAD_SAFE -Dnanomsg_EXPORTS
@@ -2592,8 +2316,6 @@ build src/CMakeFiles/nanomsg.dir/protocols/survey/surveyor.c.o: C_COMPILER__nano
   FLAGS = -Wall -Wextra  -g -fPIC
   OBJECT_DIR = src/CMakeFiles/nanomsg.dir
   OBJECT_FILE_DIR = src/CMakeFiles/nanomsg.dir/protocols/survey
-  TARGET_COMPILE_PDB = src/CMakeFiles/nanomsg.dir/
-  TARGET_PDB = libnanomsg.pdb
 
 build src/CMakeFiles/nanomsg.dir/protocols/survey/xrespondent.c.o: C_COMPILER__nanomsg_unscanned_Debug /home/wangzhao/experiments/deneva/utils/nanomsg/src/protocols/survey/xrespondent.c || cmake_object_order_depends_target_nanomsg
   DEFINES = -DNN_HAVE_ACCEPT4=1 -DNN_HAVE_BACKTRACE=1 -DNN_HAVE_CLOCK_GETTIME=1 -DNN_HAVE_CLOCK_MONOTONIC=1 -DNN_HAVE_EPOLL=1 -DNN_HAVE_EVENTFD=1 -DNN_HAVE_GCC_ATOMIC_BUILTINS -DNN_HAVE_GETADDRINFO_A=1 -DNN_HAVE_LIBNSL=1 -DNN_HAVE_LINUX -DNN_HAVE_MSG_CONTROL=1 -DNN_HAVE_PIPE2=1 -DNN_HAVE_PIPE=1 -DNN_HAVE_POLL=1 -DNN_HAVE_SEMAPHORE -DNN_HAVE_SEMAPHORE_PTHREAD=1 -DNN_HAVE_SOCKETPAIR=1 -DNN_HAVE_UNIX_SOCKETS=1 -DNN_MAX_SOCKETS=512 -DNN_SHARED_LIB -DNN_USE_EPOLL -DNN_USE_EVENTFD -D_GNU_SOURCE -D_POSIX_PTHREAD_SEMANTICS -D_REENTRANT -D_THREAD_SAFE -Dnanomsg_EXPORTS
@@ -2601,8 +2323,6 @@ build src/CMakeFiles/nanomsg.dir/protocols/survey/xrespondent.c.o: C_COMPILER__n
   FLAGS = -Wall -Wextra  -g -fPIC
   OBJECT_DIR = src/CMakeFiles/nanomsg.dir
   OBJECT_FILE_DIR = src/CMakeFiles/nanomsg.dir/protocols/survey
-  TARGET_COMPILE_PDB = src/CMakeFiles/nanomsg.dir/
-  TARGET_PDB = libnanomsg.pdb
 
 build src/CMakeFiles/nanomsg.dir/protocols/survey/xsurveyor.c.o: C_COMPILER__nanomsg_unscanned_Debug /home/wangzhao/experiments/deneva/utils/nanomsg/src/protocols/survey/xsurveyor.c || cmake_object_order_depends_target_nanomsg
   DEFINES = -DNN_HAVE_ACCEPT4=1 -DNN_HAVE_BACKTRACE=1 -DNN_HAVE_CLOCK_GETTIME=1 -DNN_HAVE_CLOCK_MONOTONIC=1 -DNN_HAVE_EPOLL=1 -DNN_HAVE_EVENTFD=1 -DNN_HAVE_GCC_ATOMIC_BUILTINS -DNN_HAVE_GETADDRINFO_A=1 -DNN_HAVE_LIBNSL=1 -DNN_HAVE_LINUX -DNN_HAVE_MSG_CONTROL=1 -DNN_HAVE_PIPE2=1 -DNN_HAVE_PIPE=1 -DNN_HAVE_POLL=1 -DNN_HAVE_SEMAPHORE -DNN_HAVE_SEMAPHORE_PTHREAD=1 -DNN_HAVE_SOCKETPAIR=1 -DNN_HAVE_UNIX_SOCKETS=1 -DNN_MAX_SOCKETS=512 -DNN_SHARED_LIB -DNN_USE_EPOLL -DNN_USE_EVENTFD -D_GNU_SOURCE -D_POSIX_PTHREAD_SEMANTICS -D_REENTRANT -D_THREAD_SAFE -Dnanomsg_EXPORTS
@@ -2610,8 +2330,6 @@ build src/CMakeFiles/nanomsg.dir/protocols/survey/xsurveyor.c.o: C_COMPILER__nan
   FLAGS = -Wall -Wextra  -g -fPIC
   OBJECT_DIR = src/CMakeFiles/nanomsg.dir
   OBJECT_FILE_DIR = src/CMakeFiles/nanomsg.dir/protocols/survey
-  TARGET_COMPILE_PDB = src/CMakeFiles/nanomsg.dir/
-  TARGET_PDB = libnanomsg.pdb
 
 build src/CMakeFiles/nanomsg.dir/transports/utils/backoff.c.o: C_COMPILER__nanomsg_unscanned_Debug /home/wangzhao/experiments/deneva/utils/nanomsg/src/transports/utils/backoff.c || cmake_object_order_depends_target_nanomsg
   DEFINES = -DNN_HAVE_ACCEPT4=1 -DNN_HAVE_BACKTRACE=1 -DNN_HAVE_CLOCK_GETTIME=1 -DNN_HAVE_CLOCK_MONOTONIC=1 -DNN_HAVE_EPOLL=1 -DNN_HAVE_EVENTFD=1 -DNN_HAVE_GCC_ATOMIC_BUILTINS -DNN_HAVE_GETADDRINFO_A=1 -DNN_HAVE_LIBNSL=1 -DNN_HAVE_LINUX -DNN_HAVE_MSG_CONTROL=1 -DNN_HAVE_PIPE2=1 -DNN_HAVE_PIPE=1 -DNN_HAVE_POLL=1 -DNN_HAVE_SEMAPHORE -DNN_HAVE_SEMAPHORE_PTHREAD=1 -DNN_HAVE_SOCKETPAIR=1 -DNN_HAVE_UNIX_SOCKETS=1 -DNN_MAX_SOCKETS=512 -DNN_SHARED_LIB -DNN_USE_EPOLL -DNN_USE_EVENTFD -D_GNU_SOURCE -D_POSIX_PTHREAD_SEMANTICS -D_REENTRANT -D_THREAD_SAFE -Dnanomsg_EXPORTS
@@ -2619,8 +2337,6 @@ build src/CMakeFiles/nanomsg.dir/transports/utils/backoff.c.o: C_COMPILER__nanom
   FLAGS = -Wall -Wextra  -g -fPIC
   OBJECT_DIR = src/CMakeFiles/nanomsg.dir
   OBJECT_FILE_DIR = src/CMakeFiles/nanomsg.dir/transports/utils
-  TARGET_COMPILE_PDB = src/CMakeFiles/nanomsg.dir/
-  TARGET_PDB = libnanomsg.pdb
 
 build src/CMakeFiles/nanomsg.dir/transports/utils/dns.c.o: C_COMPILER__nanomsg_unscanned_Debug /home/wangzhao/experiments/deneva/utils/nanomsg/src/transports/utils/dns.c || cmake_object_order_depends_target_nanomsg
   DEFINES = -DNN_HAVE_ACCEPT4=1 -DNN_HAVE_BACKTRACE=1 -DNN_HAVE_CLOCK_GETTIME=1 -DNN_HAVE_CLOCK_MONOTONIC=1 -DNN_HAVE_EPOLL=1 -DNN_HAVE_EVENTFD=1 -DNN_HAVE_GCC_ATOMIC_BUILTINS -DNN_HAVE_GETADDRINFO_A=1 -DNN_HAVE_LIBNSL=1 -DNN_HAVE_LINUX -DNN_HAVE_MSG_CONTROL=1 -DNN_HAVE_PIPE2=1 -DNN_HAVE_PIPE=1 -DNN_HAVE_POLL=1 -DNN_HAVE_SEMAPHORE -DNN_HAVE_SEMAPHORE_PTHREAD=1 -DNN_HAVE_SOCKETPAIR=1 -DNN_HAVE_UNIX_SOCKETS=1 -DNN_MAX_SOCKETS=512 -DNN_SHARED_LIB -DNN_USE_EPOLL -DNN_USE_EVENTFD -D_GNU_SOURCE -D_POSIX_PTHREAD_SEMANTICS -D_REENTRANT -D_THREAD_SAFE -Dnanomsg_EXPORTS
@@ -2628,8 +2344,6 @@ build src/CMakeFiles/nanomsg.dir/transports/utils/dns.c.o: C_COMPILER__nanomsg_u
   FLAGS = -Wall -Wextra  -g -fPIC
   OBJECT_DIR = src/CMakeFiles/nanomsg.dir
   OBJECT_FILE_DIR = src/CMakeFiles/nanomsg.dir/transports/utils
-  TARGET_COMPILE_PDB = src/CMakeFiles/nanomsg.dir/
-  TARGET_PDB = libnanomsg.pdb
 
 build src/CMakeFiles/nanomsg.dir/transports/utils/iface.c.o: C_COMPILER__nanomsg_unscanned_Debug /home/wangzhao/experiments/deneva/utils/nanomsg/src/transports/utils/iface.c || cmake_object_order_depends_target_nanomsg
   DEFINES = -DNN_HAVE_ACCEPT4=1 -DNN_HAVE_BACKTRACE=1 -DNN_HAVE_CLOCK_GETTIME=1 -DNN_HAVE_CLOCK_MONOTONIC=1 -DNN_HAVE_EPOLL=1 -DNN_HAVE_EVENTFD=1 -DNN_HAVE_GCC_ATOMIC_BUILTINS -DNN_HAVE_GETADDRINFO_A=1 -DNN_HAVE_LIBNSL=1 -DNN_HAVE_LINUX -DNN_HAVE_MSG_CONTROL=1 -DNN_HAVE_PIPE2=1 -DNN_HAVE_PIPE=1 -DNN_HAVE_POLL=1 -DNN_HAVE_SEMAPHORE -DNN_HAVE_SEMAPHORE_PTHREAD=1 -DNN_HAVE_SOCKETPAIR=1 -DNN_HAVE_UNIX_SOCKETS=1 -DNN_MAX_SOCKETS=512 -DNN_SHARED_LIB -DNN_USE_EPOLL -DNN_USE_EVENTFD -D_GNU_SOURCE -D_POSIX_PTHREAD_SEMANTICS -D_REENTRANT -D_THREAD_SAFE -Dnanomsg_EXPORTS
@@ -2637,8 +2351,6 @@ build src/CMakeFiles/nanomsg.dir/transports/utils/iface.c.o: C_COMPILER__nanomsg
   FLAGS = -Wall -Wextra  -g -fPIC
   OBJECT_DIR = src/CMakeFiles/nanomsg.dir
   OBJECT_FILE_DIR = src/CMakeFiles/nanomsg.dir/transports/utils
-  TARGET_COMPILE_PDB = src/CMakeFiles/nanomsg.dir/
-  TARGET_PDB = libnanomsg.pdb
 
 build src/CMakeFiles/nanomsg.dir/transports/utils/literal.c.o: C_COMPILER__nanomsg_unscanned_Debug /home/wangzhao/experiments/deneva/utils/nanomsg/src/transports/utils/literal.c || cmake_object_order_depends_target_nanomsg
   DEFINES = -DNN_HAVE_ACCEPT4=1 -DNN_HAVE_BACKTRACE=1 -DNN_HAVE_CLOCK_GETTIME=1 -DNN_HAVE_CLOCK_MONOTONIC=1 -DNN_HAVE_EPOLL=1 -DNN_HAVE_EVENTFD=1 -DNN_HAVE_GCC_ATOMIC_BUILTINS -DNN_HAVE_GETADDRINFO_A=1 -DNN_HAVE_LIBNSL=1 -DNN_HAVE_LINUX -DNN_HAVE_MSG_CONTROL=1 -DNN_HAVE_PIPE2=1 -DNN_HAVE_PIPE=1 -DNN_HAVE_POLL=1 -DNN_HAVE_SEMAPHORE -DNN_HAVE_SEMAPHORE_PTHREAD=1 -DNN_HAVE_SOCKETPAIR=1 -DNN_HAVE_UNIX_SOCKETS=1 -DNN_MAX_SOCKETS=512 -DNN_SHARED_LIB -DNN_USE_EPOLL -DNN_USE_EVENTFD -D_GNU_SOURCE -D_POSIX_PTHREAD_SEMANTICS -D_REENTRANT -D_THREAD_SAFE -Dnanomsg_EXPORTS
@@ -2646,8 +2358,6 @@ build src/CMakeFiles/nanomsg.dir/transports/utils/literal.c.o: C_COMPILER__nanom
   FLAGS = -Wall -Wextra  -g -fPIC
   OBJECT_DIR = src/CMakeFiles/nanomsg.dir
   OBJECT_FILE_DIR = src/CMakeFiles/nanomsg.dir/transports/utils
-  TARGET_COMPILE_PDB = src/CMakeFiles/nanomsg.dir/
-  TARGET_PDB = libnanomsg.pdb
 
 build src/CMakeFiles/nanomsg.dir/transports/utils/port.c.o: C_COMPILER__nanomsg_unscanned_Debug /home/wangzhao/experiments/deneva/utils/nanomsg/src/transports/utils/port.c || cmake_object_order_depends_target_nanomsg
   DEFINES = -DNN_HAVE_ACCEPT4=1 -DNN_HAVE_BACKTRACE=1 -DNN_HAVE_CLOCK_GETTIME=1 -DNN_HAVE_CLOCK_MONOTONIC=1 -DNN_HAVE_EPOLL=1 -DNN_HAVE_EVENTFD=1 -DNN_HAVE_GCC_ATOMIC_BUILTINS -DNN_HAVE_GETADDRINFO_A=1 -DNN_HAVE_LIBNSL=1 -DNN_HAVE_LINUX -DNN_HAVE_MSG_CONTROL=1 -DNN_HAVE_PIPE2=1 -DNN_HAVE_PIPE=1 -DNN_HAVE_POLL=1 -DNN_HAVE_SEMAPHORE -DNN_HAVE_SEMAPHORE_PTHREAD=1 -DNN_HAVE_SOCKETPAIR=1 -DNN_HAVE_UNIX_SOCKETS=1 -DNN_MAX_SOCKETS=512 -DNN_SHARED_LIB -DNN_USE_EPOLL -DNN_USE_EVENTFD -D_GNU_SOURCE -D_POSIX_PTHREAD_SEMANTICS -D_REENTRANT -D_THREAD_SAFE -Dnanomsg_EXPORTS
@@ -2655,8 +2365,6 @@ build src/CMakeFiles/nanomsg.dir/transports/utils/port.c.o: C_COMPILER__nanomsg_
   FLAGS = -Wall -Wextra  -g -fPIC
   OBJECT_DIR = src/CMakeFiles/nanomsg.dir
   OBJECT_FILE_DIR = src/CMakeFiles/nanomsg.dir/transports/utils
-  TARGET_COMPILE_PDB = src/CMakeFiles/nanomsg.dir/
-  TARGET_PDB = libnanomsg.pdb
 
 build src/CMakeFiles/nanomsg.dir/transports/utils/streamhdr.c.o: C_COMPILER__nanomsg_unscanned_Debug /home/wangzhao/experiments/deneva/utils/nanomsg/src/transports/utils/streamhdr.c || cmake_object_order_depends_target_nanomsg
   DEFINES = -DNN_HAVE_ACCEPT4=1 -DNN_HAVE_BACKTRACE=1 -DNN_HAVE_CLOCK_GETTIME=1 -DNN_HAVE_CLOCK_MONOTONIC=1 -DNN_HAVE_EPOLL=1 -DNN_HAVE_EVENTFD=1 -DNN_HAVE_GCC_ATOMIC_BUILTINS -DNN_HAVE_GETADDRINFO_A=1 -DNN_HAVE_LIBNSL=1 -DNN_HAVE_LINUX -DNN_HAVE_MSG_CONTROL=1 -DNN_HAVE_PIPE2=1 -DNN_HAVE_PIPE=1 -DNN_HAVE_POLL=1 -DNN_HAVE_SEMAPHORE -DNN_HAVE_SEMAPHORE_PTHREAD=1 -DNN_HAVE_SOCKETPAIR=1 -DNN_HAVE_UNIX_SOCKETS=1 -DNN_MAX_SOCKETS=512 -DNN_SHARED_LIB -DNN_USE_EPOLL -DNN_USE_EVENTFD -D_GNU_SOURCE -D_POSIX_PTHREAD_SEMANTICS -D_REENTRANT -D_THREAD_SAFE -Dnanomsg_EXPORTS
@@ -2664,8 +2372,6 @@ build src/CMakeFiles/nanomsg.dir/transports/utils/streamhdr.c.o: C_COMPILER__nan
   FLAGS = -Wall -Wextra  -g -fPIC
   OBJECT_DIR = src/CMakeFiles/nanomsg.dir
   OBJECT_FILE_DIR = src/CMakeFiles/nanomsg.dir/transports/utils
-  TARGET_COMPILE_PDB = src/CMakeFiles/nanomsg.dir/
-  TARGET_PDB = libnanomsg.pdb
 
 build src/CMakeFiles/nanomsg.dir/transports/utils/base64.c.o: C_COMPILER__nanomsg_unscanned_Debug /home/wangzhao/experiments/deneva/utils/nanomsg/src/transports/utils/base64.c || cmake_object_order_depends_target_nanomsg
   DEFINES = -DNN_HAVE_ACCEPT4=1 -DNN_HAVE_BACKTRACE=1 -DNN_HAVE_CLOCK_GETTIME=1 -DNN_HAVE_CLOCK_MONOTONIC=1 -DNN_HAVE_EPOLL=1 -DNN_HAVE_EVENTFD=1 -DNN_HAVE_GCC_ATOMIC_BUILTINS -DNN_HAVE_GETADDRINFO_A=1 -DNN_HAVE_LIBNSL=1 -DNN_HAVE_LINUX -DNN_HAVE_MSG_CONTROL=1 -DNN_HAVE_PIPE2=1 -DNN_HAVE_PIPE=1 -DNN_HAVE_POLL=1 -DNN_HAVE_SEMAPHORE -DNN_HAVE_SEMAPHORE_PTHREAD=1 -DNN_HAVE_SOCKETPAIR=1 -DNN_HAVE_UNIX_SOCKETS=1 -DNN_MAX_SOCKETS=512 -DNN_SHARED_LIB -DNN_USE_EPOLL -DNN_USE_EVENTFD -D_GNU_SOURCE -D_POSIX_PTHREAD_SEMANTICS -D_REENTRANT -D_THREAD_SAFE -Dnanomsg_EXPORTS
@@ -2673,8 +2379,6 @@ build src/CMakeFiles/nanomsg.dir/transports/utils/base64.c.o: C_COMPILER__nanoms
   FLAGS = -Wall -Wextra  -g -fPIC
   OBJECT_DIR = src/CMakeFiles/nanomsg.dir
   OBJECT_FILE_DIR = src/CMakeFiles/nanomsg.dir/transports/utils
-  TARGET_COMPILE_PDB = src/CMakeFiles/nanomsg.dir/
-  TARGET_PDB = libnanomsg.pdb
 
 build src/CMakeFiles/nanomsg.dir/transports/inproc/binproc.c.o: C_COMPILER__nanomsg_unscanned_Debug /home/wangzhao/experiments/deneva/utils/nanomsg/src/transports/inproc/binproc.c || cmake_object_order_depends_target_nanomsg
   DEFINES = -DNN_HAVE_ACCEPT4=1 -DNN_HAVE_BACKTRACE=1 -DNN_HAVE_CLOCK_GETTIME=1 -DNN_HAVE_CLOCK_MONOTONIC=1 -DNN_HAVE_EPOLL=1 -DNN_HAVE_EVENTFD=1 -DNN_HAVE_GCC_ATOMIC_BUILTINS -DNN_HAVE_GETADDRINFO_A=1 -DNN_HAVE_LIBNSL=1 -DNN_HAVE_LINUX -DNN_HAVE_MSG_CONTROL=1 -DNN_HAVE_PIPE2=1 -DNN_HAVE_PIPE=1 -DNN_HAVE_POLL=1 -DNN_HAVE_SEMAPHORE -DNN_HAVE_SEMAPHORE_PTHREAD=1 -DNN_HAVE_SOCKETPAIR=1 -DNN_HAVE_UNIX_SOCKETS=1 -DNN_MAX_SOCKETS=512 -DNN_SHARED_LIB -DNN_USE_EPOLL -DNN_USE_EVENTFD -D_GNU_SOURCE -D_POSIX_PTHREAD_SEMANTICS -D_REENTRANT -D_THREAD_SAFE -Dnanomsg_EXPORTS
@@ -2682,8 +2386,6 @@ build src/CMakeFiles/nanomsg.dir/transports/inproc/binproc.c.o: C_COMPILER__nano
   FLAGS = -Wall -Wextra  -g -fPIC
   OBJECT_DIR = src/CMakeFiles/nanomsg.dir
   OBJECT_FILE_DIR = src/CMakeFiles/nanomsg.dir/transports/inproc
-  TARGET_COMPILE_PDB = src/CMakeFiles/nanomsg.dir/
-  TARGET_PDB = libnanomsg.pdb
 
 build src/CMakeFiles/nanomsg.dir/transports/inproc/cinproc.c.o: C_COMPILER__nanomsg_unscanned_Debug /home/wangzhao/experiments/deneva/utils/nanomsg/src/transports/inproc/cinproc.c || cmake_object_order_depends_target_nanomsg
   DEFINES = -DNN_HAVE_ACCEPT4=1 -DNN_HAVE_BACKTRACE=1 -DNN_HAVE_CLOCK_GETTIME=1 -DNN_HAVE_CLOCK_MONOTONIC=1 -DNN_HAVE_EPOLL=1 -DNN_HAVE_EVENTFD=1 -DNN_HAVE_GCC_ATOMIC_BUILTINS -DNN_HAVE_GETADDRINFO_A=1 -DNN_HAVE_LIBNSL=1 -DNN_HAVE_LINUX -DNN_HAVE_MSG_CONTROL=1 -DNN_HAVE_PIPE2=1 -DNN_HAVE_PIPE=1 -DNN_HAVE_POLL=1 -DNN_HAVE_SEMAPHORE -DNN_HAVE_SEMAPHORE_PTHREAD=1 -DNN_HAVE_SOCKETPAIR=1 -DNN_HAVE_UNIX_SOCKETS=1 -DNN_MAX_SOCKETS=512 -DNN_SHARED_LIB -DNN_USE_EPOLL -DNN_USE_EVENTFD -D_GNU_SOURCE -D_POSIX_PTHREAD_SEMANTICS -D_REENTRANT -D_THREAD_SAFE -Dnanomsg_EXPORTS
@@ -2691,8 +2393,6 @@ build src/CMakeFiles/nanomsg.dir/transports/inproc/cinproc.c.o: C_COMPILER__nano
   FLAGS = -Wall -Wextra  -g -fPIC
   OBJECT_DIR = src/CMakeFiles/nanomsg.dir
   OBJECT_FILE_DIR = src/CMakeFiles/nanomsg.dir/transports/inproc
-  TARGET_COMPILE_PDB = src/CMakeFiles/nanomsg.dir/
-  TARGET_PDB = libnanomsg.pdb
 
 build src/CMakeFiles/nanomsg.dir/transports/inproc/inproc.c.o: C_COMPILER__nanomsg_unscanned_Debug /home/wangzhao/experiments/deneva/utils/nanomsg/src/transports/inproc/inproc.c || cmake_object_order_depends_target_nanomsg
   DEFINES = -DNN_HAVE_ACCEPT4=1 -DNN_HAVE_BACKTRACE=1 -DNN_HAVE_CLOCK_GETTIME=1 -DNN_HAVE_CLOCK_MONOTONIC=1 -DNN_HAVE_EPOLL=1 -DNN_HAVE_EVENTFD=1 -DNN_HAVE_GCC_ATOMIC_BUILTINS -DNN_HAVE_GETADDRINFO_A=1 -DNN_HAVE_LIBNSL=1 -DNN_HAVE_LINUX -DNN_HAVE_MSG_CONTROL=1 -DNN_HAVE_PIPE2=1 -DNN_HAVE_PIPE=1 -DNN_HAVE_POLL=1 -DNN_HAVE_SEMAPHORE -DNN_HAVE_SEMAPHORE_PTHREAD=1 -DNN_HAVE_SOCKETPAIR=1 -DNN_HAVE_UNIX_SOCKETS=1 -DNN_MAX_SOCKETS=512 -DNN_SHARED_LIB -DNN_USE_EPOLL -DNN_USE_EVENTFD -D_GNU_SOURCE -D_POSIX_PTHREAD_SEMANTICS -D_REENTRANT -D_THREAD_SAFE -Dnanomsg_EXPORTS
@@ -2700,8 +2400,6 @@ build src/CMakeFiles/nanomsg.dir/transports/inproc/inproc.c.o: C_COMPILER__nanom
   FLAGS = -Wall -Wextra  -g -fPIC
   OBJECT_DIR = src/CMakeFiles/nanomsg.dir
   OBJECT_FILE_DIR = src/CMakeFiles/nanomsg.dir/transports/inproc
-  TARGET_COMPILE_PDB = src/CMakeFiles/nanomsg.dir/
-  TARGET_PDB = libnanomsg.pdb
 
 build src/CMakeFiles/nanomsg.dir/transports/inproc/ins.c.o: C_COMPILER__nanomsg_unscanned_Debug /home/wangzhao/experiments/deneva/utils/nanomsg/src/transports/inproc/ins.c || cmake_object_order_depends_target_nanomsg
   DEFINES = -DNN_HAVE_ACCEPT4=1 -DNN_HAVE_BACKTRACE=1 -DNN_HAVE_CLOCK_GETTIME=1 -DNN_HAVE_CLOCK_MONOTONIC=1 -DNN_HAVE_EPOLL=1 -DNN_HAVE_EVENTFD=1 -DNN_HAVE_GCC_ATOMIC_BUILTINS -DNN_HAVE_GETADDRINFO_A=1 -DNN_HAVE_LIBNSL=1 -DNN_HAVE_LINUX -DNN_HAVE_MSG_CONTROL=1 -DNN_HAVE_PIPE2=1 -DNN_HAVE_PIPE=1 -DNN_HAVE_POLL=1 -DNN_HAVE_SEMAPHORE -DNN_HAVE_SEMAPHORE_PTHREAD=1 -DNN_HAVE_SOCKETPAIR=1 -DNN_HAVE_UNIX_SOCKETS=1 -DNN_MAX_SOCKETS=512 -DNN_SHARED_LIB -DNN_USE_EPOLL -DNN_USE_EVENTFD -D_GNU_SOURCE -D_POSIX_PTHREAD_SEMANTICS -D_REENTRANT -D_THREAD_SAFE -Dnanomsg_EXPORTS
@@ -2709,8 +2407,6 @@ build src/CMakeFiles/nanomsg.dir/transports/inproc/ins.c.o: C_COMPILER__nanomsg_
   FLAGS = -Wall -Wextra  -g -fPIC
   OBJECT_DIR = src/CMakeFiles/nanomsg.dir
   OBJECT_FILE_DIR = src/CMakeFiles/nanomsg.dir/transports/inproc
-  TARGET_COMPILE_PDB = src/CMakeFiles/nanomsg.dir/
-  TARGET_PDB = libnanomsg.pdb
 
 build src/CMakeFiles/nanomsg.dir/transports/inproc/msgqueue.c.o: C_COMPILER__nanomsg_unscanned_Debug /home/wangzhao/experiments/deneva/utils/nanomsg/src/transports/inproc/msgqueue.c || cmake_object_order_depends_target_nanomsg
   DEFINES = -DNN_HAVE_ACCEPT4=1 -DNN_HAVE_BACKTRACE=1 -DNN_HAVE_CLOCK_GETTIME=1 -DNN_HAVE_CLOCK_MONOTONIC=1 -DNN_HAVE_EPOLL=1 -DNN_HAVE_EVENTFD=1 -DNN_HAVE_GCC_ATOMIC_BUILTINS -DNN_HAVE_GETADDRINFO_A=1 -DNN_HAVE_LIBNSL=1 -DNN_HAVE_LINUX -DNN_HAVE_MSG_CONTROL=1 -DNN_HAVE_PIPE2=1 -DNN_HAVE_PIPE=1 -DNN_HAVE_POLL=1 -DNN_HAVE_SEMAPHORE -DNN_HAVE_SEMAPHORE_PTHREAD=1 -DNN_HAVE_SOCKETPAIR=1 -DNN_HAVE_UNIX_SOCKETS=1 -DNN_MAX_SOCKETS=512 -DNN_SHARED_LIB -DNN_USE_EPOLL -DNN_USE_EVENTFD -D_GNU_SOURCE -D_POSIX_PTHREAD_SEMANTICS -D_REENTRANT -D_THREAD_SAFE -Dnanomsg_EXPORTS
@@ -2718,8 +2414,6 @@ build src/CMakeFiles/nanomsg.dir/transports/inproc/msgqueue.c.o: C_COMPILER__nan
   FLAGS = -Wall -Wextra  -g -fPIC
   OBJECT_DIR = src/CMakeFiles/nanomsg.dir
   OBJECT_FILE_DIR = src/CMakeFiles/nanomsg.dir/transports/inproc
-  TARGET_COMPILE_PDB = src/CMakeFiles/nanomsg.dir/
-  TARGET_PDB = libnanomsg.pdb
 
 build src/CMakeFiles/nanomsg.dir/transports/inproc/sinproc.c.o: C_COMPILER__nanomsg_unscanned_Debug /home/wangzhao/experiments/deneva/utils/nanomsg/src/transports/inproc/sinproc.c || cmake_object_order_depends_target_nanomsg
   DEFINES = -DNN_HAVE_ACCEPT4=1 -DNN_HAVE_BACKTRACE=1 -DNN_HAVE_CLOCK_GETTIME=1 -DNN_HAVE_CLOCK_MONOTONIC=1 -DNN_HAVE_EPOLL=1 -DNN_HAVE_EVENTFD=1 -DNN_HAVE_GCC_ATOMIC_BUILTINS -DNN_HAVE_GETADDRINFO_A=1 -DNN_HAVE_LIBNSL=1 -DNN_HAVE_LINUX -DNN_HAVE_MSG_CONTROL=1 -DNN_HAVE_PIPE2=1 -DNN_HAVE_PIPE=1 -DNN_HAVE_POLL=1 -DNN_HAVE_SEMAPHORE -DNN_HAVE_SEMAPHORE_PTHREAD=1 -DNN_HAVE_SOCKETPAIR=1 -DNN_HAVE_UNIX_SOCKETS=1 -DNN_MAX_SOCKETS=512 -DNN_SHARED_LIB -DNN_USE_EPOLL -DNN_USE_EVENTFD -D_GNU_SOURCE -D_POSIX_PTHREAD_SEMANTICS -D_REENTRANT -D_THREAD_SAFE -Dnanomsg_EXPORTS
@@ -2727,8 +2421,6 @@ build src/CMakeFiles/nanomsg.dir/transports/inproc/sinproc.c.o: C_COMPILER__nano
   FLAGS = -Wall -Wextra  -g -fPIC
   OBJECT_DIR = src/CMakeFiles/nanomsg.dir
   OBJECT_FILE_DIR = src/CMakeFiles/nanomsg.dir/transports/inproc
-  TARGET_COMPILE_PDB = src/CMakeFiles/nanomsg.dir/
-  TARGET_PDB = libnanomsg.pdb
 
 build src/CMakeFiles/nanomsg.dir/transports/ipc/aipc.c.o: C_COMPILER__nanomsg_unscanned_Debug /home/wangzhao/experiments/deneva/utils/nanomsg/src/transports/ipc/aipc.c || cmake_object_order_depends_target_nanomsg
   DEFINES = -DNN_HAVE_ACCEPT4=1 -DNN_HAVE_BACKTRACE=1 -DNN_HAVE_CLOCK_GETTIME=1 -DNN_HAVE_CLOCK_MONOTONIC=1 -DNN_HAVE_EPOLL=1 -DNN_HAVE_EVENTFD=1 -DNN_HAVE_GCC_ATOMIC_BUILTINS -DNN_HAVE_GETADDRINFO_A=1 -DNN_HAVE_LIBNSL=1 -DNN_HAVE_LINUX -DNN_HAVE_MSG_CONTROL=1 -DNN_HAVE_PIPE2=1 -DNN_HAVE_PIPE=1 -DNN_HAVE_POLL=1 -DNN_HAVE_SEMAPHORE -DNN_HAVE_SEMAPHORE_PTHREAD=1 -DNN_HAVE_SOCKETPAIR=1 -DNN_HAVE_UNIX_SOCKETS=1 -DNN_MAX_SOCKETS=512 -DNN_SHARED_LIB -DNN_USE_EPOLL -DNN_USE_EVENTFD -D_GNU_SOURCE -D_POSIX_PTHREAD_SEMANTICS -D_REENTRANT -D_THREAD_SAFE -Dnanomsg_EXPORTS
@@ -2736,8 +2428,6 @@ build src/CMakeFiles/nanomsg.dir/transports/ipc/aipc.c.o: C_COMPILER__nanomsg_un
   FLAGS = -Wall -Wextra  -g -fPIC
   OBJECT_DIR = src/CMakeFiles/nanomsg.dir
   OBJECT_FILE_DIR = src/CMakeFiles/nanomsg.dir/transports/ipc
-  TARGET_COMPILE_PDB = src/CMakeFiles/nanomsg.dir/
-  TARGET_PDB = libnanomsg.pdb
 
 build src/CMakeFiles/nanomsg.dir/transports/ipc/bipc.c.o: C_COMPILER__nanomsg_unscanned_Debug /home/wangzhao/experiments/deneva/utils/nanomsg/src/transports/ipc/bipc.c || cmake_object_order_depends_target_nanomsg
   DEFINES = -DNN_HAVE_ACCEPT4=1 -DNN_HAVE_BACKTRACE=1 -DNN_HAVE_CLOCK_GETTIME=1 -DNN_HAVE_CLOCK_MONOTONIC=1 -DNN_HAVE_EPOLL=1 -DNN_HAVE_EVENTFD=1 -DNN_HAVE_GCC_ATOMIC_BUILTINS -DNN_HAVE_GETADDRINFO_A=1 -DNN_HAVE_LIBNSL=1 -DNN_HAVE_LINUX -DNN_HAVE_MSG_CONTROL=1 -DNN_HAVE_PIPE2=1 -DNN_HAVE_PIPE=1 -DNN_HAVE_POLL=1 -DNN_HAVE_SEMAPHORE -DNN_HAVE_SEMAPHORE_PTHREAD=1 -DNN_HAVE_SOCKETPAIR=1 -DNN_HAVE_UNIX_SOCKETS=1 -DNN_MAX_SOCKETS=512 -DNN_SHARED_LIB -DNN_USE_EPOLL -DNN_USE_EVENTFD -D_GNU_SOURCE -D_POSIX_PTHREAD_SEMANTICS -D_REENTRANT -D_THREAD_SAFE -Dnanomsg_EXPORTS
@@ -2745,8 +2435,6 @@ build src/CMakeFiles/nanomsg.dir/transports/ipc/bipc.c.o: C_COMPILER__nanomsg_un
   FLAGS = -Wall -Wextra  -g -fPIC
   OBJECT_DIR = src/CMakeFiles/nanomsg.dir
   OBJECT_FILE_DIR = src/CMakeFiles/nanomsg.dir/transports/ipc
-  TARGET_COMPILE_PDB = src/CMakeFiles/nanomsg.dir/
-  TARGET_PDB = libnanomsg.pdb
 
 build src/CMakeFiles/nanomsg.dir/transports/ipc/cipc.c.o: C_COMPILER__nanomsg_unscanned_Debug /home/wangzhao/experiments/deneva/utils/nanomsg/src/transports/ipc/cipc.c || cmake_object_order_depends_target_nanomsg
   DEFINES = -DNN_HAVE_ACCEPT4=1 -DNN_HAVE_BACKTRACE=1 -DNN_HAVE_CLOCK_GETTIME=1 -DNN_HAVE_CLOCK_MONOTONIC=1 -DNN_HAVE_EPOLL=1 -DNN_HAVE_EVENTFD=1 -DNN_HAVE_GCC_ATOMIC_BUILTINS -DNN_HAVE_GETADDRINFO_A=1 -DNN_HAVE_LIBNSL=1 -DNN_HAVE_LINUX -DNN_HAVE_MSG_CONTROL=1 -DNN_HAVE_PIPE2=1 -DNN_HAVE_PIPE=1 -DNN_HAVE_POLL=1 -DNN_HAVE_SEMAPHORE -DNN_HAVE_SEMAPHORE_PTHREAD=1 -DNN_HAVE_SOCKETPAIR=1 -DNN_HAVE_UNIX_SOCKETS=1 -DNN_MAX_SOCKETS=512 -DNN_SHARED_LIB -DNN_USE_EPOLL -DNN_USE_EVENTFD -D_GNU_SOURCE -D_POSIX_PTHREAD_SEMANTICS -D_REENTRANT -D_THREAD_SAFE -Dnanomsg_EXPORTS
@@ -2754,8 +2442,6 @@ build src/CMakeFiles/nanomsg.dir/transports/ipc/cipc.c.o: C_COMPILER__nanomsg_un
   FLAGS = -Wall -Wextra  -g -fPIC
   OBJECT_DIR = src/CMakeFiles/nanomsg.dir
   OBJECT_FILE_DIR = src/CMakeFiles/nanomsg.dir/transports/ipc
-  TARGET_COMPILE_PDB = src/CMakeFiles/nanomsg.dir/
-  TARGET_PDB = libnanomsg.pdb
 
 build src/CMakeFiles/nanomsg.dir/transports/ipc/ipc.c.o: C_COMPILER__nanomsg_unscanned_Debug /home/wangzhao/experiments/deneva/utils/nanomsg/src/transports/ipc/ipc.c || cmake_object_order_depends_target_nanomsg
   DEFINES = -DNN_HAVE_ACCEPT4=1 -DNN_HAVE_BACKTRACE=1 -DNN_HAVE_CLOCK_GETTIME=1 -DNN_HAVE_CLOCK_MONOTONIC=1 -DNN_HAVE_EPOLL=1 -DNN_HAVE_EVENTFD=1 -DNN_HAVE_GCC_ATOMIC_BUILTINS -DNN_HAVE_GETADDRINFO_A=1 -DNN_HAVE_LIBNSL=1 -DNN_HAVE_LINUX -DNN_HAVE_MSG_CONTROL=1 -DNN_HAVE_PIPE2=1 -DNN_HAVE_PIPE=1 -DNN_HAVE_POLL=1 -DNN_HAVE_SEMAPHORE -DNN_HAVE_SEMAPHORE_PTHREAD=1 -DNN_HAVE_SOCKETPAIR=1 -DNN_HAVE_UNIX_SOCKETS=1 -DNN_MAX_SOCKETS=512 -DNN_SHARED_LIB -DNN_USE_EPOLL -DNN_USE_EVENTFD -D_GNU_SOURCE -D_POSIX_PTHREAD_SEMANTICS -D_REENTRANT -D_THREAD_SAFE -Dnanomsg_EXPORTS
@@ -2763,8 +2449,6 @@ build src/CMakeFiles/nanomsg.dir/transports/ipc/ipc.c.o: C_COMPILER__nanomsg_uns
   FLAGS = -Wall -Wextra  -g -fPIC
   OBJECT_DIR = src/CMakeFiles/nanomsg.dir
   OBJECT_FILE_DIR = src/CMakeFiles/nanomsg.dir/transports/ipc
-  TARGET_COMPILE_PDB = src/CMakeFiles/nanomsg.dir/
-  TARGET_PDB = libnanomsg.pdb
 
 build src/CMakeFiles/nanomsg.dir/transports/ipc/sipc.c.o: C_COMPILER__nanomsg_unscanned_Debug /home/wangzhao/experiments/deneva/utils/nanomsg/src/transports/ipc/sipc.c || cmake_object_order_depends_target_nanomsg
   DEFINES = -DNN_HAVE_ACCEPT4=1 -DNN_HAVE_BACKTRACE=1 -DNN_HAVE_CLOCK_GETTIME=1 -DNN_HAVE_CLOCK_MONOTONIC=1 -DNN_HAVE_EPOLL=1 -DNN_HAVE_EVENTFD=1 -DNN_HAVE_GCC_ATOMIC_BUILTINS -DNN_HAVE_GETADDRINFO_A=1 -DNN_HAVE_LIBNSL=1 -DNN_HAVE_LINUX -DNN_HAVE_MSG_CONTROL=1 -DNN_HAVE_PIPE2=1 -DNN_HAVE_PIPE=1 -DNN_HAVE_POLL=1 -DNN_HAVE_SEMAPHORE -DNN_HAVE_SEMAPHORE_PTHREAD=1 -DNN_HAVE_SOCKETPAIR=1 -DNN_HAVE_UNIX_SOCKETS=1 -DNN_MAX_SOCKETS=512 -DNN_SHARED_LIB -DNN_USE_EPOLL -DNN_USE_EVENTFD -D_GNU_SOURCE -D_POSIX_PTHREAD_SEMANTICS -D_REENTRANT -D_THREAD_SAFE -Dnanomsg_EXPORTS
@@ -2772,8 +2456,6 @@ build src/CMakeFiles/nanomsg.dir/transports/ipc/sipc.c.o: C_COMPILER__nanomsg_un
   FLAGS = -Wall -Wextra  -g -fPIC
   OBJECT_DIR = src/CMakeFiles/nanomsg.dir
   OBJECT_FILE_DIR = src/CMakeFiles/nanomsg.dir/transports/ipc
-  TARGET_COMPILE_PDB = src/CMakeFiles/nanomsg.dir/
-  TARGET_PDB = libnanomsg.pdb
 
 build src/CMakeFiles/nanomsg.dir/transports/tcp/atcp.c.o: C_COMPILER__nanomsg_unscanned_Debug /home/wangzhao/experiments/deneva/utils/nanomsg/src/transports/tcp/atcp.c || cmake_object_order_depends_target_nanomsg
   DEFINES = -DNN_HAVE_ACCEPT4=1 -DNN_HAVE_BACKTRACE=1 -DNN_HAVE_CLOCK_GETTIME=1 -DNN_HAVE_CLOCK_MONOTONIC=1 -DNN_HAVE_EPOLL=1 -DNN_HAVE_EVENTFD=1 -DNN_HAVE_GCC_ATOMIC_BUILTINS -DNN_HAVE_GETADDRINFO_A=1 -DNN_HAVE_LIBNSL=1 -DNN_HAVE_LINUX -DNN_HAVE_MSG_CONTROL=1 -DNN_HAVE_PIPE2=1 -DNN_HAVE_PIPE=1 -DNN_HAVE_POLL=1 -DNN_HAVE_SEMAPHORE -DNN_HAVE_SEMAPHORE_PTHREAD=1 -DNN_HAVE_SOCKETPAIR=1 -DNN_HAVE_UNIX_SOCKETS=1 -DNN_MAX_SOCKETS=512 -DNN_SHARED_LIB -DNN_USE_EPOLL -DNN_USE_EVENTFD -D_GNU_SOURCE -D_POSIX_PTHREAD_SEMANTICS -D_REENTRANT -D_THREAD_SAFE -Dnanomsg_EXPORTS
@@ -2781,8 +2463,6 @@ build src/CMakeFiles/nanomsg.dir/transports/tcp/atcp.c.o: C_COMPILER__nanomsg_un
   FLAGS = -Wall -Wextra  -g -fPIC
   OBJECT_DIR = src/CMakeFiles/nanomsg.dir
   OBJECT_FILE_DIR = src/CMakeFiles/nanomsg.dir/transports/tcp
-  TARGET_COMPILE_PDB = src/CMakeFiles/nanomsg.dir/
-  TARGET_PDB = libnanomsg.pdb
 
 build src/CMakeFiles/nanomsg.dir/transports/tcp/btcp.c.o: C_COMPILER__nanomsg_unscanned_Debug /home/wangzhao/experiments/deneva/utils/nanomsg/src/transports/tcp/btcp.c || cmake_object_order_depends_target_nanomsg
   DEFINES = -DNN_HAVE_ACCEPT4=1 -DNN_HAVE_BACKTRACE=1 -DNN_HAVE_CLOCK_GETTIME=1 -DNN_HAVE_CLOCK_MONOTONIC=1 -DNN_HAVE_EPOLL=1 -DNN_HAVE_EVENTFD=1 -DNN_HAVE_GCC_ATOMIC_BUILTINS -DNN_HAVE_GETADDRINFO_A=1 -DNN_HAVE_LIBNSL=1 -DNN_HAVE_LINUX -DNN_HAVE_MSG_CONTROL=1 -DNN_HAVE_PIPE2=1 -DNN_HAVE_PIPE=1 -DNN_HAVE_POLL=1 -DNN_HAVE_SEMAPHORE -DNN_HAVE_SEMAPHORE_PTHREAD=1 -DNN_HAVE_SOCKETPAIR=1 -DNN_HAVE_UNIX_SOCKETS=1 -DNN_MAX_SOCKETS=512 -DNN_SHARED_LIB -DNN_USE_EPOLL -DNN_USE_EVENTFD -D_GNU_SOURCE -D_POSIX_PTHREAD_SEMANTICS -D_REENTRANT -D_THREAD_SAFE -Dnanomsg_EXPORTS
@@ -2790,8 +2470,6 @@ build src/CMakeFiles/nanomsg.dir/transports/tcp/btcp.c.o: C_COMPILER__nanomsg_un
   FLAGS = -Wall -Wextra  -g -fPIC
   OBJECT_DIR = src/CMakeFiles/nanomsg.dir
   OBJECT_FILE_DIR = src/CMakeFiles/nanomsg.dir/transports/tcp
-  TARGET_COMPILE_PDB = src/CMakeFiles/nanomsg.dir/
-  TARGET_PDB = libnanomsg.pdb
 
 build src/CMakeFiles/nanomsg.dir/transports/tcp/ctcp.c.o: C_COMPILER__nanomsg_unscanned_Debug /home/wangzhao/experiments/deneva/utils/nanomsg/src/transports/tcp/ctcp.c || cmake_object_order_depends_target_nanomsg
   DEFINES = -DNN_HAVE_ACCEPT4=1 -DNN_HAVE_BACKTRACE=1 -DNN_HAVE_CLOCK_GETTIME=1 -DNN_HAVE_CLOCK_MONOTONIC=1 -DNN_HAVE_EPOLL=1 -DNN_HAVE_EVENTFD=1 -DNN_HAVE_GCC_ATOMIC_BUILTINS -DNN_HAVE_GETADDRINFO_A=1 -DNN_HAVE_LIBNSL=1 -DNN_HAVE_LINUX -DNN_HAVE_MSG_CONTROL=1 -DNN_HAVE_PIPE2=1 -DNN_HAVE_PIPE=1 -DNN_HAVE_POLL=1 -DNN_HAVE_SEMAPHORE -DNN_HAVE_SEMAPHORE_PTHREAD=1 -DNN_HAVE_SOCKETPAIR=1 -DNN_HAVE_UNIX_SOCKETS=1 -DNN_MAX_SOCKETS=512 -DNN_SHARED_LIB -DNN_USE_EPOLL -DNN_USE_EVENTFD -D_GNU_SOURCE -D_POSIX_PTHREAD_SEMANTICS -D_REENTRANT -D_THREAD_SAFE -Dnanomsg_EXPORTS
@@ -2799,8 +2477,6 @@ build src/CMakeFiles/nanomsg.dir/transports/tcp/ctcp.c.o: C_COMPILER__nanomsg_un
   FLAGS = -Wall -Wextra  -g -fPIC
   OBJECT_DIR = src/CMakeFiles/nanomsg.dir
   OBJECT_FILE_DIR = src/CMakeFiles/nanomsg.dir/transports/tcp
-  TARGET_COMPILE_PDB = src/CMakeFiles/nanomsg.dir/
-  TARGET_PDB = libnanomsg.pdb
 
 build src/CMakeFiles/nanomsg.dir/transports/tcp/stcp.c.o: C_COMPILER__nanomsg_unscanned_Debug /home/wangzhao/experiments/deneva/utils/nanomsg/src/transports/tcp/stcp.c || cmake_object_order_depends_target_nanomsg
   DEFINES = -DNN_HAVE_ACCEPT4=1 -DNN_HAVE_BACKTRACE=1 -DNN_HAVE_CLOCK_GETTIME=1 -DNN_HAVE_CLOCK_MONOTONIC=1 -DNN_HAVE_EPOLL=1 -DNN_HAVE_EVENTFD=1 -DNN_HAVE_GCC_ATOMIC_BUILTINS -DNN_HAVE_GETADDRINFO_A=1 -DNN_HAVE_LIBNSL=1 -DNN_HAVE_LINUX -DNN_HAVE_MSG_CONTROL=1 -DNN_HAVE_PIPE2=1 -DNN_HAVE_PIPE=1 -DNN_HAVE_POLL=1 -DNN_HAVE_SEMAPHORE -DNN_HAVE_SEMAPHORE_PTHREAD=1 -DNN_HAVE_SOCKETPAIR=1 -DNN_HAVE_UNIX_SOCKETS=1 -DNN_MAX_SOCKETS=512 -DNN_SHARED_LIB -DNN_USE_EPOLL -DNN_USE_EVENTFD -D_GNU_SOURCE -D_POSIX_PTHREAD_SEMANTICS -D_REENTRANT -D_THREAD_SAFE -Dnanomsg_EXPORTS
@@ -2808,8 +2484,6 @@ build src/CMakeFiles/nanomsg.dir/transports/tcp/stcp.c.o: C_COMPILER__nanomsg_un
   FLAGS = -Wall -Wextra  -g -fPIC
   OBJECT_DIR = src/CMakeFiles/nanomsg.dir
   OBJECT_FILE_DIR = src/CMakeFiles/nanomsg.dir/transports/tcp
-  TARGET_COMPILE_PDB = src/CMakeFiles/nanomsg.dir/
-  TARGET_PDB = libnanomsg.pdb
 
 build src/CMakeFiles/nanomsg.dir/transports/tcp/tcp.c.o: C_COMPILER__nanomsg_unscanned_Debug /home/wangzhao/experiments/deneva/utils/nanomsg/src/transports/tcp/tcp.c || cmake_object_order_depends_target_nanomsg
   DEFINES = -DNN_HAVE_ACCEPT4=1 -DNN_HAVE_BACKTRACE=1 -DNN_HAVE_CLOCK_GETTIME=1 -DNN_HAVE_CLOCK_MONOTONIC=1 -DNN_HAVE_EPOLL=1 -DNN_HAVE_EVENTFD=1 -DNN_HAVE_GCC_ATOMIC_BUILTINS -DNN_HAVE_GETADDRINFO_A=1 -DNN_HAVE_LIBNSL=1 -DNN_HAVE_LINUX -DNN_HAVE_MSG_CONTROL=1 -DNN_HAVE_PIPE2=1 -DNN_HAVE_PIPE=1 -DNN_HAVE_POLL=1 -DNN_HAVE_SEMAPHORE -DNN_HAVE_SEMAPHORE_PTHREAD=1 -DNN_HAVE_SOCKETPAIR=1 -DNN_HAVE_UNIX_SOCKETS=1 -DNN_MAX_SOCKETS=512 -DNN_SHARED_LIB -DNN_USE_EPOLL -DNN_USE_EVENTFD -D_GNU_SOURCE -D_POSIX_PTHREAD_SEMANTICS -D_REENTRANT -D_THREAD_SAFE -Dnanomsg_EXPORTS
@@ -2817,8 +2491,6 @@ build src/CMakeFiles/nanomsg.dir/transports/tcp/tcp.c.o: C_COMPILER__nanomsg_uns
   FLAGS = -Wall -Wextra  -g -fPIC
   OBJECT_DIR = src/CMakeFiles/nanomsg.dir
   OBJECT_FILE_DIR = src/CMakeFiles/nanomsg.dir/transports/tcp
-  TARGET_COMPILE_PDB = src/CMakeFiles/nanomsg.dir/
-  TARGET_PDB = libnanomsg.pdb
 
 build src/CMakeFiles/nanomsg.dir/transports/ws/aws.c.o: C_COMPILER__nanomsg_unscanned_Debug /home/wangzhao/experiments/deneva/utils/nanomsg/src/transports/ws/aws.c || cmake_object_order_depends_target_nanomsg
   DEFINES = -DNN_HAVE_ACCEPT4=1 -DNN_HAVE_BACKTRACE=1 -DNN_HAVE_CLOCK_GETTIME=1 -DNN_HAVE_CLOCK_MONOTONIC=1 -DNN_HAVE_EPOLL=1 -DNN_HAVE_EVENTFD=1 -DNN_HAVE_GCC_ATOMIC_BUILTINS -DNN_HAVE_GETADDRINFO_A=1 -DNN_HAVE_LIBNSL=1 -DNN_HAVE_LINUX -DNN_HAVE_MSG_CONTROL=1 -DNN_HAVE_PIPE2=1 -DNN_HAVE_PIPE=1 -DNN_HAVE_POLL=1 -DNN_HAVE_SEMAPHORE -DNN_HAVE_SEMAPHORE_PTHREAD=1 -DNN_HAVE_SOCKETPAIR=1 -DNN_HAVE_UNIX_SOCKETS=1 -DNN_MAX_SOCKETS=512 -DNN_SHARED_LIB -DNN_USE_EPOLL -DNN_USE_EVENTFD -D_GNU_SOURCE -D_POSIX_PTHREAD_SEMANTICS -D_REENTRANT -D_THREAD_SAFE -Dnanomsg_EXPORTS
@@ -2826,8 +2498,6 @@ build src/CMakeFiles/nanomsg.dir/transports/ws/aws.c.o: C_COMPILER__nanomsg_unsc
   FLAGS = -Wall -Wextra  -g -fPIC
   OBJECT_DIR = src/CMakeFiles/nanomsg.dir
   OBJECT_FILE_DIR = src/CMakeFiles/nanomsg.dir/transports/ws
-  TARGET_COMPILE_PDB = src/CMakeFiles/nanomsg.dir/
-  TARGET_PDB = libnanomsg.pdb
 
 build src/CMakeFiles/nanomsg.dir/transports/ws/bws.c.o: C_COMPILER__nanomsg_unscanned_Debug /home/wangzhao/experiments/deneva/utils/nanomsg/src/transports/ws/bws.c || cmake_object_order_depends_target_nanomsg
   DEFINES = -DNN_HAVE_ACCEPT4=1 -DNN_HAVE_BACKTRACE=1 -DNN_HAVE_CLOCK_GETTIME=1 -DNN_HAVE_CLOCK_MONOTONIC=1 -DNN_HAVE_EPOLL=1 -DNN_HAVE_EVENTFD=1 -DNN_HAVE_GCC_ATOMIC_BUILTINS -DNN_HAVE_GETADDRINFO_A=1 -DNN_HAVE_LIBNSL=1 -DNN_HAVE_LINUX -DNN_HAVE_MSG_CONTROL=1 -DNN_HAVE_PIPE2=1 -DNN_HAVE_PIPE=1 -DNN_HAVE_POLL=1 -DNN_HAVE_SEMAPHORE -DNN_HAVE_SEMAPHORE_PTHREAD=1 -DNN_HAVE_SOCKETPAIR=1 -DNN_HAVE_UNIX_SOCKETS=1 -DNN_MAX_SOCKETS=512 -DNN_SHARED_LIB -DNN_USE_EPOLL -DNN_USE_EVENTFD -D_GNU_SOURCE -D_POSIX_PTHREAD_SEMANTICS -D_REENTRANT -D_THREAD_SAFE -Dnanomsg_EXPORTS
@@ -2835,8 +2505,6 @@ build src/CMakeFiles/nanomsg.dir/transports/ws/bws.c.o: C_COMPILER__nanomsg_unsc
   FLAGS = -Wall -Wextra  -g -fPIC
   OBJECT_DIR = src/CMakeFiles/nanomsg.dir
   OBJECT_FILE_DIR = src/CMakeFiles/nanomsg.dir/transports/ws
-  TARGET_COMPILE_PDB = src/CMakeFiles/nanomsg.dir/
-  TARGET_PDB = libnanomsg.pdb
 
 build src/CMakeFiles/nanomsg.dir/transports/ws/cws.c.o: C_COMPILER__nanomsg_unscanned_Debug /home/wangzhao/experiments/deneva/utils/nanomsg/src/transports/ws/cws.c || cmake_object_order_depends_target_nanomsg
   DEFINES = -DNN_HAVE_ACCEPT4=1 -DNN_HAVE_BACKTRACE=1 -DNN_HAVE_CLOCK_GETTIME=1 -DNN_HAVE_CLOCK_MONOTONIC=1 -DNN_HAVE_EPOLL=1 -DNN_HAVE_EVENTFD=1 -DNN_HAVE_GCC_ATOMIC_BUILTINS -DNN_HAVE_GETADDRINFO_A=1 -DNN_HAVE_LIBNSL=1 -DNN_HAVE_LINUX -DNN_HAVE_MSG_CONTROL=1 -DNN_HAVE_PIPE2=1 -DNN_HAVE_PIPE=1 -DNN_HAVE_POLL=1 -DNN_HAVE_SEMAPHORE -DNN_HAVE_SEMAPHORE_PTHREAD=1 -DNN_HAVE_SOCKETPAIR=1 -DNN_HAVE_UNIX_SOCKETS=1 -DNN_MAX_SOCKETS=512 -DNN_SHARED_LIB -DNN_USE_EPOLL -DNN_USE_EVENTFD -D_GNU_SOURCE -D_POSIX_PTHREAD_SEMANTICS -D_REENTRANT -D_THREAD_SAFE -Dnanomsg_EXPORTS
@@ -2844,8 +2512,6 @@ build src/CMakeFiles/nanomsg.dir/transports/ws/cws.c.o: C_COMPILER__nanomsg_unsc
   FLAGS = -Wall -Wextra  -g -fPIC
   OBJECT_DIR = src/CMakeFiles/nanomsg.dir
   OBJECT_FILE_DIR = src/CMakeFiles/nanomsg.dir/transports/ws
-  TARGET_COMPILE_PDB = src/CMakeFiles/nanomsg.dir/
-  TARGET_PDB = libnanomsg.pdb
 
 build src/CMakeFiles/nanomsg.dir/transports/ws/sws.c.o: C_COMPILER__nanomsg_unscanned_Debug /home/wangzhao/experiments/deneva/utils/nanomsg/src/transports/ws/sws.c || cmake_object_order_depends_target_nanomsg
   DEFINES = -DNN_HAVE_ACCEPT4=1 -DNN_HAVE_BACKTRACE=1 -DNN_HAVE_CLOCK_GETTIME=1 -DNN_HAVE_CLOCK_MONOTONIC=1 -DNN_HAVE_EPOLL=1 -DNN_HAVE_EVENTFD=1 -DNN_HAVE_GCC_ATOMIC_BUILTINS -DNN_HAVE_GETADDRINFO_A=1 -DNN_HAVE_LIBNSL=1 -DNN_HAVE_LINUX -DNN_HAVE_MSG_CONTROL=1 -DNN_HAVE_PIPE2=1 -DNN_HAVE_PIPE=1 -DNN_HAVE_POLL=1 -DNN_HAVE_SEMAPHORE -DNN_HAVE_SEMAPHORE_PTHREAD=1 -DNN_HAVE_SOCKETPAIR=1 -DNN_HAVE_UNIX_SOCKETS=1 -DNN_MAX_SOCKETS=512 -DNN_SHARED_LIB -DNN_USE_EPOLL -DNN_USE_EVENTFD -D_GNU_SOURCE -D_POSIX_PTHREAD_SEMANTICS -D_REENTRANT -D_THREAD_SAFE -Dnanomsg_EXPORTS
@@ -2853,8 +2519,6 @@ build src/CMakeFiles/nanomsg.dir/transports/ws/sws.c.o: C_COMPILER__nanomsg_unsc
   FLAGS = -Wall -Wextra  -g -fPIC
   OBJECT_DIR = src/CMakeFiles/nanomsg.dir
   OBJECT_FILE_DIR = src/CMakeFiles/nanomsg.dir/transports/ws
-  TARGET_COMPILE_PDB = src/CMakeFiles/nanomsg.dir/
-  TARGET_PDB = libnanomsg.pdb
 
 build src/CMakeFiles/nanomsg.dir/transports/ws/ws.c.o: C_COMPILER__nanomsg_unscanned_Debug /home/wangzhao/experiments/deneva/utils/nanomsg/src/transports/ws/ws.c || cmake_object_order_depends_target_nanomsg
   DEFINES = -DNN_HAVE_ACCEPT4=1 -DNN_HAVE_BACKTRACE=1 -DNN_HAVE_CLOCK_GETTIME=1 -DNN_HAVE_CLOCK_MONOTONIC=1 -DNN_HAVE_EPOLL=1 -DNN_HAVE_EVENTFD=1 -DNN_HAVE_GCC_ATOMIC_BUILTINS -DNN_HAVE_GETADDRINFO_A=1 -DNN_HAVE_LIBNSL=1 -DNN_HAVE_LINUX -DNN_HAVE_MSG_CONTROL=1 -DNN_HAVE_PIPE2=1 -DNN_HAVE_PIPE=1 -DNN_HAVE_POLL=1 -DNN_HAVE_SEMAPHORE -DNN_HAVE_SEMAPHORE_PTHREAD=1 -DNN_HAVE_SOCKETPAIR=1 -DNN_HAVE_UNIX_SOCKETS=1 -DNN_MAX_SOCKETS=512 -DNN_SHARED_LIB -DNN_USE_EPOLL -DNN_USE_EVENTFD -D_GNU_SOURCE -D_POSIX_PTHREAD_SEMANTICS -D_REENTRANT -D_THREAD_SAFE -Dnanomsg_EXPORTS
@@ -2862,8 +2526,6 @@ build src/CMakeFiles/nanomsg.dir/transports/ws/ws.c.o: C_COMPILER__nanomsg_unsca
   FLAGS = -Wall -Wextra  -g -fPIC
   OBJECT_DIR = src/CMakeFiles/nanomsg.dir
   OBJECT_FILE_DIR = src/CMakeFiles/nanomsg.dir/transports/ws
-  TARGET_COMPILE_PDB = src/CMakeFiles/nanomsg.dir/
-  TARGET_PDB = libnanomsg.pdb
 
 build src/CMakeFiles/nanomsg.dir/transports/ws/ws_handshake.c.o: C_COMPILER__nanomsg_unscanned_Debug /home/wangzhao/experiments/deneva/utils/nanomsg/src/transports/ws/ws_handshake.c || cmake_object_order_depends_target_nanomsg
   DEFINES = -DNN_HAVE_ACCEPT4=1 -DNN_HAVE_BACKTRACE=1 -DNN_HAVE_CLOCK_GETTIME=1 -DNN_HAVE_CLOCK_MONOTONIC=1 -DNN_HAVE_EPOLL=1 -DNN_HAVE_EVENTFD=1 -DNN_HAVE_GCC_ATOMIC_BUILTINS -DNN_HAVE_GETADDRINFO_A=1 -DNN_HAVE_LIBNSL=1 -DNN_HAVE_LINUX -DNN_HAVE_MSG_CONTROL=1 -DNN_HAVE_PIPE2=1 -DNN_HAVE_PIPE=1 -DNN_HAVE_POLL=1 -DNN_HAVE_SEMAPHORE -DNN_HAVE_SEMAPHORE_PTHREAD=1 -DNN_HAVE_SOCKETPAIR=1 -DNN_HAVE_UNIX_SOCKETS=1 -DNN_MAX_SOCKETS=512 -DNN_SHARED_LIB -DNN_USE_EPOLL -DNN_USE_EVENTFD -D_GNU_SOURCE -D_POSIX_PTHREAD_SEMANTICS -D_REENTRANT -D_THREAD_SAFE -Dnanomsg_EXPORTS
@@ -2871,8 +2533,6 @@ build src/CMakeFiles/nanomsg.dir/transports/ws/ws_handshake.c.o: C_COMPILER__nan
   FLAGS = -Wall -Wextra  -g -fPIC
   OBJECT_DIR = src/CMakeFiles/nanomsg.dir
   OBJECT_FILE_DIR = src/CMakeFiles/nanomsg.dir/transports/ws
-  TARGET_COMPILE_PDB = src/CMakeFiles/nanomsg.dir/
-  TARGET_PDB = libnanomsg.pdb
 
 build src/CMakeFiles/nanomsg.dir/transports/ws/sha1.c.o: C_COMPILER__nanomsg_unscanned_Debug /home/wangzhao/experiments/deneva/utils/nanomsg/src/transports/ws/sha1.c || cmake_object_order_depends_target_nanomsg
   DEFINES = -DNN_HAVE_ACCEPT4=1 -DNN_HAVE_BACKTRACE=1 -DNN_HAVE_CLOCK_GETTIME=1 -DNN_HAVE_CLOCK_MONOTONIC=1 -DNN_HAVE_EPOLL=1 -DNN_HAVE_EVENTFD=1 -DNN_HAVE_GCC_ATOMIC_BUILTINS -DNN_HAVE_GETADDRINFO_A=1 -DNN_HAVE_LIBNSL=1 -DNN_HAVE_LINUX -DNN_HAVE_MSG_CONTROL=1 -DNN_HAVE_PIPE2=1 -DNN_HAVE_PIPE=1 -DNN_HAVE_POLL=1 -DNN_HAVE_SEMAPHORE -DNN_HAVE_SEMAPHORE_PTHREAD=1 -DNN_HAVE_SOCKETPAIR=1 -DNN_HAVE_UNIX_SOCKETS=1 -DNN_MAX_SOCKETS=512 -DNN_SHARED_LIB -DNN_USE_EPOLL -DNN_USE_EVENTFD -D_GNU_SOURCE -D_POSIX_PTHREAD_SEMANTICS -D_REENTRANT -D_THREAD_SAFE -Dnanomsg_EXPORTS
@@ -2880,8 +2540,6 @@ build src/CMakeFiles/nanomsg.dir/transports/ws/sha1.c.o: C_COMPILER__nanomsg_uns
   FLAGS = -Wall -Wextra  -g -fPIC
   OBJECT_DIR = src/CMakeFiles/nanomsg.dir
   OBJECT_FILE_DIR = src/CMakeFiles/nanomsg.dir/transports/ws
-  TARGET_COMPILE_PDB = src/CMakeFiles/nanomsg.dir/
-  TARGET_PDB = libnanomsg.pdb
 
 build src/CMakeFiles/nanomsg.dir/aio/poller.c.o: C_COMPILER__nanomsg_unscanned_Debug /home/wangzhao/experiments/deneva/utils/nanomsg/src/aio/poller.c || cmake_object_order_depends_target_nanomsg
   DEFINES = -DNN_HAVE_ACCEPT4=1 -DNN_HAVE_BACKTRACE=1 -DNN_HAVE_CLOCK_GETTIME=1 -DNN_HAVE_CLOCK_MONOTONIC=1 -DNN_HAVE_EPOLL=1 -DNN_HAVE_EVENTFD=1 -DNN_HAVE_GCC_ATOMIC_BUILTINS -DNN_HAVE_GETADDRINFO_A=1 -DNN_HAVE_LIBNSL=1 -DNN_HAVE_LINUX -DNN_HAVE_MSG_CONTROL=1 -DNN_HAVE_PIPE2=1 -DNN_HAVE_PIPE=1 -DNN_HAVE_POLL=1 -DNN_HAVE_SEMAPHORE -DNN_HAVE_SEMAPHORE_PTHREAD=1 -DNN_HAVE_SOCKETPAIR=1 -DNN_HAVE_UNIX_SOCKETS=1 -DNN_MAX_SOCKETS=512 -DNN_SHARED_LIB -DNN_USE_EPOLL -DNN_USE_EVENTFD -D_GNU_SOURCE -D_POSIX_PTHREAD_SEMANTICS -D_REENTRANT -D_THREAD_SAFE -Dnanomsg_EXPORTS
@@ -2889,8 +2547,6 @@ build src/CMakeFiles/nanomsg.dir/aio/poller.c.o: C_COMPILER__nanomsg_unscanned_D
   FLAGS = -Wall -Wextra  -g -fPIC
   OBJECT_DIR = src/CMakeFiles/nanomsg.dir
   OBJECT_FILE_DIR = src/CMakeFiles/nanomsg.dir/aio
-  TARGET_COMPILE_PDB = src/CMakeFiles/nanomsg.dir/
-  TARGET_PDB = libnanomsg.pdb
 
 
 # =============================================================================
@@ -2908,10 +2564,9 @@ build libnanomsg.so.6.0.1: C_SHARED_LIBRARY_LINKER__nanomsg_Debug src/CMakeFiles
   PRE_LINK = :
   SONAME = libnanomsg.so.6
   SONAME_FLAG = -Wl,-soname,
-  TARGET_COMPILE_PDB = src/CMakeFiles/nanomsg.dir/
   TARGET_FILE = libnanomsg.so.6.0.1
   TARGET_IMPLIB = /home/wangzhao/experiments/deneva/build/
-  TARGET_PDB = libnanomsg.pdb
+  TARGET_PDB = nanomsg.so.dbg
 
 
 #############################################
@@ -3056,14 +2711,14 @@ build src/all: phony libnanomsg.so
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | /home/licong/packages/cmake-3.27.8-linux-x86_64/share/cmake-3.27/Modules/BasicConfigVersion-SameMajorVersion.cmake.in /home/licong/packages/cmake-3.27.8-linux-x86_64/share/cmake-3.27/Modules/CMakeCCompiler.cmake.in /home/licong/packages/cmake-3.27.8-linux-x86_64/share/cmake-3.27/Modules/CMakeCCompilerABI.c /home/licong/packages/cmake-3.27.8-linux-x86_64/share/cmake-3.27/Modules/CMakeCInformation.cmake /home/licong/packages/cmake-3.27.8-linux-x86_64/share/cmake-3.27/Modules/CMakeCommonLanguageInclude.cmake /home/licong/packages/cmake-3.27.8-linux-x86_64/share/cmake-3.27/Modules/CMakeCompilerIdDetection.cmake /home/licong/packages/cmake-3.27.8-linux-x86_64/share/cmake-3.27/Modules/CMakeDetermineCCompiler.cmake /home/licong/packages/cmake-3.27.8-linux-x86_64/share/cmake-3.27/Modules/CMakeDetermineCompileFeatures.cmake /home/licong/packages/cmake-3.27.8-linux-x86_64/share/cmake-3.27/Modules/CMakeDetermineCompiler.cmake /home/licong/packages/cmake-3.27.8-linux-x86_64/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake /home/licong/packages/cmake-3.27.8-linux-x86_64/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake /home/licong/packages/cmake-3.27.8-linux-x86_64/share/cmake-3.27/Modules/CMakeDetermineSystem.cmake /home/licong/packages/cmake-3.27.8-linux-x86_64/share/cmake-3.27/Modules/CMakeFindBinUtils.cmake /home/licong/packages/cmake-3.27.8-linux-x86_64/share/cmake-3.27/Modules/CMakeGenericSystem.cmake /home/licong/packages/cmake-3.27.8-linux-x86_64/share/cmake-3.27/Modules/CMakeInitializeConfigs.cmake /home/licong/packages/cmake-3.27.8-linux-x86_64/share/cmake-3.27/Modules/CMakeLanguageInformation.cmake /home/licong/packages/cmake-3.27.8-linux-x86_64/share/cmake-3.27/Modules/CMakeNinjaFindMake.cmake /home/licong/packages/cmake-3.27.8-linux-x86_64/share/cmake-3.27/Modules/CMakePackageConfigHelpers.cmake /home/licong/packages/cmake-3.27.8-linux-x86_64/share/cmake-3.27/Modules/CMakeParseImplicitIncludeInfo.cmake /home/licong/packages/cmake-3.27.8-linux-x86_64/share/cmake-3.27/Modules/CMakeParseImplicitLinkInfo.cmake /home/licong/packages/cmake-3.27.8-linux-x86_64/share/cmake-3.27/Modules/CMakeParseLibraryArchitecture.cmake /home/licong/packages/cmake-3.27.8-linux-x86_64/share/cmake-3.27/Modules/CMakeSystem.cmake.in /home/licong/packages/cmake-3.27.8-linux-x86_64/share/cmake-3.27/Modules/CMakeSystemSpecificInformation.cmake /home/licong/packages/cmake-3.27.8-linux-x86_64/share/cmake-3.27/Modules/CMakeSystemSpecificInitialize.cmake /home/licong/packages/cmake-3.27.8-linux-x86_64/share/cmake-3.27/Modules/CMakeTestCCompiler.cmake /home/licong/packages/cmake-3.27.8-linux-x86_64/share/cmake-3.27/Modules/CMakeTestCompilerCommon.cmake /home/licong/packages/cmake-3.27.8-linux-x86_64/share/cmake-3.27/Modules/CPack.cmake /home/licong/packages/cmake-3.27.8-linux-x86_64/share/cmake-3.27/Modules/CPackComponent.cmake /home/licong/packages/cmake-3.27.8-linux-x86_64/share/cmake-3.27/Modules/CheckCSourceCompiles.cmake /home/licong/packages/cmake-3.27.8-linux-x86_64/share/cmake-3.27/Modules/CheckCXXSourceCompiles.cmake /home/licong/packages/cmake-3.27.8-linux-x86_64/share/cmake-3.27/Modules/CheckFunctionExists.cmake /home/licong/packages/cmake-3.27.8-linux-x86_64/share/cmake-3.27/Modules/CheckIncludeFile.cmake /home/licong/packages/cmake-3.27.8-linux-x86_64/share/cmake-3.27/Modules/CheckLibraryExists.cmake /home/licong/packages/cmake-3.27.8-linux-x86_64/share/cmake-3.27/Modules/CheckSourceCompiles.cmake /home/licong/packages/cmake-3.27.8-linux-x86_64/share/cmake-3.27/Modules/CheckStructHasMember.cmake /home/licong/packages/cmake-3.27.8-linux-x86_64/share/cmake-3.27/Modules/CheckSymbolExists.cmake /home/licong/packages/cmake-3.27.8-linux-x86_64/share/cmake-3.27/Modules/Compiler/ADSP-DetermineCompiler.cmake /home/licong/packages/cmake-3.27.8-linux-x86_64/share/cmake-3.27/Modules/Compiler/ARMCC-DetermineCompiler.cmake /home/licong/packages/cmake-3.27.8-linux-x86_64/share/cmake-3.27/Modules/Compiler/ARMClang-DetermineCompiler.cmake /home/licong/packages/cmake-3.27.8-linux-x86_64/share/cmake-3.27/Modules/Compiler/AppleClang-DetermineCompiler.cmake /home/licong/packages/cmake-3.27.8-linux-x86_64/share/cmake-3.27/Modules/Compiler/Borland-DetermineCompiler.cmake /home/licong/packages/cmake-3.27.8-linux-x86_64/share/cmake-3.27/Modules/Compiler/Bruce-C-DetermineCompiler.cmake /home/licong/packages/cmake-3.27.8-linux-x86_64/share/cmake-3.27/Modules/Compiler/CMakeCommonCompilerMacros.cmake /home/licong/packages/cmake-3.27.8-linux-x86_64/share/cmake-3.27/Modules/Compiler/Clang-DetermineCompiler.cmake /home/licong/packages/cmake-3.27.8-linux-x86_64/share/cmake-3.27/Modules/Compiler/Clang-DetermineCompilerInternal.cmake /home/licong/packages/cmake-3.27.8-linux-x86_64/share/cmake-3.27/Modules/Compiler/Compaq-C-DetermineCompiler.cmake /home/licong/packages/cmake-3.27.8-linux-x86_64/share/cmake-3.27/Modules/Compiler/Cray-DetermineCompiler.cmake /home/licong/packages/cmake-3.27.8-linux-x86_64/share/cmake-3.27/Modules/Compiler/Embarcadero-DetermineCompiler.cmake /home/licong/packages/cmake-3.27.8-linux-x86_64/share/cmake-3.27/Modules/Compiler/Fujitsu-DetermineCompiler.cmake /home/licong/packages/cmake-3.27.8-linux-x86_64/share/cmake-3.27/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake /home/licong/packages/cmake-3.27.8-linux-x86_64/share/cmake-3.27/Modules/Compiler/GHS-DetermineCompiler.cmake /home/licong/packages/cmake-3.27.8-linux-x86_64/share/cmake-3.27/Modules/Compiler/GNU-C-DetermineCompiler.cmake /home/licong/packages/cmake-3.27.8-linux-x86_64/share/cmake-3.27/Modules/Compiler/GNU-C.cmake /home/licong/packages/cmake-3.27.8-linux-x86_64/share/cmake-3.27/Modules/Compiler/GNU-FindBinUtils.cmake /home/licong/packages/cmake-3.27.8-linux-x86_64/share/cmake-3.27/Modules/Compiler/GNU.cmake /home/licong/packages/cmake-3.27.8-linux-x86_64/share/cmake-3.27/Modules/Compiler/HP-C-DetermineCompiler.cmake /home/licong/packages/cmake-3.27.8-linux-x86_64/share/cmake-3.27/Modules/Compiler/IAR-DetermineCompiler.cmake /home/licong/packages/cmake-3.27.8-linux-x86_64/share/cmake-3.27/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake /home/licong/packages/cmake-3.27.8-linux-x86_64/share/cmake-3.27/Modules/Compiler/IBMClang-C-DetermineCompiler.cmake /home/licong/packages/cmake-3.27.8-linux-x86_64/share/cmake-3.27/Modules/Compiler/Intel-DetermineCompiler.cmake /home/licong/packages/cmake-3.27.8-linux-x86_64/share/cmake-3.27/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake /home/licong/packages/cmake-3.27.8-linux-x86_64/share/cmake-3.27/Modules/Compiler/LCC-C-DetermineCompiler.cmake /home/licong/packages/cmake-3.27.8-linux-x86_64/share/cmake-3.27/Modules/Compiler/MSVC-DetermineCompiler.cmake /home/licong/packages/cmake-3.27.8-linux-x86_64/share/cmake-3.27/Modules/Compiler/NVHPC-DetermineCompiler.cmake /home/licong/packages/cmake-3.27.8-linux-x86_64/share/cmake-3.27/Modules/Compiler/NVIDIA-DetermineCompiler.cmake /home/licong/packages/cmake-3.27.8-linux-x86_64/share/cmake-3.27/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake /home/licong/packages/cmake-3.27.8-linux-x86_64/share/cmake-3.27/Modules/Compiler/PGI-DetermineCompiler.cmake /home/licong/packages/cmake-3.27.8-linux-x86_64/share/cmake-3.27/Modules/Compiler/PathScale-DetermineCompiler.cmake /home/licong/packages/cmake-3.27.8-linux-x86_64/share/cmake-3.27/Modules/Compiler/SCO-DetermineCompiler.cmake /home/licong/packages/cmake-3.27.8-linux-x86_64/share/cmake-3.27/Modules/Compiler/SDCC-C-DetermineCompiler.cmake /home/licong/packages/cmake-3.27.8-linux-x86_64/share/cmake-3.27/Modules/Compiler/SunPro-C-DetermineCompiler.cmake /home/licong/packages/cmake-3.27.8-linux-x86_64/share/cmake-3.27/Modules/Compiler/TI-DetermineCompiler.cmake /home/licong/packages/cmake-3.27.8-linux-x86_64/share/cmake-3.27/Modules/Compiler/Tasking-DetermineCompiler.cmake /home/licong/packages/cmake-3.27.8-linux-x86_64/share/cmake-3.27/Modules/Compiler/TinyCC-C-DetermineCompiler.cmake /home/licong/packages/cmake-3.27.8-linux-x86_64/share/cmake-3.27/Modules/Compiler/VisualAge-C-DetermineCompiler.cmake /home/licong/packages/cmake-3.27.8-linux-x86_64/share/cmake-3.27/Modules/Compiler/Watcom-DetermineCompiler.cmake /home/licong/packages/cmake-3.27.8-linux-x86_64/share/cmake-3.27/Modules/Compiler/XL-C-DetermineCompiler.cmake /home/licong/packages/cmake-3.27.8-linux-x86_64/share/cmake-3.27/Modules/Compiler/XLClang-C-DetermineCompiler.cmake /home/licong/packages/cmake-3.27.8-linux-x86_64/share/cmake-3.27/Modules/Compiler/zOS-C-DetermineCompiler.cmake /home/licong/packages/cmake-3.27.8-linux-x86_64/share/cmake-3.27/Modules/FindGit.cmake /home/licong/packages/cmake-3.27.8-linux-x86_64/share/cmake-3.27/Modules/FindPackageHandleStandardArgs.cmake /home/licong/packages/cmake-3.27.8-linux-x86_64/share/cmake-3.27/Modules/FindPackageMessage.cmake /home/licong/packages/cmake-3.27.8-linux-x86_64/share/cmake-3.27/Modules/FindThreads.cmake /home/licong/packages/cmake-3.27.8-linux-x86_64/share/cmake-3.27/Modules/GNUInstallDirs.cmake /home/licong/packages/cmake-3.27.8-linux-x86_64/share/cmake-3.27/Modules/Internal/CheckSourceCompiles.cmake /home/licong/packages/cmake-3.27.8-linux-x86_64/share/cmake-3.27/Modules/Internal/FeatureTesting.cmake /home/licong/packages/cmake-3.27.8-linux-x86_64/share/cmake-3.27/Modules/Platform/Linux-GNU-C.cmake /home/licong/packages/cmake-3.27.8-linux-x86_64/share/cmake-3.27/Modules/Platform/Linux-GNU.cmake /home/licong/packages/cmake-3.27.8-linux-x86_64/share/cmake-3.27/Modules/Platform/Linux-Initialize.cmake /home/licong/packages/cmake-3.27.8-linux-x86_64/share/cmake-3.27/Modules/Platform/Linux.cmake /home/licong/packages/cmake-3.27.8-linux-x86_64/share/cmake-3.27/Modules/Platform/UnixPaths.cmake /home/licong/packages/cmake-3.27.8-linux-x86_64/share/cmake-3.27/Modules/WriteBasicConfigVersionFile.cmake /home/licong/packages/cmake-3.27.8-linux-x86_64/share/cmake-3.27/Templates/CPackConfig.cmake.in /home/wangzhao/experiments/deneva/utils/nanomsg/CMakeLists.txt /home/wangzhao/experiments/deneva/utils/nanomsg/cmake/nanomsg-config.cmake.in /home/wangzhao/experiments/deneva/utils/nanomsg/src/CMakeLists.txt /home/wangzhao/experiments/deneva/utils/nanomsg/src/pkgconfig.in CMakeCache.txt CMakeFiles/3.27.8/CMakeCCompiler.cmake CMakeFiles/3.27.8/CMakeSystem.cmake
+build build.ninja: RERUN_CMAKE | /home/licong/packages/cmake-3.27.8-linux-x86_64/share/cmake-3.27/Modules/BasicConfigVersion-SameMajorVersion.cmake.in /home/licong/packages/cmake-3.27.8-linux-x86_64/share/cmake-3.27/Modules/CMakeCInformation.cmake /home/licong/packages/cmake-3.27.8-linux-x86_64/share/cmake-3.27/Modules/CMakeCommonLanguageInclude.cmake /home/licong/packages/cmake-3.27.8-linux-x86_64/share/cmake-3.27/Modules/CMakeGenericSystem.cmake /home/licong/packages/cmake-3.27.8-linux-x86_64/share/cmake-3.27/Modules/CMakeInitializeConfigs.cmake /home/licong/packages/cmake-3.27.8-linux-x86_64/share/cmake-3.27/Modules/CMakeLanguageInformation.cmake /home/licong/packages/cmake-3.27.8-linux-x86_64/share/cmake-3.27/Modules/CMakePackageConfigHelpers.cmake /home/licong/packages/cmake-3.27.8-linux-x86_64/share/cmake-3.27/Modules/CMakeSystemSpecificInformation.cmake /home/licong/packages/cmake-3.27.8-linux-x86_64/share/cmake-3.27/Modules/CMakeSystemSpecificInitialize.cmake /home/licong/packages/cmake-3.27.8-linux-x86_64/share/cmake-3.27/Modules/CPack.cmake /home/licong/packages/cmake-3.27.8-linux-x86_64/share/cmake-3.27/Modules/CPackComponent.cmake /home/licong/packages/cmake-3.27.8-linux-x86_64/share/cmake-3.27/Modules/CheckCSourceCompiles.cmake /home/licong/packages/cmake-3.27.8-linux-x86_64/share/cmake-3.27/Modules/CheckCXXSourceCompiles.cmake /home/licong/packages/cmake-3.27.8-linux-x86_64/share/cmake-3.27/Modules/CheckFunctionExists.cmake /home/licong/packages/cmake-3.27.8-linux-x86_64/share/cmake-3.27/Modules/CheckIncludeFile.cmake /home/licong/packages/cmake-3.27.8-linux-x86_64/share/cmake-3.27/Modules/CheckLibraryExists.cmake /home/licong/packages/cmake-3.27.8-linux-x86_64/share/cmake-3.27/Modules/CheckSourceCompiles.cmake /home/licong/packages/cmake-3.27.8-linux-x86_64/share/cmake-3.27/Modules/CheckStructHasMember.cmake /home/licong/packages/cmake-3.27.8-linux-x86_64/share/cmake-3.27/Modules/CheckSymbolExists.cmake /home/licong/packages/cmake-3.27.8-linux-x86_64/share/cmake-3.27/Modules/Compiler/CMakeCommonCompilerMacros.cmake /home/licong/packages/cmake-3.27.8-linux-x86_64/share/cmake-3.27/Modules/Compiler/GNU-C.cmake /home/licong/packages/cmake-3.27.8-linux-x86_64/share/cmake-3.27/Modules/Compiler/GNU.cmake /home/licong/packages/cmake-3.27.8-linux-x86_64/share/cmake-3.27/Modules/FindGit.cmake /home/licong/packages/cmake-3.27.8-linux-x86_64/share/cmake-3.27/Modules/FindPackageHandleStandardArgs.cmake /home/licong/packages/cmake-3.27.8-linux-x86_64/share/cmake-3.27/Modules/FindPackageMessage.cmake /home/licong/packages/cmake-3.27.8-linux-x86_64/share/cmake-3.27/Modules/FindThreads.cmake /home/licong/packages/cmake-3.27.8-linux-x86_64/share/cmake-3.27/Modules/GNUInstallDirs.cmake /home/licong/packages/cmake-3.27.8-linux-x86_64/share/cmake-3.27/Modules/Internal/CheckSourceCompiles.cmake /home/licong/packages/cmake-3.27.8-linux-x86_64/share/cmake-3.27/Modules/Platform/Linux-GNU-C.cmake /home/licong/packages/cmake-3.27.8-linux-x86_64/share/cmake-3.27/Modules/Platform/Linux-GNU.cmake /home/licong/packages/cmake-3.27.8-linux-x86_64/share/cmake-3.27/Modules/Platform/Linux-Initialize.cmake /home/licong/packages/cmake-3.27.8-linux-x86_64/share/cmake-3.27/Modules/Platform/Linux.cmake /home/licong/packages/cmake-3.27.8-linux-x86_64/share/cmake-3.27/Modules/Platform/UnixPaths.cmake /home/licong/packages/cmake-3.27.8-linux-x86_64/share/cmake-3.27/Modules/WriteBasicConfigVersionFile.cmake /home/licong/packages/cmake-3.27.8-linux-x86_64/share/cmake-3.27/Templates/CPackConfig.cmake.in /home/wangzhao/experiments/deneva/utils/nanomsg/CMakeLists.txt /home/wangzhao/experiments/deneva/utils/nanomsg/cmake/nanomsg-config.cmake.in /home/wangzhao/experiments/deneva/utils/nanomsg/src/CMakeLists.txt /home/wangzhao/experiments/deneva/utils/nanomsg/src/pkgconfig.in CMakeCache.txt CMakeFiles/3.27.8/CMakeCCompiler.cmake CMakeFiles/3.27.8/CMakeSystem.cmake
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build /home/licong/packages/cmake-3.27.8-linux-x86_64/share/cmake-3.27/Modules/BasicConfigVersion-SameMajorVersion.cmake.in /home/licong/packages/cmake-3.27.8-linux-x86_64/share/cmake-3.27/Modules/CMakeCCompiler.cmake.in /home/licong/packages/cmake-3.27.8-linux-x86_64/share/cmake-3.27/Modules/CMakeCCompilerABI.c /home/licong/packages/cmake-3.27.8-linux-x86_64/share/cmake-3.27/Modules/CMakeCInformation.cmake /home/licong/packages/cmake-3.27.8-linux-x86_64/share/cmake-3.27/Modules/CMakeCommonLanguageInclude.cmake /home/licong/packages/cmake-3.27.8-linux-x86_64/share/cmake-3.27/Modules/CMakeCompilerIdDetection.cmake /home/licong/packages/cmake-3.27.8-linux-x86_64/share/cmake-3.27/Modules/CMakeDetermineCCompiler.cmake /home/licong/packages/cmake-3.27.8-linux-x86_64/share/cmake-3.27/Modules/CMakeDetermineCompileFeatures.cmake /home/licong/packages/cmake-3.27.8-linux-x86_64/share/cmake-3.27/Modules/CMakeDetermineCompiler.cmake /home/licong/packages/cmake-3.27.8-linux-x86_64/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake /home/licong/packages/cmake-3.27.8-linux-x86_64/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake /home/licong/packages/cmake-3.27.8-linux-x86_64/share/cmake-3.27/Modules/CMakeDetermineSystem.cmake /home/licong/packages/cmake-3.27.8-linux-x86_64/share/cmake-3.27/Modules/CMakeFindBinUtils.cmake /home/licong/packages/cmake-3.27.8-linux-x86_64/share/cmake-3.27/Modules/CMakeGenericSystem.cmake /home/licong/packages/cmake-3.27.8-linux-x86_64/share/cmake-3.27/Modules/CMakeInitializeConfigs.cmake /home/licong/packages/cmake-3.27.8-linux-x86_64/share/cmake-3.27/Modules/CMakeLanguageInformation.cmake /home/licong/packages/cmake-3.27.8-linux-x86_64/share/cmake-3.27/Modules/CMakeNinjaFindMake.cmake /home/licong/packages/cmake-3.27.8-linux-x86_64/share/cmake-3.27/Modules/CMakePackageConfigHelpers.cmake /home/licong/packages/cmake-3.27.8-linux-x86_64/share/cmake-3.27/Modules/CMakeParseImplicitIncludeInfo.cmake /home/licong/packages/cmake-3.27.8-linux-x86_64/share/cmake-3.27/Modules/CMakeParseImplicitLinkInfo.cmake /home/licong/packages/cmake-3.27.8-linux-x86_64/share/cmake-3.27/Modules/CMakeParseLibraryArchitecture.cmake /home/licong/packages/cmake-3.27.8-linux-x86_64/share/cmake-3.27/Modules/CMakeSystem.cmake.in /home/licong/packages/cmake-3.27.8-linux-x86_64/share/cmake-3.27/Modules/CMakeSystemSpecificInformation.cmake /home/licong/packages/cmake-3.27.8-linux-x86_64/share/cmake-3.27/Modules/CMakeSystemSpecificInitialize.cmake /home/licong/packages/cmake-3.27.8-linux-x86_64/share/cmake-3.27/Modules/CMakeTestCCompiler.cmake /home/licong/packages/cmake-3.27.8-linux-x86_64/share/cmake-3.27/Modules/CMakeTestCompilerCommon.cmake /home/licong/packages/cmake-3.27.8-linux-x86_64/share/cmake-3.27/Modules/CPack.cmake /home/licong/packages/cmake-3.27.8-linux-x86_64/share/cmake-3.27/Modules/CPackComponent.cmake /home/licong/packages/cmake-3.27.8-linux-x86_64/share/cmake-3.27/Modules/CheckCSourceCompiles.cmake /home/licong/packages/cmake-3.27.8-linux-x86_64/share/cmake-3.27/Modules/CheckCXXSourceCompiles.cmake /home/licong/packages/cmake-3.27.8-linux-x86_64/share/cmake-3.27/Modules/CheckFunctionExists.cmake /home/licong/packages/cmake-3.27.8-linux-x86_64/share/cmake-3.27/Modules/CheckIncludeFile.cmake /home/licong/packages/cmake-3.27.8-linux-x86_64/share/cmake-3.27/Modules/CheckLibraryExists.cmake /home/licong/packages/cmake-3.27.8-linux-x86_64/share/cmake-3.27/Modules/CheckSourceCompiles.cmake /home/licong/packages/cmake-3.27.8-linux-x86_64/share/cmake-3.27/Modules/CheckStructHasMember.cmake /home/licong/packages/cmake-3.27.8-linux-x86_64/share/cmake-3.27/Modules/CheckSymbolExists.cmake /home/licong/packages/cmake-3.27.8-linux-x86_64/share/cmake-3.27/Modules/Compiler/ADSP-DetermineCompiler.cmake /home/licong/packages/cmake-3.27.8-linux-x86_64/share/cmake-3.27/Modules/Compiler/ARMCC-DetermineCompiler.cmake /home/licong/packages/cmake-3.27.8-linux-x86_64/share/cmake-3.27/Modules/Compiler/ARMClang-DetermineCompiler.cmake /home/licong/packages/cmake-3.27.8-linux-x86_64/share/cmake-3.27/Modules/Compiler/AppleClang-DetermineCompiler.cmake /home/licong/packages/cmake-3.27.8-linux-x86_64/share/cmake-3.27/Modules/Compiler/Borland-DetermineCompiler.cmake /home/licong/packages/cmake-3.27.8-linux-x86_64/share/cmake-3.27/Modules/Compiler/Bruce-C-DetermineCompiler.cmake /home/licong/packages/cmake-3.27.8-linux-x86_64/share/cmake-3.27/Modules/Compiler/CMakeCommonCompilerMacros.cmake /home/licong/packages/cmake-3.27.8-linux-x86_64/share/cmake-3.27/Modules/Compiler/Clang-DetermineCompiler.cmake /home/licong/packages/cmake-3.27.8-linux-x86_64/share/cmake-3.27/Modules/Compiler/Clang-DetermineCompilerInternal.cmake /home/licong/packages/cmake-3.27.8-linux-x86_64/share/cmake-3.27/Modules/Compiler/Compaq-C-DetermineCompiler.cmake /home/licong/packages/cmake-3.27.8-linux-x86_64/share/cmake-3.27/Modules/Compiler/Cray-DetermineCompiler.cmake /home/licong/packages/cmake-3.27.8-linux-x86_64/share/cmake-3.27/Modules/Compiler/Embarcadero-DetermineCompiler.cmake /home/licong/packages/cmake-3.27.8-linux-x86_64/share/cmake-3.27/Modules/Compiler/Fujitsu-DetermineCompiler.cmake /home/licong/packages/cmake-3.27.8-linux-x86_64/share/cmake-3.27/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake /home/licong/packages/cmake-3.27.8-linux-x86_64/share/cmake-3.27/Modules/Compiler/GHS-DetermineCompiler.cmake /home/licong/packages/cmake-3.27.8-linux-x86_64/share/cmake-3.27/Modules/Compiler/GNU-C-DetermineCompiler.cmake /home/licong/packages/cmake-3.27.8-linux-x86_64/share/cmake-3.27/Modules/Compiler/GNU-C.cmake /home/licong/packages/cmake-3.27.8-linux-x86_64/share/cmake-3.27/Modules/Compiler/GNU-FindBinUtils.cmake /home/licong/packages/cmake-3.27.8-linux-x86_64/share/cmake-3.27/Modules/Compiler/GNU.cmake /home/licong/packages/cmake-3.27.8-linux-x86_64/share/cmake-3.27/Modules/Compiler/HP-C-DetermineCompiler.cmake /home/licong/packages/cmake-3.27.8-linux-x86_64/share/cmake-3.27/Modules/Compiler/IAR-DetermineCompiler.cmake /home/licong/packages/cmake-3.27.8-linux-x86_64/share/cmake-3.27/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake /home/licong/packages/cmake-3.27.8-linux-x86_64/share/cmake-3.27/Modules/Compiler/IBMClang-C-DetermineCompiler.cmake /home/licong/packages/cmake-3.27.8-linux-x86_64/share/cmake-3.27/Modules/Compiler/Intel-DetermineCompiler.cmake /home/licong/packages/cmake-3.27.8-linux-x86_64/share/cmake-3.27/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake /home/licong/packages/cmake-3.27.8-linux-x86_64/share/cmake-3.27/Modules/Compiler/LCC-C-DetermineCompiler.cmake /home/licong/packages/cmake-3.27.8-linux-x86_64/share/cmake-3.27/Modules/Compiler/MSVC-DetermineCompiler.cmake /home/licong/packages/cmake-3.27.8-linux-x86_64/share/cmake-3.27/Modules/Compiler/NVHPC-DetermineCompiler.cmake /home/licong/packages/cmake-3.27.8-linux-x86_64/share/cmake-3.27/Modules/Compiler/NVIDIA-DetermineCompiler.cmake /home/licong/packages/cmake-3.27.8-linux-x86_64/share/cmake-3.27/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake /home/licong/packages/cmake-3.27.8-linux-x86_64/share/cmake-3.27/Modules/Compiler/PGI-DetermineCompiler.cmake /home/licong/packages/cmake-3.27.8-linux-x86_64/share/cmake-3.27/Modules/Compiler/PathScale-DetermineCompiler.cmake /home/licong/packages/cmake-3.27.8-linux-x86_64/share/cmake-3.27/Modules/Compiler/SCO-DetermineCompiler.cmake /home/licong/packages/cmake-3.27.8-linux-x86_64/share/cmake-3.27/Modules/Compiler/SDCC-C-DetermineCompiler.cmake /home/licong/packages/cmake-3.27.8-linux-x86_64/share/cmake-3.27/Modules/Compiler/SunPro-C-DetermineCompiler.cmake /home/licong/packages/cmake-3.27.8-linux-x86_64/share/cmake-3.27/Modules/Compiler/TI-DetermineCompiler.cmake /home/licong/packages/cmake-3.27.8-linux-x86_64/share/cmake-3.27/Modules/Compiler/Tasking-DetermineCompiler.cmake /home/licong/packages/cmake-3.27.8-linux-x86_64/share/cmake-3.27/Modules/Compiler/TinyCC-C-DetermineCompiler.cmake /home/licong/packages/cmake-3.27.8-linux-x86_64/share/cmake-3.27/Modules/Compiler/VisualAge-C-DetermineCompiler.cmake /home/licong/packages/cmake-3.27.8-linux-x86_64/share/cmake-3.27/Modules/Compiler/Watcom-DetermineCompiler.cmake /home/licong/packages/cmake-3.27.8-linux-x86_64/share/cmake-3.27/Modules/Compiler/XL-C-DetermineCompiler.cmake /home/licong/packages/cmake-3.27.8-linux-x86_64/share/cmake-3.27/Modules/Compiler/XLClang-C-DetermineCompiler.cmake /home/licong/packages/cmake-3.27.8-linux-x86_64/share/cmake-3.27/Modules/Compiler/zOS-C-DetermineCompiler.cmake /home/licong/packages/cmake-3.27.8-linux-x86_64/share/cmake-3.27/Modules/FindGit.cmake /home/licong/packages/cmake-3.27.8-linux-x86_64/share/cmake-3.27/Modules/FindPackageHandleStandardArgs.cmake /home/licong/packages/cmake-3.27.8-linux-x86_64/share/cmake-3.27/Modules/FindPackageMessage.cmake /home/licong/packages/cmake-3.27.8-linux-x86_64/share/cmake-3.27/Modules/FindThreads.cmake /home/licong/packages/cmake-3.27.8-linux-x86_64/share/cmake-3.27/Modules/GNUInstallDirs.cmake /home/licong/packages/cmake-3.27.8-linux-x86_64/share/cmake-3.27/Modules/Internal/CheckSourceCompiles.cmake /home/licong/packages/cmake-3.27.8-linux-x86_64/share/cmake-3.27/Modules/Internal/FeatureTesting.cmake /home/licong/packages/cmake-3.27.8-linux-x86_64/share/cmake-3.27/Modules/Platform/Linux-GNU-C.cmake /home/licong/packages/cmake-3.27.8-linux-x86_64/share/cmake-3.27/Modules/Platform/Linux-GNU.cmake /home/licong/packages/cmake-3.27.8-linux-x86_64/share/cmake-3.27/Modules/Platform/Linux-Initialize.cmake /home/licong/packages/cmake-3.27.8-linux-x86_64/share/cmake-3.27/Modules/Platform/Linux.cmake /home/licong/packages/cmake-3.27.8-linux-x86_64/share/cmake-3.27/Modules/Platform/UnixPaths.cmake /home/licong/packages/cmake-3.27.8-linux-x86_64/share/cmake-3.27/Modules/WriteBasicConfigVersionFile.cmake /home/licong/packages/cmake-3.27.8-linux-x86_64/share/cmake-3.27/Templates/CPackConfig.cmake.in /home/wangzhao/experiments/deneva/utils/nanomsg/CMakeLists.txt /home/wangzhao/experiments/deneva/utils/nanomsg/cmake/nanomsg-config.cmake.in /home/wangzhao/experiments/deneva/utils/nanomsg/src/CMakeLists.txt /home/wangzhao/experiments/deneva/utils/nanomsg/src/pkgconfig.in CMakeCache.txt CMakeFiles/3.27.8/CMakeCCompiler.cmake CMakeFiles/3.27.8/CMakeSystem.cmake: phony
+build /home/licong/packages/cmake-3.27.8-linux-x86_64/share/cmake-3.27/Modules/BasicConfigVersion-SameMajorVersion.cmake.in /home/licong/packages/cmake-3.27.8-linux-x86_64/share/cmake-3.27/Modules/CMakeCInformation.cmake /home/licong/packages/cmake-3.27.8-linux-x86_64/share/cmake-3.27/Modules/CMakeCommonLanguageInclude.cmake /home/licong/packages/cmake-3.27.8-linux-x86_64/share/cmake-3.27/Modules/CMakeGenericSystem.cmake /home/licong/packages/cmake-3.27.8-linux-x86_64/share/cmake-3.27/Modules/CMakeInitializeConfigs.cmake /home/licong/packages/cmake-3.27.8-linux-x86_64/share/cmake-3.27/Modules/CMakeLanguageInformation.cmake /home/licong/packages/cmake-3.27.8-linux-x86_64/share/cmake-3.27/Modules/CMakePackageConfigHelpers.cmake /home/licong/packages/cmake-3.27.8-linux-x86_64/share/cmake-3.27/Modules/CMakeSystemSpecificInformation.cmake /home/licong/packages/cmake-3.27.8-linux-x86_64/share/cmake-3.27/Modules/CMakeSystemSpecificInitialize.cmake /home/licong/packages/cmake-3.27.8-linux-x86_64/share/cmake-3.27/Modules/CPack.cmake /home/licong/packages/cmake-3.27.8-linux-x86_64/share/cmake-3.27/Modules/CPackComponent.cmake /home/licong/packages/cmake-3.27.8-linux-x86_64/share/cmake-3.27/Modules/CheckCSourceCompiles.cmake /home/licong/packages/cmake-3.27.8-linux-x86_64/share/cmake-3.27/Modules/CheckCXXSourceCompiles.cmake /home/licong/packages/cmake-3.27.8-linux-x86_64/share/cmake-3.27/Modules/CheckFunctionExists.cmake /home/licong/packages/cmake-3.27.8-linux-x86_64/share/cmake-3.27/Modules/CheckIncludeFile.cmake /home/licong/packages/cmake-3.27.8-linux-x86_64/share/cmake-3.27/Modules/CheckLibraryExists.cmake /home/licong/packages/cmake-3.27.8-linux-x86_64/share/cmake-3.27/Modules/CheckSourceCompiles.cmake /home/licong/packages/cmake-3.27.8-linux-x86_64/share/cmake-3.27/Modules/CheckStructHasMember.cmake /home/licong/packages/cmake-3.27.8-linux-x86_64/share/cmake-3.27/Modules/CheckSymbolExists.cmake /home/licong/packages/cmake-3.27.8-linux-x86_64/share/cmake-3.27/Modules/Compiler/CMakeCommonCompilerMacros.cmake /home/licong/packages/cmake-3.27.8-linux-x86_64/share/cmake-3.27/Modules/Compiler/GNU-C.cmake /home/licong/packages/cmake-3.27.8-linux-x86_64/share/cmake-3.27/Modules/Compiler/GNU.cmake /home/licong/packages/cmake-3.27.8-linux-x86_64/share/cmake-3.27/Modules/FindGit.cmake /home/licong/packages/cmake-3.27.8-linux-x86_64/share/cmake-3.27/Modules/FindPackageHandleStandardArgs.cmake /home/licong/packages/cmake-3.27.8-linux-x86_64/share/cmake-3.27/Modules/FindPackageMessage.cmake /home/licong/packages/cmake-3.27.8-linux-x86_64/share/cmake-3.27/Modules/FindThreads.cmake /home/licong/packages/cmake-3.27.8-linux-x86_64/share/cmake-3.27/Modules/GNUInstallDirs.cmake /home/licong/packages/cmake-3.27.8-linux-x86_64/share/cmake-3.27/Modules/Internal/CheckSourceCompiles.cmake /home/licong/packages/cmake-3.27.8-linux-x86_64/share/cmake-3.27/Modules/Platform/Linux-GNU-C.cmake /home/licong/packages/cmake-3.27.8-linux-x86_64/share/cmake-3.27/Modules/Platform/Linux-GNU.cmake /home/licong/packages/cmake-3.27.8-linux-x86_64/share/cmake-3.27/Modules/Platform/Linux-Initialize.cmake /home/licong/packages/cmake-3.27.8-linux-x86_64/share/cmake-3.27/Modules/Platform/Linux.cmake /home/licong/packages/cmake-3.27.8-linux-x86_64/share/cmake-3.27/Modules/Platform/UnixPaths.cmake /home/licong/packages/cmake-3.27.8-linux-x86_64/share/cmake-3.27/Modules/WriteBasicConfigVersionFile.cmake /home/licong/packages/cmake-3.27.8-linux-x86_64/share/cmake-3.27/Templates/CPackConfig.cmake.in /home/wangzhao/experiments/deneva/utils/nanomsg/CMakeLists.txt /home/wangzhao/experiments/deneva/utils/nanomsg/cmake/nanomsg-config.cmake.in /home/wangzhao/experiments/deneva/utils/nanomsg/src/CMakeLists.txt /home/wangzhao/experiments/deneva/utils/nanomsg/src/pkgconfig.in CMakeCache.txt CMakeFiles/3.27.8/CMakeCCompiler.cmake CMakeFiles/3.27.8/CMakeSystem.cmake: phony
 
 
 #############################################

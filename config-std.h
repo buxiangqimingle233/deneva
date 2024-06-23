@@ -7,15 +7,15 @@
 /***********************************************/
 #define NODE_CNT 2
 #define THREAD_CNT 4
-#define REM_THREAD_CNT THREAD_CNT
-#define SEND_THREAD_CNT THREAD_CNT
+#define REM_THREAD_CNT 1
+#define SEND_THREAD_CNT 1
 #define CORE_CNT 8
 // PART_CNT should be at least NODE_CNT
 #define PART_CNT NODE_CNT
 #define CLIENT_NODE_CNT NODE_CNT
 #define CLIENT_THREAD_CNT 4
-#define CLIENT_REM_THREAD_CNT 2
-#define CLIENT_SEND_THREAD_CNT 2
+#define CLIENT_REM_THREAD_CNT 1
+#define CLIENT_SEND_THREAD_CNT 1
 #define CLIENT_RUNTIME false
 
 #define LOAD_METHOD LOAD_MAX
@@ -279,6 +279,7 @@ enum PPSTxnType {PPS_ALL = 0,
 // NOCC Don't do CC
 // NORMAL normal operation
 #define MODE NORMAL_MODE
+// #define MODE SIMPLE_MODE
 
 
 /***********************************************/

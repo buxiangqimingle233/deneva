@@ -6,9 +6,9 @@
 // Simulation + Hardware
 /***********************************************/
 #define NODE_CNT 4
-#define THREAD_CNT 4
-#define REM_THREAD_CNT THREAD_CNT
-#define SEND_THREAD_CNT THREAD_CNT
+#define THREAD_CNT 6
+#define REM_THREAD_CNT 1
+#define SEND_THREAD_CNT 1
 #define CORE_CNT 8
 // PART_CNT should be at least NODE_CNT
 #define PART_CNT NODE_CNT
@@ -37,7 +37,7 @@
 // # of transactions to run for warmup
 #define WARMUP            0
 // YCSB or TPCC or PPS
-#define WORKLOAD YCSB
+#define WORKLOAD TPCC
 // print the transaction latency distribution
 #define PRT_LAT_DISTR false
 #define STATS_ENABLE        true
@@ -100,7 +100,7 @@
 // WAIT_DIE, NO_WAIT, TIMESTAMP, MVCC, CALVIN, MAAT
 #define CC_ALG NO_WAIT
 #define ISOLATION_LEVEL SERIALIZABLE
-#define YCSB_ABORT_MODE true
+#define YCSB_ABORT_MODE false
 
 // all transactions acquire tuples according to the primary key order.
 #define KEY_ORDER         false
@@ -162,22 +162,22 @@
 // SKEW_METHOD: 
 //    ZIPF: use ZIPF_THETA distribution
 //    HOT: use ACCESS_PERC of the accesses go to DATA_PERC of the data
-#define SKEW_METHOD HOT
+#define SKEW_METHOD ZIPF
 #define DATA_PERC 100
 #define ACCESS_PERC 0.03
 #define INIT_PARALLELISM 8
-#define SYNTH_TABLE_SIZE 67108864
-#define ZIPF_THETA 0
-#define TXN_WRITE_PERC 0.9
-#define TUP_WRITE_PERC 0.5
+#define SYNTH_TABLE_SIZE 65536
+#define ZIPF_THETA 0.3
+#define TXN_WRITE_PERC 0.0
+#define TUP_WRITE_PERC 0.0
 #define SCAN_PERC           0
 #define SCAN_LEN          20
-#define PART_PER_TXN 4
+#define PART_PER_TXN PART_CNT
 #define PERC_MULTI_PART     MPR 
-#define REQ_PER_QUERY 16
+#define REQ_PER_QUERY 10
 #define FIELD_PER_TUPLE       10
 #define CREATE_TXN_FILE false
-#define STRICT_PPT 1
+#define STRICT_PPT 0
 // ==== [TPCC] ====
 // For large warehouse count, the tables do not fit in memory
 // small tpcc schemas shrink the table size.
@@ -192,11 +192,11 @@
 // are not modeled.
 #define TPCC_ACCESS_ALL       false 
 #define WH_UPDATE         true
-#define NUM_WH PART_CNT
+#define NUM_WH 32
 // % of transactions that access multiple partitions
-#define MPR 0.4
+#define MPR 1.0
 #define MPIR 0.01
-#define MPR_NEWORDER      20 // In %
+#define MPR_NEWORDER 0
 enum TPCCTable {TPCC_WAREHOUSE, 
           TPCC_DISTRICT,
           TPCC_CUSTOMER,
@@ -215,7 +215,7 @@ enum TPCCTxnType {TPCC_ALL,
 extern TPCCTxnType          g_tpcc_txn_type;
 
 //#define TXN_TYPE          TPCC_ALL
-#define PERC_PAYMENT 0.0
+#define PERC_PAYMENT 0.5
 #define FIRSTNAME_MINLEN      8
 #define FIRSTNAME_LEN         16
 #define LASTNAME_LEN        16
@@ -278,6 +278,7 @@ enum PPSTxnType {PPS_ALL = 0,
 // SIMPLE Immediately send OK back to client
 // NOCC Don't do CC
 // NORMAL normal operation
+#define MODE NORMAL_MODE
 #define MODE NORMAL_MODE
 
 

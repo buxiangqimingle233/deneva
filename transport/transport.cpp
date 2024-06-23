@@ -215,8 +215,6 @@ void Transport::init() {
       }
     }
   }
-
-
 	fflush(stdout);
 }
 
@@ -232,7 +230,7 @@ void Transport::send_msg(uint64_t send_thread_id, uint64_t dest_node_id, void * 
 
   int rc = -1;
   while(rc < 0 && (!simulation->is_setup_done() || (simulation->is_setup_done() && !simulation->is_done()))) {
-    rc= socket->sock.send(&buf,NN_MSG,NN_DONTWAIT);
+    rc = socket->sock.send(&buf,NN_MSG,NN_DONTWAIT);
   }
   //nn_freemsg(sbuf);
   DEBUG("%ld Batch of %d bytes sent to node %ld\n",send_thread_id,size,dest_node_id);

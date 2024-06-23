@@ -53,6 +53,6 @@ set_and_check(nanomsg_INCDIR /usr/local/include)
 set_and_check(nanomsg_LIBDIR /usr/local/lib)
 
 ### Import targets
-include(/usr/local/lib/cmake/nanomsg-1.2-4-ga54ccc7c/nanomsg-target.cmake)
+include(/usr/local/lib/cmake/nanomsg-1.2-4-ga54ccc7c-dirty/nanomsg-target.cmake)
 
 check_required_components(nanomsg)

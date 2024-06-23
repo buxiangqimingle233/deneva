@@ -84,15 +84,15 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/nanomsg-1.2-4-ga54ccc7c/nanomsg-target.cmake")
+  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/nanomsg-1.2-4-ga54ccc7c-dirty/nanomsg-target.cmake")
     file(DIFFERENT _cmake_export_file_changed FILES
-         "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/nanomsg-1.2-4-ga54ccc7c/nanomsg-target.cmake"
-         "/home/wangzhao/experiments/deneva/build/src/CMakeFiles/Export/c816409d2a915523f3018276ad17674f/nanomsg-target.cmake")
+         "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/nanomsg-1.2-4-ga54ccc7c-dirty/nanomsg-target.cmake"
+         "/home/wangzhao/experiments/deneva/build/src/CMakeFiles/Export/c4af4c41fba885c6a506b83e20a53dca/nanomsg-target.cmake")
     if(_cmake_export_file_changed)
-      file(GLOB _cmake_old_config_files "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/nanomsg-1.2-4-ga54ccc7c/nanomsg-target-*.cmake")
+      file(GLOB _cmake_old_config_files "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/nanomsg-1.2-4-ga54ccc7c-dirty/nanomsg-target-*.cmake")
       if(_cmake_old_config_files)
         string(REPLACE ";" ", " _cmake_old_config_files_text "${_cmake_old_config_files}")
-        message(STATUS "Old export file \"$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/nanomsg-1.2-4-ga54ccc7c/nanomsg-target.cmake\" will be replaced.  Removing files [${_cmake_old_config_files_text}].")
+        message(STATUS "Old export file \"$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/nanomsg-1.2-4-ga54ccc7c-dirty/nanomsg-target.cmake\" will be replaced.  Removing files [${_cmake_old_config_files_text}].")
         unset(_cmake_old_config_files_text)
         file(REMOVE ${_cmake_old_config_files})
       endif()
@@ -100,14 +100,14 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
     endif()
     unset(_cmake_export_file_changed)
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/nanomsg-1.2-4-ga54ccc7c" TYPE FILE FILES "/home/wangzhao/experiments/deneva/build/src/CMakeFiles/Export/c816409d2a915523f3018276ad17674f/nanomsg-target.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/nanomsg-1.2-4-ga54ccc7c-dirty" TYPE FILE FILES "/home/wangzhao/experiments/deneva/build/src/CMakeFiles/Export/c4af4c41fba885c6a506b83e20a53dca/nanomsg-target.cmake")
   if(CMAKE_INSTALL_CONFIG_NAME MATCHES "^([Dd][Ee][Bb][Uu][Gg])$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/nanomsg-1.2-4-ga54ccc7c" TYPE FILE FILES "/home/wangzhao/experiments/deneva/build/src/CMakeFiles/Export/c816409d2a915523f3018276ad17674f/nanomsg-target-debug.cmake")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/nanomsg-1.2-4-ga54ccc7c-dirty" TYPE FILE FILES "/home/wangzhao/experiments/deneva/build/src/CMakeFiles/Export/c4af4c41fba885c6a506b83e20a53dca/nanomsg-target-debug.cmake")
   endif()
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/nanomsg-1.2-4-ga54ccc7c" TYPE FILE FILES
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/nanomsg-1.2-4-ga54ccc7c-dirty" TYPE FILE FILES
     "/home/wangzhao/experiments/deneva/build/src/nanomsg-config.cmake"
     "/home/wangzhao/experiments/deneva/build/src/nanomsg-config-version.cmake"
     )

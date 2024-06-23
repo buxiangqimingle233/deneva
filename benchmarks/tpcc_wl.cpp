@@ -102,7 +102,7 @@ RC TPCCWorkload::init_table() {
 //		- order line
 /**********************************/
 
-	pthread_t * p_thds = new pthread_t[g_init_parallelism - 1];
+  pthread_t * p_thds = new pthread_t[g_init_parallelism - 1];
   thr_args * tt = new thr_args[g_init_parallelism];
 	for (UInt32 i = 0; i < g_init_parallelism ; i++) {
     tt[i].wl = this;
